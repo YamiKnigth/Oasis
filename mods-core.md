@@ -1,65 +1,40 @@
-# Oasis — lista de mods (v1)
+# Oasis — lista de mods (v1.1)
 
 **Tope duro: 160** | Plataforma: NeoForge 21.1.253 / MC 1.21.1  
 **Fuente unica:** CurseForge (1.21.1 + NeoForge).
 
-Conteo actual: **117 client** / **112 server** jars. Cupo restante client: **43**.
+Conteo actual: **149 client** / **140 server** jars. Cupo restante client: **11**.
+
+Client-only (no en server): Mouse Tweaks, Controlling, Searchables (+ posibles futuros).
 
 ---
 
 ## Fases OK
-0 Loader · 1 Perf/FTB/QoL · 1b Combate · 2 Overworld · 3 Cocina/deco · 3b Tombstone · 4 Dimensiones · 5 Tech · 6 Magia/dragona · **7 KubeJS tech progression**
+0 Loader · 1 Perf/FTB/QoL · 1b Combate · 2 Overworld · 3 Cocina/deco · 3b Tombstone · 4 Dimensiones · 5 Tech · 6 Magia/dragona · 7 KubeJS tech · 8 FTB Quests · 9 CF profile · 10 GitHub · **11 Wave cozy/QoL/magia**
 
-## 6) Magia + dragona — OK
+## 11) Wave mods elegidos — INSTALADA + smoke OK
 
-| Mod | Rol |
-|---|---|
-| Iron's Spells 'n Spellbooks 3.16.3 | Magia suave (hechizos) |
-| Iron's Lib | dep Iron's |
-| Malum 1.8.2 | Magia suave (espiritus) |
-| Lodestone | dep Malum |
-| Curios API | slots magia/jefes |
-| playerAnimator | dep Iron's |
-| GeckoLib | ya presente (dep animaciones) |
-| End Remastered 6.3.0 | ojos + pelea dragona exigente |
-| L_Ender's Cataclysm 3.33 | jefes opcionales |
-| Lionfish API | dep Cataclysm |
+Lista: `docs/MODS_CANDIDATES.md`  
+Log: `docs/phase-mods-wave2-download-log.csv`  
+Smoke: **OK** — `Done (26.506s)` world nuevo; Voice Chat :24454; FTB Quests 11/405; Create Food + Woodcutter OK.  
+Warn menor: Moonlight color sets Quark (sin Quark; ignorable). ModernFix load ~112s total.
 
-**No instalado (cupo/prioridad):** Legendary Monsters (pesado; Cataclysm cubre bosses opcionales).
+Nuevos (32 jars): Nature/Explorer Compass, Naturalist, Exposure, Artifacts, Comforts, Supplementaries, Amendments, Every Compat, Macaw Fences/Lights/Paths, Corail Woodcutter, Polymorph, Slice & Dice, Create Food, Copycats+, Enchantment Industry + Dragons Plus, Ars Nouveau, Occultism + Modonomicon + SmartBrainLib, Simple Voice Chat, Mouse Tweaks, Inventory Essentials, TrashSlot, Clumps, Controlling, Searchables, spark, Chunky.
 
-Smoke: **OK** — `Done` ~22.6s. Warn menor Cataclysm tags tool + Create Deco placard (previo). Log: `server/smoke-phase5.log`.
+Fuera (decidido): Atlas API, Iron's Jewelry, Carry On, mapa Xaero/JM, Combat Roll, KubeJS Create, LootJS, FTB Essentials.
 
-## 7) KubeJS tech — INSTALADA (pendiente autorizacion)
+## 7–10) Previas
 
-Cadena: **Create → IE → AE2 → Mekanism**. Solo recetas existentes (crafting + infuser). Sin items nuevos. Recipe ids originales (JEI). Viewer: **JEI** (sin EMI).  
-Docs: `docs/TECH_PROGRESSION.md`. Smoke: **OK** — Added 12 / removed 12 / modified 22 / 0 failed. Alloy=certus (no fluix). `Done` ~7s.
-
-## 8) FTB Quests — INSTALADA (pendiente autorizacion)
-
-`config/ftbquests/quests/` — 11 capítulos, 405 quests, 1 reward table vacía/placeholder por capítulo.  
-Docs: `docs/QUESTS.md`. Smoke: Loaded 6 groups / 11 chapters / 405 quests.
-
-## 9) Perfil CurseForge — GENERADO (pendiente autorizacion)
-
-- `curseforge/Oasis-1.0.0.zip` — import CurseForge App  
-- `manifest.json`: MC 1.21.1 + NeoForge 21.1.253 + **117 mods**  
-- `overrides/`: kubejs + ftbquests + configs (sin jars)  
-- Docs: `docs/INSTALL.md` · CSV: `docs/cf-manifest-files.csv`
-
-## 10) GitHub — HECHO
-
-- Repo: https://github.com/YamiKnigth/Oasis  
-- Branch: `main` @ `02b2ef6`  
-- Sin GitHub CLI: create via API + `git push` (Git Bash).  
-- Contiene configs, KubeJS, FTB Quests, perfil CurseForge y docs; jars/mods fuera por `.gitignore`.
-
-Sin pregen aqui (no es el servidor final).
+- KubeJS tech gates + JEI (sin EMI)  
+- FTB Quests 11 capítulos  
+- Repo: https://github.com/YamiKnigth/Oasis · rama trabajo `feat/mods-and-quests`  
+- Perfil CF: `curseforge/Oasis-1.1.0.zip` (149 mods)
 
 ---
 
 ## Conteo
 ```
-Total jars client: 117
-Total jars server: 112
-Cupo restante (client): 160 - 117 = 43
+Total jars client: 149
+Total jars server: 140
+Cupo restante (client): 160 - 149 = 11
 ```
