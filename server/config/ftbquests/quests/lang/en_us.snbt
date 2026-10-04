@@ -285,19 +285,10 @@
 	quest.00000000000002C8.title: "Ganchos"
 	quest.0000000000000330.quest_desc: ["Al tratar la madera con aceite de creosota, se volverÃƒÂ¡n ignÃƒÂ­fugas."]
 	quest.0000000000000330.title: "Tablones de madera tratada"
-	quest.0000000000000F99.quest_desc: ["(ConexiÃƒÂ³n del capÃƒÂ­tulo Primeros pasos)"]
-	quest.0000000000000F99.title: "&#6a3c00&lI&#6f3f00&ln&#734100&lm&#784400&le&#7c4700&lr&#814900&ls&#854c00&li&#8a4e00&lv&#8f5100&le &#935400&lE&#985600&ln&#9c5900&lg&#a15c00&li&#a65e00&ln&#aa6100&ln&#af6300&le&#b36600&lr&#b86900&li&#bc6b00&ln&#c16e00&lg"
-	quest.0000000000000FA5.quest_desc: ["Los bloques de ingenierÃƒÂ­a de Redstone se pueden considerar como los bloques de control de una mÃƒÂ¡quina, un panel de control en esencia."]
-	quest.0000000000000FA7.quest_desc: ["El andamio de acero se utilizarÃƒÂ¡ en toda la construcciÃƒÂ³n de su mÃƒÂ¡quina de bloques mÃƒÂºltiples, y tambiÃƒÂ©n se ve muy bien como decoraciÃƒÂ³n."]
-	quest.0000000000000FA9.quest_desc: [""]
-	quest.0000000000000FA9.title: "Maquinas pesadas"
-	quest.000000000000102E.quest_desc: ["Estos planos son algunos conjuntos, pero crÃƒÂ­ticos, que puede usar en el banco de trabajo del ingeniero."]
-	quest.000000000000102E.title: "Engineer's Blueprints"
-	quest.0000000000001031.quest_desc: [
-		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Grandes fuentes de conocimiento en tus prÃƒÂ³ximas aventuras en la industria y la automatizaciÃƒÂ³n."
-		""
-		"Para cualquier estructura multibloque de Immersive Engineering, puede consultar el manual para obtener un desglose sobre cÃƒÂ³mo construir la estructura y su funciÃƒÂ³n completa."
+	quest.0000000000000F99.quest_desc: [
+		"Immersive Engineering: acero, cables y multiblocks. El puente desde Create."
+		"&6Oasis:&r Varios crafts IE piden Create (precision mechanism / electron tube). Completa el arco Create antes de spamear IE. Ver docs/TECH_PROGRESSION.md"
+		"Siguiente en la ruta tech: AE2 -> Mekanism."
 	]
 	quest.0000000000001031.title: "manuales de ingenieros"
 	quest.0000000000001035.quest_desc: ["Este barril tambiÃƒÂ©n contiene 12.000 mB (12 cubos) de un lÃƒÂ­quido, pero puede ser caliente o gaseoso."]
@@ -423,18 +414,10 @@
 		"Los terminales inalÃƒÂ¡mbricos tambiÃƒÂ©n se pueden actualizar con &eEnergy Cards&f para proporcionar una baterÃƒÂ­a interna mÃƒÂ¡s grande."
 	]
 	quest.16299B9AE87257DC.quest_subtitle: "Esto es por lo que estÃƒÂ¡s aquÃƒÂ­."
-	quest.162CE44400A63575.quest_desc: [""]
-	quest.162CE44400A63575.quest_subtitle: "La mÃƒÂ¡quina de arranque"
-	quest.162CE44400A63575.title: "&#55aa00&lM&#59a524&le&#5da048&lk&#619b6c&la&#649691&ln&#6891b5&li&#6c8cd9&ls&#7087fd&lm"
-	quest.166971866A9234C7.quest_desc: [""]
-	quest.166971866A9234C7.quest_subtitle: "La aleaciÃƒÂ³n bÃƒÂ¡sica para fabricar objetos"
-	quest.1710B3D05215A71E.quest_desc: [
-		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"&bP2P&f (peer-to-peer) es un poderoso sistema dentro de AE2, que permite la transferencia de artÃƒÂ­culos, fluidos y aÃƒÂºn mÃƒÂ¡s sin la necesidad de ningÃƒÂºn almacenamiento intermedio de ME."
-		""
-		"Al hacer clic con el botÃƒÂ³n derecho en un tÃƒÂºnel P2P con ciertos elementos, se sintonizarÃƒÂ¡ el tÃƒÂºnel en uno capaz de transferir otra cosa, como elementos a travÃƒÂ©s de tuberÃƒÂ­as, energÃƒÂ­a a travÃƒÂ©s de cables, seÃƒÂ±ales de redstone y (por defecto) incluso conexiones ME."
-		""
-		"Los tÃƒÂºneles P2P deben vincularse entre sÃƒÂ­ mediante el uso de una &eMemory Card&f, detallada en la siguiente misiÃƒÂ³n."
+	quest.162CE44400A63575.quest_desc: [
+		"Mekanism: el late tech de Oasis. Quimica, digital miner y fusion."
+		"&6Oasis:&r Llegas aqui tras Create -> IE -> AE2. Certus/fluix early estan gateados; mira JEI y docs/TECH_PROGRESSION.md"
+		"Magia (Iron's/Ars/Occultism/Malum) sigue siendo paralela: no la necesitas para Mek."
 	]
 	quest.1710B3D05215A71E.quest_subtitle: "Elimina al intermediario"
 	quest.1710B3D05215A71E.title: "P2P Tunnels"
@@ -707,14 +690,11 @@
 	quest.4D92E5E0E77883C5.quest_desc: ["Derrotad a la Ender Dragon. Cierre de aventura."]
 	quest.4D92E5E0E77883C5.title: "Dragon Egg"
 	quest.4E8A05C3BFA80540.quest_desc: [
-		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"PodrÃƒÂ­a decirse que el aspecto mÃƒÂ¡s importante de Applied Energistics 2 es su sistema de almacenamiento, que utiliza &eStorage Cells&f digitales. Se puede acceder a estas celdas a travÃƒÂ©s de un &eME Chest&r para celdas individuales o un &eME Drive&r para varias celdas."
-		""
-		"El &bME Chest&f contiene una sola celda a la vez, que luego se puede leer y escribir desde cualquier otro terminal en la misma red. El propio ME Chest tambiÃƒÂ©n proporciona su propia pantalla de terminal en la parte superior con acceso especÃƒÂ­fico solo a la celda que contiene."
-		""
-		"El &bME Drive&f puede contener hasta 10 celdas de almacenamiento variadas en el espacio de un solo bloque y un solo canal ME. Sin embargo, no proporciona su propia pantalla de terminal, lo que requiere algÃƒÂºn terminal externo en otra parte de la red para acceder al almacenamiento."
+		"Applied Energistics 2: red ME, crafting automatico y storage denso."
+		"&6Oasis:&r AE2 llega despues de Create+IE. Usa JEI para recetas del pack (processors/presses)."
+		"Cuando la red ME este comoda, sigue a Mekanism."
 	]
-	quest.4E8A05C3BFA80540.quest_subtitle: "Elementos como un sistema de archivos"
+	quest.4E8A05C3BFA80540.quest_subtitle: "Tech III - red ME"
 	quest.4E8A05C3BFA80540.title: "The Storage"
 	quest.4EDD96EB60EF5814.quest_desc: [""]
 	quest.4F1C04C0F6769825.quest_desc: [""]
@@ -2979,4 +2959,6 @@
 	quest.37E8AB63E715C7E5.quest_subtitle: "Sintonizador de resonancia"
 	quest.203E7CAF4604EB3D.title: "Raw Brilliance"
 	quest.203E7CAF4604EB3D.quest_subtitle: "Brillo crudo"
+	quest.0000000000000F99.quest_subtitle: "Tech II - tras Create"
+	quest.162CE44400A63575.quest_subtitle: "Tech IV - late game"
 }
