@@ -1,7 +1,5 @@
 {
 	chapter.12530838DE82B144.title: "&b&lImmersive Engineering"
-	chapter.1B38902EF405942D.title: "&2&lThe Aether"
-	chapter.2B4D0BB6F0033714.title: "&c&lDragona"
 	chapter.33BC804FAE31EEBC.title: "&d&lMalum"
 	chapter.3A95899B1ED34CBF.title: "&b&lMekanism"
 	chapter.49D036EA72296C7E.title: "&a&lGuia Oasis"
@@ -440,8 +438,6 @@
 		"Este comportamiento tambiÃƒÂ©n se puede aplicar a &osecciones&r completas de una red ME mediante el uso de un &bME Toggle Bus&f. Esto permite que una secciÃƒÂ³n de la red en el otro lado del bus se conecte solo cuando el bus estÃƒÂ© alimentado por redstone, o que se desconecte si se usa un bus de alternancia &einvertido&f."
 	]
 	quest.1AAF0B31B47AF23D.title: "Redstone-Controlled ME"
-	quest.1B07021112067C3F.quest_desc: ["Un ojo ligado al Nether."]
-	quest.1B07021112067C3F.title: "Nether Eye"
 	quest.1B686954D34A0F23.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"La &bllave de cuarzo&f hace lo que harÃƒÂ­a cualquier llave de modulaciÃƒÂ³n tecnolÃƒÂ³gica normal. Gira bloques y dispositivos a lo largo de la cara en la que haces clic derecho y los desmantela cuando haces clic derecho mientras shifteas."
@@ -452,10 +448,6 @@
 	quest.1B69BC1F5169F856.quest_desc: ["IE pide piezas de Create (mechanism / electron tube) en crafts clave. Acero, cables y componentes electronicos."]
 	quest.1B69BC1F5169F856.title: "Tech II Ã¢â‚¬â€ Immersive"
 	quest.1B6DDF50D00CBB31.quest_desc: [""]
-	quest.1D649DD59E87EB95.quest_desc: ["Sun Spirit - opcional."]
-	quest.1D649DD59E87EB95.title: "Gold opcional"
-	quest.1E126DF9E632A280.quest_desc: ["Sigue cazando ojos raros."]
-	quest.1E126DF9E632A280.title: "Corrupted Eye"
 	quest.1EEF3F593EC2A230.quest_desc: ["Los circuitos lÃƒÂ³gicos creados deben colocarse dentro de una unidad lÃƒÂ³gica para que funcionen. Cada Unidad LÃƒÂ³gica puede contener hasta 10 Circuitos LÃƒÂ³gicos, los cuales realizarÃƒÂ¡ en su orden en la Unidad. Para conectar la Unidad LÃƒÂ³gica a una red con un Conector de Interfaz Redstone."]
 	quest.1F7DFA5AA65F2812.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
@@ -525,8 +517,6 @@
 		"Los patrones se pueden configurar para contener una receta de &ecrafting&f regular, que requerirÃƒÂ¡ el uso de un &eMolecular Assembler&f en la cara de su proveedor, o una receta de \"&eprocessing&f\" mÃƒÂ¡s general, en la que el proveedor puede enviar cualquier elemento de entrada a algÃƒÂºn otro bloque de mÃƒÂ¡quina o planta de procesamiento especializada."
 	]
 	quest.2C04B3BA507D5673.title: "Patterns"
-	quest.2D697FA9C8B44085.quest_desc: ["Equipo basico del cielo."]
-	quest.2D697FA9C8B44085.title: "Holystone pickaxe"
 	quest.2E274BEEF2B0B8C7.quest_desc: [""]
 	quest.2EF4DD5CC254CC80.quest_subtitle: "Para transferir fluidos"
 	quest.2F16B6A173525277.quest_desc: [
@@ -597,8 +587,6 @@
 	quest.3B42CCC19D23EC6D.title: "4k Storage Component"
 	quest.3B43DB1A6B0A7B44.quest_desc: [""]
 	quest.3B43DB1A6B0A7B44.title: "biocombustible"
-	quest.3B851C1C5AF8C3C3.quest_desc: ["Valkyrie Queen - opcional."]
-	quest.3B851C1C5AF8C3C3.title: "Silver opcional"
 	quest.3C49F2EEDCCAF1DF.quest_desc: [""]
 	quest.3C49F2EEDCCAF1DF.quest_subtitle: "Esto es mucho, lo sÃƒÂ©."
 	quest.3D26C2CC5842BB7C.quest_desc: ["Te los dropean los mobs acuaticos"]
@@ -653,9 +641,6 @@
 	quest.4AFF81D3D0E78255.quest_subtitle: "Dando un baÃƒÂ±o a los minerales"
 	quest.4B5436D5624175C6.quest_desc: ["Construye un portal al Aether. Hay &e1 boss obligatorio&r en el capitulo Aether; el resto es opcional."]
 	quest.4B5436D5624175C6.title: "Aether"
-	quest.4B87F86B444871F2.quest_desc: ["Bronze Dungeon y el Slider. Unica mision de boss obligatoria del Aether."]
-	quest.4B87F86B444871F2.quest_subtitle: "Obligatorio"
-	quest.4B87F86B444871F2.title: "Boss obligatorio Bronze"
 	quest.4BDE773C3359D584.quest_subtitle: "Un mini-robot para acompaÃƒÂ±arte en tus viajes"
 	quest.4BF0BB763BFFACF0.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
@@ -678,8 +663,6 @@
 	]
 	quest.4D846582D408479D.quest_subtitle: "Salir de la conexiÃƒÂ³n por cable"
 	quest.4D846582D408479D.title: "The Wireless"
-	quest.4D92E5E0E77883C5.quest_desc: ["Derrotad a la Ender Dragon. Cierre de aventura."]
-	quest.4D92E5E0E77883C5.title: "Dragon Egg"
 	quest.4E8A05C3BFA80540.quest_desc: [
 		"Applied Energistics 2: red ME, crafting automatico y storage denso."
 		"&6Oasis:&r AE2 llega despues de Create+IE. Usa JEI para recetas del pack (processors/presses)."
@@ -858,8 +841,6 @@
 	]
 	quest.6D4C3DA5F2BDF4CE.title: "Tech I Ã¢â‚¬â€ Create"
 	quest.6D54B45CDA70FEAB.quest_desc: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
-	quest.6DA2EB3C61DEA472.quest_desc: ["La dragona es mas exigente. End Remastered cambia los ojos del portal."]
-	quest.6DA2EB3C61DEA472.title: "Camino a la Dragona"
 	quest.6DB1AAAD926486BC.quest_desc: [""]
 	quest.6DB1AAAD926486BC.quest_subtitle: "Ã‚Â¡Tiene un MODO CUBO!"
 	quest.6E15447FC3D678E0.quest_desc: ["La &bTarjeta Difusa&f permite hacer coincidir un elemento filtrado independientemente de cualquier metadato (NBT) como daÃƒÂ±os o encantamientos, mientras que la &bTarjeta Inversora&f cambia el filtro en dichos buses de una lista blanca a una lista negra."]
@@ -885,8 +866,6 @@
 	quest.73730C3C46BF8609.quest_desc: ["El Blade Quiver, cuando se aplica, le permitirÃƒÂ¡ llevar 2 hojas adicionales para Buzzsaw. Se pueden cambiar con una combinaciÃƒÂ³n de teclas (que debe configurar) o sigilosamente y usando la rueda de desplazamiento de su mouse."]
 	quest.74200A48498DD7F8.quest_desc: [""]
 	quest.74200A48498DD7F8.quest_subtitle: "Produce alrededor de 17.6FE/t"
-	quest.746DE420FBE89254.quest_desc: ["Glowstone + water bucket."]
-	quest.746DE420FBE89254.title: "Materiales de portal"
 	quest.74FC0DDDB91DB172.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Para hacer la vida mucho mÃƒÂ¡s fÃƒÂ¡cil, AE2 proporciona un conjunto completo de dispositivos para la manipulaciÃƒÂ³n de datos ME, es decir, mover elementos almacenados por todo el mundo."
@@ -897,8 +876,6 @@
 	]
 	quest.74FC0DDDB91DB172.quest_subtitle: "OI, OI, OI!"
 	quest.74FC0DDDB91DB172.title: "The IO"
-	quest.758615AB4172C2DC.quest_desc: ["Activa el stronghold con los ojos de End Remastered."]
-	quest.758615AB4172C2DC.title: "Portal del End"
 	quest.7638362055CF4C13.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"Ã‚Â¿Cansado de escuchar todas esas mÃƒÂ¡quinas ruidosas?"
@@ -947,8 +924,6 @@
 	quest.7B7D1F0CB326B28F.quest_subtitle: "DesfragmentaciÃƒÂ³n"
 	quest.7BC9DB8AF8981ADA.quest_desc: ["Las &eWaystones&r os permiten viajar entre bases. Coloca una cerca de casa cuando puedas."]
 	quest.7BC9DB8AF8981ADA.title: "Un home lejos de casa"
-	quest.7C9E140317EBFF0D.quest_desc: ["Portal de glowstone activado con agua. Explora islas flotantes."]
-	quest.7C9E140317EBFF0D.title: "The Aether"
 	quest.7CC49360D07086B8.quest_desc: [""]
 	quest.7CC49360D07086B8.quest_subtitle: "EnergÃƒÂ­a InalÃƒÂ¡mbrica, Gases, Fluidos, Todo."
 	quest.7EA6B942D1294ED6.quest_desc: [""]
@@ -3199,5 +3174,230 @@
 	quest.670A4608507A01CC.quest_desc: [
 		"Mochila top, chests altos y controller casero."
 		"&6Oasis:&r Cuando te quedes corto, AE2 te espera en Tecnologia. Occultism tiene storage dimensional si vas por magia."
+	]
+	chapter.9EFBBC32CAB947A6.title: "&2&lExploracion Oasis"
+	quest.26BA6F06C1F19AB5.title: "Exploracion Oasis"
+	quest.26BA6F06C1F19AB5.quest_subtitle: "Biomas, estructuras y fotos"
+	quest.26BA6F06C1F19AB5.quest_desc: [
+		"Terralith / Biomes We've Gone / YUNG / Naturalist: el overworld es el contenido."
+		"&6Oasis:&r Lleva comida del capitulo Cocina, una mochila y Waystones. Aether y Dragona son arcos aparte."
+	]
+	quest.B7E9F6F9A9B8C65E.title: "Nature's Compass"
+	quest.B7E9F6F9A9B8C65E.quest_subtitle: "Busca biomas"
+	quest.B7E9F6F9A9B8C65E.quest_desc: ["Senala el bioma que elijas. Imprescindible con Terralith/BWG."]
+	quest.B350FE600257287B.title: "Explorer's Compass"
+	quest.B350FE600257287B.quest_subtitle: "Busca estructuras"
+	quest.B350FE600257287B.quest_desc: ["Encuentra estructuras (caves temples, etc.). Combina con YUNG Better series."]
+	quest.BDBDCDA10F650054.title: "Waystone"
+	quest.BDBDCDA10F650054.quest_subtitle: "TP de base"
+	quest.BDBDCDA10F650054.quest_desc: ["Coloca waystones en hubs. El warp stone es tu teletransporte personal."]
+	quest.9AB32C5BFB6F04D6.title: "Warp Stone"
+	quest.9AB32C5BFB6F04D6.quest_subtitle: "TP a waystones"
+	quest.9AB32C5BFB6F04D6.quest_desc: ["Teletransportate a waystones activados. Gestiona cooldowns."]
+	quest.BFB8DBC296009CE6.title: "Camera"
+	quest.BFB8DBC296009CE6.quest_subtitle: "Fotos de viaje"
+	quest.BFB8DBC296009CE6.quest_desc: ["Exposure: documenta biomas y builds. Pure cozy content."]
+	quest.7C5204DA87D85EC1.title: "Cooked Venison"
+	quest.7C5204DA87D85EC1.quest_subtitle: "Fauna Naturalist"
+	quest.7C5204DA87D85EC1.quest_desc: ["Naturalist anade animales. Caza/cocina venison en tus rutas."]
+	quest.6638C84757A81C8E.title: "Lootr Trophy"
+	quest.6638C84757A81C8E.quest_subtitle: "Loot por jugador"
+	quest.6638C84757A81C8E.quest_desc: ["Los chests Lootr son por-jugador. Explora sin pelearte por loot con el equipo."]
+	quest.9216DC4120C7340B.title: "Iron Longsword"
+	quest.9216DC4120C7340B.quest_subtitle: "Simply Swords"
+	quest.9216DC4120C7340B.quest_desc: ["Simply Swords: mas opciones de melee para rutas peligrosas."]
+	quest.8FB88FB749F4CEB5.title: "Rutas recomendadas"
+	quest.8FB88FB749F4CEB5.quest_subtitle: "Como explorar en Oasis"
+	quest.8FB88FB749F4CEB5.quest_desc: [
+		"1) Casa + waystone 2) Nature/Explorer compass 3) Comida FD/BBQ 4) Backpack 5) Aether cuando quieras cielo."
+		"YUNG Better Caves/Dungeons cambian el underground: ve preparado."
+	]
+	quest.9C85BD303B898FC6.title: "Antorchas"
+	quest.9C85BD303B898FC6.quest_subtitle: "Ilumina rutas"
+	quest.9C85BD303B898FC6.quest_desc: ["Stock de luces. O usa Macaw Lights si vas aesthetic."]
+	quest.43E37C1626FC8AF0.title: "Mapa"
+	quest.43E37C1626FC8AF0.quest_subtitle: "Cartografia"
+	quest.43E37C1626FC8AF0.quest_desc: ["Mapas vanilla + brujulas del pack. Marca biomas raros."]
+	quest.9AC4CF2DDB933287.title: "Barco"
+	quest.9AC4CF2DDB933287.quest_subtitle: "Costas y rios"
+	quest.9AC4CF2DDB933287.quest_desc: ["Terralith tiene costas savias: un barco ayuda."]
+	quest.5C54771DA8CB741D.title: "Explorador Oasis"
+	quest.5C54771DA8CB741D.quest_subtitle: "Listo para el mundo"
+	quest.5C54771DA8CB741D.quest_desc: ["Tienes brujulas y waystones. Siguiente: Aether en el cielo o Dragona cuando juntes ojos."]
+	chapter.1B38902EF405942D.title: "&2&lThe Aether"
+	quest.AB131F21CA09BCFD.title: "The Aether"
+	quest.AB131F21CA09BCFD.quest_subtitle: "Cielo, dungeons y gravitite"
+	quest.AB131F21CA09BCFD.quest_desc: [
+		"Dimension clasica de islas flotantes. Portal con glowstone + water bucket."
+		"&6Oasis:&r Paralelo a la tech. Lleva parachute y comida; caerte duele igual."
+	]
+	quest.77BE0C3AF8D52DEB.title: "Glowstone"
+	quest.77BE0C3AF8D52DEB.quest_subtitle: "Marco del portal"
+	quest.77BE0C3AF8D52DEB.quest_desc: ["14 glowstone para el marco (como obsidiana del Nether)."]
+	quest.67DA05513500B2FE.title: "Water Bucket"
+	quest.67DA05513500B2FE.quest_subtitle: "Activa el portal"
+	quest.67DA05513500B2FE.quest_desc: ["Click con agua en el marco de glowstone para abrir el Aether portal."]
+	quest.0BCE65933CA9586B.title: "Holystone"
+	quest.0BCE65933CA9586B.quest_subtitle: "Piedra del cielo"
+	quest.0BCE65933CA9586B.quest_desc: ["Bloque base del Aether. Pico holystone early."]
+	quest.C71D689CE0E00BF6.title: "Holystone Pickaxe"
+	quest.C71D689CE0E00BF6.quest_subtitle: "Pico early"
+	quest.C71D689CE0E00BF6.quest_desc: ["Tu primer pico aetheriano."]
+	quest.69736571F4C98862.title: "Skyroot Log"
+	quest.69736571F4C98862.quest_subtitle: "Madera del cielo"
+	quest.69736571F4C98862.quest_desc: ["Madera skyroot. Tools skyroot tienen rare drops quirks: mira JEI/tooltip."]
+	quest.2FE9E4660596FD4D.title: "Ambrosium Shard"
+	quest.2FE9E4660596FD4D.quest_subtitle: "Fuel / enchant fuel"
+	quest.2FE9E4660596FD4D.quest_desc: ["Combustible y material. Torches de ambrosium iluminan el cielo."]
+	quest.607BBDE5D0680213.title: "Ambrosium Torch"
+	quest.607BBDE5D0680213.quest_subtitle: "Luz aether"
+	quest.607BBDE5D0680213.quest_desc: ["Ilumina islas sin vanilla torches."]
+	quest.8FF02F92CD4C5304.title: "Zanite Gemstone"
+	quest.8FF02F92CD4C5304.quest_subtitle: "Gem mid"
+	quest.8FF02F92CD4C5304.quest_desc: ["Mineral mid del Aether. Tools zanite ganan poder al perder durabilidad."]
+	quest.C7AAEA756DA6DA93.title: "Gravitite Ore"
+	quest.C7AAEA756DA6DA93.quest_subtitle: "Mineral flotante"
+	quest.C7AAEA756DA6DA93.quest_desc: ["Enchanting con ambrosium convierte ore en enchanted gravitite (flujo clasico)."]
+	quest.45AB52A5686AF86D.title: "Cold Parachute"
+	quest.45AB52A5686AF86D.quest_subtitle: "No te estrelles"
+	quest.45AB52A5686AF86D.quest_desc: ["Obligatorio. Caer al void/overworld sin parachute duele."]
+	quest.B2F0333ABA79755C.title: "Golden Dart"
+	quest.B2F0333ABA79755C.quest_subtitle: "Municion aether"
+	quest.B2F0333ABA79755C.quest_desc: ["Darts para shooters aetherianos."]
+	quest.2BEA3B9C9F3BB70D.title: "Dungeons del Aether"
+	quest.2BEA3B9C9F3BB70D.quest_subtitle: "Bronze -> Gold"
+	quest.2BEA3B9C9F3BB70D.quest_desc: ["Tres llaves / dungeons. Ve con comida, parachutes y paciencia."]
+	quest.F32A105C42C7FE52.title: "Bronze Dungeon Key"
+	quest.F32A105C42C7FE52.quest_subtitle: "Primer dungeon"
+	quest.F32A105C42C7FE52.quest_desc: ["Bronze dungeon: entrada al loop de bosses aether."]
+	quest.3435A78FA983AE80.title: "Silver Dungeon Key"
+	quest.3435A78FA983AE80.quest_subtitle: "Dungeon media"
+	quest.3435A78FA983AE80.quest_desc: ["Silver: sube la dificultad y el loot."]
+	quest.B7960CAE56F48C43.title: "Gold Dungeon Key"
+	quest.B7960CAE56F48C43.quest_subtitle: "Dungeon alta"
+	quest.B7960CAE56F48C43.quest_desc: ["Gold dungeon: tipico gate a loot valkyrie-tier."]
+	quest.31ECF89A6C8160B9.title: "Valkyrie Lance"
+	quest.31ECF89A6C8160B9.quest_subtitle: "Arma icónica"
+	quest.31ECF89A6C8160B9.quest_desc: ["Lance valkyrie: alcance y estilo. Uno de los trophies del Aether."]
+	quest.38BB9268CAF26E68.title: "Phoenix Bow"
+	quest.38BB9268CAF26E68.quest_subtitle: "Arco igneo"
+	quest.38BB9268CAF26E68.quest_desc: ["Bow phoenix del loot alto."]
+	quest.2205E2EF028DA25A.title: "Neptune Helmet"
+	quest.2205E2EF028DA25A.quest_subtitle: "Set acuatico"
+	quest.2205E2EF028DA25A.quest_desc: ["Pieza neptune: empieza el set acuatico/aether."]
+	quest.47D434EE630AD6AC.title: "Heroe del cielo"
+	quest.47D434EE630AD6AC.quest_subtitle: "Aether listo"
+	quest.47D434EE630AD6AC.quest_desc: [
+		"Portal, minerales, parachute y dungeon gold/valkyrie."
+		"&6Oasis:&r Vuelve al overworld con loot; Dragona sigue siendo el hard boss gate aparte."
+	]
+	chapter.2B4D0BB6F0033714.title: "&c&lDragona"
+	quest.36E89158E6F8582D.title: "Dragona"
+	quest.36E89158E6F8582D.quest_subtitle: "Ojos, End y Cataclysm"
+	quest.36E89158E6F8582D.quest_desc: [
+		"End Remastered cambia los ojos del portal. Reune ojos, abre el End, derrota a la dragona."
+		"&6Oasis:&r Contenido hard. Cataclysm bosses son opcionales post/paralelo a la dragona."
+	]
+	quest.9D897F9F1C9E1F11.title: "Ojos del End"
+	quest.9D897F9F1C9E1F11.quest_subtitle: "End Remastered"
+	quest.9D897F9F1C9E1F11.quest_desc: [
+		"Cada ojo tiene su fuente (estructuras, bosses, crafts). JEI + exploracion."
+		"No hace falta TODOS para divertirte, pero el portal pide el set del pack."
+	]
+	quest.C5A590AB08A68948.title: "Old Eye"
+	quest.C5A590AB08A68948.quest_subtitle: "Ojo antiguo"
+	quest.C5A590AB08A68948.quest_desc: ["Consigue Old Eye. Revisa JEI / structures para su origen."]
+	quest.57A7B7CA2A2B954A.title: "Nether Eye"
+	quest.57A7B7CA2A2B954A.quest_subtitle: "Ojo del Nether"
+	quest.57A7B7CA2A2B954A.quest_desc: ["Consigue Nether Eye. Revisa JEI / structures para su origen."]
+	quest.F9ADAB627F3FDABF.title: "Corrupted Eye"
+	quest.F9ADAB627F3FDABF.quest_subtitle: "Ojo corrupto"
+	quest.F9ADAB627F3FDABF.quest_desc: ["Consigue Corrupted Eye. Revisa JEI / structures para su origen."]
+	quest.67AE016DFBB37BFF.title: "Magical Eye"
+	quest.67AE016DFBB37BFF.quest_subtitle: "Ojo magico"
+	quest.67AE016DFBB37BFF.quest_desc: ["Consigue Magical Eye. Revisa JEI / structures para su origen."]
+	quest.34C213930B507696.title: "Black Eye"
+	quest.34C213930B507696.quest_subtitle: "Ojo negro"
+	quest.34C213930B507696.quest_desc: ["Consigue Black Eye. Revisa JEI / structures para su origen."]
+	quest.10E1E312C18C49AE.title: "Witch Eye"
+	quest.10E1E312C18C49AE.quest_subtitle: "Ojo de bruja"
+	quest.10E1E312C18C49AE.quest_desc: ["Consigue Witch Eye. Revisa JEI / structures para su origen."]
+	quest.84926A0B0847204C.title: "Undead Eye"
+	quest.84926A0B0847204C.quest_subtitle: "Ojo undead"
+	quest.84926A0B0847204C.quest_desc: ["Consigue Undead Eye. Revisa JEI / structures para su origen."]
+	quest.C3A53FCFBAEEEAC9.title: "Cold Eye"
+	quest.C3A53FCFBAEEEAC9.quest_subtitle: "Ojo frio"
+	quest.C3A53FCFBAEEEAC9.quest_desc: ["Consigue Cold Eye. Revisa JEI / structures para su origen."]
+	quest.5A3348A072D28435.title: "Lost Eye"
+	quest.5A3348A072D28435.quest_subtitle: "Ojo perdido"
+	quest.5A3348A072D28435.quest_desc: ["Consigue Lost Eye. Revisa JEI / structures para su origen."]
+	quest.C430BA8562F3B294.title: "Guardian Eye"
+	quest.C430BA8562F3B294.quest_subtitle: "Ojo guardian"
+	quest.C430BA8562F3B294.quest_desc: ["Consigue Guardian Eye. Revisa JEI / structures para su origen."]
+	quest.AD92A6D2CBFDC55E.title: "Exotic Eye"
+	quest.AD92A6D2CBFDC55E.quest_subtitle: "Ojo exotico"
+	quest.AD92A6D2CBFDC55E.quest_desc: ["Consigue Exotic Eye. Revisa JEI / structures para su origen."]
+	quest.71B21760989904BD.title: "Cryptic Eye"
+	quest.71B21760989904BD.quest_subtitle: "Ojo criptico"
+	quest.71B21760989904BD.quest_desc: ["Consigue Cryptic Eye. Revisa JEI / structures para su origen."]
+	quest.6EB83AB9AC974F3D.title: "Cursed Eye"
+	quest.6EB83AB9AC974F3D.quest_subtitle: "Ojo maldito"
+	quest.6EB83AB9AC974F3D.quest_desc: ["Consigue Cursed Eye. Revisa JEI / structures para su origen."]
+	quest.239AD6B5B56A5558.title: "Evil Eye"
+	quest.239AD6B5B56A5558.quest_subtitle: "Ojo maligno"
+	quest.239AD6B5B56A5558.quest_desc: ["Consigue Evil Eye. Revisa JEI / structures para su origen."]
+	quest.2B1D39DE67CF4B65.title: "Rogue Eye"
+	quest.2B1D39DE67CF4B65.quest_subtitle: "Ojo rogue"
+	quest.2B1D39DE67CF4B65.quest_desc: ["Consigue Rogue Eye. Revisa JEI / structures para su origen."]
+	quest.68E36AAE422355BE.title: "Wither Eye"
+	quest.68E36AAE422355BE.quest_subtitle: "Ojo wither"
+	quest.68E36AAE422355BE.quest_desc: ["Consigue Wither Eye. Revisa JEI / structures para su origen."]
+	quest.0816BA97C9B9AB7A.title: "Portal listo"
+	quest.0816BA97C9B9AB7A.quest_subtitle: "Suficientes ojos clave"
+	quest.0816BA97C9B9AB7A.quest_desc: ["Con un set de ojos puedes apuntar al stronghold. Sigue cazando el resto si quieres completionist."]
+	quest.FD9313BED3ED4BB8.title: "Ender Eye"
+	quest.FD9313BED3ED4BB8.quest_subtitle: "Apunta al stronghold"
+	quest.FD9313BED3ED4BB8.quest_desc: ["Aunque End Remastered cambia ojos del marco, sigue usando ender eyes para localizar el portal room."]
+	quest.DF0E0577B61EB213.title: "Dragon Egg"
+	quest.DF0E0577B61EB213.quest_subtitle: "Victoria"
+	quest.DF0E0577B61EB213.quest_desc: ["Derrota a la Ender Dragon y toma el huevo. Enhorabuena."]
+	quest.A265AAB89EB6B528.title: "Dragon Head"
+	quest.A265AAB89EB6B528.quest_subtitle: "Trofeo"
+	quest.A265AAB89EB6B528.quest_desc: ["Cabeza de dragona / trofeo de end ship. Decora tu hall of fame."]
+	quest.2EAB9398CC3B1CC2.title: "Cataclysm"
+	quest.2EAB9398CC3B1CC2.quest_subtitle: "Bosses opcionales"
+	quest.2EAB9398CC3B1CC2.quest_desc: ["Cataclysm anade bosses y gear pesado. No bloquea la dragona, pero es el hard content del pack."]
+	quest.6E0E38FA62CE4C1D.title: "Mech Eye"
+	quest.6E0E38FA62CE4C1D.quest_subtitle: "Boss mech"
+	quest.6E0E38FA62CE4C1D.quest_desc: ["Ojo/acceso a contenido mechanizado Cataclysm."]
+	quest.2A8D82C2C26A0739.title: "Monstrous Eye"
+	quest.2A8D82C2C26A0739.quest_subtitle: "Boss monstrous"
+	quest.2A8D82C2C26A0739.quest_desc: ["Invoca/accede al challenge monstrous."]
+	quest.FABECA7F3F167076.title: "Void Eye"
+	quest.FABECA7F3F167076.quest_subtitle: "Boss void"
+	quest.FABECA7F3F167076.quest_desc: ["Contenido void Cataclysm."]
+	quest.4380569B5E1FF3F7.title: "Cursed Eye (Cata)"
+	quest.4380569B5E1FF3F7.quest_subtitle: "Boss cursed"
+	quest.4380569B5E1FF3F7.quest_desc: ["Ojo cursed de Cataclysm (distinto a End Remastered)."]
+	quest.706B30FD0F441CAD.title: "Burning Ashes"
+	quest.706B30FD0F441CAD.quest_subtitle: "Restos igneos"
+	quest.706B30FD0F441CAD.quest_desc: ["Material de bosses igneos."]
+	quest.432B3695DFE809CC.title: "Ignitium Ingot"
+	quest.432B3695DFE809CC.quest_subtitle: "Metal Cataclysm"
+	quest.432B3695DFE809CC.quest_desc: ["Ingote late de Cataclysm. Armor y armas top."]
+	quest.231D5996A707E168.title: "Gauntlet of Guard"
+	quest.231D5996A707E168.quest_subtitle: "Guantelete"
+	quest.231D5996A707E168.quest_desc: ["Arma/curio de boss. Uno de varios gauntlets."]
+	quest.ACAAA82508930E11.title: "Bulwark of the Flame"
+	quest.ACAAA82508930E11.quest_subtitle: "Escudo igneo"
+	quest.ACAAA82508930E11.quest_desc: ["Defensa icónica Cataclysm."]
+	quest.A1705F3E83E4EC31.title: "Infernal Forge"
+	quest.A1705F3E83E4EC31.quest_subtitle: "Martillo"
+	quest.A1705F3E83E4EC31.quest_desc: ["Forge/arma infernal del loot pool."]
+	quest.4280911F0B9F80BE.title: "Slayer Oasis"
+	quest.4280911F0B9F80BE.quest_subtitle: "Dragona + Cataclysm"
+	quest.4280911F0B9F80BE.quest_desc: [
+		"Huevo de dragona y metal ignitium: el hard content no te asusta."
+		"&6Oasis:&r Vuelve a construir cozy. La tech y la magia siguen ahi cuando quieras."
 	]
 }
