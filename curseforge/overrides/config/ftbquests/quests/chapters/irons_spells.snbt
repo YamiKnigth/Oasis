@@ -1,0 +1,128 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "irons_spells"
+	group: "7726645EE79AB0A8"
+	id: "5FF2F8E6FDE52902"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "056CAC7A1908A3FB"
+			rewards: [{
+				id: "76CCED175AEF1573"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "61A681E913D05A6C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["056CAC7A1908A3FB"]
+			id: "01FA04AE6B770D3A"
+			rewards: [{
+				id: "16A0F2C5A8B72977"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "184B55120DBF21EA"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 5, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:copper_spell_book" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["01FA04AE6B770D3A"]
+			id: "16285BA4AE30324B"
+			rewards: [{
+				id: "0A86087C032E8B36"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "79CB2D9EB7F1F1B4"
+				item: { count: 1, id: "irons_spellbooks:common_ink" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16285BA4AE30324B"]
+			id: "20C42841343DD706"
+			rewards: [{
+				id: "14AD9FC7622F4CC4"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "617946A1A14E6EAA"
+				item: { count: 1, id: "irons_spellbooks:scroll" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01FA04AE6B770D3A"]
+			id: "0482C3161B03B586"
+			rewards: [{
+				id: "332ACBA5B40FF310"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4D5DBC75A7A958BF"
+				item: { count: 1, id: "irons_spellbooks:graybeard_staff" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["01FA04AE6B770D3A"]
+			id: "0CF2CA72D3553F24"
+			rewards: [{
+				id: "7352BB96DD1FED58"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "68957CCD7EEB1CCF"
+				item: { components: { "irons_spellbooks:spell_container": { data: [ ], maxSpells: 6, mustEquip: 1b, spellWheel: 1b } }, count: 1, id: "irons_spellbooks:iron_spell_book" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["056CAC7A1908A3FB"]
+			id: "1B96B3D57D7455D0"
+			rewards: [{
+				id: "740D77E354B1B6FA"
+				table_id: 8856416108613626146L
+				type: "random"
+			}]
+			tasks: [{
+				id: "0C2B0DB0390D044E"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+	]
+}

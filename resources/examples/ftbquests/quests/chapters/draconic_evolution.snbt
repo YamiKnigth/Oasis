@@ -1,0 +1,1808 @@
+{
+	id: "21C6295A70F0DFF8"
+	group: "7340A40644391A0F"
+	order_index: 4
+	filename: "draconic_evolution"
+	title: "➢ &f&lDraconic Evolution"
+	icon: "draconicevolution:awakened_core"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -9.0d
+			y: -2.0d
+			description: [
+				"¡Fusión! Combinando cosas juntas."
+				""
+				"Éste es inútil hasta que lo actualices a la versión wyvern."
+				"Necesitará 9 de estos para comenzar a actualizar."
+			]
+			dependencies: ["18013F1A1BAA79C3"]
+			id: "5E71E80FE1DFCDD8"
+			tasks: [{
+				id: "458E90BD5DE6A055"
+				type: "item"
+				item: "draconicevolution:basic_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "5720A0018D4A25B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0BF69BD8A5AE70AA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: -2.0d
+			subtitle: "Polvo de dragones caídos..."
+			description: ["Entonces, quieres adentrarte en las artes del dragón. Bueno, espero que estés preparado."]
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "6AC28AE2980FDFC5"
+			tasks: [{
+				id: "1FEBAABAE792193D"
+				type: "item"
+				item: "draconicevolution:draconium_dust"
+			}]
+			rewards: [
+				{
+					id: "1D5DA40F570E5B53"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "31442DADF756EC2B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -2.0d
+			description: [
+				"El primer paso es simple, me preocuparé si lo arruinas."
+				""
+				"¡Simplemente funde el polvo dracónico hasta convertirlo en un lingote!"
+			]
+			dependencies: ["6AC28AE2980FDFC5"]
+			dependency_requirement: "all_started"
+			id: "2C3249C1150DBEF3"
+			tasks: [{
+				id: "6AA243DA9190AE82"
+				type: "item"
+				item: "draconicevolution:draconium_ingot"
+			}]
+			rewards: [
+				{
+					id: "46F87ECF66D73984"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6B9F97756019CC63"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -2.0d
+			description: ["Los núcleos de Draconium son muy útiles al principio del juego; es una buena idea conseguir al menos 32 de ellos."]
+			dependencies: ["2C3249C1150DBEF3"]
+			id: "18013F1A1BAA79C3"
+			tasks: [{
+				id: "12AC75B925E619B1"
+				type: "item"
+				item: "draconicevolution:draconium_core"
+			}]
+			rewards: [
+				{
+					id: "2D21F64FC3C6F71B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "54CAB7BBBE10B640"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -3.5d
+			description: [
+				"¡Ahora estás llegando a alguna parte!"
+				""
+				"El nivel de elaboración de fusión de wyvern te permite hacer bastantes cosas."
+				""
+				"Desde herramientas hasta energía inalámbrica y el núcleo dracónico."
+			]
+			dependencies: [
+				"755E318A40DF58AD"
+				"5E71E80FE1DFCDD8"
+			]
+			id: "3A6F679D0ED56746"
+			tasks: [{
+				id: "158C86DC989B5BB0"
+				type: "item"
+				item: "draconicevolution:wyvern_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "6281C99283DB4896"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "23D18E5B7C7DAA2C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -5.5d
+			description: ["Elaboración de fusión de draconio. El penúltimo nivel de evolución dracónica."]
+			dependencies: [
+				"3A6F679D0ED56746"
+				"6363A306681A18F5"
+			]
+			id: "3D4DAF4AAF19E957"
+			tasks: [{
+				id: "51F2041C4D03D956"
+				type: "item"
+				item: "draconicevolution:awakened_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "1FA457BC90690F6A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7A7376B56350051C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "2B8059C0DAD1DD00"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -7.5d
+			description: [
+				"Fusión caótica. Oh, vas a ser un dios."
+				""
+				"Necesitarás matar muchos dragones del caos para conseguir 9 de estos, así que buena suerte, ya que la necesitarás."
+			]
+			dependencies: ["3D4DAF4AAF19E957"]
+			id: "3951BDCEB165ED33"
+			tasks: [{
+				id: "2CBCB8DDDBC14F67"
+				type: "item"
+				item: "draconicevolution:chaotic_crafting_injector"
+			}]
+			rewards: [
+				{
+					id: "5E3734F5921F8A0A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7FE72C860F6CCB41"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "0AC4678629512520"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -3.5d
+			description: ["Núcleos más avanzados, la wyvern está contigo."]
+			dependencies: ["18013F1A1BAA79C3"]
+			id: "755E318A40DF58AD"
+			tasks: [{
+				id: "769290C2B6A4CFBC"
+				type: "item"
+				item: "draconicevolution:wyvern_core"
+			}]
+			rewards: [
+				{
+					id: "42CAD909A0437EBA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1EACDD9FFC1FB401"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 1.0d
+			shape: "square"
+			description: ["Agrega capacidad de energía al elemento configurado."]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "7DBA53DCE97E1884"
+			tasks: [{
+				id: "3BF041E945676427"
+				type: "item"
+				item: "draconicevolution:draconium_energy_module"
+			}]
+			rewards: [
+				{
+					id: "55129129BEEAC743"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "584E1F9718FE0DA9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"¡Aumenta tu velocidad!"
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "25B8D4DF685DEA88"
+			tasks: [{
+				id: "57C3DC0818103BF1"
+				type: "item"
+				item: "draconicevolution:draconium_speed_module"
+			}]
+			rewards: [
+				{
+					id: "285BFDCAFC134059"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5A5548F02DE64CFB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"¡Aumenta el daño!"
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "7032A4A8FB5A83C7"
+			tasks: [{
+				id: "4A5EEE772B72BCC6"
+				type: "item"
+				item: "draconicevolution:draconium_damage_module"
+			}]
+			rewards: [
+				{
+					id: "6E4ADF3C4ADFD004"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "64691888251E1E7D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"AOE!"
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "4906BCCBE5042083"
+			tasks: [{
+				id: "3781EC3668450771"
+				type: "item"
+				item: "draconicevolution:draconium_aoe_module"
+			}]
+			rewards: [
+				{
+					id: "5842DEC1EB078CEF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "520D119491B0224C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -5.5d
+			description: ["¡Bloques de draconio! Estás listo para más poder."]
+			dependencies: ["3FC55EF327759058"]
+			id: "6363A306681A18F5"
+			tasks: [{
+				id: "4F76EF8658799A4A"
+				type: "item"
+				item: "draconicevolution:awakened_draconium_block"
+			}]
+			rewards: [
+				{
+					id: "075EA4468B027A6F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3DA2A50D77E10EC7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "2991EB6949D59FCD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Flechas rápidas, con ligera imprecisión."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "3CEBDB8718757903"
+			tasks: [{
+				id: "19E5B40615437DEC"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_velocity_module"
+			}]
+			rewards: [
+				{
+					id: "335C10DC67CDB865"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4D5FE8054C88ADDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -7.5d
+			subtitle: "Dragon slayer!"
+			description: [
+				"Cuidado, necesitarás muchas de estas."
+				"¡Espero que seas bueno matando dragones!"
+			]
+			id: "3FC55EF327759058"
+			tasks: [{
+				id: "045B6C0261CBF2DC"
+				type: "item"
+				item: "draconicevolution:dragon_heart"
+			}]
+			rewards: [
+				{
+					id: "3D3DD68C3D1EDFFB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "64B8B1B284B13BC8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "22A438C6EF0315D7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Más precisión de flecha, ojo de águila."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "1EE8C42EC3209C74"
+			tasks: [{
+				id: "112A376E991C7F90"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_accuracy_module"
+			}]
+			rewards: [
+				{
+					id: "7313172783DD5E72"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "33DED42293E697A5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"Tus flechas no pesan y vuelan por el cielo sin el efecto de la gravedad."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "401B97D508830209"
+			tasks: [{
+				id: "6E7157848451AE23"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_grav_comp_module"
+			}]
+			rewards: [
+				{
+					id: "39FF856FE726CC21"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "42E089808F90321D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Tu flecha puede atravesar enemigos con facilidad, siempre que puedas contrarrestar la imprecisión."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "117DD6DC07FE143F"
+			tasks: [{
+				id: "21C57ED35F5ECBCD"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_penetration_module"
+			}]
+			rewards: [
+				{
+					id: "19CFE73CE4F931F2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "77AB553CB56C26D0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -7.5d
+			description: ["¡Núcleo caótico! Debes ser fuerte incluso para tener tal poder."]
+			dependencies: ["7AD9FC0EDE6E83DC"]
+			id: "757796DB71CCB42C"
+			tasks: [{
+				id: "682C2132F7E43BAB"
+				type: "item"
+				item: "draconicevolution:chaotic_core"
+			}]
+			rewards: [
+				{
+					id: "4A8C13F0F1CB2D85"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "248B7C84D682FE04"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "0A4C48A366E2D671"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 5.5d
+			shape: "square"
+			description: [
+				"¡Aumenta el daño!"
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "7ABACCB3DEAF5CF0"
+			tasks: [{
+				id: "1CABF8BE64DCD557"
+				type: "item"
+				item: "draconicevolution:wyvern_proj_damage_module"
+			}]
+			rewards: [
+				{
+					id: "2EC875A95058EE9D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "13F1DAEF5ACB8905"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 5.5d
+			shape: "square"
+			description: ["Dispara una flecha automáticamente una vez cargada, no es necesario cronometrar tus disparos."]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "148ADF128A4C4940"
+			tasks: [{
+				id: "0946ABBF87009D05"
+				type: "item"
+				item: "draconicevolution:wyvern_auto_fire_module"
+			}]
+			rewards: [
+				{
+					id: "4B14B10E026782D7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "74BDCDD3A061FB1B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -3.5d
+			subtitle: "Por fin algo de buena moda."
+			description: [
+				"La pieza del cofre Wyvern no hace nada por sí sola, ¡necesitas algunas mejoras para comenzar a usarla!"
+				""
+				"Las actualizaciones básicas que necesitará son;"
+				""
+				"Un módulo de control de escudo: ¡agrega el efecto de escudo!"
+				""
+				"Módulo de recuperación de escudo: ¡carga el escudo!"
+				""
+				"Y por supuesto, un Módulo de Energía"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3A6F679D0ED56746"
+				"69B6777A4D98E4A9"
+			]
+			id: "11132D3306E6C44D"
+			tasks: [{
+				id: "39E923E84B939849"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1762434581
+									2112114365
+									-1434082082
+									-978310257
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0DDAB2CE4C473C49"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "20DA5C747B328CEE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 4.0d
+			shape: "square"
+			description: [
+				"Agrega un escudo a tu armadura. Esta actualización ocupa un espacio de 2x2."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "08FDDA9C734CEBBB"
+			tasks: [{
+				id: "6A1EA619E9C49847"
+				type: "item"
+				item: "draconicevolution:wyvern_shield_control_module"
+			}]
+			rewards: [
+				{
+					id: "36D4811368193484"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "75C3E8AFE2C0C3A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -7.5d
+			subtitle: "A flex among all dragons."
+			description: [
+				"Ah! You're a master of the draconic arts I see."
+				""
+				"The chaotic chest piece has a whopping 32 extra upgrade slots."
+				""
+				"Additionally you can use the chaotic upgrades."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3951BDCEB165ED33"
+				"69B6777A4D98E4A9"
+			]
+			id: "0B466AA9A4DC874E"
+			tasks: [{
+				id: "669CC2F456810DBB"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-798644880
+									1030900557
+									-1267092117
+									-1938267488
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2B3CB30C740DEB20"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6CBDE42F77233AFA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "22CBB22C5C347274"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"Mejora el escudo en tu pieza del cofre."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "72C20E61DAFFFFDE"
+			tasks: [{
+				id: "00450AF5D0D6E194"
+				type: "item"
+				item: "draconicevolution:wyvern_shield_capacity_module"
+			}]
+			rewards: [
+				{
+					id: "16E87ADAC57FBAD6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6F3E163756FA2F39"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"Mayor impulso de escudo para tu pieza de cofre."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "120683733456A9B8"
+			tasks: [{
+				id: "3A3ADA5C68A69958"
+				type: "item"
+				item: "draconicevolution:wyvern_large_shield_capacity_module"
+			}]
+			rewards: [
+				{
+					id: "05F04D1B5663D53A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26A29AC6A05A3273"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.0d
+			y: -5.5d
+			description: [
+				"Consulta la pieza del cofre del wyvern para obtener más información."
+				""
+				"Las ventajas de actualizar la pieza de tu cofre es que puedes tener mejores actualizaciones por niveles. Además de tener 18 espacios de actualización adicionales."
+				""
+				"Esto es lo que necesitarás para luchar contra el dragón del caos, junto con muchas, muchas mejoras."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"3D4DAF4AAF19E957"
+				"69B6777A4D98E4A9"
+			]
+			id: "33D9666DE3577497"
+			tasks: [{
+				id: "702BA5565A7257A9"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_chestpiece"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									653294083
+									1459113603
+									-1972827819
+									676405369
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "42C2C356AD8C7781"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "44E0130C8464CEF6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "4D529325D0A4C7E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"Recupera el impulso de escudo en tu pieza del pecho."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "03DE8779F88E6EE8"
+			tasks: [{
+				id: "6A0EEC15076EF16F"
+				type: "item"
+				item: "draconicevolution:wyvern_shield_recovery_module"
+			}]
+			rewards: [
+				{
+					id: "2D05EFAC29BE3EEF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "54514A5BB332F5D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"¡Listo! ¡Colocar! ¡Vuelo!"
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "4E47D1341004B736"
+			tasks: [{
+				id: "107F42DD6A5888E1"
+				type: "item"
+				item: "draconicevolution:wyvern_flight_module"
+			}]
+			rewards: [
+				{
+					id: "4FAD71CEBD02123C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "73AFE6CC2CEE04B4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -13.5d
+			y: 2.5d
+			shape: "square"
+			description: [
+				"¡Nunca más tengas hambre! Bueno, a menos que el alimentador automático se vacíe."
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "3AD2814510929A81"
+			tasks: [{
+				id: "5FA4A40722852110"
+				type: "item"
+				item: "draconicevolution:draconium_auto_feed_module"
+			}]
+			rewards: [
+				{
+					id: "04BADC9472A19C62"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3BFA2A3D480FF092"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: 4.0d
+			shape: "square"
+			description: ["¡Mejor salto automático!"]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "1C40E2CA0654AA1C"
+			tasks: [{
+				id: "08215A563F621810"
+				type: "item"
+				item: "draconicevolution:wyvern_hill_step_module"
+			}]
+			rewards: [
+				{
+					id: "43DC2B94CF57966B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "48155DDC880C3A0C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"¡Salta impulso yaaay!"
+				""
+				"&7&oConsulte la información sobre herramientas para saber cuánto ofrece cada nivel."
+			]
+			hide_dependency_lines: true
+			dependencies: ["0452770F48BCE768"]
+			id: "4BE689F61EC0494C"
+			tasks: [{
+				id: "0537A73F57005EDA"
+				type: "item"
+				item: "draconicevolution:draconium_jump_module"
+			}]
+			rewards: [
+				{
+					id: "5ED148EFEF0B9855"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "62C23F620AC8884D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -5.5d
+			dependencies: ["755E318A40DF58AD"]
+			id: "7AD9FC0EDE6E83DC"
+			tasks: [{
+				id: "1DCF70E2E15290CD"
+				type: "item"
+				item: "draconicevolution:awakened_core"
+			}]
+			rewards: [
+				{
+					id: "255ED437E60949C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3E4FC4AE6217EFF9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "28D4547164776FAF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "32262A8B2F93C5D4"
+			tasks: [{
+				id: "0B4940C1B2B61957"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1063727811
+									-1374008318
+									-1516757574
+									1982819624
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "77ABAA4F4858D96A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "04FECDA429B9BA09"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "46401F052DAC307D"
+			tasks: [{
+				id: "7C4C4029C17D325F"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									2086062972
+									421808110
+									-1618925538
+									-22458262
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "66F7F0E1766E9BD4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "11DE6D1AC92B0CBC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -5.0d
+			description: ["Eres el dios de todos los dwarves"]
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "003A7CE93A201180"
+			tasks: [{
+				id: "0B9D5B556517599F"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_pickaxe"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-570669123
+									735660748
+									-1206513801
+									584573356
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C667C331CC785A9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1F25D63FA34918E3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "196746F53DE27C1C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "27D1B5FDB80A3C32"
+			tasks: [{
+				id: "7A109CA2DF5F5683"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-92007054
+									-1548595973
+									-1720425314
+									950396982
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05D611B9A571FD91"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "371EEEE497A44864"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "130AA9D9AA63AE17"
+			tasks: [{
+				id: "268CC7CD437A2B3B"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1432773831
+									-1072216362
+									-2137991768
+									1316127061
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0A79A52EBD083489"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "58BD1BE139B618F7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -20.0d
+			y: -5.0d
+			description: ["A master of bows"]
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "256EF4E4DDD9E1BC"
+			tasks: [{
+				id: "58652D676CBF028A"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_bow"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1089534886
+									120277075
+									-1999240436
+									619727837
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "69F745256510F59E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "52542E21631C95D3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "6356E58F3AA34FE5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "66FEE2D8ABFE8CF0"
+			tasks: [{
+				id: "487FE6113A559A68"
+				type: "item"
+				item: {
+					id: "draconicevolution:wyvern_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-1285741378
+									-28163279
+									-1096704974
+									1150330857
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2201564352BE468F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2E6C9F44779EC0C6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -3.5d
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "2253744EE16DCF12"
+			tasks: [{
+				id: "7BEA81433B768035"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									339634481
+									-1701295399
+									-1370724881
+									2091128688
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5B626C25CBBFC104"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "70C7AB901A8732DA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -5.0d
+			subtitle: "*slashing noises*"
+			description: ["Tus enemigos te temerán, mientras tu espada brilla con el corazón de mil dragones."]
+			hide_dependency_lines: true
+			dependencies: ["69B6777A4D98E4A9"]
+			id: "7EFCDA3F077953C0"
+			tasks: [{
+				id: "05B1789DAB5E5DFF"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_sword"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									1374536993
+									1395475456
+									-2049284915
+									575425847
+								]
+								modules: [ ]
+								properties: { }
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4AA17072380F8352"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "73A3734D52614462"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "7D851974EFE13D36"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -6.5d
+			subtitle: "Nosotros estamos en el mismo nivel, tu y yo"
+			description: ["Has dominado las artes de la evolución dracónica, no hay más. Esto es todo, no mires más allá de esta misión."]
+			hide_dependency_lines: true
+			dependencies: [
+				"130AA9D9AA63AE17"
+				"32262A8B2F93C5D4"
+				"2253744EE16DCF12"
+			]
+			id: "4B2C97734CFD64B5"
+			tasks: [{
+				id: "27B11C8A82545FD6"
+				type: "item"
+				item: {
+					id: "draconicevolution:draconic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-26780269
+									-1189590338
+									-1821287189
+									723680535
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "059662F763912D9F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "54626FBFBE87C825"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "7D1953C58BCF69C6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -18.5d
+			y: -8.0d
+			subtitle: "Me inclinaré ante ti, mi señor supremo"
+			description: [
+				"¡OH TU!"
+				"Eres una persona sabia que busca más poder cuando lo tienes todo, te lo mereces. Todo tu esfuerzo, todo tu poder. Seré tuyo, tú eres mi líder ahora."
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"256EF4E4DDD9E1BC"
+				"003A7CE93A201180"
+				"7EFCDA3F077953C0"
+			]
+			id: "7A289E9733D4F476"
+			tasks: [{
+				id: "51AF2607F8EB671B"
+				type: "item"
+				item: {
+					id: "draconicevolution:chaotic_staff"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							module_host: {
+								provider_id: [I;
+									-881137927
+									243679908
+									-1832931620
+									-849942108
+								]
+								modules: [ ]
+								properties: {
+									mining_speed: {
+										hud: 1b
+										value: 1.0d
+									}
+								}
+							}
+							energy: {
+								energy: 0L
+							}
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "05C44841C5A37966"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "360B94D6F056CF87"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "760A80C05871C58B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -0.5d
+			subtitle: "Modularidad bebé!"
+			description: ["El núcleo de cada actualización."]
+			dependencies: ["2C3249C1150DBEF3"]
+			id: "0452770F48BCE768"
+			tasks: [{
+				id: "2CE03E9907FD8DD6"
+				type: "item"
+				item: "draconicevolution:module_core"
+			}]
+			rewards: [
+				{
+					id: "72A525AC279E1B21"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "51465125963B70D5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&#ff4d00&lD&#ff5804&lr&#ff6207&la&#ff6d0b&lc&#ff770f&lo&#fe8212&ln&#fe8c16&li&#fe971a&lc &#fea11e&lE&#feac21&lv&#feb625&lo&#fec129&ll&#fecb2c&lu&#fdd630&lt&#fde034&li&#fdeb37&lo&#fdf53b&ln"
+			icon: "draconicevolution:dragon_heart"
+			x: -15.75d
+			y: 0.0d
+			shape: "gear"
+			subtitle: "El conocimiento es poder"
+			description: [
+				"Bien, ¿entonces quieres usar herramientas? Bueno, primero necesitarás saber esto;"
+				""
+				"Las herramientas y armaduras ahora funcionan con módulos, sin ningún módulo no hacen más que ser costosas."
+				""
+				"Un buen comienzo es tener al menos dos módulos de energía."
+			]
+			size: 1.5d
+			id: "69B6777A4D98E4A9"
+			tasks: [{
+				id: "7C36211AD36C0490"
+				type: "checkmark"
+				title: "Read the desc."
+			}]
+		}
+		{
+			x: -7.5d
+			y: -9.0d
+			subtitle: "¡Puro caos!"
+			description: [
+				"Los Guardian Crystals pueden ser \"desestabilizados\" por el daño del caos, momento en el que tienes un tiempo limitado para destruirlos antes de que se recuperen."
+				""
+				"Para reunir fragmentos del caos, tendrás que luchar contra el dragón del caos, que al final se encuentra cada 10.000 bloques."
+				""
+				"Ejemplo; 10000, 100, 0; 20000, 100, 10000"
+			]
+			dependencies: ["3FC55EF327759058"]
+			id: "3DED87636CCB6BC4"
+			tasks: [{
+				id: "74920D2BB72D7BC4"
+				type: "item"
+				item: "draconicevolution:chaos_shard"
+			}]
+			rewards: [
+				{
+					id: "314AE75A8F190531"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1A33C53B81E847FF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "32EE434FF212161C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

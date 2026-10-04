@@ -1,0 +1,3502 @@
+{
+	id: "10520FD8882BC389"
+	group: "7340A40644391A0F"
+	order_index: 5
+	filename: "immersive_engineering"
+	title: "➢ &f&lInmmersive Engineering"
+	icon: {
+		id: "immersiveengineering:hammer"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["Espero que hayas disfrutado haciendo este acero, necesitarás MUCHO en el futuro."]
+			dependencies: ["0000000000000104"]
+			id: "00000000000000FD"
+			tasks: [
+				{
+					id: "00000000000000FE"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "00000000000001EF"
+					type: "item"
+					item: "immersiveengineering:plate_steel"
+				}
+			]
+			rewards: [
+				{
+					id: "76870D9B11F0EC10"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "229007E85D1149A2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Alto horno"
+			x: 2.0d
+			y: 3.5d
+			description: [
+				"El alto horno es tu primer paso en el camino hacia tu propio imperio del acero."
+				""
+				"Coloca el ladrillo explosivo en un cubo de 3x3x3 y haz clic derecho en una cara con el martillo de ingeniero para formar el horno."
+				""
+				"Al combinar coque de carbón o carbón vegetal con hierro en el horno, se producirá acero."
+			]
+			id: "0000000000000104"
+			tasks: [{
+				id: "0000000000000105"
+				type: "item"
+				item: "immersiveengineering:blastbrick"
+				count: 27L
+			}]
+			rewards: [
+				{
+					id: "18EAFA9370CAE48C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "158DAE6ED515108F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			description: [
+				"Al revestir de acero algunos ladrillos explosivos, puede contener mejor el calor de su horno."
+				""
+				"Un bloque de 3x3x3 de ladrillos explosivos reforzados con una tolva colocada en el bloque central superior. Al hacer clic derecho con un martillo de ingeniero en una cara del bloque de 3x3x3 se formará el horno."
+			]
+			dependencies: ["0000000000000104"]
+			id: "0000000000000106"
+			tasks: [
+				{
+					id: "0000000000000107"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "0000000000001033"
+					type: "item"
+					item: "minecraft:hopper"
+				}
+			]
+			rewards: [
+				{
+					id: "10DC45E498B18999"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5E19E18A8C089A9E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: [
+				"El precalentador de alto horno mejorará aún más su producción de acero. Cada Alto Horno Reforzado puede tener hasta 2 precalentadores."
+				""
+				"Cada precalentador de alto horno consume 32 RF/t."
+				"Un solo precalentador duplicará la velocidad del Alto Horno Mejorado, mientras que dos precalentadores triplicarán su velocidad."
+			]
+			dependencies: ["0000000000000106"]
+			id: "0000000000000108"
+			tasks: [{
+				id: "0000000000000109"
+				type: "item"
+				item: "immersiveengineering:blastfurnace_preheater"
+			}]
+			rewards: [
+				{
+					id: "09708926C86FA853"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "754534013CF160F0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "horno de aleación"
+			x: -8.0d
+			y: -5.0d
+			description: ["El horno de aleación es un bloque de ladrillos de horno de 2x2x2 que le permite crear aleaciones de metales."]
+			dependencies: ["000000000000022F"]
+			id: "000000000000010A"
+			tasks: [{
+				id: "000000000000010B"
+				type: "item"
+				item: "immersiveengineering:alloybrick"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "129D9D845C451296"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3F893F611CA99130"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.0d
+			description: ["Un subproducto de la producción de acero en altos hornos que se puede utilizar para una serie de otros productos."]
+			dependencies: ["0000000000000104"]
+			id: "000000000000010C"
+			tasks: [{
+				id: "000000000000010D"
+				type: "item"
+				item: "immersiveengineering:slag"
+			}]
+			rewards: [
+				{
+					id: "35F32DFB2EF4B620"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0D9C2B5A890DEDAB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			description: ["Ah, el piso favorito de los ingenieros."]
+			dependencies: ["000000000000010C"]
+			id: "000000000000010E"
+			tasks: [{
+				id: "000000000000010F"
+				type: "item"
+				item: "immersiveengineering:concrete"
+			}]
+			rewards: [
+				{
+					id: "6EB6CBE0B66AA518"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "27866A21DE684737"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -4.6744897959183405d
+			y: -6.5d
+			description: ["El Kinetic Dynamo toma energía rotacional y la convierte en RF."]
+			dependencies: ["000000000000022F"]
+			id: "0000000000000111"
+			tasks: [{
+				id: "0000000000000112"
+				type: "item"
+				item: "immersiveengineering:dynamo"
+			}]
+			rewards: [
+				{
+					id: "0DE141B3156ED8C9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3A44F6250DBF553E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 0.0d
+			description: [
+				"El Waterwheel se utiliza para generar RF cuando se conecta a la parte delantera de un Kinetic Dynamo."
+				""
+				"La rueda de agua debe estar en contacto con una corriente de agua que fluye para poder funcionar, y la cantidad de energía producida escala directamente con la cantidad de bloques de agua que fluyen adyacentes a la rueda."
+				""
+				"Se pueden colocar hasta tres ruedas hidráulicas una contra la otra. Las ruedas hidráulicas conectadas generarán potencia a la misma dínamo."
+			]
+			dependencies: ["00000000000000FD"]
+			id: "0000000000000113"
+			tasks: [{
+				id: "0000000000000114"
+				type: "item"
+				item: "immersiveengineering:watermill"
+			}]
+			rewards: [
+				{
+					id: "40C65FDF7C6FA6AE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "678B1989900D57D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -7.0d
+			description: [
+				"El Kinetic Dynamo toma energía rotacional y la convierte en RF."
+				""
+				"Construir otro molino de viento de cualquier tipo en las proximidades (hasta 7 bloques frente a él) reducirá su velocidad."
+			]
+			dependencies: ["0000000000000111"]
+			id: "0000000000000115"
+			tasks: [{
+				id: "0000000000000116"
+				type: "item"
+				item: "immersiveengineering:windmill"
+			}]
+			rewards: [
+				{
+					id: "50E65ABB4213B89B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0599828C04982C36"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.5d
+			y: 0.0d
+			description: [
+				"El Generador Termoeléctrico genera RF a través de la diferencia de temperatura entre bloques/líquidos adyacentes."
+				""
+				"Los dos líquidos/bloques utilizados deben ser opuestos entre sí; tener un líquido en el este del generador y otro líquido en el norte del generador (por ejemplo) NO permitirá que funcione."
+				"Tener dos juegos de opuestos funcionará y aumentará la producción."
+			]
+			dependencies: ["00000000000000FD"]
+			id: "00000000000001F0"
+			tasks: [{
+				id: "00000000000001F1"
+				type: "item"
+				item: "immersiveengineering:thermoelectric_generator"
+			}]
+			rewards: [
+				{
+					id: "7C7399F5CA4A8A51"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "77B229AC8D7037DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -11.0d
+			description: ["El condensador de nivel más bajo soporta hasta 100k RF."]
+			dependencies: ["0000000000000115"]
+			dependency_requirement: "one_completed"
+			id: "00000000000001F2"
+			tasks: [{
+				id: "00000000000001F3"
+				type: "item"
+				item: "immersiveengineering:capacitor_lv"
+			}]
+			rewards: [
+				{
+					id: "6CD828B691BA62DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "55E8055EA248C084"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -12.0d
+			description: [
+				"El calentador externo, cuando se coloca junto a un horno normal o en un horno de laboratorio, toma RF y la convierte en calor."
+				"Cuando se coloca junto a un horno normal, tardará hasta 32 RF/t en funcionar."
+			]
+			dependencies: ["00000000000001F2"]
+			id: "00000000000001F4"
+			tasks: [{
+				id: "00000000000001F5"
+				type: "item"
+				item: "immersiveengineering:furnace_heater"
+			}]
+			rewards: [
+				{
+					id: "5FC49C7134770419"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0740C40ED21327EE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -13.5d
+			description: [
+				"Cableado básico que puede transportar hasta 2048 RF/t antes de quemarse y necesitar ser reemplazado."
+				"Te sorprenderá si lo tocas."
+			]
+			dependencies: ["00000000000001F2"]
+			id: "00000000000001F8"
+			tasks: [{
+				id: "00000000000001F9"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper"
+			}]
+			rewards: [
+				{
+					id: "29DAB83DB6F3E1C6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "721C6BCE68E2B6DD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -15.0d
+			description: ["Los conectores y relés de BT permiten que fluyan hasta 256 RF/t a través de ellos o dentro/fuera de las máquinas."]
+			dependencies: ["00000000000001F8"]
+			id: "00000000000001FA"
+			tasks: [
+				{
+					id: "00000000000001FB"
+					type: "item"
+					item: "immersiveengineering:connector_lv"
+				}
+				{
+					id: "00000000000001FC"
+					type: "item"
+					item: "immersiveengineering:connector_lv_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "26BBCB6B3E4AE68A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "562B8C56CD41E704"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.0d
+			y: -16.5d
+			description: ["Le permite pasar cables por encima de su cabeza para evitar que se sorprenda."]
+			dependencies: ["00000000000001FA"]
+			id: "00000000000001FD"
+			tasks: [{
+				id: "00000000000001FE"
+				type: "item"
+				item: "immersiveengineering:treated_post"
+			}]
+			rewards: [
+				{
+					id: "304BBC53219B2BF4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "673FBACE594497C1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -14.0d
+			y: -4.5d
+			description: [
+				"El interruptor automático le permite cortar manualmente el flujo de cables de BT/MT a través de él. No está lo suficientemente aislado para HV."
+				"El interruptor de piedra roja está lo suficientemente aislado para manejar todos los cables (LV-HV) que lo atraviesan. Para operar su método de ruptura, se debe proporcionar una señal de redstone."
+			]
+			dependencies: ["0000000000000219"]
+			id: "00000000000001FF"
+			tasks: [
+				{
+					id: "0000000000000200"
+					type: "item"
+					item: "immersiveengineering:breaker_switch"
+				}
+				{
+					id: "000000000000020B"
+					type: "item"
+					item: "immersiveengineering:redstone_breaker"
+				}
+			]
+			rewards: [
+				{
+					id: "0CFE47932E12AE53"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "44A1C2B176A2E87D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -5.0d
+			description: [
+				"Los cables y conectores de redstone le permitirán enviar señales de redstone a través de cables."
+				"Al usar el destornillador en el conector, le permitirá cambiar el color del canal en el que está operando el conector, y si es una entrada o una salida."
+			]
+			dependencies: ["000000000000022F"]
+			id: "0000000000000201"
+			tasks: [
+				{
+					id: "0000000000000202"
+					type: "item"
+					item: "immersiveengineering:wirecoil_redstone"
+				}
+				{
+					id: "00000000000002CA"
+					type: "item"
+					item: "immersiveengineering:connector_redstone"
+				}
+			]
+			rewards: [
+				{
+					id: "29D6C86C29D4D1EB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3410AE942F1A4BBB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.0d
+			y: -14.5d
+			description: ["Cuando se sostiene en la mano y se desplaza sobre un bloque, indicará el nivel de potencia almacenado en el bloque. También se puede usar para calcular la pérdida entre dos conectores haciendo clic derecho en los extremos del conector."]
+			dependencies: ["00000000000001F8"]
+			id: "0000000000000205"
+			tasks: [{
+				id: "0000000000000206"
+				type: "item"
+				item: "immersiveengineering:voltmeter"
+			}]
+			rewards: [
+				{
+					id: "2F7F2066C111C026"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2087D05BEEE9D152"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -14.5d
+			description: ["Realiza un seguimiento de la tasa de flujo de energía a través del transformador y da el nivel con un clic derecho."]
+			dependencies: ["0000000000000205"]
+			id: "0000000000000207"
+			tasks: [{
+				id: "0000000000000208"
+				type: "item"
+				item: "immersiveengineering:current_transformer"
+			}]
+			rewards: [
+				{
+					id: "32E7A77AC67535EF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4AE10A3921DFCAF0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -12.5d
+			y: -10.0d
+			description: ["Un capacitor portátil que puede usar y que cargará los artículos en sus manos."]
+			dependencies: ["00000000000001F2"]
+			id: "0000000000000209"
+			tasks: [{
+				id: "000000000000020A"
+				type: "item"
+				item: "immersiveengineering:powerpack"
+			}]
+			rewards: [
+				{
+					id: "660BA9003AB12E6A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "437BEDA9507C20F2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -11.0d
+			description: ["Un capacitor de nivel medio, soporta hasta 1M RF."]
+			dependencies: ["00000000000001F2"]
+			id: "000000000000020C"
+			tasks: [{
+				id: "000000000000020D"
+				type: "item"
+				item: "immersiveengineering:capacitor_mv"
+			}]
+			rewards: [
+				{
+					id: "2F107459B23275EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "71B08FAD0D016FFB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -15.0d
+			description: ["Los conectores y relés de MT permiten que fluyan hasta 2048 RF/t a través de ellos o dentro/fuera de las máquinas."]
+			dependencies: ["0000000000000211"]
+			id: "000000000000020E"
+			tasks: [
+				{
+					id: "000000000000020F"
+					type: "item"
+					item: "immersiveengineering:connector_mv"
+				}
+				{
+					id: "0000000000000210"
+					type: "item"
+					item: "immersiveengineering:connector_mv_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "1F776672E6B67AC4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0F0592EDA2338CC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -13.0d
+			description: ["Cableado de nivel medio que puede transportar hasta 8192 RF/t antes de quemarse y necesitar ser reemplazado. Estos te dolerán más que los cables de baja tensión cuando te den una descarga eléctrica."]
+			dependencies: ["000000000000020C"]
+			id: "0000000000000211"
+			tasks: [{
+				id: "0000000000000212"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum"
+			}]
+			rewards: [
+				{
+					id: "221DA85ED9F99A4E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "59B9F36E6BAD654A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -12.0d
+			description: ["Le permite reducir los niveles de potencia de los cables."]
+			dependencies: ["000000000000020C"]
+			id: "0000000000000213"
+			tasks: [{
+				id: "0000000000000214"
+				type: "item"
+				item: "immersiveengineering:transformer"
+			}]
+			rewards: [
+				{
+					id: "1B5F80A2BF1A247D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "354F415CC87043BF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -8.0d
+			description: ["El capacitor de nivel más alto soporta hasta 4M RF."]
+			dependencies: ["000000000000020C"]
+			id: "0000000000000215"
+			tasks: [{
+				id: "0000000000000216"
+				type: "item"
+				item: "immersiveengineering:capacitor_hv"
+			}]
+			rewards: [
+				{
+					id: "0F4575431AC02FB9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4BF895A4A3A7808B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -6.0d
+			description: ["El cableado de nivel más alto que puede transferir hasta 32 768 RF/t antes de quemarse y necesitar ser reemplazado. Sorprenderse por esto será una muerte casi segura."]
+			dependencies: ["0000000000000215"]
+			id: "0000000000000217"
+			tasks: [{
+				id: "0000000000000218"
+				type: "item"
+				item: "immersiveengineering:wirecoil_steel"
+			}]
+			rewards: [
+				{
+					id: "7DBC9FF141EF5E25"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26004241660157D8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -15.5d
+			y: -4.5d
+			description: ["Los conectores HV permiten que fluyan hasta 4096 RF/t a través de ellos y dentro/fuera de las máquinas."]
+			dependencies: ["0000000000000217"]
+			id: "0000000000000219"
+			tasks: [
+				{
+					id: "000000000000021A"
+					type: "item"
+					item: "immersiveengineering:connector_hv"
+				}
+				{
+					id: "0000000000001044"
+					type: "item"
+					item: "immersiveengineering:connector_hv_relay"
+				}
+			]
+			rewards: [
+				{
+					id: "56AA32960C365669"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "623D486111058717"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -8.0d
+			description: ["Una estructura de defensa que te permitirá electrocutar a los enemigos cuando se active."]
+			dependencies: ["0000000000000215"]
+			id: "000000000000021D"
+			tasks: [{
+				id: "000000000000021E"
+				type: "item"
+				item: "immersiveengineering:tesla_coil"
+			}]
+			rewards: [
+				{
+					id: "70A669F9C8A68FC9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6CEC57A6CC38233E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -9.5d
+			description: ["Esta estación cargará los dispositivos colocados dentro."]
+			dependencies: ["00000000000001F2"]
+			id: "000000000000021F"
+			tasks: [{
+				id: "0000000000000220"
+				type: "item"
+				item: "immersiveengineering:charging_station"
+			}]
+			rewards: [
+				{
+					id: "240BFFFA525FDC79"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "52B0618CAE21D276"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -3.5d
+			description: ["Light Engineering Blocks can be thought of as the basic components that go into a larger machine."]
+			dependencies: ["0000000000001047"]
+			id: "0000000000000221"
+			tasks: [{
+				id: "0000000000000222"
+				type: "item"
+				item: "immersiveengineering:light_engineering"
+			}]
+			rewards: [
+				{
+					id: "0C63B0CD0CF0783D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "39F22B34463A266F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.0d
+			description: ["Los bloques de ingeniería pesados ​​se pueden considerar como los componentes complejos que forman parte de una máquina más grande."]
+			dependencies: [
+				"00000000000000FD"
+				"0000000000001047"
+			]
+			id: "0000000000000223"
+			tasks: [{
+				id: "0000000000000224"
+				type: "item"
+				item: "immersiveengineering:heavy_engineering"
+			}]
+			rewards: [
+				{
+					id: "41AF0E0DA8AF8391"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "112D0839454CA7D7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			description: [
+				"Las bombas y tuberías serán fundamentales una vez que comience a mover líquidos alrededor de su base."
+				""
+				"Usar tinte en una tubería lo codificará por color, sin usar el tinte."
+			]
+			dependencies: ["000000000000022D"]
+			id: "0000000000000225"
+			tasks: [
+				{
+					id: "0000000000000226"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+				{
+					id: "000000000000024C"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+				}
+			]
+			rewards: [
+				{
+					id: "339EDF025C636178"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "79C8F6B3EF7FF7F0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 3.0d
+			description: ["Una mesa de elaboración personalizada que te permite hacer recetas especiales a partir de planos que se pueden hacer y encontrar en aldeas de todo el mundo."]
+			dependencies: ["0000000000000244"]
+			id: "000000000000022D"
+			tasks: [{
+				id: "000000000000022E"
+				type: "item"
+				item: "immersiveengineering:workbench"
+			}]
+			rewards: [
+				{
+					id: "1472F93E3EBA1C6B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "76E110FBDB8B2EF8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Herramientas de ingeniero"
+			x: -7.0d
+			y: -6.5d
+			description: [
+				"Algunas herramientas de ingeniero más para complementar el martillo de ingeniero."
+				""
+				"Cortadores de alambre: te permitirán fabricar alambre a partir de placas y romper todas las conexiones de alambre hasta un punto haciendo clic con el botón derecho en un bloque."
+				"Screwdriver - Allows you to invert the redstone control of a block."
+			]
+			dependencies: ["0000000000000330"]
+			id: "000000000000022F"
+			tasks: [
+				{
+					id: "0000000000000230"
+					type: "item"
+					item: {
+						id: "immersiveengineering:wirecutter"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000000231"
+					type: "item"
+					item: "immersiveengineering:screwdriver"
+				}
+			]
+			rewards: [
+				{
+					id: "44E73107C8E075C7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "305B1DA5AAB19815"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Prospección"
+			x: 6.5d
+			y: -0.5d
+			description: [
+				"Comience a explorar llevando Survey Tools a la naturaleza para buscar vetas minerales. Survey Tools proporciona ubicaciones aproximadas de vetas y múltiples muestras de la misma veta aumentan la información de las vetas."
+				"Samples can overlap, so samples may contain information from multiple veins."
+				"A continuación, es bueno llevar un Core Sample Drill a un área prospectiva para obtener datos más precisos sobre una veta. Asegúrate de llevar contigo una fuente de energía (un condensador sería bueno) para encender el taladro."
+				"The sample it will provide gives detailed vein information at that location. Veins are no longer chunk based."
+				""
+				"Para obtener más información, consulte la sección Depósitos minerales del manual de IE."
+			]
+			dependencies: ["0000000000000FA7"]
+			id: "0000000000000234"
+			tasks: [
+				{
+					id: "0000000000000235"
+					type: "item"
+					item: "immersiveengineering:sample_drill"
+				}
+				{
+					id: "0000000000000777"
+					type: "item"
+					item: {
+						id: "immersiveengineering:survey_tools"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "0D43522CDFD4AB83"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3D643B5C14C6355F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 2.0d
+			description: [
+				"Las cintas transportadoras moverán tus artículos alrededor de tu base a la velocidad de... caminar."
+				""
+				"Se puede hacer clic derecho con tinte para codificar por color las paredes del cinturón."
+			]
+			dependencies: ["000000000000022D"]
+			id: "0000000000000236"
+			tasks: [{
+				id: "0000000000000237"
+				type: "item"
+				item: "immersiveengineering:conveyor_basic"
+			}]
+			rewards: [
+				{
+					id: "38BB228FC04B1D45"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "132EDD9C66F8DBC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			description: [
+				"Los enrutadores de elementos ordenarán los elementos entrantes de sus caras respectivas. Esto se puede usar para dividir un solo transportador en 2 o más transportadores de flujo igual."
+				""
+				"Se puede ver una descripción más extensa en el manual de IE."
+			]
+			dependencies: ["0000000000000236"]
+			id: "0000000000000238"
+			tasks: [{
+				id: "0000000000000239"
+				type: "item"
+				item: "immersiveengineering:sorter"
+			}]
+			rewards: [
+				{
+					id: "55ACDEDDDA89CCF6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7C030ECAC3A816E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 7.0d
+			description: ["Una linterna especial que forma un \"cono\" de luz de 32 bloques de largo. La posición se puede ajustar haciendo clic derecho con el martillo de ingenieros."]
+			dependencies: ["000000000000024A"]
+			id: "000000000000023A"
+			tasks: [{
+				id: "000000000000023B"
+				type: "item"
+				item: "immersiveengineering:floodlight"
+			}]
+			rewards: [
+				{
+					id: "704CB0CC1A3D5671"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0774DA184E9B6FDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: 4.0d
+			description: [
+				"La campana de jardín se utiliza para automatizar y acelerar el crecimiento de cultivos de forma industrial."
+				""
+				"Al colocar semillas y tierra correcta en el interior y proporcionar energía y agua a la campana, puede cultivar con facilidad."
+				""
+				"Power can be inserted at the top copper point on the glass globe."
+				"El agua se puede insertar en los grandes puertos grises en la parte delantera y trasera de la campana."
+				"Finally products can be pulled from the front center port with the orange dot. "
+			]
+			dependencies: ["000000000000022D"]
+			id: "000000000000023C"
+			tasks: [{
+				id: "000000000000023D"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			rewards: [
+				{
+					id: "121D6013463D7F2C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "73771E8600F3F8F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: -8.0d
+			description: ["Una práctica caja de herramientas para llevar tus herramientas, junto con algunos alimentos y otros artículos."]
+			dependencies: ["000000000000022F"]
+			id: "0000000000000240"
+			tasks: [{
+				id: "0000000000000241"
+				type: "item"
+				item: {
+					id: "immersiveengineering:toolbox"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 23
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3815F67BA2736EE8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "31F6816DACCCE95A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 0.0d
+			description: ["Una mesa de trabajo especial con un pequeño inventario interno y contiene elementos en los espacios de trabajo, en lugar de volver a colocarlos en su inventario, al cerrar la mesa."]
+			dependencies: ["0000000000000330"]
+			id: "0000000000000244"
+			tasks: [{
+				id: "0000000000000245"
+				type: "item"
+				item: "immersiveengineering:craftingtable"
+			}]
+			rewards: [
+				{
+					id: "28A1053E6F3DA67F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "661F453E45E8890D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -14.5d
+			y: -15.0d
+			description: ["Un bonito poste de acero para mantener los cables fuera de tu cara."]
+			dependencies: ["000000000000020E"]
+			id: "0000000000000246"
+			tasks: [{
+				id: "0000000000000247"
+				type: "item"
+				item: "immersiveengineering:steel_post"
+			}]
+			rewards: [
+				{
+					id: "233754312DD478B0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "128BC73AE61E706D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -17.0d
+			y: -4.5d
+			description: ["Un bonito poste de aluminio para mantener los cables fuera de tu cara."]
+			dependencies: ["0000000000000219"]
+			id: "0000000000000248"
+			tasks: [{
+				id: "0000000000000249"
+				type: "item"
+				item: "immersiveengineering:alu_post"
+			}]
+			rewards: [
+				{
+					id: "0840AF37E8AF28B1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4AD270437A16A1C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 5.5d
+			description: ["Una linterna que, cuando se proporciona RF, crea tanta luz como una antorcha, pero detiene la aparición de la mafia dentro de un radio de 32 bloques."]
+			dependencies: ["000000000000022D"]
+			id: "000000000000024A"
+			tasks: [{
+				id: "000000000000024B"
+				type: "item"
+				item: "immersiveengineering:electric_lantern"
+			}]
+			rewards: [
+				{
+					id: "5EB07867B6B4BD54"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1CBFBF49B03C0E01"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Excavadora"
+			icon: "immersiveengineering:excavator"
+			x: 11.5d
+			y: -2.0d
+			shape: "square"
+			description: [
+				"La excavadora está hecha de dos partes. La \"Rueda\" es la parte central y se forma haciendo clic derecho con un martillo de ingeniero en el bloque de acero. El \"Motor\" es la otra parte, y se forma haciendo clic con el botón derecho del ratón en el Martillo de Ingeniero en"
+				"el bloque de ingeniería pesada en el centro de la parte trasera."
+				""
+				"La Excavadora no tiene GUI y requiere 4096 RF/t para funcionar. La energía se debe introducir por al menos uno de los 3 enchufes traseros del motor."
+				"Una vez que reciba la energía necesaria, la rueda de la máquina comenzará a girar y a minar. La velocidad de la minería depende del nivel de energía recibido."
+				""
+				"Los procesos del bloque múltiple se pueden detener a través de Redstone a través del \"panel de control\", el bloque en el punto central izquierdo del lado derecho. Los artículos extraídos serán expulsados por el punto central del lado derecho."
+				""
+				"La Excavadora puede romper algunos bloques debajo de ella cuando arranca, pero una vez que tiene espacio, no se rompen otros bloques. Todos los bloques se rompen como si hubieran sido extraídos con Silk Touch."
+				""
+				"Una excavadora completamente equipada puede extraer hasta un mineral cada 3 segundos."
+			]
+			dependencies: [
+				"0000000000000234"
+				"000000000000026F"
+			]
+			size: 3.0d
+			id: "000000000000024D"
+			tasks: [
+				{
+					id: "00000000000004CF"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "00000000000004D0"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 16L
+				}
+				{
+					id: "00000000000004D1"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 3L
+				}
+				{
+					id: "00000000000004D2"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 9L
+				}
+				{
+					id: "00000000000004D3"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000004D4"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "2D1964C4CA4196F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0A5ADBEBE3058A6C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "3B1DBCC69DA62BDF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 6.5d
+			description: ["El enrutador de fluidos redirige los fluidos que fluyen hacia él fuera de sus respectivas caras. Para una descripción más detallada consulte el manual de IE."]
+			dependencies: ["0000000000000225"]
+			id: "000000000000024F"
+			tasks: [{
+				id: "0000000000000250"
+				type: "item"
+				item: "immersiveengineering:fluid_sorter"
+			}]
+			rewards: [
+				{
+					id: "61F6389F96A97ED0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2D32201CFD73F0BF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 10.513605442176889d
+			y: -10.309523809523796d
+			description: ["El Mining Drill será su mejor amigo, ya que este taladro alimentado por combustible hará un trabajo rápido con los bloques. El taladro debe estar equipado con un cabezal de perforación y alimentado para funcionar. Se pueden ver varias actualizaciones en torno a esta misión para configurar el funcionamiento del taladro, que se puede realizar en un banco de trabajo del ingeniero."]
+			dependencies: ["0000000000000263"]
+			id: "0000000000000251"
+			tasks: [{
+				id: "0000000000000252"
+				type: "item"
+				item: {
+					id: "immersiveengineering:drill"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6A147D0A33FE4F9A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6141583871515E24"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -6.777210884353735d
+			description: ["La Buzzsaw es una sierra alimentada por combustible que puede masticar bloques con facilidad. Las misiones que rodean a esta enumeran una serie de actualizaciones que se pueden aplicar en el banco de trabajo del ingeniero para cambiar su funcionalidad."]
+			dependencies: ["0000000000000263"]
+			id: "0000000000000253"
+			tasks: [{
+				id: "0000000000000254"
+				type: "item"
+				item: {
+					id: "immersiveengineering:buzzsaw"
+					Count: 1b
+					ForgeCaps: {
+						Parent: {
+							Size: 5
+							Items: [ ]
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "17DF2C410D51A355"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "196EC7436BE59AB2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -3.0d
+			description: ["Una caja de almacenamiento es un bloque de almacenamiento de tamaño estándar (27 espacios) que mantiene su inventario cuando se rompe."]
+			dependencies: ["0000000000000330"]
+			id: "0000000000000255"
+			tasks: [{
+				id: "0000000000000256"
+				type: "item"
+				item: "immersiveengineering:crate"
+			}]
+			rewards: [
+				{
+					id: "05E3B68C25B2A6FA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4B479B90269973BB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.5d
+			y: -3.0d
+			description: ["La caja de almacenamiento reforzada actúa igual que la caja de almacenamiento de madera, pero es a prueba de explosiones."]
+			dependencies: ["0000000000000255"]
+			id: "0000000000000257"
+			tasks: [{
+				id: "0000000000000258"
+				type: "item"
+				item: "immersiveengineering:reinforced_crate"
+			}]
+			rewards: [
+				{
+					id: "3FECAB5D7357B71A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6623905D26EA2AE3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.0d
+			description: [
+				"Puede almacenar 12.000 mB (12 cubos) de un líquido para uso futuro."
+				"Cannot hold \"hot\" liquids or gases."
+			]
+			dependencies: ["0000000000000330"]
+			id: "000000000000025B"
+			tasks: [{
+				id: "0000000000001034"
+				type: "item"
+				item: "immersiveengineering:wooden_barrel"
+			}]
+			rewards: [
+				{
+					id: "6F04D0E5267CEF77"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7731E368340C4780"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.5d
+			y: -9.0d
+			description: ["Un \"cubo\" resistente que puede contener 10 000 mB de un líquido (10 cubos)."]
+			dependencies: ["0000000000000240"]
+			id: "000000000000025D"
+			tasks: [{
+				id: "000000000000025E"
+				type: "item"
+				item: "immersiveengineering:jerrycan"
+			}]
+			rewards: [
+				{
+					id: "53BC51A08DBBCE7C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "55ED0DC3B3D26002"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "fermentadores industriales"
+			icon: "immersiveengineering:fermenter"
+			x: 5.75d
+			y: -6.741326530612255d
+			shape: "square"
+			description: [
+				"El fermentador industrial se utiliza para hacer etanol."
+				"Una vez que esté completamente arreglado, haz clic con el botón derecho en el caldero central con un martillo de ingeniero para completar la estructura de bloques múltiples."
+				""
+				"La RF se puede recibir desde los bloques centrales superior e inferior, y el etanol puede salir desde el bloque central inferior de cada lado. Dado que el fermentador tiene 8 ranuras, puede realizar hasta 8 operaciones simultáneamente."
+				""
+				"- Apple - 80 MB"
+				"- Cañas de azúcar - 80 mB"
+				"- Melón - 80 MB"
+				"- Patata - 80 MB"
+			]
+			dependencies: ["0000000000000FA9"]
+			size: 1.5d
+			id: "000000000000025F"
+			tasks: [
+				{
+					id: "0000000000000476"
+					type: "item"
+					item: "immersiveengineering:ethanol_bucket"
+					count: 5L
+				}
+				{
+					id: "0000000000001052"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "0000000000001053"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000001054"
+					type: "item"
+					item: "minecraft:cauldron"
+					count: 4L
+				}
+				{
+					id: "0000000000001055"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000001056"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "0000000000001057"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "2BE1B2CCB0E46561"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "38568CD2E3AC06CB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "611942532F381A87"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Exprimidores industriales"
+			icon: "immersiveengineering:squeezer"
+			x: 5.75d
+			y: -9.741326530612255d
+			shape: "square"
+			description: [
+				"El exprimidor industrial se utiliza para hacer aceite vegetal o polvo de grafito HOP"
+				""
+				"Una vez que esté completamente arreglado, haga clic con el botón derecho en el barril de madera central que se encuentra entre el bloque de ingeniería ligera y el bloque de ingeniería de piedra roja con un martillo de ingeniero para completar la estructura de múltiples bloques."
+				""
+				"Poner una semilla en una de las ranuras de la izquierda iniciará el proceso. Se consumen 800 Redstone Flux (RF) por uso. Después de aproximadamente un segundo, la semilla se convertirá en aceite vegetal."
+				""
+				"- Semillas de Melón - 20 mB"
+				"- Semillas de calabaza - 40 mB"
+				"- Semillas de Remolacha - 60 mb"
+				"- Semillas de Trigo - 80 mB"
+				"- Semillas de Cáñamo Industrial - 120 mB"
+			]
+			dependencies: ["0000000000000FA9"]
+			size: 1.5d
+			id: "0000000000000261"
+			tasks: [
+				{
+					id: "0000000000000474"
+					type: "item"
+					item: "immersiveengineering:plantoil_bucket"
+					count: 5L
+				}
+				{
+					id: "00000000000004C1"
+					type: "item"
+					item: "immersiveengineering:dust_hop_graphite"
+				}
+				{
+					id: "0000000000001058"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "0000000000001059"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "000000000000105A"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000105B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "000000000000105C"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 3L
+				}
+				{
+					id: "000000000000105D"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 2L
+				}
+				{
+					id: "000000000000105E"
+					type: "item"
+					item: "immersiveengineering:wooden_barrel"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "52CE909FC353BD0D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0630DF94183EB740"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "7CDD9EE656580E2F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Refinería"
+			icon: "immersiveengineering:refinery"
+			x: 10.731292517006814d
+			y: -8.521088435374132d
+			shape: "square"
+			description: [
+				"La Refinería se utiliza para hacer Biodiesel."
+				"Una vez completado, al hacer clic con el botón derecho en el bloque de ingeniería pesado central con un martillo de ingeniero, se finalizará el multibloque."
+				""
+				"El bloque delantero, inferior y central se utiliza para producir biodiésel. Los dos bloques laterales, inferiores y centrales se utilizan para introducir aceite vegetal y etanol. La entrada de RF proviene del bloque central posterior y los procesos de bloques múltiples se pueden detener a través de Redstone"
+				"a través del \"panel de control\", el bloque con el punto rojo."
+				""
+				"Cada tick, la Refinería consume hasta 8 mB de Aceite Vegetal, 8 mB de Etanol y 10 RF, mientras genera 16 mB de Biodiesel. Se necesitan 3,125 segundos para hacer un balde de biodiesel. Dicho de otra manera, la Refinería es capaz de producir dos baldes"
+				"de Biodiesel cada 6.25 segundos. Dado que una cubeta de biodiésel se quema durante 6,25 segundos en un generador diésel, una refinería que funciona a plena capacidad puede mantener dos generadores diésel a la vez."
+			]
+			dependencies: [
+				"000000000000025F"
+				"0000000000000261"
+			]
+			size: 1.5d
+			id: "0000000000000263"
+			tasks: [
+				{
+					id: "0000000000000273"
+					type: "item"
+					item: "immersiveengineering:biodiesel_bucket"
+				}
+				{
+					id: "000000000000105F"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "0000000000001060"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000001061"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "0000000000001062"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 16L
+				}
+				{
+					id: "0000000000001063"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000001064"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "62A40A5A7F5A8EA7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "41C68D9B5BF2A189"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "4B59DD6C665D239A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Generador de diesel"
+			icon: "immersiveengineering:diesel_generator"
+			x: 13.100170068027218d
+			y: -8.467517006802709d
+			shape: "square"
+			description: [
+				"El generador diésel es un generador multibloque de 3x5x3 que se utiliza para crear RF a partir de biodiésel y combustible."
+				""
+				"Una vez que esté completamente arreglado (con suerte con la ayuda de un proyector), el jugador debe hacer clic con el botón derecho en el bloque superior central de la parte frontal (que debería ser un bloque generador) con un martillo de ingeniero, luego el bloque múltiple está completo. ."
+				""
+				"El generador diésel no tiene una GUI. El combustible se inserta en los bloques de las esquinas inferiores. La salida de RF se realiza a través de la parte superior de los tres bloques frontales con un punto naranja."
+				"Los procesos del bloque múltiple se pueden detener a través de Redstone a través del \"panel de control\", el bloque central del lado derecho."
+				""
+				"El Generador Diesel tiene un buffer de fluido interno de 24000mB para combustible. El generador no tiene un buffer de energía interno. Se apagará automáticamente si no puede exportar energía."
+				"Quemar 1000 mB (una cubeta) de biodiésel hará que el generador diésel genere 4096 RF/t durante 6,25 segundos."
+				""
+				"Para una configuración de generador diésel eficiente, se requiere una refinería, dos exprimidores industriales y dos fermentadores industriales por cada dos generadores diésel."
+			]
+			dependencies: ["0000000000000263"]
+			size: 1.5d
+			id: "0000000000000265"
+			tasks: [
+				{
+					id: "00000000000004C9"
+					type: "item"
+					item: "immersiveengineering:radiator"
+					count: 9L
+				}
+				{
+					id: "00000000000004CA"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "00000000000004CB"
+					type: "item"
+					item: "immersiveengineering:generator"
+					count: 4L
+				}
+				{
+					id: "00000000000004CC"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 13L
+				}
+				{
+					id: "00000000000004CD"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000004CE"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "18F43BDC0FA2DEB5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7E6D129BC3FF9DD6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "54BC57906B6C7BEC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "horno de arco"
+			icon: "immersiveengineering:arc_furnace"
+			x: 13.110459183673406d
+			y: -11.515136054421767d
+			shape: "square"
+			description: [
+				"El horno de arco se utiliza para fundir rápidamente minerales, arena y crear acero y otras aleaciones, así como para reciclar herramientas y armaduras. Después de construir la estructura, haz clic derecho en el caldero con un martillo de ingeniero para completarlo."
+				""
+				"La entrada de RF se realiza a través de uno (o más) de los tres enchufes de alimentación negros en la parte posterior del horno de arco y los procesos de los bloques múltiples se pueden detener a través de una señal de Redstone a través del \"panel de control\", el bloque central más a la izquierda."
+				"Al hacer clic con el botón derecho en la parte \"vat\" del bloque múltiple, se abrirá la GUI."
+				""
+				"Las tres ranuras superiores en la GUI son para electrodos de grafito. Cada uno debe llenarse manualmente para que funcione el horno de arco."
+				""
+				"El horno de arco comenzará sus procesos cuando tenga los tres electrodos de grafito, suficiente RF y las entradas. La integridad de cada electrodo de grafito disminuye con el uso y debe reemplazarse con el tiempo."
+			]
+			dependencies: ["0000000000000265"]
+			size: 1.5d
+			id: "0000000000000267"
+			tasks: [
+				{
+					id: "00000000000004E6"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "00000000000004E7"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "00000000000004E8"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "00000000000004E9"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "00000000000004EA"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "00000000000004EB"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+				{
+					id: "00000000000004EC"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000004ED"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "00000000000004EE"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "0000000000001065"
+					type: "item"
+					item: {
+						id: "immersiveengineering:graphite_electrode"
+						Count: 1b
+						tag: {
+							graphDmg: 0
+							Damage: 0
+						}
+					}
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "1B328D149CB9DBAC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "29F50AB81D84AE21"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "2F6DD403BE7C2AA1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Trituradora"
+			icon: "immersiveengineering:crusher"
+			x: 6.5d
+			y: -8.241326530612255d
+			shape: "square"
+			description: [
+				"La trituradora se usa para triturar minerales en arena (polvo), que es más eficiente que la fundición normal."
+				""
+				"Una vez que esté completamente arreglado (el proyector ayudará), el jugador debe hacer clic con el botón derecho en el bloque frontal central del lado más largo (que debería ser una cerca de acero debajo de una tolva) con un martillo de ingeniero para completar el bloque múltiple."
+				""
+				"La trituradora no tiene una GUI. La entrada de RF se realiza a través de la parte superior del bloque múltiple en el puerto de punto naranja."
+				""
+				"El aplastamiento ocurre cuando se deja caer un mob o un elemento en el pozo central. Después del procesamiento, los elementos triturados serán expulsados ​​por el puerto frontal, inferior y central. Si hay un inventario allí (como un cofre), simplemente se colocará en él."
+				""
+				"Los procesos del bloque múltiple se pueden detener a través de Redstone a través del \"panel de control\", el bloque central delantero derecho."
+			]
+			dependencies: ["0000000000000FA9"]
+			size: 1.5d
+			id: "000000000000026D"
+			tasks: [
+				{
+					id: "00000000000004D5"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+				{
+					id: "00000000000004D6"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "00000000000004D7"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000004D8"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "00000000000004D9"
+					type: "item"
+					item: "minecraft:hopper"
+					count: 9L
+				}
+			]
+			rewards: [
+				{
+					id: "7B11B8EDCE6F874F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "187B602D01A9006A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "08D3C3B59EEF9557"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Prensa Metálica"
+			icon: "immersiveengineering:metal_press"
+			x: 3.8204081632652986d
+			y: -6.0142857142857125d
+			shape: "square"
+			description: [
+				"La prensa de metal es una forma automatizada de crear placas, varillas, alambres y elementos de embalaje."
+				""
+				"Una vez que esté completamente arreglado (lo más probable es que no necesite el proyector, pero puede ayudar), haga clic con el botón derecho en el lado izquierdo o derecho del pistón con un martillo de ingeniero para completar el bloque múltiple."
+				""
+				"La Metal Press no tiene GUI. La entrada de RF se realiza a través del bloque superior de la prensa. Los artículos entran y salen a través de las cintas transportadoras integradas. Se debe construir una cinta transportadora o tolva adicional que conduzca a la prensa de metal para automatizar correctamente la prensa."
+				""
+				"La prensa de metal requiere un molde para funcionar. Al hacer clic con el botón derecho en la prensa de metal con un molde, se adjuntará el molde a la prensa de metal. El molde se puede desmontar haciendo clic con el botón derecho del ratón con la mano vacía."
+			]
+			dependencies: ["0000000000000FA9"]
+			size: 1.5d
+			id: "000000000000026F"
+			tasks: [
+				{
+					id: "00000000000004C6"
+					type: "item"
+					item: "immersiveengineering:plate_iron"
+					count: 64L
+				}
+				{
+					id: "00000000000004C7"
+					type: "item"
+					item: "immersiveengineering:plate_copper"
+					count: 64L
+				}
+				{
+					id: "00000000000004C8"
+					type: "item"
+					item: "immersiveengineering:plate_steel"
+					count: 64L
+				}
+				{
+					id: "000000000000104D"
+					type: "item"
+					item: "minecraft:piston"
+				}
+				{
+					id: "000000000000104E"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 2L
+				}
+				{
+					id: "000000000000104F"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0000000000001050"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					id: "0000000000001051"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "371338E69EE1E6E3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "74CECDF011435191"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Aserradero"
+			icon: "immersiveengineering:sawmill"
+			x: 3.8489795918367307d
+			y: -10.5d
+			shape: "square"
+			description: [
+				"El aserradero es una estructura de bloques múltiples que procesará troncos en tablones o troncos desforrados. El aserradero requiere una hoja de sierra que se inserta haciendo clic derecho en una hoja de sierra en la ranura alrededor de la parte posterior de la máquina (shift + clic derecho para quitar)."
+				""
+				"Si no se proporciona una hoja de sierra, el aserradero producirá troncos despuntados."
+				"If provided a blade, planks will be produced instead."
+				""
+				"El aserrín se produce como subproducto del uso."
+				"Para obtener más información, consulte el capítulo Aserradero del manual de IE."
+			]
+			dependencies: ["0000000000000FA9"]
+			size: 1.5d
+			id: "0000000000000271"
+			tasks: [
+				{
+					id: "0000000000000475"
+					type: "item"
+					item: "immersiveengineering:dust_wood"
+					count: 64L
+				}
+				{
+					id: "00000000000004E0"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 8L
+				}
+				{
+					id: "00000000000004E1"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 6L
+				}
+				{
+					id: "00000000000004E2"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "00000000000004E3"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 2L
+				}
+				{
+					id: "00000000000004E4"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "00000000000004E5"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 4L
+				}
+			]
+			rewards: [
+				{
+					id: "708B44607D208D6D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "719664757F29A2C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "78B24A6C095D051E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Metal Press Molds"
+			x: -6.0d
+			y: 6.5d
+			description: ["Estos moldes le permitirán usar la prensa de metal para hacer una variedad de productos con mayor eficiencia que a mano."]
+			dependencies: ["000000000000102E"]
+			id: "0000000000000274"
+			tasks: [
+				{
+					id: "0000000000000275"
+					type: "item"
+					item: "immersiveengineering:mold_plate"
+				}
+				{
+					id: "0000000000000276"
+					type: "item"
+					item: "immersiveengineering:mold_wire"
+				}
+				{
+					id: "0000000000000277"
+					type: "item"
+					item: "immersiveengineering:mold_rod"
+				}
+			]
+			rewards: [
+				{
+					id: "586669D2E868A176"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1E9A76A5569185F8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Ganchos"
+			x: -6.5d
+			y: -9.0d
+			description: ["El skyhook le permitirá deslizarse a lo largo de los cables o la cuerda IE haciendo clic con el botón derecho en sus conectores finales."]
+			dependencies: ["0000000000000240"]
+			id: "00000000000002C8"
+			tasks: [
+				{
+					id: "00000000000002C9"
+					type: "item"
+					item: "immersiveengineering:wirecoil_structure_rope"
+				}
+				{
+					id: "00000000000002CB"
+					type: "item"
+					item: {
+						id: "immersiveengineering:skyhook"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								Size: 2
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "2279B6FDE899634E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6231805E663CDBCC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tablones de madera tratada"
+			x: -7.0d
+			y: -1.5d
+			description: ["Al tratar la madera con aceite de creosota, se volverán ignífugas."]
+			dependencies: ["0000000000000F99"]
+			id: "0000000000000330"
+			tasks: [{
+				id: "0000000000000331"
+				type: "item"
+				item: "immersiveengineering:treated_wood_horizontal"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "70BE3039F3FD3C5C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5938FA76E3DCA0C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&#6a3c00&lI&#6f3f00&ln&#734100&lm&#784400&le&#7c4700&lr&#814900&ls&#854c00&li&#8a4e00&lv&#8f5100&le &#935400&lE&#985600&ln&#9c5900&lg&#a15c00&li&#a65e00&ln&#aa6100&ln&#af6300&le&#b36600&lr&#b86900&li&#bc6b00&ln&#c16e00&lg"
+			icon: "immersiveengineering:cokebrick"
+			disable_toast: true
+			x: -12.0d
+			y: -1.5d
+			shape: "gear"
+			description: ["(Conexión del capítulo Primeros pasos)"]
+			size: 3.0d
+			id: "0000000000000F99"
+			tasks: [
+				{
+					id: "0000000000000F9B"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+				{
+					id: "0000000000000F9D"
+					type: "item"
+					item: "immersiveengineering:creosote_bucket"
+				}
+				{
+					id: "0000000000000F9E"
+					type: "item"
+					item: "immersiveengineering:coke"
+				}
+			]
+			rewards: [
+				{
+					id: "6ABBD046F8C28394"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4E716895E254B712"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -3.5d
+			description: ["Los bloques de ingeniería de Redstone se pueden considerar como los bloques de control de una máquina, un panel de control en esencia."]
+			dependencies: ["0000000000001047"]
+			id: "0000000000000FA5"
+			tasks: [{
+				id: "0000000000000FA6"
+				type: "item"
+				item: "immersiveengineering:rs_engineering"
+			}]
+			rewards: [
+				{
+					id: "4A6D059B28F6815C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0726EA5E95FB8625"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.5d
+			description: ["El andamio de acero se utilizará en toda la construcción de su máquina de bloques múltiples, y también se ve muy bien como decoración."]
+			dependencies: ["00000000000000FD"]
+			id: "0000000000000FA7"
+			tasks: [{
+				id: "0000000000000FA8"
+				type: "item"
+				item: "immersiveengineering:steel_scaffolding_standard"
+			}]
+			rewards: [
+				{
+					id: "6C97472C96457842"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "71C1DBE28BFDBE58"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Maquinas pesadas"
+			x: 3.562244897959161d
+			y: -8.227721088435374d
+			shape: "octagon"
+			description: [""]
+			dependencies: [
+				"0000000000000FA7"
+				"0000000000001047"
+			]
+			dependency_requirement: "one_completed"
+			size: 2.0d
+			id: "0000000000000FA9"
+			tasks: [{
+				id: "07FA994BC059CA7D"
+				type: "checkmark"
+				title: "A construir maquinas pesadas"
+			}]
+		}
+		{
+			title: "Engineer's Blueprints"
+			x: -6.0d
+			y: 5.0d
+			description: ["Estos planos son algunos conjuntos, pero críticos, que puede usar en el banco de trabajo del ingeniero."]
+			dependencies: ["000000000000022D"]
+			id: "000000000000102E"
+			tasks: [
+				{
+					id: "78613D2C42AEBA70"
+					type: "item"
+					title: "Engineer's Blueprint: Crafting Components"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "components"
+						}
+					}
+				}
+				{
+					id: "556057E3D4134BFE"
+					type: "item"
+					title: "Engineer's Blueprint: Molds"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "molds"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4CFB56260D9E1D44"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "663FE2467A91FE34"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "manuales de ingenieros"
+			x: -12.0d
+			y: 1.5d
+			description: [
+				"Grandes fuentes de conocimiento en tus próximas aventuras en la industria y la automatización."
+				""
+				"Para cualquier estructura multibloque de Immersive Engineering, puede consultar el manual para obtener un desglose sobre cómo construir la estructura y su función completa."
+			]
+			dependencies: ["0000000000000F99"]
+			id: "0000000000001031"
+			tasks: [
+				{
+					id: "0000000000001032"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					id: "49D71F40F62EE8DE"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "engineersdecor:engineersdecor_manual"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "260413315E849254"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "30397C91973135B8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -3.0d
+			description: ["Este barril también contiene 12.000 mB (12 cubos) de un líquido, pero puede ser caliente o gaseoso."]
+			dependencies: ["000000000000025B"]
+			id: "0000000000001035"
+			tasks: [{
+				id: "0000000000001036"
+				type: "item"
+				item: "immersiveengineering:metal_barrel"
+			}]
+			rewards: [
+				{
+					id: "7D2CB8E5D4DCC80C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0977D460C7B99A95"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -15.0d
+			description: ["Transfiere la misma cantidad de energía que el cable LV estándar, pero no le causará descargas eléctricas."]
+			dependencies: ["00000000000001F8"]
+			id: "0000000000001039"
+			tasks: [{
+				id: "000000000000103A"
+				type: "item"
+				item: "immersiveengineering:wirecoil_copper_ins"
+			}]
+			rewards: [
+				{
+					id: "6F333209B0802FC7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "74963C1977780B2B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -16.5d
+			y: -14.0d
+			description: ["Transfiere la misma cantidad de energía que los cables de MT pero sin riesgo de descarga."]
+			dependencies: ["0000000000000211"]
+			id: "000000000000103D"
+			tasks: [{
+				id: "000000000000103E"
+				type: "item"
+				item: "immersiveengineering:wirecoil_electrum_ins"
+			}]
+			rewards: [
+				{
+					id: "0DB8B0702CE6F1EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "63F9A2A9D80A4C66"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Traje Faraday"
+			x: -14.0d
+			y: -8.0d
+			description: ["El traje de Faraday evitará que te sorprendas con los cables sin aislamiento."]
+			dependencies: ["0000000000000215"]
+			id: "000000000000103F"
+			tasks: [
+				{
+					id: "0000000000001040"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_head"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000001041"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_chest"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000001042"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_legs"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0000000000001043"
+					type: "item"
+					item: {
+						id: "immersiveengineering:armor_faraday_feet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "6E83173DEB85FB9B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "082F3DA2B7ACF816"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Bloques de ingeniero"
+			icon: {
+				id: "immersiveengineering:blueprint"
+				Count: 1b
+				tag: {
+					blueprint: "electrode"
+				}
+			}
+			x: -1.5d
+			y: -2.5d
+			description: ["The blocks surrounding this quest are critical pieces in the multiblock structures of Immersive Engineering."]
+			dependencies: ["000000000000022D"]
+			id: "0000000000001047"
+			tasks: [{
+				id: "0000000000001048"
+				type: "checkmark"
+				title: "Engineer's Blocks"
+			}]
+			rewards: [
+				{
+					id: "47EB9373C9EB4BC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "25E9A507B600CA7D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			description: ["Se puede pensar en los bloques de radiadores como los componentes de la maquinaria que ayudan a disipar el calor de una máquina en funcionamiento."]
+			dependencies: [
+				"0000000000001047"
+				"00000000000000FD"
+			]
+			id: "0000000000001049"
+			tasks: [{
+				id: "000000000000104A"
+				type: "item"
+				item: "immersiveengineering:radiator"
+			}]
+			rewards: [
+				{
+					id: "791AA6BEECE780C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "67B811B47688DF98"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -1.5d
+			description: ["Los bloques generadores se pueden considerar como los componentes de una máquina donde se genera electricidad."]
+			dependencies: [
+				"0000000000001047"
+				"00000000000000FD"
+			]
+			id: "000000000000104B"
+			tasks: [{
+				id: "000000000000104C"
+				type: "item"
+				item: "immersiveengineering:generator"
+			}]
+			rewards: [
+				{
+					id: "7F13BB99D0ECBF04"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "63DB95F45E21DD05"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Ensamblador"
+			icon: "immersiveengineering:assembler"
+			x: 2.0d
+			y: -9.741326530612255d
+			shape: "square"
+			description: [
+				"El Ensamblador puede automatizar hasta tres conjuntos de recetas de su inventario interno."
+				"Después de ensamblar el bloque múltiple, use el martillo de ingeniero en la cinta transportadora para completar la máquina. El ensamblador tiene una entrada de fluido en su lado de entrada que le permite automatizar recetas que necesitan fluido también."
+				"The power connection is on the top port with the orange dot."
+			]
+			dependencies: ["0000000000000FA9"]
+			size: 1.5d
+			id: "0000000000001189"
+			tasks: [
+				{
+					id: "0000000000001198"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 6L
+				}
+				{
+					id: "0000000000001199"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000119A"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "000000000000119B"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 9L
+				}
+				{
+					id: "000000000000119C"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_iron"
+					count: 6L
+				}
+				{
+					id: "000000000000119D"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "1CC64DEB945EA072"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7E8EBCE2DCBF0ABE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "46D3D21B613A25F2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Specialized Conveyors"
+			x: -8.5d
+			y: 0.5d
+			description: [
+				"Hay una serie de transportadores especializados que se pueden hacer."
+				""
+				"Transportador de caída: deja caer artículos en el inventario debajo del cinturón. Se puede desactivar con señal de redstone."
+				"Vertical Conveyor - Conveyor that is placeable on walls to bring items up."
+				"Splitting Conveyor - Equally splits items left and right. "
+				"Extractor Conveyor - Removes items from the connected inventory and places them on the belt. The Engineer's Screwdriver will allow you to change the extraction speed."
+			]
+			dependencies: ["0000000000000236"]
+			id: "000000000000118B"
+			tasks: [
+				{
+					id: "000000000000118C"
+					type: "item"
+					item: "immersiveengineering:conveyor_dropper"
+				}
+				{
+					id: "000000000000118D"
+					type: "item"
+					item: "immersiveengineering:conveyor_vertical"
+				}
+				{
+					id: "000000000000118E"
+					type: "item"
+					item: "immersiveengineering:conveyor_splitter"
+				}
+				{
+					id: "000000000000118F"
+					type: "item"
+					item: "immersiveengineering:conveyor_extract"
+				}
+			]
+			rewards: [
+				{
+					id: "5E9F100B924409EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7A42F172DFB498AD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			description: ["Dirige los elementos directamente hacia abajo y evita que los jugadores los recojan. Se inserta en los inventarios debajo de ellos y se puede girar para que se expulse lateralmente con un clic con el botón derecho del ratón del mazo de ingenieros."]
+			dependencies: ["0000000000000236"]
+			id: "0000000000001196"
+			tasks: [{
+				id: "0000000000001197"
+				type: "item"
+				item: "immersiveengineering:chute_iron"
+			}]
+			rewards: [
+				{
+					id: "1DB140D29C11797D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3837D2CBF8BF7C54"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -10.5d
+			y: -5.0d
+			description: [
+				"Aplicando velas a su molino de viento aumentará su eficiencia. Con esta mayor eficiencia, obtendrá una generación de energía adicional."
+				"A sail can be applied by right clicking the center of the windmill you want the sail added to."
+			]
+			dependencies: ["0000000000000115"]
+			id: "402B13D217EA14FD"
+			tasks: [{
+				id: "33DD44DF11F054D0"
+				type: "item"
+				item: "immersiveengineering:windmill_sail"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "7D14BB339051D20A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5E3375410010DDFB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 2.0d
+			description: [
+				"¿Cansado de escuchar todas esas máquinas ruidosas?"
+				""
+				"Fabrica un par de protectores auditivos para amortiguar esos sonidos. Los sonidos que amortigua se pueden configurar colocándolo en el banco de trabajo de un ingeniero junto con el nivel de puerta de ruido para comenzar a bloquear el sonido. También se pueden combinar con cascos en una mesa de trabajo para aplicarlos al casco, brindándole cierta protección mientras los usa."
+			]
+			dependencies: ["000000000000022D"]
+			id: "7638362055CF4C13"
+			tasks: [{
+				id: "39D39D2F1E96B628"
+				type: "item"
+				item: "immersiveengineering:earmuffs"
+			}]
+			rewards: [
+				{
+					id: "67020C5A4428C22B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "24DB9B2154B8D9AE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 13.0d
+			y: -13.5d
+			description: [
+				"Hasta este punto, este metal hormigueante ha sido bastante inútil... Me pregunto si podría procesarse para convertirlo en un material mejor."
+				""
+				"Tal vez debería disolver la arena en un poco de gasolina y ver qué puedo extraer."
+			]
+			dependencies: ["0000000000000267"]
+			id: "124CA5F8643ACDC1"
+			tasks: [{
+				id: "6D40C5DD92C00101"
+				type: "item"
+				item: "immersiveengineering:dust_uranium"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4CF389A2FD5D86CA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1770FD3971513AD4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.513605442176889d
+			y: -11.309523809523796d
+			description: ["El Iron Drill Head es el cabezal de perforación básico para Mining Drill. Tiene una buena cantidad de durabilidad y un área de minería de 2x2."]
+			dependencies: ["0000000000000251"]
+			id: "18ADDB7EC1E2A552"
+			tasks: [{
+				id: "16DF3179CA84850D"
+				type: "item"
+				item: "immersiveengineering:drillhead_iron"
+			}]
+			rewards: [
+				{
+					id: "6BF490708A09D46C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "14E0D3BC6CD308E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 11.513605442176889d
+			y: -11.309523809523796d
+			description: ["El Steel Drill Head es un cabezal mejorado para Mining Drill. Proporciona una mayor cantidad de durabilidad y puede minar un área de 3x3."]
+			dependencies: ["0000000000000251"]
+			id: "02D4C51B66A6DD20"
+			tasks: [{
+				id: "66C8FC3F4CCC973B"
+				type: "item"
+				item: "immersiveengineering:drillhead_steel"
+			}]
+			rewards: [
+				{
+					id: "144E9D3FC8765A45"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4EA5DC9443FD448B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -5.777210884353735d
+			description: ["Sawblade es el cabezal básico de Buzzsaw. Se puede utilizar para cortar rápidamente artículos de madera."]
+			dependencies: ["0000000000000253"]
+			id: "56749328894F5791"
+			tasks: [{
+				id: "7A302FBDCC0A29DF"
+				type: "item"
+				item: {
+					id: "immersiveengineering:sawblade"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7A3B2344CB85D36E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7F4BE10A8F324739"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 11.5d
+			y: -5.777210884353735d
+			description: ["El Rockcutter es el cabezal mejorado de Buzzsaw. Es capaz de tocar con seda los bloques de piedra y el mineral, pero ya no funcionará en los árboles."]
+			dependencies: ["0000000000000253"]
+			id: "415134D9266AB3AA"
+			tasks: [{
+				id: "66FA37898F2045F1"
+				type: "item"
+				item: {
+					id: "immersiveengineering:rockcutter"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4767E1C11866310D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7A01C5BA38ADF78F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 12.0d
+			y: -6.777210884353735d
+			description: ["Cuando se aplica el tanque grande a la Buzzsaw, duplicará su capacidad de combustible."]
+			dependencies: ["0000000000000253"]
+			id: "5E8AE787DEA22FA9"
+			tasks: [{
+				id: "72D25CCA5D8DF238"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}]
+			rewards: [
+				{
+					id: "6EE4E687387B1F49"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0460322B91EC2B5B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.768707482993186d
+			y: -6.497448979591859d
+			description: ["El Blade Quiver, cuando se aplica, le permitirá llevar 2 hojas adicionales para Buzzsaw. Se pueden cambiar con una combinación de teclas (que debe configurar) o sigilosamente y usando la rueda de desplazamiento de su mouse."]
+			dependencies: ["0000000000000253"]
+			id: "73730C3C46BF8609"
+			tasks: [{
+				id: "166D0CF3DEF79280"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_buzzsaw_spareblades"
+			}]
+			rewards: [
+				{
+					id: "0ACFC504CD4BC46D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0F62207152B6C4DD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.782312925170075d
+			y: -10.02976190476192d
+			description: ["Cuando se aplica, permitirá que Mining Drill funcione bajo el agua, normalmente no puede, ya que es un motor de combustión, y no tendrá una desaceleración relacionada con la minería bajo el agua."]
+			dependencies: ["0000000000000251"]
+			id: "77A7918BBB36BDB7"
+			tasks: [{
+				id: "2F1C5AD885D954ED"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_waterproof"
+			}]
+			rewards: [
+				{
+					id: "705A323ABC884E65"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "50CF58D84BA1CD3D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 12.013605442176889d
+			y: -10.309523809523796d
+			description: ["bocas adicionales permitirán que Mining Drill explote más rápido y haga más daño a las turbas. Se puede aplicar hasta 3 veces a un Mining Drill."]
+			dependencies: ["0000000000000251"]
+			id: "3F82A41908EC52BF"
+			tasks: [{
+				id: "4C2CD590DA4AC7D3"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_damage"
+			}]
+			rewards: [
+				{
+					id: "0AC32A5BCAD8DC9A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "28FE6BFA4C0450B2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 10.513605442176889d
+			y: -11.809523809523796d
+			description: ["Cuando se aplica el Tanque Grande al Mining Drill, se duplicará su capacidad de combustible."]
+			dependencies: ["0000000000000251"]
+			id: "18EB13DD9B7E7001"
+			tasks: [{
+				id: "0A9FD2F4D5A9BE9A"
+				type: "item"
+				item: "immersiveengineering:toolupgrade_drill_capacity"
+			}]
+			rewards: [
+				{
+					id: "104DE19FA7C88FF9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "60B470A5AA704868"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Diseño de circuitos 101"
+			icon: "immersiveengineering:circuit_table"
+			x: -1.5d
+			y: -4.5d
+			description: ["El diseño de placas de circuito personalizadas le permitirá compactar grandes circuitos de redstone en placas lógicas individuales. Para obtener información mucho más detallada de la que puedo brindar, lea la sección Circuitos lógicos del manual Ingeniería inmersiva."]
+			dependencies: ["0000000000000221"]
+			id: "01C74BC5778378FE"
+			tasks: [
+				{
+					id: "656369AF74DD62BE"
+					type: "item"
+					item: "immersiveengineering:circuit_table"
+				}
+				{
+					id: "7B35455B7AA9320C"
+					type: "item"
+					item: "immersiveengineering:circuit_board"
+				}
+				{
+					id: "19F6A91F3C6822D8"
+					type: "item"
+					item: "immersiveengineering:electron_tube"
+				}
+				{
+					id: "17692925B3DF43A4"
+					type: "item"
+					title: "Any #immersiveengineering:circuits/solder"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "immersiveengineering:circuits/solder"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3CA754CC841F85A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7B1D854F53E210E4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -5.5d
+			description: ["Los circuitos lógicos creados deben colocarse dentro de una unidad lógica para que funcionen. Cada Unidad Lógica puede contener hasta 10 Circuitos Lógicos, los cuales realizará en su orden en la Unidad. Para conectar la Unidad Lógica a una red con un Conector de Interfaz Redstone."]
+			dependencies: ["01C74BC5778378FE"]
+			id: "1EEF3F593EC2A230"
+			tasks: [
+				{
+					id: "17D42D81C99EACDA"
+					type: "item"
+					item: "immersiveengineering:logic_unit"
+				}
+				{
+					id: "5C64500215051A88"
+					type: "item"
+					item: "immersiveengineering:logic_circuit"
+				}
+			]
+			rewards: [
+				{
+					id: "15D53116118D76BA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0931FDA91095CEC4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -8.0d
+			shape: "pentagon"
+			description: [
+				"The Machinery Manual is a custom manual made for Engineer's Life 2 to showcase custom multiblocks made by the EL2 team."
+				""
+				"You will be able to visualize custom multiblocks using the visualize button at the bottom corner of the structure view page."
+				""
+				"For this initial release, only a single multiblock (Industrial Kiln) is implemented to test this multiblock functionality. In the future the number of structures will be greatly increased. Any feedback should be provided to the discord linked on the pack's curseforge page."
+			]
+			dependencies: ["000000000000022F"]
+			size: 1.5d
+			id: "12E1EBB4D51C212F"
+			tasks: [{
+				id: "59CA047E122011D0"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "patchouli:el2-machine-manual"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3CD7563CB7570520"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "71DA1D0FA4142748"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

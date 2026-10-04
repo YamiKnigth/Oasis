@@ -1,0 +1,53 @@
+# Mods (CurseForge App downloads these)
+**/mods/**
+!**/mods/.gitkeep
+
+# Runtime / world / logs
+**/world/
+**/world_*/
+**/saves/
+**/logs/
+**/crash-reports/
+**/local/
+**/downloads/
+**/libraries/
+**/versions/
+*.log
+session.lock
+
+# NeoForge installer junk
+**/installer.jar
+**/.mixin.out/
+**/ModernFix/
+
+# Personal / runtime
+**/options.txt
+**/optionsof.txt
+**/servers.dat
+**/usernamecache.json
+**/usercache.json
+**/banned-*.json
+**/ops.json
+**/whitelist.json
+**/eula.txt
+
+# Binaries
+*.jar
+*.mrpack
+!curseforge/*.zip
+
+# Smoke / temp helpers
+server/smoke-*
+docs/_*.json
+docs/_write_*.ps1
+docs/_resolve_*.ps1
+docs/_build_*.ps1
+docs/_client_mods_list.txt
+
+# OS / editor
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+.vscode/
+*.iml

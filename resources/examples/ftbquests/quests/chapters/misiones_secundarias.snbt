@@ -1,0 +1,33 @@
+{
+	id: "22CF1C7C86B6343C"
+	group: "1D14C3C2AABC658D"
+	order_index: 2
+	filename: "misiones_secundarias"
+	title: "➢ &f&lMisiones Secundarias"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		x: -5.5d
+		y: -2.5d
+		id: "546FED48E97D32D9"
+		tasks: [{
+			id: "025FB135886FC20D"
+			type: "stat"
+			icon: {
+				id: "minecraft:shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			stat: "minecraft:damage_blocked_by_shield"
+			value: 10000
+		}]
+		rewards: [{
+			id: "17F7A10665FA3698"
+			type: "item"
+			item: "mypanascoins:diamond_coin"
+		}]
+	}]
+	quest_links: [ ]
+}

@@ -1,0 +1,6 @@
+{
+	id: "507BD4EAD2257D6A"
+	loot_size: 1
+	order_index: 4
+	rewards: [{ id: "264CF66A6FD8173B", item: { count: 1, id: "minecraft:apple" } }]
+}

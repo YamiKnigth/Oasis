@@ -1,0 +1,9 @@
+{
+	chapter_groups: [
+		{ id: "75E74A4A6A50E0C3", title: "&3&lGeneral" }
+		{ id: "7340A40644391A0F", title: "&3&lTecnología" }
+		{ id: "1D3673E14F18ABC4", title: "&3&lMagia" }
+		{ id: "1D14C3C2AABC658D", title: "&3&lFarmeo" }
+		{ id: "40D619CBC58A1CF5", title: "&6&lTienda Web" }
+	]
+}

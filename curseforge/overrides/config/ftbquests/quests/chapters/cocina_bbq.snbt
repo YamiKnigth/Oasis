@@ -1,0 +1,199 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cocina_bbq"
+	group: "22F7FAA010DA678A"
+	id: "1BA0E6793148BB97"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "34E3EA17DFDD1357"
+			rewards: [{
+				id: "39EB4376AB9A21EB"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "3592DF94BC33AFA2"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["34E3EA17DFDD1357"]
+			id: "576128B100C864ED"
+			rewards: [{
+				id: "601B6DD371D0BAD6"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "23DD310105C16398"
+				item: { count: 1, id: "farmersdelight:cutting_board" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["576128B100C864ED"]
+			id: "0C0CE58B4CD32FE3"
+			rewards: [{
+				id: "436E32B4A3E37ECA"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "6D58614FB811B269"
+				item: { count: 1, id: "farmersdelight:iron_knife" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["576128B100C864ED"]
+			id: "1529D727F773D347"
+			rewards: [{
+				id: "19875E5C5E03F789"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4301E9BD563C0F73"
+				item: { count: 1, id: "farmersdelight:stove" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1529D727F773D347"]
+			id: "6848E24AE957A10A"
+			rewards: [{
+				id: "2B7DE993F7BC4983"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0BC888C9731D2310"
+				item: { count: 1, id: "farmersdelight:cooking_pot" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1529D727F773D347"]
+			id: "6715DE1FD576BFA6"
+			rewards: [{
+				id: "5A52A380E8CF344F"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "60255FA2871767BF"
+				item: { count: 1, id: "farmersdelight:skillet" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6848E24AE957A10A"]
+			id: "597575A3BE790404"
+			rewards: [{
+				id: "48CC7085719AE62E"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				count: 2L
+				id: "67592295066F8269"
+				item: { count: 1, id: "barbequesdelight:grill" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["597575A3BE790404"]
+			id: "6CBD6C4B2C239A6E"
+			rewards: [{
+				id: "3CBA6E7C3A91CBE5"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "48801A802D6AE607"
+				item: { count: 1, id: "barbequesdelight:raw_beef_skewer" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6CBD6C4B2C239A6E"]
+			id: "508311F700BECEDF"
+			rewards: [{
+				id: "408BCEC9EE9ED8DB"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "58D31E05E5F0766D"
+				item: { count: 1, id: "barbequesdelight:grilled_beef_skewer" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["508311F700BECEDF"]
+			id: "5FD4E99E244B9D57"
+			rewards: [{
+				id: "275C9038529DFED4"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4426E9398E013556"
+				item: { count: 1, id: "barbequesdelight:kebab_wrap" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6848E24AE957A10A"]
+			id: "650FD0D68E0C8767"
+			rewards: [{
+				id: "33333A2C976027A4"
+				table_id: 2396298412171143468L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2B0EFF2D6E65D85D"
+				item: { count: 1, id: "brewinandchewin:keg" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+	]
+}

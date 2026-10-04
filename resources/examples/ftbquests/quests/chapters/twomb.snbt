@@ -1,0 +1,1137 @@
+{
+	id: "4F65D1D3A3332E7C"
+	group: "1D3673E14F18ABC4"
+	order_index: 5
+	filename: "twomb"
+	title: "➢ &f&lCorail Tombstone"
+	icon: {
+		id: "tombstone:decorative_grave_cross"
+		Count: 1b
+		tag: {
+			model_texture: 1
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "rsquare"
+			hide_dependency_lines: true
+			size: 2.0d
+			id: "6C86C73EFAA32F57"
+			tasks: [
+				{
+					id: "59E34F2AA6319165"
+					type: "item"
+					item: "tombstone:grave_dust"
+				}
+				{
+					id: "4F911CC2730068DC"
+					type: "item"
+					item: "tombstone:essence_of_undeath"
+				}
+			]
+			rewards: [
+				{
+					id: "7313C323ABA89150"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "61DA455E16573A54"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -3.5d
+			dependencies: ["2F2B3BA9595319C0"]
+			id: "197105BE04C07966"
+			tasks: [{
+				id: "7BEC5E701776965C"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_simple"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "074008AB15775FB3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "50761DFA3D6D654E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			dependencies: ["007D784139C1A6D3"]
+			id: "0C956F6CDB4E3DFA"
+			tasks: [{
+				id: "3223D52C40FE6F9A"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_simple"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5B3F0EAFA18CFD3A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "211DA50EFD2A8D6D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.0d
+			dependencies: ["2F2B3BA9595319C0"]
+			id: "2AC20CF61C91283E"
+			tasks: [{
+				id: "65AB2353495BA1E5"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_normal"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4480FFC3302F40F4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3EFDD6D23D429549"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -4.0d
+			dependencies: ["007D784139C1A6D3"]
+			id: "33F51AF45465E190"
+			tasks: [{
+				id: "5C0FD8D6970980CF"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_normal"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "674C0C7BF713E115"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "70D4D0379F62E1E3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -2.5d
+			dependencies: ["2F2B3BA9595319C0"]
+			id: "07542F01165923CD"
+			tasks: [{
+				id: "6876B778A631C995"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_cross"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "068317229783670A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1B867BB1FF5424EF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -3.0d
+			dependencies: ["007D784139C1A6D3"]
+			id: "362618B095810E26"
+			tasks: [{
+				id: "21D8D1CEC2A6D508"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_cross"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "10FB65FB1764F6A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "290D20AEC92AE89E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -1.5d
+			dependencies: ["2F2B3BA9595319C0"]
+			id: "5D6E1D9E7F278F4A"
+			tasks: [{
+				id: "0DA1CCF01B97C450"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_tombstone"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C488F4E566791FB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "62CBC0A3B2A77AC2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -2.0d
+			dependencies: ["007D784139C1A6D3"]
+			id: "4282151BEE47F745"
+			tasks: [{
+				id: "07DE026379173095"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_tombstone"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "288DDE33D4FFF42C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7EA8493E408DC40B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -0.5d
+			dependencies: ["2F2B3BA9595319C0"]
+			id: "637E734ABF9028DD"
+			tasks: [{
+				id: "0415425A716EAC52"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_subaraki_grave"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5CB845CAEE5AA58F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3E3CAE9C422467E7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: 1.0d
+			dependencies: ["2F2B3BA9595319C0"]
+			id: "313698B9BC48CC33"
+			tasks: [{
+				id: "1E8F3F3A53F5106B"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_original"
+					Count: 1b
+					tag: {
+						model_texture: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1A1065BF78BAC614"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "15C7343922896683"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.0d
+			dependencies: ["007D784139C1A6D3"]
+			id: "575B2ED8A543B0BF"
+			tasks: [{
+				id: "6C3C64B1783B56C2"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_subaraki_grave"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F3D48E3D49B6177"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "176A00C8AA54D3AB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 1.5d
+			dependencies: ["007D784139C1A6D3"]
+			id: "261DA0DCA1A32CF1"
+			tasks: [{
+				id: "315C0DC6D6CEE1BB"
+				type: "item"
+				item: {
+					id: "tombstone:decorative_grave_original"
+					Count: 1b
+					tag: {
+						model_texture: 1
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "02EE1656E498B72C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "31F759047CCB6D34"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "68860FFEC2FCBFA7"
+			tasks: [{
+				id: "3640EE6A16E94DCF"
+				type: "item"
+				item: {
+					id: "tombstone:ankh_of_pray"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4C3FD640B25AAA43"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7D8270FA083A503F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tableta de grabado"
+			x: -0.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: [
+				"362618B095810E26"
+				"07542F01165923CD"
+				"575B2ED8A543B0BF"
+				"637E734ABF9028DD"
+				"33F51AF45465E190"
+				"2AC20CF61C91283E"
+				"0C956F6CDB4E3DFA"
+				"197105BE04C07966"
+				"21D8D1CEC2A6D508"
+				"6876B778A631C995"
+				"313698B9BC48CC33"
+				"261DA0DCA1A32CF1"
+				"4282151BEE47F745"
+				"5D6E1D9E7F278F4A"
+			]
+			id: "5D30E26D0F52793D"
+			tasks: [{
+				id: "53F5C07C146BB6D1"
+				type: "item"
+				item: "tombstone:grave_plate"
+			}]
+			rewards: [
+				{
+					id: "762365B8B1D3936B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4539647B79497B32"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "775498D78E09B5BF"
+			tasks: [{
+				id: "60C50E2685F88191"
+				type: "item"
+				item: "tombstone:strange_scroll"
+			}]
+			rewards: [
+				{
+					id: "28F67B106149CD02"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2FCD994DD46C41A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -6.0d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "26334BD90212D5F7"
+			tasks: [{
+				id: "466C1D68372F5E14"
+				type: "item"
+				item: "tombstone:strange_tablet"
+			}]
+			rewards: [
+				{
+					id: "1A97D6DF30C82993"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "521A1B947C0E0778"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -4.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "6AD8811340202F49"
+			tasks: [{
+				id: "0B2F4957B806B797"
+				type: "item"
+				item: "tombstone:tablet_of_cupidity"
+			}]
+			rewards: [
+				{
+					id: "4A478AFF144B3311"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "09523D1CAEB61BDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -5.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "42A797E01270477B"
+			tasks: [{
+				id: "7C6AAC0015BD1593"
+				type: "item"
+				item: {
+					id: "tombstone:lost_tablet"
+					Count: 1b
+					tag: {
+						cooldown_time: 615683L
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "018C07A5CA6075B4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1806FE7E175779BD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -1.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "146A6A106B4998BF"
+			tasks: [{
+				id: "4F490EB7905AE82C"
+				type: "item"
+				item: "tombstone:tablet_of_recall"
+			}]
+			rewards: [
+				{
+					id: "73D0FDA3DE14A79D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "38CF8325917B4BDF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 3.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "5877B72811152D53"
+			tasks: [{
+				id: "4F06668CFA9B9807"
+				type: "item"
+				item: {
+					id: "tombstone:tablet_of_recall"
+					Count: 1b
+					tag: {
+						ancient: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "31FD44B29C8FC7F3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3119A54A48F4144E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "3E071F3B65701489"
+			tasks: [{
+				id: "0AB4A2E6D7DE7CAA"
+				type: "item"
+				item: "tombstone:tablet_of_home"
+			}]
+			rewards: [
+				{
+					id: "064A52EC245ADF3D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "327BA897D047EE7D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tableta de Asistencia"
+			x: 4.5d
+			y: -2.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "2498FB01EBFA1777"
+			tasks: [{
+				id: "1749A63315389F05"
+				type: "item"
+				item: "tombstone:tablet_of_assistance"
+			}]
+			rewards: [
+				{
+					id: "2CBED09F6A702C5F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "12D8CD7805080AA6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Antigua tableta de asistencia"
+			x: 4.5d
+			y: 2.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "6BF13B4AADF2AD36"
+			tasks: [{
+				id: "79F85FA163DDFFE3"
+				type: "item"
+				item: {
+					id: "tombstone:tablet_of_assistance"
+					Count: 1b
+					tag: {
+						ancient: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5E44FB420CA447B7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "492F1F354EE08B3F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 0.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "512664CFE9A04C98"
+			tasks: [{
+				id: "43E10887A044176D"
+				type: "item"
+				item: {
+					id: "tombstone:tablet_of_cupidity"
+					Count: 1b
+					tag: {
+						ancient: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "7559ABEDDBDBCEC1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "509417B54BD9A2AB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 1.0d
+			dependencies: ["26334BD90212D5F7"]
+			id: "51636518A9893348"
+			tasks: [{
+				id: "63B2B4EC4EB08366"
+				type: "item"
+				item: {
+					id: "tombstone:tablet_of_home"
+					Count: 1b
+					tag: {
+						ancient: 1b
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "41C5C40E55690B21"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "72689919DAC4F9FA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.0d
+			dependencies: ["775498D78E09B5BF"]
+			id: "402A5C610DDD673E"
+			tasks: [{
+				id: "5CED74A8E0E563B9"
+				type: "item"
+				item: "tombstone:scroll_of_knowledge"
+			}]
+			rewards: [
+				{
+					id: "3F30E6F15562827F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "03CF095D190661EB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -3.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "0CBD65B697A22C02"
+			tasks: [{
+				id: "16ABD96CCB97E187"
+				type: "item"
+				item: "tombstone:scroll_of_preservation"
+			}]
+			rewards: [
+				{
+					id: "75A237755E5589B2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "41AFC7A2FF2A946A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "5FDA393EC4DE7F93"
+			tasks: [{
+				id: "33D220E1C54868C5"
+				type: "item"
+				item: "tombstone:scroll_of_unstable_intangibility"
+			}]
+			rewards: [
+				{
+					id: "66E96613586F6F96"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "79B065669FC388D5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -0.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "13017B53751A6CB1"
+			tasks: [{
+				id: "3826D4E28FB1887F"
+				type: "item"
+				item: "tombstone:scroll_of_feather_fall"
+			}]
+			rewards: [
+				{
+					id: "7594527434F3DF4F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "74792AFE4B833A7F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -2.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "60EAEA1EDE374BC1"
+			tasks: [{
+				id: "193B76702E650EE7"
+				type: "item"
+				item: "tombstone:scroll_of_purification"
+			}]
+			rewards: [
+				{
+					id: "6531E256BB12EA94"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "432470861767FAC0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -1.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "66CDAC416C3A1890"
+			tasks: [{
+				id: "7C6393388B6BFDF0"
+				type: "item"
+				item: "tombstone:scroll_of_true_sight"
+			}]
+			rewards: [
+				{
+					id: "7B52ADD427EC39C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3A3F447022C5A790"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "4D373ED84253021C"
+			tasks: [{
+				id: "4D2C27EB507BADAD"
+				type: "item"
+				item: "tombstone:scroll_of_lightning_resistance"
+			}]
+			rewards: [
+				{
+					id: "068ED260DD9D5B45"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4CFFE39E3D3293C9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			dependencies: ["775498D78E09B5BF"]
+			id: "24F746290B824453"
+			tasks: [{
+				id: "41D35B3DB70D3868"
+				type: "item"
+				item: "tombstone:scroll_of_reach"
+			}]
+			rewards: [
+				{
+					id: "0EFED63DBA0568E1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "617DA772DF88BC17"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.0d
+			dependencies: ["775498D78E09B5BF"]
+			id: "21735FE2F6D2F2A2"
+			tasks: [{
+				id: "304AA2455C25F37E"
+				type: "item"
+				item: "tombstone:scroll_of_aquatic_life"
+			}]
+			rewards: [
+				{
+					id: "6B47A5BEE495812E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4D1DB6335DE9F3FA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -4.0d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "18A3FA4E0A12400E"
+			tasks: [{
+				id: "19A7BE4D4A487993"
+				type: "item"
+				item: "tombstone:familiar_receptacle"
+			}]
+			rewards: [
+				{
+					id: "5D17937E6DC15359"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "739316A3B8009993"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.0d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "186B238E8DCF022B"
+			tasks: [{
+				id: "29CAE48065ABB1CC"
+				type: "item"
+				item: "tombstone:voodoo_poppet"
+			}]
+			rewards: [
+				{
+					id: "5C905AC44CC0E03B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26C3DAE96FD4AC06"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -5.5d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "007D784139C1A6D3"
+			tasks: [{
+				id: "314C8C6535AB2BFA"
+				type: "item"
+				item: "tombstone:white_marble"
+			}]
+			rewards: [
+				{
+					id: "09812A2E8D7A2D59"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "77725BAEB87AC09E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: -2.0d
+			hide_dependency_lines: true
+			dependencies: ["6C86C73EFAA32F57"]
+			id: "2F2B3BA9595319C0"
+			tasks: [{
+				id: "3A917281AADED836"
+				type: "item"
+				item: "tombstone:dark_marble"
+			}]
+			rewards: [
+				{
+					id: "76B54DE53B87532C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26AB646D3126C498"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

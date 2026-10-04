@@ -1,0 +1,9 @@
+{
+  "name": "Oasis",
+  "gameVersion": "1.21.1",
+  "loader": "neoforge",
+  "loaderVersion": "21.1.253",
+  "java": "21",
+  "memoryMb": 6144,
+  "notes": "Crear instancia en Prism/CurseForge con estos valores y sincronizar mods/ desde esta carpeta."
+}

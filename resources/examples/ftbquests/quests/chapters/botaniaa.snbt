@@ -1,0 +1,2076 @@
+{
+	id: "4A8AB36914D309C3"
+	group: "1D3673E14F18ABC4"
+	order_index: 1
+	filename: "botania"
+	title: "➢ &f&lBotania"
+	icon: "botania:mana_diamond"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -3.5d
+			y: 0.0d
+			description: ["Se utiliza para elaborar las flores mágicas de Botania."]
+			dependencies: ["54BBD7F5876893D0"]
+			id: "1F9C8097DF1767D0"
+			tasks: [{
+				id: "455F903736BACB15"
+				type: "item"
+				item: "botania:apothecary_default"
+			}]
+			rewards: [
+				{
+					id: "605EBA79D105FCE2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "223C70EEBE6A31D0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 0.0d
+			description: ["Convertirá materiales adyacentes en diferentes cosas, como Wood Logs en Livingwood."]
+			dependencies: ["1F9C8097DF1767D0"]
+			id: "2DEBA2CD6B0E261C"
+			tasks: [{
+				id: "6566CFF2D1D39DC0"
+				type: "item"
+				item: "botania:pure_daisy"
+			}]
+			rewards: [
+				{
+					id: "1A58771AF2765FD3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "53600EC0A01BF273"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 0.0d
+			description: ["Almacena maná."]
+			dependencies: ["2DEBA2CD6B0E261C"]
+			id: "05630AAA9BB83181"
+			tasks: [{
+				id: "0D5796D0D0006A09"
+				type: "item"
+				item: "botania:mana_pool"
+			}]
+			rewards: [
+				{
+					id: "1265AA0AFEED140E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1D8D0C3B90087A50"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.0d
+			description: ["Utiliza maná y elementos para crear runas."]
+			dependencies: ["05630AAA9BB83181"]
+			id: "6CB4659258050948"
+			tasks: [{
+				id: "37B68700816100E2"
+				type: "item"
+				item: "botania:runic_altar"
+			}]
+			rewards: [
+				{
+					id: "47B861C551B019D1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "21A481AB3A52125F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: 0.0d
+			description: [
+				"Se utiliza para fabricar lingotes de Terrasteel."
+				""
+				"&7&oConsulte Lexica Botania para saber cómo configurar la estructura."
+			]
+			dependencies: ["6CB4659258050948"]
+			id: "62B8A012C829DD85"
+			tasks: [{
+				id: "54073E8FF2CC4C2C"
+				type: "item"
+				item: "botania:terra_plate"
+			}]
+			rewards: [
+				{
+					id: "463EC418F88D2AB3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "096851C291F399DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Alfheim"
+			x: 4.0d
+			y: 0.0d
+			description: ["Se utiliza para elaborar materiales arrojando recursos a través del portal."]
+			dependencies: ["62B8A012C829DD85"]
+			id: "792A7362462DA08C"
+			tasks: [
+				{
+					id: "4B2A5DD26BD6FA1B"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "23DB53354F689EF0"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "50BB78C7C650BAF7"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "66799DB05B4D336F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "603F485439142E72"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 0.0d
+			description: [
+				"Lucha contra la Guardiana de Gaia."
+				""
+				"&7&oConsulte Lexica Botania para saber cómo convocar a Gaia."
+			]
+			dependencies: ["792A7362462DA08C"]
+			id: "41B2674D28104036"
+			tasks: [{
+				id: "6F2B5FF9E599B182"
+				type: "item"
+				item: "botania:life_essence"
+			}]
+			rewards: [
+				{
+					id: "6C67C5DE7A4CE271"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1AB269EE36AB442B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 0.0d
+			description: [
+				"Lucha contra el Guardián de Gaia, más duro."
+				""
+				"&7&oUsa un lingote de Gaia en la baliza de tu área de lucha para convocarlo."
+			]
+			dependencies: ["41B2674D28104036"]
+			id: "44CF4A17E1C72F92"
+			tasks: [{
+				id: "532656274B790270"
+				type: "item"
+				item: {
+					id: "botania:dice"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0A9BCCB681AC7BF5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4CA0B984E7D668AB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.125d
+			y: -1.5d
+			description: ["Los catalizadores se colocan debajo de una reserva de maná para cambiar la receta de la reserva."]
+			dependencies: ["05630AAA9BB83181"]
+			size: 0.75d
+			id: "5CBFC843294F7595"
+			tasks: [{
+				id: "306D9F7810BCCC29"
+				type: "item"
+				title: "Catalyst"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "botania:conjuration_catalyst"
+								Count: 1b
+							}
+							{
+								id: "botania:alchemy_catalyst"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "52A89794D723FFC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "683A130AD6AADF97"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&#0030ff&lB&#0049ff&lo&#0063fe&lt&#007cfe&la&#0095fe&ln&#00affd&li&#00c8fd&la"
+			icon: {
+				id: "botania:exchange_rod"
+				Count: 1b
+				tag: { }
+			}
+			x: -5.0d
+			y: 0.0d
+			shape: "gear"
+			description: ["Crecerá flores místicas cuando se use en césped."]
+			size: 1.5d
+			id: "54BBD7F5876893D0"
+			tasks: [{
+				id: "223806B49514CBAE"
+				type: "item"
+				item: "botania:fertilizer"
+			}]
+		}
+		{
+			x: -2.0d
+			y: -1.5d
+			description: ["Materiales de elaboración importantes para todo botánico."]
+			dependencies: ["2DEBA2CD6B0E261C"]
+			id: "6A8023F181AC2E44"
+			tasks: [{
+				id: "758705402BA83312"
+				type: "item"
+				item: "botania:livingwood"
+			}]
+			rewards: [
+				{
+					id: "70D58676CB5A12F0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7FECB336DF8F312E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.5d
+			description: ["Materiales de elaboración importantes para todo botánico."]
+			dependencies: ["2DEBA2CD6B0E261C"]
+			id: "12A082F5B9155D22"
+			tasks: [{
+				id: "6E6DE3D6FA8F64DA"
+				type: "item"
+				item: "botania:livingrock"
+			}]
+			rewards: [
+				{
+					id: "219E8F6BBADFC100"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1ED77BE149E25EB8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			description: ["Aleación mágica, infundida con grandes cantidades de maná."]
+			dependencies: ["62B8A012C829DD85"]
+			id: "5EAB94657B8E5A77"
+			tasks: [{
+				id: "5B6BE2B2B32AFA40"
+				type: "item"
+				item: "botania:terrasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "15CD9B13B87F38DF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "707A547C31F6A099"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 1.5d
+			description: ["Lingote mágico utilizado principalmente para fabricar herramientas y armaduras."]
+			dependencies: ["792A7362462DA08C"]
+			id: "23918029CE2DCEDF"
+			tasks: [{
+				id: "0C1054858D6B1E83"
+				type: "item"
+				item: "botania:elementium_ingot"
+			}]
+			rewards: [
+				{
+					id: "6C43E68910FF036F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2523AA7F68BF7F0F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 1.5d
+			description: ["Runas mágicas que contienen el poder del agua."]
+			dependencies: ["6CB4659258050948"]
+			id: "12CD5A405865E0DC"
+			tasks: [{
+				id: "685F1C5D812CE719"
+				type: "item"
+				item: "botania:rune_water"
+			}]
+			rewards: [
+				{
+					id: "1D148D9BF46843D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "22D6C9C62DAE81A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.5d
+			description: ["Runas mágicas que contienen el poder del fuego."]
+			dependencies: ["6CB4659258050948"]
+			id: "3C2C05B0907793CE"
+			tasks: [{
+				id: "0586D3110160FE96"
+				type: "item"
+				item: "botania:rune_fire"
+			}]
+			rewards: [
+				{
+					id: "47349888F789117B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1DDDABB88403EDE6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 1.5d
+			description: ["Runas mágicas que contienen el poder de la tierra."]
+			dependencies: ["6CB4659258050948"]
+			id: "5518B96F6638903E"
+			tasks: [{
+				id: "02EC418823F5605B"
+				type: "item"
+				item: "botania:rune_earth"
+			}]
+			rewards: [
+				{
+					id: "6BC1F03D748AAF03"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "18279A845524AEF8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 1.5d
+			description: ["Runas mágicas que contienen el poder del aire."]
+			dependencies: ["6CB4659258050948"]
+			id: "0402DEE083380BDA"
+			tasks: [{
+				id: "608567A82E3DC861"
+				type: "item"
+				item: "botania:rune_air"
+			}]
+			rewards: [
+				{
+					id: "485B9EFB097A7BCE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3CFE208F75FF3064"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 2.5d
+			description: ["Runas mágicas que contienen el poder de la primavera."]
+			dependencies: ["6CB4659258050948"]
+			id: "5517491328DBA21B"
+			tasks: [{
+				id: "10F122E65FD47A37"
+				type: "item"
+				item: "botania:rune_spring"
+			}]
+			rewards: [
+				{
+					id: "720F32510C45A104"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2ECEDE847C038E76"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 3.5d
+			description: ["Runas mágicas que contienen el poder del verano."]
+			dependencies: ["6CB4659258050948"]
+			id: "2D9AFEBEEE27574A"
+			tasks: [{
+				id: "085246312B1BB0D8"
+				type: "item"
+				item: "botania:rune_summer"
+			}]
+			rewards: [
+				{
+					id: "227173AFA72EF156"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "29220B10BCB99541"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 4.5d
+			description: ["Runas mágicas que contienen el poder del otoño."]
+			dependencies: ["6CB4659258050948"]
+			id: "7A414BE1FFADA534"
+			tasks: [{
+				id: "72BDE6E3D85F83A8"
+				type: "item"
+				item: "botania:rune_autumn"
+			}]
+			rewards: [
+				{
+					id: "02850BE27E940C21"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "676C606100EE3A2C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 1.5d
+			description: ["Runas mágicas que contienen el poder del invierno."]
+			dependencies: ["6CB4659258050948"]
+			id: "62EB078FDDE2B4D7"
+			tasks: [{
+				id: "25B25578AC8D1EA3"
+				type: "item"
+				item: "botania:rune_winter"
+			}]
+			rewards: [
+				{
+					id: "4FB2B9A04D088D9B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "76E705FE2210B2CF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 5.5d
+			description: ["Runas mágicas que contienen el poder del maná."]
+			dependencies: ["6CB4659258050948"]
+			id: "0B3240BEA276D47A"
+			tasks: [{
+				id: "028901EB52F8D7CB"
+				type: "item"
+				item: "botania:rune_mana"
+			}]
+			rewards: [
+				{
+					id: "1F0E81A00B602361"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "66205625CCB99990"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 5.5d
+			description: ["Runas mágicas que contienen el poder de la lujuria."]
+			dependencies: ["6CB4659258050948"]
+			id: "3BFAA17C18F0D8AE"
+			tasks: [{
+				id: "219B8BE916480BE9"
+				type: "item"
+				item: "botania:rune_lust"
+			}]
+			rewards: [
+				{
+					id: "2884AEF584A2C622"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "10BE016497C0C854"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 5.5d
+			description: ["Runas mágicas que contienen el poder de la glotonería."]
+			dependencies: ["6CB4659258050948"]
+			id: "1A5684C0F9F375C9"
+			tasks: [{
+				id: "65DF063752F4BD9E"
+				type: "item"
+				item: "botania:rune_gluttony"
+			}]
+			rewards: [
+				{
+					id: "09832815632C1495"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6286C643D0AEC5E8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 5.5d
+			description: ["Runas mágicas que contienen el poder de la codicia."]
+			dependencies: ["6CB4659258050948"]
+			id: "2A56F7E6DA9998C1"
+			tasks: [{
+				id: "78F9AED4333E7B15"
+				type: "item"
+				item: "botania:rune_greed"
+			}]
+			rewards: [
+				{
+					id: "610E0DCD94891566"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "54BBC603185874B2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 4.5d
+			description: ["Runas mágicas que contienen el poder de la pereza."]
+			dependencies: ["6CB4659258050948"]
+			id: "33B7C46191DAF10E"
+			tasks: [{
+				id: "4129B7BB7E9F5A10"
+				type: "item"
+				item: "botania:rune_sloth"
+			}]
+			rewards: [
+				{
+					id: "4FA4BBBCB8142C02"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "799423F874E1042C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 5.5d
+			description: ["Runas mágicas que contienen el poder de la ira."]
+			dependencies: ["6CB4659258050948"]
+			id: "406EA6E9C606903F"
+			tasks: [{
+				id: "7551499C16924FF9"
+				type: "item"
+				item: "botania:rune_wrath"
+			}]
+			rewards: [
+				{
+					id: "0540A6E5298F176A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5B1613504ACE1736"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 2.5d
+			description: ["Runas mágicas que contienen el poder de la envidia."]
+			dependencies: ["6CB4659258050948"]
+			id: "13E3CA40C53A57B3"
+			tasks: [{
+				id: "11D3CC7B6C020089"
+				type: "item"
+				item: "botania:rune_envy"
+			}]
+			rewards: [
+				{
+					id: "381CECE5A963B1A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "07857AEE750BADED"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.0d
+			y: 3.5d
+			description: ["Runas mágicas que contienen el poder del orgullo."]
+			dependencies: ["6CB4659258050948"]
+			id: "6DAC067DB61BE28E"
+			tasks: [{
+				id: "034E075BF7F7BB3A"
+				type: "item"
+				item: "botania:rune_pride"
+			}]
+			rewards: [
+				{
+					id: "10D7F530595EF80B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "79229A0DE82A02F2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 2.5d
+			dependencies: ["6CB4659258050948"]
+			id: "50EA3A0FB0C38BB7"
+			tasks: [{
+				id: "2791E7380E63327D"
+				type: "item"
+				item: "mythicbotany:asgard_rune"
+			}]
+			rewards: [
+				{
+					id: "462CA7461C115520"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3888853D7263CC1E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 2.5d
+			dependencies: ["6CB4659258050948"]
+			id: "01882E85397614B5"
+			tasks: [{
+				id: "222F1801ED12440E"
+				type: "item"
+				item: "mythicbotany:nidavellir_rune"
+			}]
+			rewards: [
+				{
+					id: "6A5E5C18C714A530"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3D296A33043564AB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			dependencies: ["6CB4659258050948"]
+			id: "0737A79541135E96"
+			tasks: [{
+				id: "4918053B71164384"
+				type: "item"
+				item: "mythicbotany:joetunheim_rune"
+			}]
+			rewards: [
+				{
+					id: "3F8EDFC3318B0160"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3AD735B1D8171007"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 4.5d
+			dependencies: ["6CB4659258050948"]
+			id: "0DB7308E302FA4DA"
+			tasks: [{
+				id: "3508B400E0D1C370"
+				type: "item"
+				item: "mythicbotany:muspelheim_rune"
+			}]
+			rewards: [
+				{
+					id: "728397907AECB74C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "73543BB4D5D30DDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			dependencies: ["6CB4659258050948"]
+			id: "0D2BD49A2BD834A5"
+			tasks: [{
+				id: "3002099404846275"
+				type: "item"
+				item: "mythicbotany:niflheim_rune"
+			}]
+			rewards: [
+				{
+					id: "6BDA37688A4A6509"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3260DB48027F19B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 4.5d
+			dependencies: ["6CB4659258050948"]
+			id: "1E053C0895CEE675"
+			tasks: [{
+				id: "4F4CE92ABBE8AF67"
+				type: "item"
+				item: "mythicbotany:vanaheim_rune"
+			}]
+			rewards: [
+				{
+					id: "4904C7865150245A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "60E44559CCE24356"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 3.5d
+			dependencies: ["6CB4659258050948"]
+			id: "0F1B872E4ECD7914"
+			tasks: [{
+				id: "3D0238489087937E"
+				type: "item"
+				item: "mythicbotany:alfheim_rune"
+			}]
+			rewards: [
+				{
+					id: "2D70CDAF850BF78E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "73CBEAF0D6506950"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 3.5d
+			dependencies: ["6CB4659258050948"]
+			id: "2B2330685E7D0D08"
+			tasks: [{
+				id: "0F559DE7C56D50DE"
+				type: "item"
+				item: "mythicbotany:helheim_rune"
+			}]
+			rewards: [
+				{
+					id: "2339FE133E8422ED"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5936EEA70E9F58F4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 3.5d
+			dependencies: ["6CB4659258050948"]
+			id: "0FF8B3DCA7E9AF77"
+			tasks: [{
+				id: "6471417BFC06D771"
+				type: "item"
+				item: "mythicbotany:midgard_rune"
+			}]
+			rewards: [
+				{
+					id: "3E1715CFD9801CAA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7BE8DC9736D177A2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 2.5d
+			dependencies: ["23918029CE2DCEDF"]
+			id: "1A2D79A9DC40C890"
+			tasks: [{
+				id: "3A8A8A021993E441"
+				type: "item"
+				item: "botania:dragonstone"
+			}]
+			rewards: [
+				{
+					id: "717E1E3106B412B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "68D02D961741F1DE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			dependencies: ["23918029CE2DCEDF"]
+			id: "3A23F46DE6D82C65"
+			tasks: [{
+				id: "613B706150174FE5"
+				type: "item"
+				item: "botania:pixie_dust"
+			}]
+			rewards: [
+				{
+					id: "20550E81EDCC9D6B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "07008C0878EA5B39"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 3.5d
+			dependencies: [
+				"1A2D79A9DC40C890"
+				"3A23F46DE6D82C65"
+			]
+			id: "779166995A68AC76"
+			tasks: [{
+				id: "123A5544A4C26B97"
+				type: "item"
+				item: "mythicbotany:mana_infuser"
+			}]
+			rewards: [
+				{
+					id: "6F43CA156A81BE3E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3BFDFF55594C8786"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 4.5d
+			dependencies: ["779166995A68AC76"]
+			id: "7081AD53A5D01958"
+			tasks: [{
+				id: "5BD05A413CC7E8ED"
+				type: "item"
+				item: "mythicbotany:alfsteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "1D8E4622F6333D05"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "436A0C4BF832E1B9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 5.5d
+			dependencies: ["7081AD53A5D01958"]
+			id: "72EC59303AB7F6C1"
+			tasks: [{
+				id: "6619A61BC66A7334"
+				type: "item"
+				item: "mythicbotany:alfsteel_pylon"
+			}]
+			rewards: [
+				{
+					id: "1899642EC5EA2187"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2EEA6E45D7854089"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 7.0d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "7169CD88B82411C0"
+			tasks: [{
+				id: "6E8D1E9AC8A90796"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_axe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5EA93F99757C8808"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3BF668DDE5EE235C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "664163B4C2E606AE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 7.0d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "6AF24E1510B306C8"
+			tasks: [{
+				id: "15581FFA8E773F25"
+				type: "item"
+				item: "mythicbotany:gjallar_horn_full"
+			}]
+			rewards: [
+				{
+					id: "04E22D9666A98A2A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "50B256458C587728"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "658F1BE5A2786C25"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 7.0d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "126F7EEA9EA1CFB9"
+			tasks: [{
+				id: "34726A8BBAB2385A"
+				type: "item"
+				item: {
+					id: "mythicbotany:mana_ring_greatest"
+					Count: 1b
+					tag: {
+						mana: 15380
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5C79923A75C3E5C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2DC19F4BAD8A9B74"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "73FE63F5A1109085"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 7.0d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "1AE6B3DE9C9CEE7F"
+			tasks: [{
+				id: "0FF382728A690895"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_sword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1170BCA726B2DEAD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0F5FD54185409D91"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "76DE100103DDF93A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 8.5d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "50212A1E46F7E657"
+			tasks: [{
+				id: "01ED3FBA1BA5F0CD"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_chestplate"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "35EA449EAB3D60C3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "17AF93288E70CB0F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "3D0DAA5409B5E0A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 8.5d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "3B79C9DA24463B9B"
+			tasks: [{
+				id: "26F4A0E51E796CE3"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B6288328FF716AE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "165D5A30D278B6DA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "3CD36A757F1E20FE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 8.5d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "27CEA37075781234"
+			tasks: [{
+				id: "49214519C84FB266"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_leggings"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0F5D320C6E137896"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0DCBE38CCE82B5AC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "7A04390D51F5E63F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 8.5d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "237733C3C915CE0E"
+			tasks: [{
+				id: "4756D78F3C04B46B"
+				type: "item"
+				item: {
+					id: "mythicbotany:alfsteel_boots"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2CADFB0427BCFF19"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7870A0779C14DE30"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "730FD1D242EB0A99"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: 10.0d
+			dependencies: ["72EC59303AB7F6C1"]
+			id: "7843D299022F6376"
+			tasks: [{
+				id: "71723B8E36DDD5E0"
+				type: "item"
+				item: "mythicbotany:mjoellnir"
+			}]
+			rewards: [
+				{
+					id: "4743983378E83EA7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "367A52E35CAF6460"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+				{
+					id: "61ED204ADF3537ED"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 8788084068083739575L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 1.5d
+			dependencies: ["23918029CE2DCEDF"]
+			id: "48ADD022FE4E0C61"
+			tasks: [
+				{
+					id: "653E1E7A1C3DD437"
+					type: "item"
+					item: {
+						id: "botania:elementium_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2D7A8ED369604E66"
+					type: "item"
+					item: {
+						id: "botania:elementium_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "44AF28A89255CE05"
+					type: "item"
+					item: {
+						id: "botania:elementium_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "34902EDF8648599F"
+					type: "item"
+					item: {
+						id: "botania:elementium_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "294B774C33A35344"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7F202519A3705002"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -3.0d
+			dependencies: ["5EAB94657B8E5A77"]
+			id: "3F85E75A5593BA58"
+			tasks: [
+				{
+					id: "3709A37C8CFCB58E"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B3A84134CB34582"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1703BB03BED6CD30"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2AFE38885ACB098C"
+					type: "item"
+					item: {
+						id: "botania:terrasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3491AA4B96A0E7BD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "04811BB2F7D254D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -1.5d
+			dependencies: ["05630AAA9BB83181"]
+			id: "0CF11C95325332A8"
+			tasks: [{
+				id: "2D31E30BD183E564"
+				type: "item"
+				item: "botania:manasteel_ingot"
+			}]
+			rewards: [
+				{
+					id: "28CE644F3647DB3A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0D9E737F54E93C3E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -3.0d
+			dependencies: ["0CF11C95325332A8"]
+			id: "4074CB02CE4176CB"
+			tasks: [
+				{
+					id: "7895F5CC12BC1E54"
+					type: "item"
+					item: {
+						id: "botania:manasteel_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "55C1D1A45CE35BDF"
+					type: "item"
+					item: {
+						id: "botania:manasteel_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "43C30947209DF132"
+					type: "item"
+					item: {
+						id: "botania:manasteel_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "16472DF78C35B367"
+					type: "item"
+					item: {
+						id: "botania:manasteel_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "734BA58F6810CCE3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3EBAF6E5EF40FC2B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: -0.5d
+			dependencies: ["44CF4A17E1C72F92"]
+			id: "1741F85DCD8E4FAD"
+			tasks: [{
+				id: "6A3F78B3582FCF2A"
+				type: "item"
+				item: {
+					id: "botania:king_key"
+					Count: 1b
+					tag: {
+						soulbindUUID: "182eede1-7c75-363d-b5a1-070acbf6f1df"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1705BAEB98452638"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "36056B7E23CE25A5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 12.5d
+			y: 0.5d
+			dependencies: ["44CF4A17E1C72F92"]
+			id: "0FE85B5E293BB68B"
+			tasks: [{
+				id: "315CD01EFC4A75F9"
+				type: "item"
+				item: {
+					id: "botania:infinite_fruit"
+					Count: 1b
+					tag: {
+						soulbindUUID: "182eede1-7c75-363d-b5a1-070acbf6f1df"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "384BAAD2ED1B4E10"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "647ABD5FF907F904"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: 1.5d
+			dependencies: ["44CF4A17E1C72F92"]
+			id: "59188D41D0D8A10E"
+			tasks: [{
+				id: "0A66BFF89DCB586D"
+				type: "item"
+				item: {
+					id: "botania:flugel_eye"
+					Count: 1b
+					tag: {
+						soulbindUUID: "182eede1-7c75-363d-b5a1-070acbf6f1df"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "671FF0D586DC7060"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1AAC82C382319580"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 13.5d
+			y: -1.5d
+			dependencies: ["44CF4A17E1C72F92"]
+			id: "3416AF3230DC0222"
+			tasks: [{
+				id: "5BC8BCE19B6371DF"
+				type: "item"
+				item: {
+					id: "botania:thor_ring"
+					Count: 1b
+					tag: {
+						soulbindUUID: "182eede1-7c75-363d-b5a1-070acbf6f1df"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "3934B9F34AC63838"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0DCA62845D869481"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: -0.5d
+			dependencies: ["44CF4A17E1C72F92"]
+			id: "6422D4949313794B"
+			tasks: [{
+				id: "33C9EBAD50DADC96"
+				type: "item"
+				item: {
+					id: "botania:odin_ring"
+					Count: 1b
+					tag: {
+						baubleUUID: [I;
+							1673738198
+							1779059688
+							-1214146220
+							1513449365
+						]
+						soulbindUUID: "182eede1-7c75-363d-b5a1-070acbf6f1df"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1E5E79CF1A0803E4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3CD590C7261612B3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 14.5d
+			y: 0.5d
+			dependencies: ["44CF4A17E1C72F92"]
+			id: "4468EE3B331D9934"
+			tasks: [{
+				id: "4ED2C212AECF910F"
+				type: "item"
+				item: {
+					id: "botania:loki_ring"
+					Count: 1b
+					tag: {
+						xOrigin: 0
+						soulbindUUID: "182eede1-7c75-363d-b5a1-070acbf6f1df"
+						zOrigin: 0
+						yOrigin: -2147483648
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "061A30A728AF3038"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "016AC88930FDB2CB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -1.5d
+			dependencies: ["41B2674D28104036"]
+			id: "38483DDA202AA3F7"
+			tasks: [{
+				id: "219CB60C6ABC235D"
+				type: "item"
+				item: "botania:ancient_will_ahrim"
+			}]
+			rewards: [
+				{
+					id: "77668E0A86229029"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "185C422D2E146E20"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -1.5d
+			dependencies: ["41B2674D28104036"]
+			id: "0FE8E890D2B43EE5"
+			tasks: [{
+				id: "3D41E3623EA10E09"
+				type: "item"
+				item: "botania:ancient_will_dharok"
+			}]
+			rewards: [
+				{
+					id: "20D0371E34200428"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0D6126C3C9398998"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: -2.5d
+			dependencies: ["41B2674D28104036"]
+			id: "742F1761BF7A62E2"
+			tasks: [{
+				id: "66A3B7EE71FDF79F"
+				type: "item"
+				item: "botania:ancient_will_guthan"
+			}]
+			rewards: [
+				{
+					id: "624249F2B9378A92"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "125FB693586EED6D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: -2.5d
+			dependencies: ["41B2674D28104036"]
+			id: "730416E7B1202CDE"
+			tasks: [{
+				id: "13218B9A7F860B4A"
+				type: "item"
+				item: "botania:ancient_will_torag"
+			}]
+			rewards: [
+				{
+					id: "2B401D6EC9CEB4B9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7E247D3335723680"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.5d
+			dependencies: ["41B2674D28104036"]
+			id: "728B82A84A1E2FCA"
+			tasks: [{
+				id: "7607B5F46A6B9963"
+				type: "item"
+				item: "botania:ancient_will_verac"
+			}]
+			rewards: [
+				{
+					id: "303D5AA4FD9710FA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "446BADE0AEB7D6EB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: -2.5d
+			dependencies: ["41B2674D28104036"]
+			id: "6E90085FC414716A"
+			tasks: [{
+				id: "23C14BA271E52FBA"
+				type: "item"
+				item: "botania:ancient_will_karil"
+			}]
+			rewards: [
+				{
+					id: "186A6740D4EC72DD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "75E8784139EB1421"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

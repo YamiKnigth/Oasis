@@ -1,0 +1,126 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "storage_oasis"
+	group: "22F7FAA010DA678A"
+	id: "7BE74CAA17E3329E"
+	images: [ ]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "518F9052C66706F0"
+			rewards: [{
+				id: "00DCC9077C850776"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "2B59FDF021AD781B"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["518F9052C66706F0"]
+			id: "4D4CFB7FCC133322"
+			rewards: [{
+				id: "21BF72D2499624AE"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0B70C3B0EA458CFF"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D4CFB7FCC133322"]
+			id: "33250F85C3028681"
+			rewards: [{
+				id: "3964AA515D6CFFAB"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "4E2CAEB2F14E8505"
+				item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["518F9052C66706F0"]
+			id: "7D71BF52853B98B0"
+			rewards: [{
+				id: "79A62D3D4B944CD3"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0BE58073D4BE33BA"
+				item: { count: 1, id: "sophisticatedstorage:chest" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D71BF52853B98B0"]
+			id: "7C81D159DC812840"
+			rewards: [{
+				id: "45CE49E0FF1D83B3"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "65D76D7E4399DF93"
+				item: { count: 1, id: "sophisticatedstorage:barrel" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["518F9052C66706F0"]
+			id: "1AE756D0C3916D9B"
+			rewards: [{
+				id: "091D8C4E42B9691E"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			tasks: [{
+				id: "36E242F421BCF19C"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4D4CFB7FCC133322"]
+			id: "0FA2C19085759330"
+			rewards: [{
+				id: "22F224ACEB56E231"
+				table_id: 8742791370470615894L
+				type: "random"
+			}]
+			tasks: [{
+				id: "521FE09E34DBF9A5"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 1.0d
+		}
+	]
+}

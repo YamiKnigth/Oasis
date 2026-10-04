@@ -1,0 +1,2855 @@
+{
+	id: "4F91F43F3651DB74"
+	group: "1D14C3C2AABC658D"
+	order_index: 0
+	filename: "tinkers_construct"
+	title: "➢ &f&lTinkers' Construct"
+	icon: {
+		id: "tconstruct:tinker_station"
+		Count: 1b
+		tag: {
+			texture: "minecraft:oak_planks"
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "¡Bienvenido a &9Tinkers' Construct!&r"
+			icon: {
+				id: "tconstruct:earth_slime_sling"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.5d
+			y: -12.0d
+			shape: "gear"
+			subtitle: "Custom Tools and Armor!"
+			description: [
+				"¡Bienvenido a &9Tinkers' Construct!&r"
+				""
+				"¡TC tiene que ver con la creación de herramientas y armaduras personalizadas mediante la creación de piezas individuales que se combinan para hacer herramientas mejores y más grandes!"
+				""
+				"También agrega nuevas formas de fundir minerales con fundiciones multibloque personalizadas para todas sus necesidades de fundición."
+			]
+			size: 1.5d
+			id: "681E777B4C8E19CF"
+			tasks: [{
+				id: "34CAB10421425B7F"
+				type: "checkmark"
+				title: "Welcome to Tinkers' Construct!"
+			}]
+		}
+		{
+			title: "Patterns"
+			x: 1.5d
+			y: -10.0d
+			subtitle: "El patrón básico"
+			description: [
+				"Para comenzar en TC, deberá crear &ePatterns&r."
+				""
+				"Estos están hechos de tablones y palos, ¡así que asegúrate de hacer muchos de ellos!"
+				""
+				"¡Estos se usan para crear las tablas básicas que necesitaremos para crear piezas, así como para hacer patrones de herramientas para crear nuevas herramientas!"
+			]
+			dependencies: ["681E777B4C8E19CF"]
+			id: "63318C8E26E28F58"
+			tasks: [{
+				id: "6E6A9B43E5936FD1"
+				type: "item"
+				item: "tconstruct:pattern"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "1E84CF173FB5C297"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4197C5D0FF383D39"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -6.5d
+			description: [
+				"Para comenzar a crear herramientas personalizadas, necesitaremos 2 cosas:"
+				""
+				"La &9Tinker Station&r, que es lo que usaremos para combinar piezas en herramientas. Aquí también es donde reparará, actualizará y mejorará sus herramientas."
+				""
+				"El &9Part Builder&r, que es lo que usaremos para crear piezas usando &ePatterns&r y materiales."
+				""
+				"Nota: ¡Si los coloca uno al lado del otro, puede acceder a todos desde un bloque! Esto también funciona para otros bancos de trabajo o yunques TC."
+			]
+			dependencies: ["4E3BAD0EE3974503"]
+			id: "4E0F952F75FBC1C9"
+			tasks: [
+				{
+					id: "621FAD19ED0FD894"
+					type: "item"
+					item: {
+						id: "tconstruct:tinker_station"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+				{
+					id: "1060C73CDE482FE7"
+					type: "item"
+					item: {
+						id: "tconstruct:part_builder"
+						Count: 1b
+						tag: {
+							texture: "minecraft:oak_planks"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "209B5756F7112C1B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "15809E45D1C01062"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: -6.5d
+			subtitle: "Almacenamiento de piezas"
+			description: ["El Cofre de piezas se utiliza para almacenar piezas adicionales que pueda necesitar en el futuro."]
+			dependencies: ["4E0F952F75FBC1C9"]
+			optional: true
+			id: "6C934DA835ECBAB6"
+			tasks: [{
+				id: "3FB0279E97A1C58E"
+				type: "item"
+				item: "tconstruct:part_chest"
+			}]
+			rewards: [
+				{
+					id: "66BB9E444C6DE39E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "50D80E4DBFD89B68"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: -6.5d
+			subtitle: "Even More Storage"
+			description: ["The Tinker's Chest allows you to store even more parts!"]
+			dependencies: ["4E0F952F75FBC1C9"]
+			optional: true
+			id: "6ECF405B1017AE53"
+			tasks: [{
+				id: "79E701B8D1414E05"
+				type: "item"
+				item: "tconstruct:tinkers_chest"
+			}]
+			rewards: [
+				{
+					id: "0CFB82375FDC3E31"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "49611EC04064A002"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Creación de piezas"
+			x: 1.5d
+			y: -5.0d
+			description: [
+				"Tome algunos patrones en blanco y colóquelos dentro de su Part Builder."
+				""
+				"colocará materiales al lado del patrón para crear ciertas partes. Comienza colocando adoquines para crear una &9cabeza de pico de piedra&r, una &9varilla de herramientas de piedra&r y un &9enlace de piedra&r."
+				""
+				"Nota: Los metales como los lingotes no funcionarán en esta tabla. Esto es solo para materiales básicos como madera, piedra, etc."
+			]
+			dependencies: [
+				"4E0F952F75FBC1C9"
+				"6ECF405B1017AE53"
+				"6C934DA835ECBAB6"
+			]
+			id: "66FB4821105A417E"
+			tasks: [
+				{
+					id: "3EDC127CFEF9C0A8"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_binding"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+				}
+				{
+					id: "77B21F897E0868CA"
+					type: "item"
+					item: {
+						id: "tconstruct:pick_head"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+				}
+				{
+					id: "2632875F3AC02196"
+					type: "item"
+					item: {
+						id: "tconstruct:tool_handle"
+						Count: 1b
+						tag: {
+							Material: "tconstruct:rock"
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1849AAD99FD26292"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "444F92B601AA2579"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tu primera herramienta"
+			x: 1.5d
+			y: -3.5d
+			description: [
+				"Con nuestras piezas en la mano, saltemos a la Tinker Station."
+				""
+				"Tinker Station es cómo combinamos partes para hacer herramientas, además de mejorarlas y repararlas."
+				""
+				"Seleccione el lado izquierdo del pico y verá los 3 elementos necesarios para fabricar un pico. ¡Coloca tus piezas y habrás creado tu primera herramienta!"
+			]
+			dependencies: ["66FB4821105A417E"]
+			id: "4D580C89653F69AA"
+			tasks: [{
+				id: "050E9115DF330AF7"
+				type: "item"
+				item: {
+					id: "tconstruct:pickaxe"
+					Count: 1b
+					tag: {
+						tic_stats: {
+							"tconstruct:attack_speed": 1.2f
+							"tconstruct:mining_speed": 4.2f
+							"tconstruct:attack_damage": 1.0f
+							"tconstruct:harvest_tier": "minecraft:stone"
+							"tconstruct:durability": 116.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 1s
+							}
+							{
+								name: "tconstruct:stonebound"
+								level: 3s
+							}
+						]
+						tic_materials: [
+							"tconstruct:rock"
+							"tconstruct:rock"
+							"tconstruct:rock"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 3
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "0228F5EC2E2B3E24"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0CE8C83D36719E7A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Reúne Grout"
+			x: 3.0d
+			y: -0.5d
+			subtitle: "Soy Grout."
+			description: [
+				"Para poder usar metales para crear herramientas, necesitaremos una fundición, que se crea a partir de &eGrout&r."
+				""
+				"Para crear lechada, necesitarás arena, grava y arcilla. ¡Consigue todo lo que puedas!"
+			]
+			dependencies: ["4D580C89653F69AA"]
+			id: "5D4F82496A6D1228"
+			tasks: [{
+				id: "487B22C8735A2ECF"
+				type: "item"
+				item: "tconstruct:grout"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "67313274F5A160AC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0F671471917708EB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -8.5d
+			subtitle: "La guía de inicio"
+			description: [
+				"&eMaterials and You&r es la guía de inicio de Tinkers' Construct."
+				""
+				"También puede usar el Tomo excéntrico con el que comenzó, ya que debería tener este libro dentro."
+				""
+				"Quizás se pregunte por qué recibe uno a cambio. ¡Lo necesitarás para actualizar el libro al siguiente nivel!"
+			]
+			dependencies: ["63318C8E26E28F58"]
+			id: "4E3BAD0EE3974503"
+			tasks: [{
+				id: "3470A9B8D6C75484"
+				type: "item"
+				item: "tconstruct:materials_and_you"
+			}]
+			rewards: [
+				{
+					id: "677D1A1CBE5A67C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7EA7910972E5FD41"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tíralo al horno"
+			x: 5.0d
+			y: 1.0d
+			description: [
+				"Fundir &eGrout&r te dará &9ladrillos sellados&r. No los confunda con el bloque Ladrillo, ya que son diferentes."
+				""
+				"&9Ladrillo chamuscado&r es el material de fabricación básico que se usa para hacer una fundición. Nunca está de más conseguir tantos como puedas."
+			]
+			dependencies: ["5D4F82496A6D1228"]
+			id: "20F30F5FFD3D669D"
+			tasks: [{
+				id: "4ECA340F0B13246E"
+				type: "item"
+				item: "tconstruct:seared_brick"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "5F5E6114553128D7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1985ABBA378466E7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tu Primera Fundición"
+			icon: "tconstruct:seared_melter"
+			x: 7.0d
+			y: 3.0d
+			description: [
+				"Para crear herramientas de metal, necesitaremos hacer una fundición para hacer metal fundido."
+				""
+				"Vamos a hacer un Melter, que es la primera fundición simple que necesitaremos antes de que podamos hacer nuestras grandes fundiciones personalizadas."
+				""
+				"Así es como se configura el Melter:"
+				""
+				"Imagen de referencia: https://imgur.com/kkyJKhx"
+			]
+			dependencies: ["20F30F5FFD3D669D"]
+			id: "6DB1A9EDAAE6D12F"
+			tasks: [
+				{
+					id: "415D563EFA54D0B4"
+					type: "item"
+					item: "tconstruct:seared_table"
+				}
+				{
+					id: "57759004B7A593B3"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+				{
+					id: "6DCFE80D576A51B4"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "31B8F9571C5840D4"
+					type: "item"
+					item: "tconstruct:seared_basin"
+				}
+				{
+					id: "2A04767A30641194"
+					type: "item"
+					item: "tconstruct:seared_fuel_tank"
+				}
+				{
+					id: "600FAA737779F22F"
+					type: "item"
+					item: "tconstruct:seared_faucet"
+				}
+			]
+			rewards: [
+				{
+					id: "3EA62B1375E72E02"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "10B0CFA5E252BBAE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&7&lMoldes Permanentes"
+			x: 7.0d
+			y: 8.0d
+			description: [
+				"Si tienes el oro, puedes hacer moldes reutilizables al verter el oro fundido sobre el objeto del que quieres hacer un molde."
+				""
+				"Hagamos un lingote de oro fundido. Coloque un poco de oro en el fundidor para fundirlo en oro fundido, luego coloque un lingote en la mesa de fundición. Haga clic con el botón derecho en el grifo para verter el oro fundido sobre el lingote, creándonos un molde de lingote."
+			]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			id: "5D1661EB762777E3"
+			tasks: [{
+				id: "356977F9A6FC2A45"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+			rewards: [
+				{
+					id: "746705712FACEF71"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "52FAB254A47F3538"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Making the Smeltery Controller"
+			x: 11.0d
+			y: -0.5d
+			description: [
+				"Usando nuestro Melter, fundiremos un poco de Cobre."
+				""
+				"Comienza fundiendo 4 lingotes de cobre en el Melter. Luego, coloque un Ladrillo chamuscado en nuestra Cuenca de fundición."
+				""
+				"Con el cobre seleccionado en el fundidor (haz clic izquierdo si tienes otros metales fundidos adentro), haz clic derecho en el grifo para verter el cobre fundido en el recipiente de fundición."
+				""
+				"Esto creará nuestro controlador de fundición."
+			]
+			dependencies: ["61EB8322B3E68C50"]
+			id: "506049B1F127462A"
+			tasks: [
+				{
+					id: "40ADC273F5D44DCA"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+				}
+				{
+					id: "08C4B1DE3B6D2EF2"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "1CD4E57AC6072DC7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "453C1B3F06675B6D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "The Mighty Smeltery"
+			x: 11.0d
+			y: -6.5d
+			shape: "square"
+			description: [
+				"Es hora de construir la Fundición."
+				""
+				"Puede ser de cualquier tamaño, hasta 16x16x64, pero debe ser rectangular."
+				""
+				"La fundición estándar básica comienza con una base de 3x3, generalmente en el suelo. Luego, en la siguiente capa, agregue ladrillos sellados alrededor de los bordes. En la parte delantera de la fundición, colocarás el controlador de la fundición y el tanque abrasador."
+				""
+				"Para bombear los lingotes fundidos, necesitaremos un drenaje sellado para verter el metal fundido en nuestra mesa de fundición y lavabo. ¡No olvides los grifos!"
+				""
+			]
+			dependencies: ["506049B1F127462A"]
+			size: 1.5d
+			id: "71409AA6F3C56CCC"
+			tasks: [
+				{
+					id: "4EEE29D9B449D303"
+					type: "item"
+					item: "tconstruct:seared_bricks"
+					count: 34L
+				}
+				{
+					id: "1998C202C2C79D45"
+					type: "item"
+					item: "tconstruct:seared_drain"
+				}
+			]
+			rewards: [
+				{
+					id: "631A3EEEEE0A32A3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26587B4669F3C546"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 1.0d
+			subtitle: "Quitar las ruedas de entrenamiento"
+			description: ["Para obtener más información sobre cómo crear una fundición, hagamos el siguiente libro: Mighty Smeltering"]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			id: "61EB8322B3E68C50"
+			tasks: [{
+				id: "47CED3C0AADE17AC"
+				type: "item"
+				item: "tconstruct:mighty_smelting"
+			}]
+			rewards: [
+				{
+					id: "286DEFF2C0D28D6E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "452EA506A0FD441F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Personalizando su Fundición"
+			x: 10.5d
+			y: -8.5d
+			shape: "diamond"
+			description: ["¡Estos bloques se pueden usar como reemplazo de los ladrillos sellados, al mismo tiempo que hacen que la fundición sea funcional!"]
+			dependencies: ["71409AA6F3C56CCC"]
+			optional: true
+			id: "740EE68B4E779115"
+			tasks: [
+				{
+					id: "0B71EE4D0F307829"
+					type: "item"
+					item: "tconstruct:seared_ladder"
+				}
+				{
+					id: "50C1E4D079FBE02E"
+					type: "item"
+					item: "tconstruct:seared_glass"
+				}
+			]
+			rewards: [
+				{
+					id: "11EAD3E97B55A7B3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4A3D6E1DB6FDD2DF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "De entrada y salida"
+			x: 11.5d
+			y: -8.5d
+			shape: "diamond"
+			description: [
+				"Además del drenaje abrasador, hay más formas de bombear fluidos y artículos dentro o fuera de su fundición."
+				""
+				"El &9conducto sellado&r le permite bombear fluidos específicos fuera de su fundición. Para hacer esto, llene una lata o balde de cobre con el fluido que desea filtrar, luego colóquelo dentro del conducto para que actúe como filtro. Esto se mostrará en el medio del conducto."
+				""
+				"El &6tobogán chamuscado&r te permite bombear objetos a la fundición."
+			]
+			dependencies: ["71409AA6F3C56CCC"]
+			id: "2AD7445095E1822A"
+			tasks: [
+				{
+					id: "28F6D40B8B5A2D39"
+					type: "item"
+					item: "tconstruct:seared_duct"
+				}
+				{
+					id: "066CDE3E5A1C8AEB"
+					type: "item"
+					item: "tconstruct:seared_chute"
+				}
+			]
+			rewards: [
+				{
+					id: "6C9DDD4991C71BDB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "59CAA63A6C0CE486"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Fabricación de aleaciones"
+			x: 15.0d
+			y: -6.5d
+			description: [
+				"La fundición combinará lingotes fundidos para crear &9aleaciones&r. Resolverás esto muy rápido si solo le inyectas minerales al azar."
+				""
+				"Necesitaremos aleaciones para crear mejores herramientas y armaduras, así que consigamos algo de bronce."
+				""
+				"Para obtener Bronce, fundir Cobre y Estaño juntos. La aleación es de 3 partes de cobre, 1 parte de estaño."
+				""
+				"Consejo: verter el bronce fundido en un recipiente de fundición crea un bloque de bronce, en lugar de hacer lingotes individuales con la mesa de fundición."
+			]
+			dependencies: ["71409AA6F3C56CCC"]
+			id: "63A17D740F3718F1"
+			tasks: [
+				{
+					id: "375831A8878CC972"
+					type: "item"
+					item: "tconstruct:queens_slime_ingot"
+					count: 5L
+				}
+				{
+					id: "085C09C9F2B2758E"
+					type: "item"
+					item: "tconstruct:amethyst_bronze_ingot"
+					count: 5L
+				}
+				{
+					id: "4D518B51A00FA890"
+					type: "item"
+					item: "tconstruct:manyullyn_ingot"
+					count: 5L
+				}
+			]
+			rewards: [
+				{
+					id: "7BAF59AED257E9DE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4E3B622A2F3FBA09"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 15.0d
+			y: -3.0d
+			shape: "rsquare"
+			subtitle: "La mesa de creación definitiva"
+			description: [
+				"El &6Tinker's Anvil&r es la actualización de Tinker Station."
+				""
+				"Le permite crear &9herramientas amplias&r como el martillo, la excavadora y más."
+				""
+				"Nota: La parte superior del yunque puede estar hecha de cualquier aleación, no solo de bronce."
+			]
+			dependencies: ["63A17D740F3718F1"]
+			id: "1E35D97AF9B2A0C8"
+			tasks: [{
+				id: "534231B9986B7876"
+				type: "item"
+				item: {
+					id: "tconstruct:tinkers_anvil"
+					Count: 1b
+					tag: {
+						texture: "alltheores:bronze_block"
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "28BCD13908A4249D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "61AC8DFB81285172"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Aumentar el tamaño"
+			x: 11.0d
+			y: -7.5d
+			shape: "diamond"
+			subtitle: "Size Does Matter"
+			description: [
+				"Si desea aumentar la cantidad de espacios de almacenamiento y entrada que tiene la Fundición, ¡construya la Fundición hacia arriba!"
+				""
+				"Cada capa en la parte superior de la fundición aumenta la cantidad de elementos que puede fundir al mismo tiempo y la cantidad de lingotes fundidos que puede almacenar."
+				""
+				"La altura máxima es 64."
+			]
+			dependencies: ["71409AA6F3C56CCC"]
+			id: "79FEF7F610F0DB64"
+			tasks: [{
+				id: "18B1E0EC9C938915"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+				count: 12L
+			}]
+			rewards: [
+				{
+					id: "3BC77C374F59A4FC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "49A9C375CC3CE062"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			icon: "tconstruct:smeltery_controller"
+			x: 7.0d
+			y: -1.5d
+			description: [
+				"Si es nuevo en TC, es útil conocer cada parte de la Fundición y cómo funciona."
+				""
+				"El controlador principal, ya sea un &9Melter&r o un &9Smeltery Controller&r, tendrá una GUI cuando haga clic con el botón derecho. Si no es así, ¡la estructura no está completa!"
+				""
+				"Así es como inserta manualmente minerales y artículos en la Fundición."
+			]
+			dependencies: ["6DB1A9EDAAE6D12F"]
+			optional: true
+			id: "01A303E16F56A744"
+			tasks: [{
+				id: "4F7DCA8587EF502A"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+			rewards: [
+				{
+					id: "6FDEC924F63A0838"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "340ACE6B3666087A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Smelting Entities"
+			x: 9.0d
+			y: -7.0d
+			shape: "hexagon"
+			subtitle: "No te quedes en la fundición"
+			description: [
+				"La Fundición se puede usar para fundir entidades para crear artículos."
+				""
+				"&lEntidades notables:&r"
+				""
+				"Jugadores - Sangre (sustituto de Slimeball)"
+				"Silverfish - Piedra chamuscada"
+				"Villagers and Illagers - Emeralds"
+				"Esqueletos - Leche"
+				"Dragón Ender - ¿Qué?"
+			]
+			dependencies: ["71409AA6F3C56CCC"]
+			optional: true
+			id: "00CB0F26B3751D32"
+			tasks: [{
+				id: "16789775F365204D"
+				type: "item"
+				item: "tconstruct:blood_slime_ball"
+			}]
+			rewards: [
+				{
+					id: "7771BA30126D9490"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "48F825FE203DA2FB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			shape: "hexagon"
+			subtitle: "El libro \"Todo en uno\""
+			description: [
+				"¿Busca una lista completa de materiales, actualizaciones y más?"
+				""
+				"Hazte uno de estos. Es mejor que tener que hojear 4 libros de TC diferentes."
+			]
+			dependencies: ["71409AA6F3C56CCC"]
+			optional: true
+			id: "3CEC4B07D209B7AD"
+			tasks: [{
+				id: "377B7F651B40C0F6"
+				type: "item"
+				item: "tconstruct:encyclopedia"
+			}]
+			rewards: [
+				{
+					id: "167D4AFB217364AF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "655097BAD5A4AF61"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Nether Grout"
+			x: 19.0d
+			y: -3.0d
+			subtitle: "Soy Nether Grout."
+			description: [
+				"Si queremos hacer un TC Foundry, necesitaremos algo más fuerte que Seared Bricks."
+				""
+				"Dirígete al Nether para Magma Cream y Soul Sand. Los necesitarás para fabricar &9lechada abisal&r."
+			]
+			dependencies: ["1E35D97AF9B2A0C8"]
+			id: "085239E88B85820C"
+			tasks: [{
+				id: "7E9F548868BEB2FA"
+				type: "item"
+				item: "tconstruct:nether_grout"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "237C535A64FC549B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "50083A841F03B857"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: -3.0d
+			subtitle: "Fundición práctica"
+			description: ["Este libro contiene toda la información necesaria para crear y usar una fundición, así como una lista de materiales de nivel 4 y cómo crear una armadura de placas."]
+			dependencies: ["085239E88B85820C"]
+			optional: true
+			id: "7675F195F6D5F8B4"
+			tasks: [{
+				id: "42232A516F1FD4F6"
+				type: "item"
+				item: "tconstruct:fantastic_foundry"
+			}]
+			rewards: [
+				{
+					id: "70B8C82BD60C90A7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "327F4A0BE656DC5C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Creación de un controlador de fundición"
+			icon: "tconstruct:scorched_bricks"
+			x: 19.0d
+			y: 0.0d
+			description: [
+				"Para crear la fundición, necesitaremos el &6controlador de la fundición&r."
+				""
+				"Para obtener esto, coloque un Ladrillo chamuscado en un recipiente de fundición, luego vierta al menos 1 bloque de obsidiana sobre él."
+			]
+			dependencies: ["5F6D253B5D900724"]
+			id: "5FAFAEC103BE62DD"
+			tasks: [
+				{
+					id: "78B14C96E2FCE9BA"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+				}
+				{
+					id: "636F5BF28DB30A27"
+					type: "item"
+					item: "minecraft:obsidian"
+				}
+				{
+					id: "4FC9AD1C3A09F27F"
+					type: "item"
+					item: "tconstruct:foundry_controller"
+				}
+			]
+			rewards: [
+				{
+					id: "44AD2C9C43F46BA4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2F5C6F96EFC3DFDC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Nether Smelting"
+			x: 19.0d
+			y: -1.5d
+			description: ["Fundir lechada abisal nos dará &6ladrillos chamuscados&r, que es lo que usaremos para crear nuestra fundición."]
+			dependencies: ["085239E88B85820C"]
+			id: "5F6D253B5D900724"
+			tasks: [{
+				id: "319C6349A20B7C7A"
+				type: "item"
+				item: "tconstruct:scorched_brick"
+				count: 16L
+			}]
+			rewards: [
+				{
+					id: "75C14B6AD758172E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "08427FCC74E6BE7E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Creando la fundición"
+			icon: "tconstruct:foundry_controller"
+			x: 19.0d
+			y: 2.0d
+			shape: "square"
+			description: [
+				"La &6Fundición&r es como la Fundición, pero no crea aleaciones. ¡Ya no tendrás que preocuparte por mezclar materiales!"
+				""
+				"La fundición también crea &9subproductos&r a partir de elementos fundidos. Por ejemplo, el cobre puede dar oro como subproducto."
+				""
+				"Para crear la Fundición, deberás construirla como la Fundición utilizando elementos Scorched en lugar de Seared. La Fundición también necesita esquinas para funcionar."
+				""
+				"Aquí hay un ejemplo de una fundición completa:"
+				""
+			]
+			dependencies: ["5FAFAEC103BE62DD"]
+			size: 1.5d
+			id: "073B3F17C6110A73"
+			tasks: [
+				{
+					id: "0D85D26357A4519B"
+					type: "item"
+					item: "tconstruct:scorched_bricks"
+					count: 16L
+				}
+				{
+					id: "135F9155412A324E"
+					type: "item"
+					item: "tconstruct:scorched_fuel_tank"
+				}
+				{
+					id: "4F6FEC6577607A4B"
+					type: "item"
+					item: "tconstruct:scorched_drain"
+				}
+				{
+					id: "04A2A3EAF99526E3"
+					type: "item"
+					item: "tconstruct:scorched_table"
+				}
+				{
+					id: "4CF07DE3D1810B0A"
+					type: "item"
+					item: "tconstruct:scorched_basin"
+				}
+				{
+					id: "2D5888945AE1A6DE"
+					type: "item"
+					item: "tconstruct:scorched_faucet"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "0F3F22D4F662D821"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5F84F160C6FAB3D4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Personalización de la fundición"
+			x: 17.0d
+			y: 2.0d
+			description: ["Al igual que la Fundición, hay muchos bloques que puede usar esa función como bloques de Fundición al crear su Fundición."]
+			dependencies: ["073B3F17C6110A73"]
+			id: "2FCE10E2126AB563"
+			tasks: [
+				{
+					id: "780AADB9124502A9"
+					type: "item"
+					item: "tconstruct:scorched_glass"
+				}
+				{
+					id: "78D90B46E670817A"
+					type: "item"
+					item: "tconstruct:scorched_duct"
+				}
+				{
+					id: "739B99391BF1C2CB"
+					type: "item"
+					item: "tconstruct:scorched_chute"
+				}
+			]
+			rewards: [
+				{
+					id: "16411E22B26868C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2544389C5D414B5D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 19.0d
+			y: 4.0d
+			subtitle: "Para aquellos que necesitan aleaciones"
+			description: [
+				"Para aquellos que quieran crear aleaciones, este bloque hará exactamente eso."
+				""
+				"Necesitará un calentador o un tanque de combustible debajo, y necesitará tanques de lingotes adyacentes al Alloyer para crear las aleaciones."
+				""
+				"Inserte los lingotes fundidos en cada uno de los tanques de lingotes y el aleador creará la aleación."
+				""
+			]
+			dependencies: ["073B3F17C6110A73"]
+			optional: true
+			id: "7AA0E88863D30B5D"
+			tasks: [
+				{
+					id: "7EF6A858AEB29DA8"
+					type: "item"
+					item: "tconstruct:scorched_alloyer"
+				}
+				{
+					id: "0CDC73E8DBA50FA7"
+					type: "item"
+					item: "tconstruct:scorched_ingot_tank"
+					count: 2L
+				}
+			]
+			rewards: [
+				{
+					id: "20E8F40AB210FE7B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1EF82882E4F6E289"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&6Blazing Blood&r"
+			x: 21.0d
+			y: 2.0d
+			subtitle: "Que en las llamas"
+			description: [
+				"La lava no sirve para fundir minerales como &6Allthemodium&r. Para esto necesitarás algo más caliente."
+				""
+				"Stacy's Mo- I mean &6Blazing Blood&r."
+				""
+				"Hay varias formas de conseguir esto. Puedes oler Blaze Heads en la fundición, O... oler los Blazes directamente."
+				""
+			]
+			dependencies: ["073B3F17C6110A73"]
+			id: "2B7EFB6A2605BEFD"
+			tasks: [{
+				id: "46420D96D907C511"
+				type: "item"
+				item: "tconstruct:blaze_head"
+			}]
+			rewards: [
+				{
+					id: "29EC6E5281713EA3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1D968982D9C675FD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Habilidad de herramienta de fusión"
+			x: 21.0d
+			y: 4.0d
+			description: [
+				"¿Quieres derretir entidades a mano?"
+				""
+				"Agregar la habilidad &6Melter&r a tu herramienta te permite derretir a los enemigos directamente en tu herramienta."
+				""
+				"Nota: La herramienta requerirá una &9actualización del tanque&r para almacenar líquidos."
+			]
+			dependencies: ["2B7EFB6A2605BEFD"]
+			optional: true
+			id: "729B02AE3CDD52AD"
+			tasks: [
+				{
+					id: "6CBF02F660781BEB"
+					type: "item"
+					item: "minecraft:blaze_rod"
+					count: 2L
+				}
+				{
+					id: "3EF210DD4581E94F"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "1DE67536C429D4EF"
+					type: "item"
+					item: "minecraft:lava_bucket"
+				}
+				{
+					id: "6BCA350317D8DB4B"
+					type: "item"
+					item: "tconstruct:seared_melter"
+				}
+			]
+			rewards: [
+				{
+					id: "57B86365EEDFED3E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1993301A12D87F48"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Cleaver"
+			x: 15.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Peso pesado"
+			description: ["Arma de alto daño que también decapita."]
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "4284DC447ED43032"
+			tasks: [{
+				id: "5F6A0DAD14C22789"
+				type: "item"
+				item: {
+					id: "tconstruct:cleaver"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.25f
+							"tconstruct:attack_damage": 1.5f
+							"tconstruct:durability": 3.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.0f
+							"tconstruct:mining_speed": 1.5f
+							"tconstruct:attack_damage": 7.5f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 962.5f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:severing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:magnetic"
+								level: 4s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "6CC9CA9639C7AFB1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "27C733560A64324A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Excavator"
+			x: 14.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Excavación 3x3"
+			description: [""]
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "7FF7E8F009D21285"
+			tasks: [{
+				id: "55CD41E6BCDD8924"
+				type: "item"
+				item: {
+					id: "tconstruct:excavator"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.2f
+							"tconstruct:durability": 3.75f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 1.0f
+							"tconstruct:mining_speed": 1.8000001f
+							"tconstruct:attack_damage": 4.2000003f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1031.25f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:knockback"
+								level: 2s
+							}
+							{
+								name: "tconstruct:magnetic"
+								level: 4s
+							}
+							{
+								name: "tconstruct:pathing"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "57E25D254E70F8F9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "76E627CA5613D228"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Vein Hammer"
+			x: 15.0d
+			y: -1.0d
+			shape: "diamond"
+			subtitle: "Un poco inútil con Ultimine"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "7C518B3A86E4869F"
+			tasks: [{
+				id: "7F17C4A012A6EF0D"
+				type: "item"
+				item: {
+					id: "tconstruct:vein_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.25f
+							"tconstruct:durability": 5.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.85f
+							"tconstruct:mining_speed": 1.8000001f
+							"tconstruct:attack_damage": 5.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1375.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:piercing"
+								level: 2s
+							}
+							{
+								name: "tconstruct:magnetic"
+								level: 4s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "471A2380688CA28A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4D2341B907013588"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Sledge Hammer"
+			x: 14.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Minería 3x3"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "35BA7E1421AADE3A"
+			tasks: [{
+				id: "467762FC002733D1"
+				type: "item"
+				item: {
+					id: "tconstruct:sledge_hammer"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.4f
+							"tconstruct:attack_damage": 1.35f
+							"tconstruct:durability": 4.0f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.75f
+							"tconstruct:mining_speed": 2.4f
+							"tconstruct:attack_damage": 6.75f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1100.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:smite"
+								level: 2s
+							}
+							{
+								name: "tconstruct:magnetic"
+								level: 4s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "4E3D66E7E03D83D6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "13BBE6C1AE9631CC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 16.0d
+			y: 0.0d
+			shape: "diamond"
+			subtitle: "Corta árboles enteros - También inútil con Ultimine"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "2E73CA4D82AB10E0"
+			tasks: [{
+				id: "3BB4A6D3ADBB14F2"
+				type: "item"
+				item: {
+					id: "tconstruct:broad_axe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.3f
+							"tconstruct:attack_damage": 1.65f
+							"tconstruct:durability": 4.25f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.6f
+							"tconstruct:mining_speed": 1.8000001f
+							"tconstruct:attack_damage": 11.55f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 1168.75f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:magnetic"
+								level: 4s
+							}
+							{
+								name: "tconstruct:stripping"
+								level: 1s
+							}
+							{
+								name: "tconstruct:axe_scrape"
+								level: 1s
+							}
+							{
+								name: "tconstruct:axe_wax_off"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1B4ED0DB75931E7C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5F0CC90F20BF76A0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 15.5d
+			y: -0.5d
+			shape: "diamond"
+			subtitle: "Herramienta de cosecha para la agricultura"
+			dependencies: ["1E35D97AF9B2A0C8"]
+			optional: true
+			id: "0A2BC58800819C15"
+			tasks: [{
+				id: "155A9D8D5E9E5589"
+				type: "item"
+				item: {
+					id: "tconstruct:scythe"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:mining_speed": 0.45f
+							"tconstruct:durability": 2.5f
+						}
+						tic_stats: {
+							"tconstruct:attack_speed": 0.7f
+							"tconstruct:mining_speed": 2.6999998f
+							"tconstruct:attack_damage": 3.0f
+							"tconstruct:harvest_tier": "minecraft:iron"
+							"tconstruct:durability": 687.5f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:magnetic"
+								level: 4s
+							}
+							{
+								name: "tconstruct:tilling"
+								level: 1s
+							}
+							{
+								name: "tconstruct:silky_aoe_shears"
+								level: 1s
+							}
+							{
+								name: "tconstruct:harvest"
+								level: 1s
+							}
+						]
+						tic_materials: [
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+							"tconstruct:iron"
+						]
+						Damage: 0
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 2
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "76A97DCE307B67B0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5873DBBA4687E136"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Reparación y actualización de herramientas"
+			icon: {
+				id: "tconstruct:pick_head"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:iron"
+				}
+			}
+			x: 3.0d
+			y: -3.5d
+			shape: "diamond"
+			description: [
+				"Las herramientas se pueden reparar colocándolas en una Tinker Station con el material del que están hechas."
+				""
+				"También puedes hacer kits de reparación (de Tinkers' Construct, no de Silent Gear) para repararlos sobre la marcha."
+				""
+				"Las herramientas también se pueden actualizar combinando la nueva pieza de herramienta con la herramienta en Tinker Station."
+			]
+			dependencies: ["4D580C89653F69AA"]
+			optional: true
+			id: "748F70BEEAAE2AF9"
+			tasks: [{
+				id: "13CA35CA6EC15987"
+				type: "checkmark"
+				title: "Reparación y actualización de herramientas"
+			}]
+			rewards: [
+				{
+					id: "073F1FCFB3AA90B3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "697D21DA1225EDEA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -3.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "58F04B0448FFB3AB"
+			tasks: [{
+				id: "527D5E6608AFBCEA"
+				type: "item"
+				item: "tconstruct:iron_reinforcement"
+			}]
+			rewards: [
+				{
+					id: "01B37E6FC941AFA9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "743694EF2DF519DF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -3.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "2025206B904E7C44"
+			tasks: [{
+				id: "29DA33145916D3DE"
+				type: "item"
+				item: "tconstruct:bronze_reinforcement"
+			}]
+			rewards: [
+				{
+					id: "5F2A2E3224ECF5BC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "646E661AFF04CC8D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -3.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "757A66068867647F"
+			tasks: [{
+				id: "32F4086C58F450D9"
+				type: "item"
+				item: "tconstruct:seared_reinforcement"
+			}]
+			rewards: [
+				{
+					id: "0FCEE7A7723F6C47"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "101B28D20C897A14"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -3.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "08A1A5A5EFA710E3"
+			tasks: [{
+				id: "21CD80F37DC8D21D"
+				type: "item"
+				item: "tconstruct:gold_reinforcement"
+			}]
+			rewards: [
+				{
+					id: "3C9021039D3B4806"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0B2CA9FB45E29F72"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: -3.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "65D937FF3B51C2C2"
+			tasks: [{
+				id: "3C07CB5CF3A47BE5"
+				type: "item"
+				item: "tconstruct:cobalt_reinforcement"
+			}]
+			rewards: [
+				{
+					id: "18CA809366F14BF4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5418F0F7C79635A6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -3.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "09838DB094C56221"
+			tasks: [{
+				id: "615804D18DB0EE16"
+				type: "item"
+				item: "tconstruct:emerald_reinforcement"
+			}]
+			rewards: [
+				{
+					id: "3536842735DD79F9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "416568D45D4406D4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "7ED3F9AE7C274E9F"
+			tasks: [{
+				id: "7A20F0E6C8380662"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_helmet"
+					Count: 1b
+					tag: {
+						tic_stats: {
+							"tconstruct:durability": 452.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime_friend"
+								level: 1s
+							}
+							{
+								name: "tconstruct:self_destructive"
+								level: 1s
+							}
+							{
+								name: "tconstruct:creeper_disguise"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_materials: ["tconstruct:glass"]
+						tic_volatile_data: {
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "21A387CA38686870"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "576CED6DA3D6422E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.5d
+			y: -4.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "799A1207EDEDA778"
+			tasks: [{
+				id: "5932ACF539C7F5E6"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_leggings"
+					Count: 1b
+					tag: {
+						tic_stats: {
+							"tconstruct:durability": 630.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime_friend"
+								level: 1s
+							}
+							{
+								name: "tconstruct:shulking"
+								level: 1s
+							}
+							{
+								name: "tconstruct:pockets"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:total_item_slots": 18
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "30B95FD6B5D06652"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4E6AADAFBB69CF3B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 8.5d
+			y: -4.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "19C6577E8302507A"
+			tasks: [{
+				id: "6CE83169A97979CC"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_boots"
+					Count: 1b
+					tag: {
+						tic_stats: {
+							"tconstruct:durability": 546.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime_friend"
+								level: 1s
+							}
+							{
+								name: "tconstruct:bouncy"
+								level: 1s
+							}
+							{
+								name: "tconstruct:leaping"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "52D74E77F7173897"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "675A9DF5ED1496DA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.5d
+			dependencies: ["01A303E16F56A744"]
+			id: "304EBC8DABBF0151"
+			tasks: [{
+				id: "3E30B1525A5FD151"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_chestplate"
+					Count: 1b
+					tag: {
+						tic_multipliers: {
+							"tconstruct:attack_damage": 0.4f
+						}
+						tic_stats: {
+							"tconstruct:attack_damage": 0.0f
+							"tconstruct:durability": 672.0f
+							"tconstruct:armor": 0.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime_friend"
+								level: 1s
+							}
+							{
+								name: "tconstruct:wings"
+								level: 1s
+							}
+						]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:elyta": 1b
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "27089C5AB9B5588D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0C49616196399B56"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "191D44F5040EDB8C"
+			tasks: [{
+				id: "6A40C693848F0F6B"
+				type: "item"
+				item: "tconstruct:ingot_cast"
+			}]
+			rewards: [
+				{
+					id: "157539F0588B3700"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26D3FDBC0CD24130"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 6.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "55B7817BB0B161A4"
+			tasks: [{
+				id: "53539613C1E7923C"
+				type: "item"
+				item: "tconstruct:rod_cast"
+			}]
+			rewards: [
+				{
+					id: "0E76F6D87E74FC1D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1F6A3BCC4647A154"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 6.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "2D1BBB6944198A17"
+			tasks: [{
+				id: "76330F485F53AB6A"
+				type: "item"
+				item: "tconstruct:gear_cast"
+			}]
+			rewards: [
+				{
+					id: "51114A38D19F1E06"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "69F4C9E35DF9FB77"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 5.5d
+			dependencies: ["5D1661EB762777E3"]
+			id: "49C053C166D1264E"
+			tasks: [{
+				id: "3F9301E6EF0EEACF"
+				type: "item"
+				item: "tconstruct:pick_head_cast"
+			}]
+			rewards: [
+				{
+					id: "513582A9B156246D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6FF61CCD6FB6F4C6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 5.5d
+			dependencies: ["5D1661EB762777E3"]
+			id: "43898B6D9DDA950D"
+			tasks: [{
+				id: "7E116925D2073EC1"
+				type: "item"
+				item: "tconstruct:hammer_head_cast"
+			}]
+			rewards: [
+				{
+					id: "51B4A360F374EABF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4D1045F00F430B55"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 7.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "30B8812CB7475661"
+			tasks: [{
+				id: "54C7B28AC3E5CE22"
+				type: "item"
+				item: "tconstruct:tool_binding_cast"
+			}]
+			rewards: [
+				{
+					id: "038E23B0E1E5FCD6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "70412D8FE841349E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 8.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "3858851A1FB7BFE6"
+			tasks: [{
+				id: "549B6BE724D0C158"
+				type: "item"
+				item: "tconstruct:tool_handle_cast"
+			}]
+			rewards: [
+				{
+					id: "64B01020EBCDC6EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "712007CE29470F1B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.5d
+			y: 9.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "3A6D2345EF71ADD1"
+			tasks: [{
+				id: "5C161BED26BB7B96"
+				type: "item"
+				item: "tconstruct:bow_grip_cast"
+			}]
+			rewards: [
+				{
+					id: "25AD9DD4D74E035D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "20070E5F89CE71F3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 6.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "3E027375423BD2D4"
+			tasks: [{
+				id: "20862800E59991F6"
+				type: "item"
+				item: "tconstruct:nugget_cast"
+			}]
+			rewards: [
+				{
+					id: "3F326F95B6D9F62E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "33B2B7F432974E52"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 10.0d
+			y: 10.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "23D80C9E7FDD2A60"
+			tasks: [{
+				id: "72D3777D6F7E91CE"
+				type: "item"
+				item: "tconstruct:repair_kit_cast"
+			}]
+			rewards: [
+				{
+					id: "473F357BB7C2E775"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2ED09C268C5F3E5F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 7.0d
+			y: 10.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "36AE4665C4E760F7"
+			tasks: [{
+				id: "6134B5D7C4A84BF3"
+				type: "item"
+				item: "tconstruct:coin_cast"
+			}]
+			rewards: [
+				{
+					id: "2F9E055E99DD8125"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3CB9D689019CAA13"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 8.0d
+			y: 10.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "5461F45A1C1B14D2"
+			tasks: [{
+				id: "6CD9092CB1C1FF5F"
+				type: "item"
+				item: "tconstruct:small_axe_head_cast"
+			}]
+			rewards: [
+				{
+					id: "236708C5745CA547"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2DB7C5F4A029A62F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 10.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "4883B7A7AFE5A88F"
+			tasks: [{
+				id: "25FE1158F08312FD"
+				type: "item"
+				item: "tconstruct:broad_blade_cast"
+			}]
+			rewards: [
+				{
+					id: "0430CDD247AC4CA9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6BBE192A32670668"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 8.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "011AF4B51975DD72"
+			tasks: [{
+				id: "7BCD9BD12CD0B14D"
+				type: "item"
+				item: "tconstruct:round_plate_cast"
+			}]
+			rewards: [
+				{
+					id: "55CCD65BA64B85D4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "40981817ACE90A48"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 9.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "1083CD6BAC94D7A9"
+			tasks: [{
+				id: "315A18FFA6B66A25"
+				type: "item"
+				item: "tconstruct:tough_handle_cast"
+			}]
+			rewards: [
+				{
+					id: "01FE7D1072C75FE4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "69890E8DBC3CFE15"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: 7.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "69EBA684A84AF774"
+			tasks: [{
+				id: "2E71860F76A2EAB4"
+				type: "item"
+				item: "tconstruct:gem_cast"
+			}]
+			rewards: [
+				{
+					id: "794678B720E406E2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "29729626AAEFB088"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.0d
+			y: 10.5d
+			dependencies: ["5D1661EB762777E3"]
+			id: "6AB5BE8DA0C22AF1"
+			tasks: [{
+				id: "563B8AAA0AC11E24"
+				type: "item"
+				item: "tconstruct:plate_cast"
+			}]
+			rewards: [
+				{
+					id: "5F2A6ED7388F9B89"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6F0E0461A3FC25F9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 10.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "6F1026A1649DF1DC"
+			tasks: [{
+				id: "1C5BA6A43C24AF54"
+				type: "item"
+				item: "tconstruct:wire_cast"
+			}]
+			rewards: [
+				{
+					id: "0CDFF6A340C4C5CE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "052895DB38049AF9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 9.0d
+			y: 10.5d
+			dependencies: ["5D1661EB762777E3"]
+			id: "38D8819A8BBF098A"
+			tasks: [{
+				id: "4587E3DA0DD92591"
+				type: "item"
+				item: "tconstruct:small_blade_cast"
+			}]
+			rewards: [
+				{
+					id: "04B8179A72D1703E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6DE8A2E97DC9B22F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 6.0d
+			dependencies: ["5D1661EB762777E3"]
+			id: "5AE3AD87A40B7A2A"
+			tasks: [{
+				id: "643BA9C0F91E4E9D"
+				type: "item"
+				item: "tconstruct:large_plate_cast"
+			}]
+			rewards: [
+				{
+					id: "176C9E4570BBE191"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2385B8765E437F62"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 16.5d
+			y: -6.5d
+			dependencies: ["63A17D740F3718F1"]
+			id: "31D9D60D9D83A979"
+			tasks: [
+				{
+					id: "7502648A3F3E8F47"
+					type: "item"
+					item: "tconstruct:pig_iron_ingot"
+				}
+				{
+					id: "6FFB07EB3E3563B6"
+					type: "item"
+					item: "tconstruct:slimesteel_ingot"
+				}
+			]
+			rewards: [
+				{
+					id: "599079C2FC123E82"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "17334B4DB242775F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 21.0d
+			y: 0.5d
+			dependencies: ["2B7EFB6A2605BEFD"]
+			id: "0B6EEC38FBE14892"
+			tasks: [{
+				id: "6445C74382685E18"
+				type: "item"
+				item: "tconstruct:lavawood"
+			}]
+			rewards: [
+				{
+					id: "0E7BC16ABDA4FF3E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2F32747F37C98E00"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 21.5d
+			y: -0.5d
+			dependencies: ["0B6EEC38FBE14892"]
+			id: "67C53133B50B42F7"
+			tasks: [{
+				id: "550FF370F229A0D0"
+				type: "item"
+				item: "tconstruct:lavawood_stairs"
+			}]
+			rewards: [
+				{
+					id: "0BB3473DE458705D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "493F40824B3971EF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 20.5d
+			y: -0.5d
+			dependencies: ["0B6EEC38FBE14892"]
+			id: "4101E143A5E1D54E"
+			tasks: [{
+				id: "6C990F67C3CE7CF0"
+				type: "item"
+				item: "tconstruct:lavawood_slab"
+			}]
+			rewards: [
+				{
+					id: "3F9DE1FD2E4ABA87"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "08CB6DD348D2105F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 1.0d
+			dependencies: ["2B7EFB6A2605BEFD"]
+			id: "008C82D2AB6E62DC"
+			tasks: [{
+				id: "7FF9D402EA47082D"
+				type: "item"
+				item: {
+					id: "tconstruct:slime_helmet"
+					Count: 1b
+					tag: {
+						tic_stats: {
+							"tconstruct:durability": 567.0f
+							"tconstruct:armor": 1.0f
+						}
+						tic_broken: 0b
+						tic_modifiers: [
+							{
+								name: "tconstruct:overslime_friend"
+								level: 1s
+							}
+							{
+								name: "tconstruct:firebreath"
+								level: 1s
+							}
+							{
+								name: "tconstruct:blaze_disguise"
+								level: 1s
+							}
+						]
+						tic_materials: ["tconstruct:blazing_bone"]
+						Damage: 0
+						tic_volatile_data: {
+							"tconstruct:overslime_friend": 1b
+						}
+						tic_persistent_data: {
+							abilities: 1
+							upgrades: 5
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "1CC4474D9DB191F9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3AEBEEE9A893AF1D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 22.5d
+			y: 3.0d
+			dependencies: ["2B7EFB6A2605BEFD"]
+			id: "17E429822742AB9D"
+			tasks: [{
+				id: "537564FA047C9052"
+				type: "item"
+				item: "tconstruct:blazing_blood_bucket"
+			}]
+			rewards: [
+				{
+					id: "6A3CE098A10B90C5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "100F83D8618DE00E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

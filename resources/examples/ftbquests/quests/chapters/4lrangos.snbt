@@ -1,0 +1,480 @@
+{
+	id: "1A5BFE024EAD5E58"
+	group: "40D619CBC58A1CF5"
+	order_index: 0
+	filename: "4lrangos"
+	title: "&4&lRangos y mas"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -6.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "73E5DF3123A308A7"
+			tasks: [{
+				id: "33F09004D7B39EA2"
+				type: "item"
+				item: "ae2:creative_energy_cell"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			hide: false
+			size: 1.5d
+			id: "092C8DFE363321F8"
+			tasks: [{
+				id: "1C83EB467856266B"
+				type: "item"
+				item: "mekanism:creative_chemical_tank"
+			}]
+		}
+		{
+			x: -1.5d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$5.00"]
+			size: 1.5d
+			id: "70D6C895B1564D1F"
+			tasks: [{
+				id: "01E0EAA9B576B2E5"
+				type: "item"
+				item: {
+					id: "mekanism:creative_energy_cube"
+					Count: 1b
+					tag: {
+						mekData: {
+							EnergyContainers: [{
+								Container: 0b
+								stored: "18446744073709551615.9999"
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "123539F3F69C3FDF"
+			tasks: [{
+				id: "41236228B2B65ACC"
+				type: "item"
+				item: {
+					id: "mekanism:creative_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "minecraft:lava"
+									Amount: 2147483647
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -4.5d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "4117972BA60734E7"
+			tasks: [{
+				id: "4EA05B451DD162D1"
+				type: "item"
+				item: {
+					id: "mekanism:creative_fluid_tank"
+					Count: 1b
+					tag: {
+						mekData: {
+							FluidTanks: [{
+								Tank: 0b
+								stored: {
+									FluidName: "minecraft:water"
+									Amount: 2147483647
+								}
+							}]
+						}
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$5.00"]
+			size: 1.5d
+			id: "541EC6C0D888B209"
+			tasks: [{
+				id: "4C94126D92D46B09"
+				type: "item"
+				item: "botania:creative_pool"
+			}]
+		}
+		{
+			x: -6.0d
+			y: -2.25d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "5F2C6F39CF55A9E9"
+			tasks: [{
+				id: "0B918BE21D5BE710"
+				type: "item"
+				item: "cyclic:battery_infinite"
+			}]
+		}
+		{
+			x: -3.75d
+			y: -2.25d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "57EFC1970E33E0A5"
+			tasks: [{
+				id: "29223625B95A493A"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "upgrades"
+					}
+				}
+			}]
+		}
+		{
+			x: -1.5d
+			y: -2.25d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "488ED979B922227A"
+			tasks: [{
+				id: "5CD74689CF45F136"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "souls"
+					}
+				}
+			}]
+		}
+		{
+			x: 0.75d
+			y: -2.25d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "59FC41B9CBC20388"
+			tasks: [{
+				id: "355082692BB8ECB8"
+				type: "item"
+				item: {
+					id: "tconstruct:creative_slot"
+					Count: 1b
+					tag: {
+						slot: "abilities"
+					}
+				}
+			}]
+		}
+		{
+			x: 3.0d
+			y: -2.25d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$3.00"]
+			size: 1.5d
+			id: "4CF43A2D07195789"
+			tasks: [{
+				id: "2A855A9BC38EECDE"
+				type: "item"
+				item: "draconicevolution:creative_op_capacitor"
+			}]
+		}
+		{
+			x: -1.5d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$5.00"]
+			size: 1.5d
+			id: "4DA80631B821D562"
+			tasks: [{
+				id: "0B66EABD78C6B6B1"
+				type: "item"
+				item: "appmek:creative_chemical_cell"
+			}]
+		}
+		{
+			x: -3.75d
+			y: 0.0d
+			shape: "hexagon"
+			description: ["&fAdquierelo por &2&l$5.00"]
+			size: 1.5d
+			id: "4D9EC95C2FD883DE"
+			tasks: [{
+				id: "562836FA5F545AB6"
+				type: "item"
+				item: "appbot:creative_mana_cell"
+			}]
+		}
+		{
+			title: "&f&lApoya al servidor para mantener el host"
+			icon: "mcsmarmors:enchanted_diamond"
+			x: -1.25d
+			y: -13.75d
+			shape: "diamond"
+			subtitle: "https://sites.google.com/view/mypanacraft/inicio"
+			size: 4.0d
+			id: "6CCBB54682B51B14"
+			tasks: [{
+				id: "588CCCF261772D21"
+				type: "checkmark"
+				title: "Tienda Web"
+			}]
+		}
+		{
+			icon: "botania:corporea_spark_creative"
+			x: -1.25d
+			y: -7.5d
+			shape: "gear"
+			description: ["Si deseas adquirir uno de estos items, abre ticket en discord indicando el que necesitas."]
+			hide: false
+			size: 2.5d
+			id: "094C88E301CC6F7A"
+			tasks: [{
+				id: "33996CA82B3DFE24"
+				type: "checkmark"
+				title: "&2&lItems Creativos"
+			}]
+		}
+		{
+			title: "&2&lPanaCoins"
+			x: -1.25d
+			y: 3.5d
+			shape: "gear"
+			description: ["&fAdquiere 2 PanaCoins por &2&l$1.25"]
+			size: 2.5d
+			id: "2BDD8E550E441FAD"
+			tasks: [{
+				id: "522AC10C6EAEA987"
+				type: "item"
+				item: "mypanascoins:pana_coin"
+			}]
+		}
+		{
+			title: "&f&lChunks"
+			x: -1.5d
+			y: 7.5d
+			shape: "diamond"
+			hide: false
+			size: 2.0d
+			id: "7BF9518743E4D4C0"
+			tasks: [{
+				id: "5006023F2522A2E1"
+				type: "item"
+				item: "minecraft:grass_block"
+			}]
+		}
+		{
+			icon: "mysticalagriculture:tertium_farmland"
+			x: -5.0d
+			y: 10.25d
+			shape: "rsquare"
+			description: ["&fAdquierelo por &2&l$3.25"]
+			size: 1.5d
+			id: "0EB9AAEA38617AC3"
+			tasks: [{
+				id: "589A70EED77B452D"
+				type: "checkmark"
+				title: "&f&l20 Chunks"
+			}]
+		}
+		{
+			icon: "mysticalagriculture:imperium_farmland"
+			x: -1.5d
+			y: 10.25d
+			shape: "rsquare"
+			description: ["&fAdquierelo por &2&l$5.20"]
+			size: 1.5d
+			id: "0C5E761211E2F5B3"
+			tasks: [{
+				id: "1D6535CB67979BA6"
+				type: "checkmark"
+				title: "&f&l40 Chunks"
+			}]
+		}
+		{
+			icon: "mysticalagriculture:supremium_farmland"
+			x: 2.0d
+			y: 10.25d
+			shape: "rsquare"
+			description: ["&fAdquierelo por &2&l$7.20"]
+			size: 1.5d
+			id: "32B9FF07229C0356"
+			tasks: [{
+				id: "694CB4B92E8E2643"
+				type: "checkmark"
+				title: "&f&l100 Chunks"
+			}]
+		}
+		{
+			icon: "irons_spellbooks:protection_upgrade_orb"
+			x: -1.5d
+			y: 15.5d
+			shape: "gear"
+			subtitle: "https://sites.google.com/view/mypanacraft/inicio"
+			size: 2.5d
+			id: "75455ACC09A99B35"
+			tasks: [{
+				id: "55B77E8CA0431B7C"
+				type: "checkmark"
+				title: "&f&lRangos"
+			}]
+		}
+		{
+			title: "&3&lProPana"
+			icon: "irons_spellbooks:evocation_upgrade_orb"
+			x: -7.5d
+			y: 21.0d
+			shape: "hexagon"
+			size: 1.5d
+			id: "556FC3E6DD9C79E0"
+			tasks: [{
+				id: "2ED8788F1A03FD14"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "&3&lVIPana"
+			icon: "irons_spellbooks:poison_upgrade_orb"
+			x: -5.0d
+			y: 21.0d
+			shape: "hexagon"
+			size: 1.5d
+			id: "20E2EF89AC8E9938"
+			tasks: [{
+				id: "6645ECABCA52F437"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "&3&lElitPana"
+			icon: "irons_spellbooks:mana_upgrade_orb"
+			x: -1.5d
+			y: 21.0d
+			shape: "hexagon"
+			size: 1.5d
+			id: "1C602A979B48378C"
+			tasks: [{
+				id: "46492FF350C1E2C6"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "&3&lLegendPana"
+			icon: "irons_spellbooks:cooldown_upgrade_orb"
+			x: 2.0d
+			y: 21.0d
+			shape: "hexagon"
+			size: 1.5d
+			id: "42AB4455078129B5"
+			tasks: [{
+				id: "2633F15010A4A771"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "&3&lAccionista"
+			icon: "irons_spellbooks:lightning_upgrade_orb"
+			x: 4.5d
+			y: 21.0d
+			shape: "hexagon"
+			size: 1.5d
+			id: "2CDA714CC7162C06"
+			tasks: [{
+				id: "4F9F5C7C1CD6BC78"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -10.0d
+			y: 25.0d
+			shape: "square"
+			size: 5.0d
+			id: "3742568A3E49A2E6"
+			tasks: [{
+				id: "6C1A2D023C9BC0F8"
+				type: "item"
+				item: {
+					id: "heroic:internetdemonoidpitchfork"
+					Count: 1b
+					tag: {
+						RepairCost: 1
+						affix_data: {
+							affixes: {
+								"apotheosis:elusive": 0.40533245f
+								"apotheosis:elongated": 0.14058179f
+								"apotheosis:sophisticated": 0.9848014f
+								"apotheosis:glacial": 0.39958966f
+								"apotheosis:infernal": 0.58513767f
+								"apotheosis:vampiric": 0.47189718f
+								"apotheosis:durable": 0.56f
+								"apotheosis:socket": 2.0f
+							}
+							rarity: "mythic"
+						}
+						ISB_spell: {
+							type: 2
+							level: 10
+						}
+						display: {
+							Lore: ["{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"dark_gray\",\"text\":\"Surfea por el aire mientras eres una bola de fuego , quema a tus enemigos o corre de ellos!\"}],\"text\":\"\"}"]
+							Name: "{\"extra\":[{\"bold\":true,\"italic\":false,\"underlined\":false,\"strikethrough\":false,\"obfuscated\":false,\"color\":\"blue\",\"text\":\"Aguja Estelar\"}],\"text\":\"\"}"
+						}
+						Enchantments: [
+							{
+								lvl: 2s
+								id: "minecraft:sharpness"
+							}
+							{
+								lvl: 10s
+								id: "minecraft:looting"
+							}
+							{
+								lvl: 3s
+								id: "apotheosis:life_mending"
+							}
+							{
+								lvl: 20s
+								id: "minecraft:bane_of_arthropods"
+							}
+							{
+								lvl: 30s
+								id: "minecraft:smite"
+							}
+						]
+						Damage: 0
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

@@ -1,0 +1,1750 @@
+{
+	id: "7C4409928DB53A92"
+	group: "1D14C3C2AABC658D"
+	order_index: 1
+	filename: "blood_magic"
+	title: "➢ &f&lBlood Magic"
+	icon: "bloodmagic:weakbloodorb"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "&#ff0000&lB&#f0001c&ll&#e10038&lo&#d20054&lo&#c30070&ld &#b3008d&lM&#a400a9&la&#9500c5&lg&#8600e1&li&#7700fd&lc"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "bloodmagic:guide"
+				}
+			}
+			x: -10.5d
+			y: -0.5d
+			shape: "gear"
+			description: [
+				"¡Bienvenido a &cBlood Magic&f!"
+				""
+				"Blood Magic es un arte arcano que practican los magos que intentan reunir una gran cantidad de poder mediante la utilización de un material prohibido: la sangre. A pesar de que otorga una gran cantidad de poder, cada acción que se realiza con esta magia volátil puede resultar mortal. Usted ha sido advertido."
+				""
+				""
+			]
+			size: 1.5d
+			id: "3A9B90A453C933C4"
+			tasks: [{
+				id: "27529E8EA019A89A"
+				type: "checkmark"
+				title: "Blood Magic"
+			}]
+		}
+		{
+			title: "Recolección de &csangre"
+			icon: "bloodmagic:altar"
+			x: -8.5d
+			y: -0.5d
+			shape: "diamond"
+			description: [
+				"Para comenzar con Blood Magic, necesitaremos recolectar algo de sangre."
+				""
+				"Para hacer esto, necesitaremos fabricar el &dCuchillo de sacrificio&r y el &4Altar de sangre&r."
+				""
+				"Continúe y coloque el Altar en algún lugar con mucho espacio alrededor. Es posible que queramos ampliarlo más en el futuro."
+				""
+				"Para adquirir sangre, párate junto al Altar y... bueno... usa el cuchillo. Recibirás un poco de daño, pero &o es por la causa&r."
+				""
+				"Cada puñalada generará alrededor de 200 LP."
+			]
+			dependencies: ["3A9B90A453C933C4"]
+			size: 1.25d
+			id: "3DA7D0BA045CE7AB"
+			tasks: [
+				{
+					id: "49E5D4B7057851E7"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "41D32B8152806B22"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+			]
+			rewards: [
+				{
+					id: "1FF4916C043F68E8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "24BB88B4D7E17F12"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Haciendo Slates"
+			x: -6.0d
+			y: -0.5d
+			description: [
+				"Querremos infundir Life Essence (también conocido como LP o Blood) en alguna piedra."
+				""
+				"Colocar piedra en el Altar con 1000 LP adentro creará Tablas en Blanco. Necesitarás muchos de estos."
+			]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "6AAB831CB3FB536A"
+			tasks: [{
+				id: "7CBFE84B4FE3DC01"
+				type: "item"
+				item: "bloodmagic:blankslate"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "5C908175734EFD75"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7EA536AE449B135F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Actualización de nuestro altar al nivel 2"
+			icon: "bloodmagic:altar"
+			x: -4.0d
+			y: -0.5d
+			shape: "pentagon"
+			description: [
+				"Para crear aún más objetos usando sangre, queremos mejorar nuestro altar rodeándolo de &9runas en blanco&r."
+				""
+				"Si quieres, puedes reemplazar las runas en blanco en cada uno de los puntos cardinales por runas como la &6runa de velocidad&r. Estas runas pueden afectar el funcionamiento del Altar."
+				""
+				"A continuación se muestra un ejemplo de cómo construiría un altar de nivel 2, pero también puede visualizarlo en la guía."
+				""
+				"Nota: Las runas de velocidad son las únicas runas disponibles (además de las runas en blanco) hasta que hagas un altar de nivel 2, pero se pueden reemplazar más adelante."
+				""
+			]
+			dependencies: ["6AAB831CB3FB536A"]
+			size: 1.25d
+			id: "4B51189C36B8D291"
+			tasks: [{
+				id: "4CDFCAAED8ABB615"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "2020234310291314"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "49A6F6992A7AD0F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.5d
+			description: ["With our Altar now at Tier 2, we can make even better Runes. We'll need some Reinforced slate to continue our journey in Blood Magic, including doing some Rituals. "]
+			dependencies: ["4B51189C36B8D291"]
+			id: "2C3CA7B9D1A7DC47"
+			tasks: [{
+				id: "4CEA3279AF0BEE01"
+				type: "item"
+				item: "bloodmagic:reinforcedslate"
+			}]
+			rewards: [
+				{
+					id: "6D0E3E3D26B8A6A8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "70F5C650F9B96377"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Almacenamiento de sangre portátil"
+			x: -8.5d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Holds a max of 5k LP"
+			description: [
+				"El &9orbe de sangre débil&r se utiliza para almacenar sangre (o LP). Se puede usar como una forma de transportar sangre hacia y desde los altares. También se utiliza en varias recetas de elaboración."
+				""
+				"Para crear esto, deberá colocar un diamante en la parte superior del Altar de sangre y luego generar suficientes LP para fabricarlo."
+				""
+				"Para cargar un orbe de sangre, puede hacer clic derecho para sacrificar parte de su salud al orbe. Esto también vincula su Alma con su Red de Almas. :)"
+				""
+				"También puedes colocar el orbe en un altar de sangre que tenga algo de LP. Se agotará más rápido cuantas más runas de velocidad tenga."
+			]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "5BF29A151A04FEF0"
+			tasks: [{
+				id: "65E0BEE90716B68C"
+				type: "item"
+				item: "bloodmagic:weakbloodorb"
+			}]
+			rewards: [
+				{
+					id: "358D100E69C450EA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "08C932F2F52AFAA9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Rituales de nivel I"
+			icon: "bloodmagic:masterritualstone"
+			x: 2.0d
+			y: 1.0d
+			description: [
+				"Con nuestro Altar Tier 3, podemos empezar a realizar Rituales."
+				""
+				"Comience elaborando un montón de Piedras Rituales, así como una Piedra Ritual Maestra. Estos son los bloques básicos que necesitaremos para empezar a hacer rituales."
+			]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "4578C0EE82F66BD9"
+			tasks: [
+				{
+					id: "6995C629EAA148F5"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "32F2BC0D3AA69E25"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 8L
+				}
+			]
+			rewards: [
+				{
+					id: "71DC523E60450C18"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "50417129B57E030B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["This rune increases the amount of LP gained from taking blood away from non-player entities. Each one gives a bonus of 10% additively per rune."]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08F28A9E4DEA7CD0"
+			tasks: [{
+				id: "6C6CDA42FB379A80"
+				type: "item"
+				item: "bloodmagic:sacrificerune"
+			}]
+			rewards: [
+				{
+					id: "50EAE3DA372E98B4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "67C405D118314500"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -4.0d
+			y: -2.0d
+			shape: "rsquare"
+			subtitle: "¿Cansado de apuñalarte a ti mismo?"
+			description: [
+				"¡Ahora puedes apuñalar a otros para usar su Sangre en su lugar!"
+				""
+				"¡Apuñalar a cualquier mob dentro de 2 bloques de tu Altar con uno de estos los matará instantáneamente y agotará su LP en tu Altar!"
+				""
+				"Si tienes Runas de Sacrificio alrededor de tu Altar, obtendrás más por muerte."
+				""
+				""
+			]
+			dependencies: ["4B51189C36B8D291"]
+			id: "5361F72BAB72D318"
+			tasks: [{
+				id: "5D7178C2EF652773"
+				type: "item"
+				item: "bloodmagic:daggerofsacrifice"
+			}]
+			rewards: [
+				{
+					id: "013960D58F90AD74"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3D302BF8B5B9950D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&4Hellfire Forge&r"
+			x: -6.0d
+			y: 1.5d
+			shape: "hexagon"
+			description: [
+				"La &4forja Hellfire&r es uno de los principales bloques necesarios para trabajar en Blood Magic."
+				""
+				"Está alimentado por Demon Will y se puede usar para crear varios elementos, incluida la &bSentient Sword&r."
+			]
+			dependencies: [
+				"6AAB831CB3FB536A"
+				"506D48AD9FB2E89D"
+			]
+			size: 1.5d
+			id: "7BA086472D87D705"
+			tasks: [{
+				id: "59D4952D3D164F6D"
+				type: "item"
+				item: "bloodmagic:soulforge"
+			}]
+			rewards: [
+				{
+					id: "4B832361B518556E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "063EB6FFE7623FBC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "The Sentient Sword"
+			x: -6.0d
+			y: 4.0d
+			shape: "octagon"
+			description: [
+				"No podemos usar Soul Snares para siempre."
+				""
+				"La Sentient Sword te permite recolectar Demon Will mucho más fácilmente. Simplemente mata a una mafia hostil con la espada, y la mafia dejará caer a Demon Will."
+			]
+			dependencies: ["11D37E7391B49A88"]
+			id: "7C8D74692C963000"
+			tasks: [{
+				id: "72A92CB3A5DA9044"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulsword"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "606D6D10EC2EF6B0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "78649215B7BE5A8A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Storing Demonic Will"
+			x: -6.0d
+			y: 3.0d
+			shape: "diamond"
+			description: [
+				"Demon Will se acumula muy rápidamente en tu inventario."
+				""
+				"Vamos a necesitar mucho, así que tendremos que crear una forma de almacenarlo todo. Crear una &9gema tartárica&r es justo lo que necesitamos."
+				""
+				"La &bpequeña gema tartárica&r es en lo que gastaremos nuestra primera voluntad demoníaca. Esto almacenará hasta un máximo de 64 Will."
+				""
+				"Nota: Si sueltas algún testamento demoníaco que tengas en tu inventario, la gema lo absorberá en su almacenamiento."
+			]
+			dependencies: ["7BA086472D87D705"]
+			id: "11D37E7391B49A88"
+			tasks: [{
+				id: "1E4979886B89B2AD"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgempetty"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "210B2FD0FC7CB7C9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "48286A488D534EA7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -5.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Una actualización de nuestro almacenamiento Will. Esto tendrá un máximo de 256"]
+			dependencies: ["11D37E7391B49A88"]
+			id: "487275B970530E3F"
+			tasks: [{
+				id: "55AF014185F20835"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemlesser"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "58EFBDFAB9548A58"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "14A33E5D552C852E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 5.0d
+			shape: "diamond"
+			description: ["Esto tendrá un máximo de 1024 Will."]
+			dependencies: ["487275B970530E3F"]
+			id: "626C07DB8B8C5A04"
+			tasks: [{
+				id: "04BCD1D949FCB24D"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemcommon"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5FEA91EA10A78A69"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "26552F4C6F04227F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -7.0d
+			y: 4.0d
+			shape: "diamond"
+			description: ["Este es el elemento de almacenamiento máximo para Demon Will, y tendrá un máximo de 4096 Will."]
+			dependencies: ["626C07DB8B8C5A04"]
+			id: "20458B8987CD6CB9"
+			tasks: [{
+				id: "25B30F1BCCEE920A"
+				type: "item"
+				item: {
+					id: "bloodmagic:soulgemgreater"
+					Count: 1b
+					tag: {
+						souls: 0.0d
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "177F1D764CB686D9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "25197C16E2436DBC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -0.5d
+			description: [
+				"Peinar pizarra reforzada con algo de sangre en nuestro nuevo altar nos dará pizarras imbuidas."
+				""
+				"Esta es la próxima actualización de nuestro viaje Blood Magic."
+			]
+			dependencies: ["5886C648D14180E1"]
+			id: "375FF0D8ACD2E17F"
+			tasks: [{
+				id: "2BEC3F34860494B0"
+				type: "item"
+				item: "bloodmagic:infusedslate"
+			}]
+			rewards: [
+				{
+					id: "07F9274F5B345372"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5AB2E8C098B3B536"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Esta runa aumenta la capacidad total del Altar en un 20% por cada runa de Capacidad."]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0B2B8247DA280E90"
+			tasks: [{
+				id: "41758E5DA17E2FDF"
+				type: "item"
+				item: "bloodmagic:altarcapacityrune"
+			}]
+			rewards: [
+				{
+					id: "6814B2AB490B32DB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6F73177C1FB986E6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.5d
+			y: -1.5d
+			shape: "diamond"
+			description: ["Aumenta la tasa de flujo de LP dentro y fuera del Altar cuando se bombea hacia y desde un tanque externo en un 20% por runa."]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "47B985B56C582D6A"
+			tasks: [{
+				id: "00D5D96DA535CFE7"
+				type: "item"
+				item: "bloodmagic:dislocationrune"
+			}]
+			rewards: [
+				{
+					id: "1A3CB65F2A8D7AA0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "500E04D1194ADA4C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -2.0d
+			description: [
+				"La última pieza de pizarra que tiene algún uso..."
+				""
+				"todavía."
+			]
+			dependencies: ["431C44439CA54077"]
+			id: "7CA3AE708F46CEBF"
+			tasks: [{
+				id: "57F75D0B2554BA61"
+				type: "item"
+				item: "bloodmagic:demonslate"
+			}]
+			rewards: [
+				{
+					id: "07786D6CFE112C38"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "17204319C9D8DD8B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 5.5d
+			y: -4.0d
+			shape: "diamond"
+			description: ["Esta runa aumenta la capacidad del Altar en una cantidad multiplicativa de 7,5% por runa. Estos se aplican después de las Runas de capacidad normales."]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C0D4CBC089988ED"
+			tasks: [{
+				id: "0B14A7CBC056CC9F"
+				type: "item"
+				item: "bloodmagic:bettercapacityrune"
+			}]
+			rewards: [
+				{
+					id: "7F81740A81CEEC8E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5AF4D7B5FEEC6D9C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -3.5d
+			shape: "diamond"
+			description: [
+				"Esta runa crea un búfer interno de 1000 LP cuando el Altar no se usa para fabricar o llenar orbes de sangre."
+				""
+				"Cada vez que se coloca un artículo dentro del altar, consumirá instantáneamente la carga almacenada y la aplicará al artículo."
+				""
+				"¡No más esperas una vez colocado!"
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "6C57FF70679AF123"
+			tasks: [{
+				id: "73F90730D99D6384"
+				type: "item"
+				item: "bloodmagic:chargingrune"
+			}]
+			rewards: [
+				{
+					id: "39E6D264E374D3C8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "01F36364C60EBC8E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 10.5d
+			y: -0.5d
+			description: [
+				"Ni siquiera puedes usar esto para nada que yo sepa."
+				""
+				"Eres demasiado poderoso."
+			]
+			dependencies: ["2214B7DCE4075A02"]
+			optional: true
+			id: "396AA75774059D0B"
+			tasks: [{
+				id: "600A5AEE6C546B4C"
+				type: "item"
+				item: "bloodmagic:etherealslate"
+			}]
+			rewards: [
+				{
+					id: "5EBA8E93F7D0FEEF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2090266DC5D9142D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -4.0d
+			shape: "diamond"
+			description: [
+				"Esta runa acelera las operaciones de otras runas, como la Runa de carga o de desplazamiento."
+				""
+				"Elimina 1 tic de retraso por runa, hasta un mínimo de 1 operación por tic."
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "0EE2D22A577D10B0"
+			tasks: [{
+				id: "7EB95246A2F0981D"
+				type: "item"
+				item: "bloodmagic:accelerationrune"
+			}]
+			rewards: [
+				{
+					id: "546A3089CA82AF71"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3BD60683DA3AA244"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 2.5d
+			description: [
+				"Tau Fruit se puede obtener de cofres de botín dentro del Reino Oculto. ¡Lo necesitarás para mejorar aún más tu Altar!"
+				""
+				"Una vez recolectada, la fruta se puede plantar para cultivarla. Sin embargo, tiene 2 productos potenciales en lugar de uno."
+				""
+				"Cultivar la fruta de forma natural dará como resultado más fruta Tau, que se puede convertir en aceite. Pero y si le damos un poco de sangre......"
+			]
+			dependencies: ["0E8418B42A744030"]
+			id: "50A28E1946047A6E"
+			tasks: [{
+				id: "2D780C226FCF4A03"
+				type: "item"
+				item: "bloodmagic:weak_tau"
+			}]
+			rewards: [
+				{
+					id: "52B2423DA9EFAAEC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4C16C3CAB00CEC82"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 2.5d
+			description: [
+				"Como todo en este paquete, &cla fruta tiene sed de sangre&r. Planta la fruta y fuerza a una mafia encima de ella."
+				""
+				"Drenará la fuerza vital de la mafia para convertirse en Tau Saturado."
+			]
+			dependencies: ["50A28E1946047A6E"]
+			id: "5E2D15E4A410B5DA"
+			tasks: [{
+				id: "102AEEB23B1AA7EF"
+				type: "item"
+				item: "bloodmagic:strong_tau"
+			}]
+			rewards: [
+				{
+					id: "639E0C04AB9C831A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "04EC2B77B8B019FF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			description: [
+				"Aunque todavía no está completamente implementada, la &6cámara de reacción alquímica&r funciona como un horno."
+				""
+				"Actualmente, esta es la única forma de obtener &cFragmentos de sangre débiles&r, que necesitaremos para actualizar nuestro Altar."
+			]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "308581359FEF32E9"
+			tasks: [{
+				id: "1589663D302CE21E"
+				type: "item"
+				item: "bloodmagic:alchemicalreactionchamber"
+			}]
+			rewards: [
+				{
+					id: "660604D9A9341B87"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "136206489EEE5607"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Tiene un máximo de 150k LP"
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "0E51D6BB2BC756B6"
+			tasks: [{
+				id: "7BB6F203FCA31A25"
+				type: "item"
+				item: "bloodmagic:magicianbloodorb"
+			}]
+			rewards: [
+				{
+					id: "2712F641C1A900C6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "760A73FB0769A1F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.5d
+			y: -2.0d
+			shape: "hexagon"
+			subtitle: "Capacidad para un máximo de 1 millón de LP"
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "048BD38532A1DDCF"
+			tasks: [{
+				id: "2F13F6D6E170BBEC"
+				type: "item"
+				item: "bloodmagic:masterbloodorb"
+			}]
+			rewards: [
+				{
+					id: "541803D7A7A05D2A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "15D746813BEAA045"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: 1.0d
+			description: ["Con nuestro tau saturado y nuestra cámara de reacción alquímica, podemos fabricar los materiales necesarios para mejorar nuestro altar y orbe de sangre, el &4fragmento de sangre débil&r."]
+			dependencies: [
+				"5E2D15E4A410B5DA"
+				"308581359FEF32E9"
+			]
+			id: "25343A0C4C22AA60"
+			tasks: [
+				{
+					id: "3A104E7D6C6AA524"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+				}
+				{
+					id: "04EAE604D8B668B3"
+					type: "item"
+					item: "bloodmagic:largebloodstonebrick"
+				}
+			]
+			rewards: [
+				{
+					id: "576F07E1BD9E3326"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "498B1983CAAD776A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Rituales de nivel II"
+			x: 7.5d
+			y: -2.0d
+			shape: "hexagon"
+			description: [
+				"Ahora necesitaremos hacer la versión Dusk del Ritual Diviner."
+				""
+				"Esto nos da acceso a más rituales, incluido el ritual que nos lleva al Reino Demoníaco."
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "263925A79EBB270F"
+			tasks: [
+				{
+					id: "46C11FFD8A06B63E"
+					type: "item"
+					item: {
+						id: "bloodmagic:duskscribetool"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088CD8231DD1A37A"
+					type: "item"
+					item: "bloodmagic:ritualdivinerdusk"
+				}
+			]
+			rewards: [
+				{
+					id: "488E84A32135407D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "34CEDDE9BB9C0451"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Recopilación de Demonic Will"
+			x: -7.299999999999997d
+			y: 0.5d
+			description: [
+				"Antes de que podamos fabricar la &cForja del Fuego Infernal&r, necesitaremos una forma de alimentarla adquiriendo &bVoluntad Demoníaca&r."
+				""
+				"Para comenzar a recolectarlo, necesitaremos crear &dSoul Snares&r que podamos usar en mobs."
+				""
+				"Una vez que use algunos de estos en una mafia, aparecerán partículas blancas a su alrededor. Mátalos y adquirirás Demonic Will."
+			]
+			dependencies: ["3DA7D0BA045CE7AB"]
+			id: "506D48AD9FB2E89D"
+			tasks: [
+				{
+					id: "3D1BAA6CA8B979A9"
+					type: "item"
+					item: "bloodmagic:soulsnare"
+					count: 3L
+				}
+				{
+					id: "42D29681DC076E3C"
+					type: "item"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 5.0d
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "4DFFB50D80D4CC93"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "127F6F90F1A5FE93"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -2.4499999999999997d
+			shape: "hexagon"
+			description: [
+				"La &9mesa de alquimia&r puede crear varios objetos, catalizadores y más mediante el uso de LP de la red de almas de un jugador (también conocido como orbe de sangre)."
+				""
+				"Esta tabla también puede convertir muchas cosas, como carne podrida en cuero, lana en hilo, etc. ¡Es muy útil!"
+			]
+			dependencies: ["6AAB831CB3FB536A"]
+			size: 1.5d
+			id: "7CC2D826CA6BBDDB"
+			tasks: [{
+				id: "33ECB0563BA9E2CB"
+				type: "item"
+				item: "bloodmagic:alchemytable"
+			}]
+			rewards: [
+				{
+					id: "6032E1CE450E761F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "66AC568F5589B7B5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Alterando el Altar"
+			x: -4.0d
+			y: 1.0d
+			shape: "square"
+			description: [
+				"Hay varios tipos de runas que pueden cambiar el funcionamiento de un altar."
+				""
+				"Por ejemplo, Speed ​​Runes aumenta la velocidad de todas las operaciones de elaboración dentro del Altar en un 20 % por runa."
+				""
+				"Esta es la primera runa que puedes usar para mejorar tu Altar."
+			]
+			dependencies: ["4B51189C36B8D291"]
+			id: "49F57CE3B472FF6D"
+			tasks: [{
+				id: "3EF20FD3AC7ED48B"
+				type: "item"
+				item: "bloodmagic:speedrune"
+			}]
+			rewards: [
+				{
+					id: "73394593D73CA5FE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "24BF52C76EF4D484"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: -1.5d
+			shape: "diamond"
+			description: [
+				"This rune increases the amount of LP gained from getting blood from Players. :D"
+				""
+				"Each rune gives a bonus of 10% additively."
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "6CE4ED7A2642674F"
+			tasks: [{
+				id: "6692D1D1E4E4F758"
+				type: "item"
+				item: "bloodmagic:selfsacrificerune"
+			}]
+			rewards: [
+				{
+					id: "683C9E52ABDFE676"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4B4FAC81ACE0DA1C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Mejorando el Altar: Nivel 3"
+			icon: "bloodmagic:altar"
+			x: 0.0d
+			y: -0.5d
+			shape: "hexagon"
+			subtitle: "¡Use la Guía para obtener ayuda para construir esto!"
+			description: [
+				"Para actualizar nuestro Altar al Nivel 3, necesitamos obtener muchas más runas. 28 en total para ser exactos."
+				""
+				"Debe colocar 5 runas de sangre (en blanco o mejor) un bloque hacia abajo y a dos bloques de distancia de las runas del altar de nivel 2, a lo largo de cada borde."
+				""
+				"Luego querrás crear un pilar en cada esquina a partir de cualquier bloque, con una tapa de pilar de Glowstone colocada un bloque más alto que el propio Altar."
+				""
+				"Si desea verificar si el Altar se construyó correctamente, use un &9sello de adivinación&r para verificar el nivel."
+				""
+				"Nota: Se puede usar cualquier bloque que no sea de aire para el pilar, siempre que la tapa sea Glowstone."
+				""
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			size: 1.25d
+			id: "5886C648D14180E1"
+			tasks: [{
+				id: "45FE50B70B45B915"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 28L
+			}]
+			rewards: [
+				{
+					id: "4D66A28FA57A5140"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "228B56241A81E26B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Mejorando Nuestro Altar: Nivel 4"
+			icon: "bloodmagic:altar"
+			x: 6.0d
+			y: -0.5d
+			shape: "octagon"
+			description: [
+				"Para actualizar nuestro Altar, necesitaremos 56 Runas de sangre en total (en blanco o mejor)."
+				""
+				"Haremos lo mismo que hicimos la última vez. Ve un bloque hacia abajo y dos bloques hacia afuera, luego coloca 7 runas de sangre a lo largo de cada borde. Básicamente estás haciendo una pirámide en este punto."
+				""
+				"Queremos crear pilares en cada una de las esquinas, comenzando &9encima&r del nuevo anillo de runas. Estos pilares tienen 5 de altura, con la tapa del pilar hecha de &cladrillos de piedra de sangre&r o &cladrillos de piedra de sangre grande&r."
+				""
+				"En lugar de una imagen, busque en su Sanguine Scientiem y busque la sección Blood Altar. Desplácese hasta que encuentre el Altar de Nivel 4, y allí encontrará toda la información. Incluso puede hacer clic en el ojo para visualizar la estructura."
+			]
+			dependencies: [
+				"375FF0D8ACD2E17F"
+				"25343A0C4C22AA60"
+			]
+			size: 1.25d
+			id: "431C44439CA54077"
+			tasks: [{
+				id: "03DBCA5695879C49"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 48L
+			}]
+			rewards: [
+				{
+					id: "265A58631F94BC40"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6738406F699F45B1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -2.0d
+			shape: "diamond"
+			subtitle: "Tiene un máximo de 25k LP"
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "08143AD0D63FFD1F"
+			tasks: [{
+				id: "46DC0EE4792CCA0D"
+				type: "item"
+				item: "bloodmagic:apprenticebloodorb"
+			}]
+			rewards: [
+				{
+					id: "3A2F83BC20369B8B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "662A7BE43F3397CF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -4.0d
+			subtitle: "We're drawing on the ground now."
+			description: [
+				"Con nuestra Mesa de Alquimia y nuestro Orbe lleno de Sangre, queremos hacer algunas &9Cenizas Arcanas&r."
+				""
+				"Con las Cenizas, podremos dibujar un círculo en el suelo, conocido como Alchemy Array. Puede insertar 2 elementos haciendo clic con el botón derecho y creará un nuevo elemento o realizará una acción, ¡como convertir el día en noche!"
+			]
+			dependencies: ["7CC2D826CA6BBDDB"]
+			id: "1F3B9803AFAEED5F"
+			tasks: [{
+				id: "6168644A110A263A"
+				type: "item"
+				item: {
+					id: "bloodmagic:arcaneashes"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5839F563EA7F13B0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1FADCE544E3CD3FF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -6.0d
+			shape: "diamond"
+			description: [
+				"El &9Sigilo de Adivinación&r es el primer Sigilo que haremos."
+				""
+				"Este sigilo tiene dos usos principales:"
+				""
+				"1) Cuando haces clic con el botón derecho del ratón con el Sigilo en la mano, se mostrará la cantidad de LP que tienes en tu red de almas."
+				""
+				"2) Si haces clic con el botón derecho en un altar de sangre, verás cuántos LP hay almacenados, el máximo que puede almacenar y en qué nivel está el altar."
+			]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "281AAC27DEBEE84D"
+			tasks: [{
+				id: "19EF9DDE6B18A8B5"
+				type: "item"
+				item: "bloodmagic:divinationsigil"
+			}]
+			rewards: [
+				{
+					id: "212AA45FF5D739F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4EE7E3A77B5AF83C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: -5.5d
+			shape: "diamond"
+			description: [
+				"Cuando lo tienes en la mano, puedes hacer clic con el botón derecho para crear un bloque de fuente de agua por 100 LP. No está mal, ¿eh?"
+				""
+				"A menos que no tengas 100LP. En ese caso, solo te quitará la salud. :)"
+			]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "7EED2502F1F38147"
+			tasks: [{
+				id: "7825C546B68A7F85"
+				type: "item"
+				item: "bloodmagic:watersigil"
+			}]
+			rewards: [
+				{
+					id: "54D91A8877669744"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6F666AE1FCD3D810"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			shape: "diamond"
+			description: [
+				"Con Lava Sigil en la mano, si haces clic derecho, crearás un bloque fuente de lava por el bajo costo de 1,000 LP."
+				""
+				"Si no tienes suficiente LP, también está bien. Solo te quitará 5 corazones. No hay problema."
+			]
+			dependencies: ["1F3B9803AFAEED5F"]
+			id: "3AADA53EC01FB0ED"
+			tasks: [{
+				id: "4EFA9FB003D8D147"
+				type: "item"
+				item: "bloodmagic:lavasigil"
+			}]
+			rewards: [
+				{
+					id: "019EBB1BEE5CE83A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "31D0FE77B3492EF5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 2.5d
+			description: [
+				"Si bien no es obligatorio, es genial tener el Ritual Diviner, ya que muestra exactamente cómo se construye el Ritual y ayuda a construirlo. (Deberías hacer uno por completo)."
+				""
+				"Para crear un ritual, haga clic derecho con el Ritual Diviner en el aire hasta que encuentre el ritual que desea crear. También puede hacer shift-clic izquierdo para volver."
+				""
+				"Comience haciendo el ritual Edge of the Hidden Realm, ya que necesitaremos algunos elementos de la dimensión para comenzar."
+				""
+				"Una vez seleccionado con Ritual Diviner, haga clic derecho en una Master Ritual Stone hasta que la estructura esté completa. Necesitarás un montón de piedras rituales para realizar estos rituales. Una vez que la estructura esté completamente construida, puede hacer clic derecho en la Piedra Ritual Maestra con un Cristal de Activación Débil para activarla."
+			]
+			dependencies: ["4578C0EE82F66BD9"]
+			id: "0E8418B42A744030"
+			tasks: [
+				{
+					id: "6B1FDBAA650C202A"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+				{
+					id: "7D265539B810DCE3"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+			]
+			rewards: [
+				{
+					id: "2BCB0A1D19D23264"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "623A45AB0A8E34E9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "El altar de nivel 5"
+			icon: "bloodmagic:altar"
+			x: 9.0d
+			y: -0.5d
+			shape: "octagon"
+			description: [
+				"Para actualizar nuestro Altar al Nivel 5, necesitaremos un total de 108 Runas, así como 4 Bloques Demonite."
+				""
+				"Siga Sanguine Scietiem (la guía del mod) para obtener una guía detallada sobre cómo construir la estructura."
+				""
+				"Desea comenzar yendo un bloque hacia abajo y tres bloques desde el conjunto anterior de runas de su Altar de Nivel 4. Desea colocar 15 runas a lo largo de cada lado."
+				""
+				"En las esquinas del anillo recién creado, coloca un bloque Demonite con un espacio vacío a cada lado."
+			]
+			dependencies: ["431C44439CA54077"]
+			size: 1.5d
+			id: "2214B7DCE4075A02"
+			tasks: [{
+				id: "3830486EDCC81431"
+				type: "item"
+				item: "bloodmagic:blankrune"
+				count: 64L
+			}]
+			rewards: [
+				{
+					id: "52C47C58483625F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "79E7E373D74865E8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Llaves de mazmorra"
+			x: 2.0d
+			y: 4.0d
+			description: [
+				"Una vez que llegues al Reino Oculto, encontrarás un cofre con un botín básico."
+				""
+				"Esté atento a las &9llaves de hierro&r. Estos desbloquean las habitaciones adicionales dentro del Reino Oculto, dando acceso a aún más botín."
+			]
+			dependencies: ["0E8418B42A744030"]
+			optional: true
+			id: "6DD7D0A248FEAC00"
+			tasks: [{
+				id: "049052953E05D38F"
+				type: "item"
+				item: "bloodmagic:simplekey"
+				count: 2L
+			}]
+			rewards: [
+				{
+					id: "2930FFA9A6628FB2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0E672882805445D3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.0d
+			y: -4.5d
+			shape: "diamond"
+			description: [
+				"&6Teleposition Sigil&r - Teletransportará al usuario a un Teleposer vinculado a un costo de 1000LP. Puede hacer shift-clic con el sigilo en un Teleposer para establecer la ubicación."
+				""
+				"&9Sigilo de supresión&r: puede empujar líquidos lejos de usted en un radio de 6 bloques. Es genial."
+			]
+			dependencies: ["7CA3AE708F46CEBF"]
+			id: "5E2CB036B00758AE"
+			tasks: [
+				{
+					id: "5A91384EF5463B4D"
+					type: "item"
+					item: "bloodmagic:telepositionsigil"
+				}
+				{
+					id: "097D8139589AF377"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofsuppression"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "1D83896B3324B20C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2938EADA354FD4C4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Tier 2 Sigils"
+			x: -2.0d
+			y: 1.0d
+			shape: "rsquare"
+			description: [
+				"&9Air Sigil&r: haz clic con el botón derecho para lanzarte en la dirección hacia la que miras por 50 LP."
+				""
+				"&cVoid Sigil&r - Haz clic con el botón derecho en cualquier líquido para anularlo, lo que cuesta 50 LP."
+				""
+				"&6Sigil del vidente&r: una versión mejorada del sigilo de adivinación. Da más información al mirar altares."
+				""
+				"&aMiner's Sigil&r - Shift-Click derecho para usar 100LP cada 5 segundos para darte un beneficio de celeridad."
+				""
+				"&2Green Gove Sigil&r - Hacer clic derecho en un cultivo que se puede cultivar le dará un efecto de harina de huesos por 150LP. Shift-Click derecho consumirá 150LP por 5 segundos, aumentando la tasa de crecimiento de un área de 7x7x5."
+			]
+			dependencies: ["2C3CA7B9D1A7DC47"]
+			id: "4C6B73322F56BE73"
+			tasks: [
+				{
+					id: "28490D6EB0A13853"
+					type: "item"
+					item: "bloodmagic:airsigil"
+				}
+				{
+					id: "2B9AC526E9F67CF2"
+					type: "item"
+					item: "bloodmagic:voidsigil"
+				}
+				{
+					id: "2F92C698040BD24D"
+					type: "item"
+					item: "bloodmagic:seersigil"
+				}
+				{
+					id: "3668C878D168A77C"
+					type: "item"
+					item: {
+						id: "bloodmagic:miningsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "189850D288276407"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "633C0AE6A70D3BE7"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1B593C00A6FB0605"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.0d
+			y: 1.0d
+			description: [
+				"&cLámpara de sangre&r: lanza una luz de sangre cuando se usa. Cuesta 10LP"
+				""
+				"&9Sostener&r - Sostiene hasta otros 5 Sigils a la vez, brindando sus efectos pasivos y permitiéndote activarlos por un tiempo. Puede vincular botones para acceder al inventario y recorrer los sigilos."
+				""
+				"&6Magnetismo&r - Actívelo para un imán de hasta 7 bloques al costo de 50LP cada 5 segundos."
+			]
+			dependencies: ["375FF0D8ACD2E17F"]
+			id: "1780A9FDD6983435"
+			tasks: [
+				{
+					id: "4966B4779B0CE8EF"
+					type: "item"
+					item: {
+						id: "bloodmagic:bloodlightsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "263ACE485001170B"
+					type: "item"
+					item: "bloodmagic:sigilofholding"
+				}
+				{
+					id: "0432C6E53E4A5553"
+					type: "item"
+					item: {
+						id: "bloodmagic:sigilofmagnetism"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "58CD7069548BAA15"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "427A20E809B0EC46"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Living Armor"
+			x: 2.0d
+			y: -4.0d
+			shape: "hexagon"
+			description: [
+				"Puedes crear equipo vivo haciendo algunos reactivos vinculantes en una tabla de alquimia. También necesitarás al menos una Gema Tartárica Común para mantener la Voluntad Demoníaca requerida."
+				""
+				"&9Living Equipment&r es el equivalente en durabilidad de Diamond Armor, y se puede reparar en un yunque usando reactivos vinculantes."
+				""
+				"Comienza como el equivalente de Iron, pero tiene puntos de actualización que se pueden gastar para entrenarlo de formas específicas. Comienza con 100, pero hay formas de aumentar este límite."
+				""
+				"A medida que lo use, \"aprenderá\" de usted. Puede ver lo que ha aprendido hasta ahora manteniendo presionada la tecla Mayús izquierda mientras la mira."
+			]
+			dependencies: ["0E51D6BB2BC756B6"]
+			size: 1.25d
+			id: "41030E1E341C3A4E"
+			tasks: [
+				{
+					id: "26FD5D4411242B25"
+					type: "item"
+					item: {
+						id: "bloodmagic:livinghelmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "37A82F03CFF9D25A"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+							livingStats: {
+								maxPoints: 100
+								upgrades: [ ]
+							}
+						}
+					}
+				}
+				{
+					id: "671E6A4CA8F8F77B"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingleggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "5E9B38CD413946E0"
+					type: "item"
+					item: {
+						id: "bloodmagic:livingboots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [
+				{
+					id: "3C33B8426DE59C90"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "31D30905DCF28343"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

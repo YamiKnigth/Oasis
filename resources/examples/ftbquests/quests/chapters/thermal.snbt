@@ -1,0 +1,790 @@
+{
+	id: "3182EF37B1A9EBF0"
+	group: "7340A40644391A0F"
+	order_index: 1
+	filename: "thermal"
+	title: "➢ &f&lThermal Expansion´s"
+	icon: "thermal:upgrade_augment_3"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			x: -1.5d
+			y: -2.5d
+			description: ["Utiliza elementos combustibles para producir FE."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "7473DE448A4B0BA2"
+			tasks: [{
+				id: "4A2F5E9857E11340"
+				type: "item"
+				item: "thermal:dynamo_stirling"
+			}]
+			rewards: [
+				{
+					id: "4C06312FB78FC407"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6DE4F3BB6B0CD07A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: -2.5d
+			description: ["Utiliza combustibles líquidos combustibles para producir FE."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "40EE9D4276E5A031"
+			tasks: [{
+				id: "272FAFE4205939CC"
+				type: "item"
+				item: "thermal:dynamo_compression"
+			}]
+			rewards: [
+				{
+					id: "685BA82AA842DE69"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "506EDC444D6E5A8D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: -2.5d
+			description: ["Utiliza lava para producir FE."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "6C9FB34C51588F8E"
+			tasks: [{
+				id: "4D4F39AD25CE49D8"
+				type: "item"
+				item: "thermal:dynamo_magmatic"
+			}]
+			rewards: [
+				{
+					id: "0F501A83D99EC9BD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5D1FCE216D541121"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: -2.5d
+			description: ["Utiliza cristales y gemas para producir FE."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "2D06DD8A406ED1C0"
+			tasks: [{
+				id: "7D01FD4CE87C026A"
+				type: "item"
+				item: "thermal:dynamo_lapidary"
+			}]
+			rewards: [
+				{
+					id: "321AEEB5DB485FA8"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7A82B98E7DAE44EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: -2.5d
+			description: ["Utiliza monedas para producir FE."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "2C620C37199AF649"
+			tasks: [{
+				id: "70690208AE39A167"
+				type: "item"
+				item: "thermal:dynamo_numismatic"
+			}]
+			rewards: [
+				{
+					id: "102F26C4B2F8379D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6C52546C468179ED"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 5.0d
+			description: ["Tritura objetos y minerales para convertirlos en otros materiales."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "1658986FA3463583"
+			tasks: [{
+				id: "42D2F3D688C3D94D"
+				type: "item"
+				item: "thermal:machine_pulverizer"
+			}]
+			rewards: [
+				{
+					id: "7314BDD596D5FD0C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6D57672C7CF1E3BB"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 4.0d
+			description: ["Un horno mejor."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "0FF3815AB8453741"
+			tasks: [{
+				id: "2C40CF62AD503B9B"
+				type: "item"
+				item: "thermal:machine_furnace"
+			}]
+			rewards: [
+				{
+					id: "63814CFCB8B06FFF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7329D5F1C632B6E0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 4.0d
+			description: ["Funde varios elementos juntos."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "018157F4A7A9CBD6"
+			tasks: [{
+				id: "7AA44097BF8E4E22"
+				type: "item"
+				item: "thermal:machine_smelter"
+			}]
+			rewards: [
+				{
+					id: "40B8D3EDA0833D3E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "094BE1567B0E94B6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 0.5d
+			description: ["Los aumentos de actualización mejoran las estadísticas generales de máquinas, dispositivos, dinamos y herramientas."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "7677EAB829F2CA1B"
+			tasks: [{
+				id: "072068CFAC76414E"
+				type: "item"
+				title: "Integral Components"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:upgrade_augment_1"
+								Count: 1b
+							}
+							{
+								id: "thermal:upgrade_augment_2"
+								Count: 1b
+							}
+							{
+								id: "thermal:upgrade_augment_3"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "2F3935EA1DAE98CA"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "55E0C207BFA3D2FC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -3.5d
+			y: 3.0d
+			description: ["Derrite elementos en fluidos."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "29B936E471D4AB54"
+			tasks: [{
+				id: "05194129BC57EE61"
+				type: "item"
+				item: "thermal:machine_crucible"
+			}]
+			rewards: [
+				{
+					id: "3A5DFCCC23E4F605"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2EF290D48196A966"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 4.0d
+			description: ["Enfría los fluidos a sus formas sólidas."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "112F927A5D64CA14"
+			tasks: [{
+				id: "2575A4FBAC8D9497"
+				type: "item"
+				item: "thermal:machine_chiller"
+			}]
+			rewards: [
+				{
+					id: "0A7CC5DF526E4130"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "00ADDBC00371CE92"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 3.0d
+			description: [
+				"Da forma a los metales en diferentes formas."
+				"(un)pack blocks and items."
+			]
+			dependencies: ["5342E58D013CD59E"]
+			id: "64E6A3258CEC53D2"
+			tasks: [{
+				id: "1CD735C7AA5E0454"
+				type: "item"
+				item: "thermal:machine_press"
+			}]
+			rewards: [
+				{
+					id: "1AF2CC8939BDE720"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2AD9FAC050942AB5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.5d
+			y: 4.0d
+			description: ["utiliza EF, agua y, opcionalmente, fertilizantes para cultivar cultivos, flores y árboles."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "49E46A9BD7A88D4C"
+			tasks: [{
+				id: "15A2C6261EF66ED8"
+				type: "item"
+				item: "thermal:machine_insolator"
+			}]
+			rewards: [
+				{
+					id: "720D1AF620D8ACA2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4E206C41550ED824"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 3.0d
+			description: ["Separa elementos en sus componentes."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "7E0E1CB5E77905DD"
+			tasks: [{
+				id: "78BDE8818614551B"
+				type: "item"
+				item: "thermal:machine_centrifuge"
+			}]
+			rewards: [
+				{
+					id: "0D818F2E1B07237A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3F4447F642A517AF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 3.0d
+			description: ["Convertir materia orgánica en combustibles."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "56F7C861AA826973"
+			tasks: [{
+				id: "0FEB02628DE13D13"
+				type: "item"
+				item: "thermal:machine_pyrolyzer"
+			}]
+			rewards: [
+				{
+					id: "3FBBE1FE4A0B9F87"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "17244201E261EA54"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -1.5d
+			y: 5.0d
+			description: ["Llena artículos como baldes y botellas."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "782AD4F0D395C959"
+			tasks: [{
+				id: "41DBC8714C6E93C5"
+				type: "item"
+				item: "thermal:machine_bottler"
+			}]
+			rewards: [
+				{
+					id: "0BF8D70C651564F1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "0D5EC9723BC7436A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 3.0d
+			description: ["Elabora pociones."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "38D4602FB20A2EB5"
+			tasks: [{
+				id: "1CFA3ACD8FE01036"
+				type: "item"
+				item: "thermal:machine_brewer"
+			}]
+			rewards: [
+				{
+					id: "7B4D0F9B320DF8A4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "336B7E4FB83C6F1D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -0.5d
+			y: 5.0d
+			description: ["Auto crafter."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "1817EB1A65371530"
+			tasks: [{
+				id: "3CF1C34FE14B0481"
+				type: "item"
+				item: "thermal:machine_crafter"
+			}]
+			rewards: [
+				{
+					id: "7DC1583C85AB5776"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "25BFFBE2CB13884B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 0.5d
+			y: 4.0d
+			description: ["Refina los fluidos."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "360B733DF6B81B80"
+			tasks: [{
+				id: "6C4C5B78DCE0DB16"
+				type: "item"
+				item: "thermal:machine_refinery"
+			}]
+			rewards: [
+				{
+					id: "5A3E46D81B51483D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7C87CE63F3353308"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 3.0d
+			y: 0.5d
+			description: ["Se utiliza para almacenar FE."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "167E612A40744016"
+			tasks: [{
+				id: "18EF80A4096A4F59"
+				type: "item"
+				item: {
+					id: "thermal:energy_cell"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							EnergyMax: 1000000
+							EnergySend: 1000
+							Energy: 0
+							EnergyRecv: 1000
+						}
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5BFE397396FC036B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "138FA5499FDA242B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 2.0d
+			y: 0.5d
+			description: ["Se utiliza para regar los cultivos para acelerar su crecimiento."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "67BDE9E8B63D1EF8"
+			tasks: [{
+				id: "79BFBA183315B515"
+				type: "item"
+				item: {
+					id: "thermal:watering_can"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [
+				{
+					id: "0B3972BB01C98E6D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3BF2AB28E17DFAE0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -4.5d
+			y: 0.5d
+			description: ["Augments le permite actualizar sus herramientas o máquinas."]
+			dependencies: ["5342E58D013CD59E"]
+			id: "625D9DC9ABA106CC"
+			tasks: [{
+				id: "48AC4F3E358D9FB2"
+				type: "item"
+				title: "Augment"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "thermal:machine_speed_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:item_filter_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:fluid_tank_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:machine_efficiency_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:rf_coil_xfer_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:rf_coil_storage_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:rf_coil_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:xp_storage_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:machine_output_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:machine_catalyst_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:machine_cycle_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:dynamo_output_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:dynamo_fuel_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:area_radius_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:potion_amplifier_augment"
+								Count: 1b
+							}
+							{
+								id: "thermal:potion_duration_augment"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "53B0B6E5EE9AA85D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7A63A624F5A05CEC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 1.0d
+			y: 0.5d
+			description: [
+				"¡Boom! Una granada arrojable de fertilizante, hecha para la agricultura."
+				"No funciona en cultivos de Agricultura Mística."
+			]
+			dependencies: ["5342E58D013CD59E"]
+			id: "2DEF447DEC243ADC"
+			tasks: [{
+				id: "03C6083F6A78F385"
+				type: "item"
+				item: "thermal:phyto_grenade"
+			}]
+			rewards: [
+				{
+					id: "45902B8765D07D0A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7390F3D221BD87F6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "&#00cefb&lT&#00b0fb&lh&#0092fc&le&#0074fc&lr&#0055fc&lm&#0037fd&la&#0019fd&ll"
+			icon: "thermal:machine_frame"
+			x: -1.5d
+			y: 0.5d
+			shape: "gear"
+			size: 1.5d
+			id: "5342E58D013CD59E"
+			tasks: [{
+				id: "005E264F091B8D83"
+				type: "item"
+				item: "thermal:machine_frame"
+			}]
+			rewards: [
+				{
+					id: "3974E03CE2915B65"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "752C0B520AF6CB74"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -5.5d
+			y: 0.5d
+			description: ["Moldes muy interesantes"]
+			dependencies: ["5342E58D013CD59E"]
+			id: "0F9D78B87FCDEADE"
+			tasks: [
+				{
+					id: "64855E240F15C245"
+					type: "item"
+					item: "thermal:chiller_rod_cast"
+				}
+				{
+					id: "7E4B18CCC723D4BF"
+					type: "item"
+					item: "thermal:chiller_ingot_cast"
+				}
+				{
+					id: "7E16B114684B7662"
+					type: "item"
+					item: "thermal:chiller_ball_cast"
+				}
+			]
+			rewards: [
+				{
+					id: "65B82E6302D03E9D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "177661AD4E6AC316"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}

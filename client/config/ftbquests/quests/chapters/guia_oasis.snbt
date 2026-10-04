@@ -1,0 +1,239 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "guia_oasis"
+	group: "0D0421250714AD11"
+	id: "49D036EA72296C7E"
+	images: [ ]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6E6CD259A84BB875"
+			rewards: [{
+				id: "14879A15AD4B98C4"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "460480E0A2058158"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E6CD259A84BB875"]
+			id: "410879D6220D0573"
+			rewards: [{
+				id: "0974D81458F63B74"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4C37525B611184FF"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["410879D6220D0573"]
+			id: "7BC9DB8AF8981ADA"
+			rewards: [{
+				id: "76F1C1DC49C0C7EE"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0352AE1C88B24359"
+				item: { count: 1, id: "waystones:waystone" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E6CD259A84BB875"]
+			id: "61C1C9D29FA6D11B"
+			rewards: [{
+				id: "76EC8BEF09D0EA96"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 16L
+				id: "7921BA80C580563B"
+				item: { count: 1, id: "minecraft:bread" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61C1C9D29FA6D11B"]
+			id: "0289A799509AF964"
+			rewards: [{
+				id: "6CC64CD563BFFC9E"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "1F18EAEB21ADCB4A"
+				item: { count: 1, id: "sophisticatedbackpacks:backpack" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6E6CD259A84BB875"]
+			id: "3F4339BEA81EA234"
+			rewards: [{
+				id: "2149345E4C508699"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "1C34995F1401E004"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["61C1C9D29FA6D11B"]
+			id: "6D4C3DA5F2BDF4CE"
+			rewards: [{
+				id: "1BE42B364EC60469"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "7FE8F9D26F1150AC"
+				item: { count: 1, id: "create:andesite_alloy" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6D4C3DA5F2BDF4CE"]
+			id: "1B69BC1F5169F856"
+			rewards: [{
+				id: "48026C4481C2E481"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "26E2CB1E66CDFEDA"
+				item: { count: 1, id: "immersiveengineering:hammer" }
+				type: "item"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B69BC1F5169F856"]
+			id: "770631208A8588AB"
+			rewards: [{
+				id: "4F8883C9CEE4FB9E"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "139BD5FCE0AB7C4C"
+				item: { count: 1, id: "ae2:certus_quartz_crystal" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["770631208A8588AB"]
+			id: "6252388806C32865"
+			rewards: [{
+				id: "4201E4FEB22390E3"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "2DBB57A926371A5A"
+				item: { count: 1, id: "ae2:silicon" }
+				type: "item"
+			}]
+			x: 6.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6E6CD259A84BB875"]
+			id: "1FEB1860CB1AAA43"
+			rewards: [{
+				id: "4C3757FB93316C96"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "4CFF8C9831D416DF"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3F4339BEA81EA234"]
+			id: "4B5436D5624175C6"
+			rewards: [{
+				id: "0D664DAE2531A60F"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "09FB41843EE3155D"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4B5436D5624175C6"]
+			id: "4D442196D1C6A18F"
+			rewards: [{
+				id: "097CF721D3B38718"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				count: 2L
+				id: "0B31317322507965"
+				item: { count: 1, id: "minecraft:ender_eye" }
+				type: "item"
+			}]
+			x: 4.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4D442196D1C6A18F"]
+			id: "79BB8C00EA2B74A6"
+			rewards: [{
+				id: "2D540BBC36E275B8"
+				table_id: 7609742599870717842L
+				type: "random"
+			}]
+			tasks: [{
+				id: "6B18A9269772DFE8"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: 6.0d
+		}
+	]
+}

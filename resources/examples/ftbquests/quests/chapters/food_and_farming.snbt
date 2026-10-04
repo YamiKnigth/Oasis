@@ -1,0 +1,1540 @@
+{
+	id: "05E614FDA677D85E"
+	group: "75E74A4A6A50E0C3"
+	order_index: 1
+	filename: "food_and_farming"
+	title: "➢ &f&lComida y Cultivos"
+	icon: "minecraft:cake"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	images: [
+		{
+			x: 1.0d
+			y: -7.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/faces/minecraft/chicken.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: -6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/faces/minecraft/cow.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/faces/minecraft/pig.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -5.5d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/faces/minecraft/sheep.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 8.0d
+			y: -6.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "ftbchunks:textures/faces/minecraft/bee.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: -90.0d
+			image: "minecraft:textures/item/shears.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/mutton.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -4.5d
+			y: -5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/beef.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -6.5d
+			y: -5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/leather.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: -6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/honey_bottle.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: -6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/honeycomb.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 7.0d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/porkchop.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 9.0d
+			y: 6.0d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "mysticalagriculture:textures/item/pig_essence.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 1.0d
+			y: 4.5d
+			width: 2.0d
+			height: 2.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/cake.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.5d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/carrot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -0.5d
+			y: 5.5d
+			width: 1.0d
+			height: 1.0d
+			rotation: 0.0d
+			image: "minecraft:textures/item/beetroot.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 0.0d
+			y: 6.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/item/beetroot_seeds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: -1.0d
+			y: 6.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/item/beetroot_seeds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 2.0d
+			y: 6.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat_seeds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+		{
+			x: 3.0d
+			y: 6.0d
+			width: 0.5d
+			height: 0.5d
+			rotation: 0.0d
+			image: "minecraft:textures/item/wheat_seeds.png"
+			hover: [ ]
+			click: ""
+			dev: false
+			corner: false
+		}
+	]
+	quests: [
+		{
+			icon: "minecraft:emerald"
+			x: 1.0d
+			y: -5.5d
+			shape: "square"
+			subtitle: "Empezando"
+			description: [
+				"¡Bienvenido al capítulo de Alimentos y agricultura!"
+				""
+				"¡Aquí encontrarás diferentes formas de cultivar y hacer comida!"
+			]
+			size: 1.5d
+			id: "1827DEEA2DF1B144"
+			tasks: [{
+				id: "07603A90CCCB3627"
+				type: "checkmark"
+				title: "Alimentación y Agricultura"
+			}]
+		}
+		{
+			title: "Golpea la hierba."
+			x: -4.0d
+			y: -2.25d
+			shape: "circle"
+			subtitle: "Bloquear Mano 1, Bloquear Hierba 0"
+			description: ["Recojamos algunas semillas."]
+			dependencies: ["43021923E220CF68"]
+			id: "72717D1135486D7F"
+			tasks: [{
+				id: "73B6ED422F9292D1"
+				type: "item"
+				item: "minecraft:wheat_seeds"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "4D1C7AB57068F1FD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4186D6EADCD9D8EF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "María tenía un corderito"
+			icon: "minecraft:white_wool"
+			x: 9.0d
+			y: 1.0d
+			subtitle: "¿De quién era el vellón... el arcoíris?"
+			description: ["¡Juntemos algunos pedazos de lana!"]
+			dependencies: ["18EADBAFC932F864"]
+			id: "3EA883C0BB7BD38F"
+			tasks: [{
+				id: "7F08D4E77359BF4A"
+				type: "item"
+				title: "Any #minecraft:wool"
+				icon: "minecraft:white_wool"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "minecraft:wool"
+					}
+				}
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "618893E0DCE91386"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "27ED2561DBDED29E"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Es hora de recortar"
+			x: 9.0d
+			y: -0.75d
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "18EADBAFC932F864"
+			tasks: [{
+				id: "3A9869856B3E9D54"
+				type: "item"
+				item: {
+					id: "minecraft:shears"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [
+				{
+					id: "5F8B838D73B60F2E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3430A5019E9F0167"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "occultism:butcher_knife"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 6.5d
+			y: -4.0d
+			shape: "pentagon"
+			subtitle: "\"El viejo MacDonald tenía una granja\" en realidad se hizo para un espectáculo de ópera."
+			description: [
+				"No estamos aquí para cantar, estamos aquí para iniciar una granja."
+				""
+				"Probablemente puedas hacer ambas cosas, ¡pero esta sección trata sobre los animales!"
+			]
+			size: 1.25d
+			id: "64E7BE89C13E8BD0"
+			tasks: [{
+				id: "33F002BBF566E12F"
+				type: "checkmark"
+				title: "mano de obra"
+			}]
+			rewards: [
+				{
+					id: "3A454BC3498ED993"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7DA488706BE81561"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Pero... Las vacas no se pueden esquilar..."
+			x: 7.5d
+			y: -0.75d
+			description: ["No quiero saber cómo conseguiste esto."]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "635620A03E3505BF"
+			tasks: [{
+				id: "5824C93C84312142"
+				type: "item"
+				item: "minecraft:leather"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "1B48486718684122"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "47BE222E8EB79CB1"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Lo estamos haciendo a la antigua."
+			x: 6.5d
+			y: -2.25d
+			subtitle: "Llévate bien perrito."
+			description: [
+				"El plomo clásico. Use esto para llevar animales a su área de granja."
+				""
+				"Esto no es lo mismo que se encuentra en la pintura."
+			]
+			dependencies: ["64E7BE89C13E8BD0"]
+			id: "2E9C035EEE7E5C34"
+			tasks: [{
+				id: "63282E8604721F13"
+				type: "item"
+				item: "minecraft:lead"
+			}]
+			rewards: [
+				{
+					id: "717881872BF02AC5"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "205E177849B12E07"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Encuentra una vaca. Ordeña la vaca. Ganancia."
+			x: 7.5d
+			y: 1.0d
+			subtitle: "¿Por qué no hay toros en el juego?"
+			description: [
+				"Encuentra una vaca y haz clic derecho con un balde."
+				""
+				"En serio, ¿por qué no toros?"
+			]
+			dependencies: ["635620A03E3505BF"]
+			id: "73B8A70240E6070E"
+			tasks: [{
+				id: "19A9C679111A90BC"
+				type: "item"
+				item: "minecraft:milk_bucket"
+			}]
+			rewards: [
+				{
+					id: "40351BE689194D32"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "183444849A81C675"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "No voy a hacer un juego de palabras con huevos."
+			x: 5.5d
+			y: -0.75d
+			subtitle: "¿o soy yo?"
+			description: [
+				"Los pollos los pondrán de forma natural. Supongo que en realidad no se considera natural..."
+				""
+				"Supongo que las gallinas se están poniendo... &oEjercicio de huevos!!!&r."
+				""
+				":)"
+			]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "1D2EF12FD7FDD217"
+			tasks: [{
+				id: "46974912B1E8E78B"
+				type: "item"
+				item: "minecraft:egg"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "0A2696749C6791B0"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "49E659C56C3D330F"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Los pollos deben irse"
+			x: 5.5d
+			y: 1.0d
+			subtitle: "¿De qué otra manera crees que se hace el pollo frito?"
+			dependencies: ["1D2EF12FD7FDD217"]
+			id: "1697CC05D08B388D"
+			tasks: [
+				{
+					id: "264B00606E5BE374"
+					type: "item"
+					item: "minecraft:feather"
+					count: 10L
+				}
+				{
+					id: "763031D0E9F0850C"
+					type: "item"
+					item: "minecraft:chicken"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "5C2B2E1AFB52D95A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "4DD40BE398739F9D"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			icon: {
+				id: "minecraft:wooden_hoe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -4.0d
+			y: -4.0d
+			shape: "diamond"
+			subtitle: "Solo espera hasta que tengas máquinas para esto."
+			description: [""]
+			size: 1.25d
+			id: "43021923E220CF68"
+			tasks: [{
+				id: "78772A2785AE9DD2"
+				type: "checkmark"
+				title: "el plantador"
+			}]
+			rewards: [
+				{
+					id: "054B50A405385330"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "533F0C62A46EF901"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Trigo."
+			x: -4.0d
+			y: -0.25d
+			subtitle: "A los corredores de velocidad les encantan estas cosas"
+			dependencies: ["72717D1135486D7F"]
+			id: "0A1C2A7A8617D3E4"
+			tasks: [{
+				id: "6890EB2819D88073"
+				type: "item"
+				item: "minecraft:wheat"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "01E4DB4019546808"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1DFAAF6F2CD7F2F2"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "El pan de vida"
+			x: -4.0d
+			y: 1.25d
+			subtitle: "Rápido y Sencillo"
+			dependencies: ["0A1C2A7A8617D3E4"]
+			id: "659A903F97F93BE2"
+			tasks: [{
+				id: "03C7F9CB0DDB2D9B"
+				type: "item"
+				item: "minecraft:bread"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "1C5F666418429758"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "34BE0B5C1F2D79A6"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Semillas de cáñamo"
+			x: -5.0d
+			y: 0.25d
+			subtitle: "¿Quién necesita arañas de todos modos?"
+			description: [
+				"Encontrarás semillas de cáñamo bastante rápido."
+				""
+				"¡Si los plantas, puedes usar la fibra para hacer cuerdas!"
+			]
+			dependencies: ["72717D1135486D7F"]
+			id: "5A51E26D66D1273B"
+			tasks: [
+				{
+					id: "76B0E810B050B149"
+					type: "item"
+					item: "immersiveengineering:seed"
+				}
+				{
+					id: "3CAD3464D21B46B2"
+					type: "item"
+					item: "immersiveengineering:hemp_fiber"
+					count: 3L
+				}
+			]
+			rewards: [
+				{
+					id: "591452EC09E520FC"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7E55D86AE81FE8CF"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Azúcar azúcar."
+			x: -3.0d
+			y: 0.25d
+			subtitle: "Esto crece hasta el cielo ahora."
+			description: ["¡Encuentra algo de caña de azúcar!"]
+			dependencies: ["72717D1135486D7F"]
+			id: "361DFDB1E1352D6B"
+			tasks: [{
+				id: "6118A776B40507B7"
+				type: "item"
+				item: "minecraft:sugar_cane"
+				count: 10L
+			}]
+			rewards: [
+				{
+					id: "57D83B4631D37914"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "329A198F753A3970"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Cuerda de semillas!"
+			x: -5.0d
+			y: 2.25d
+			description: ["Usa el cáñamo industrial para crear cuerdas."]
+			dependencies: ["5A51E26D66D1273B"]
+			id: "1CBEB3ABB4260CC2"
+			tasks: [{
+				id: "35864460DFF78192"
+				type: "item"
+				item: "minecraft:string"
+				count: 4L
+			}]
+			rewards: [
+				{
+					id: "736505F0914D63B4"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "58DD0737D02C89E3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Puedes tener tu Pastel y Comértelo también."
+			x: -4.0d
+			y: 3.75d
+			shape: "rsquare"
+			description: ["Es hora de hornear un pastel, si tienes un poco de leche y huevos listos."]
+			dependencies: [
+				"659A903F97F93BE2"
+				"1D48298525EEADC9"
+			]
+			size: 1.5d
+			id: "0893EFCAC7031FEA"
+			tasks: [{
+				id: "1AA73DEFAA50FDF6"
+				type: "item"
+				item: "minecraft:cake"
+			}]
+			rewards: [
+				{
+					id: "605B9A9EB6BB3134"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7C0478C59FC90D97"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			title: "Eres tan dulce."
+			x: -3.0d
+			y: 2.25d
+			subtitle: "Échame un poco de azúcar."
+			description: ["Ya deberías tener todo lo que necesitas."]
+			dependencies: ["361DFDB1E1352D6B"]
+			id: "1D48298525EEADC9"
+			tasks: [{
+				id: "56CAB3D2E3421C7C"
+				type: "item"
+				item: "minecraft:sugar"
+				count: 3L
+			}]
+			rewards: [
+				{
+					id: "499536995F45E1AD"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5C2EBBA22F0350FD"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: -0.75d
+			subtitle: "La zanahoria silvestre es una especie de planta herbácea de la familia Apiaceae"
+			description: ["Recoge unas cuentas zanahorias"]
+			dependencies: ["43021923E220CF68"]
+			id: "62E2A74453D48E02"
+			tasks: [{
+				id: "6413D7A4EAB758D8"
+				type: "item"
+				item: "minecraft:carrot"
+				count: 5L
+			}]
+			rewards: [
+				{
+					id: "19A2CA93E0ED62ED"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1756D4FE4252E1B3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: -0.75d
+			subtitle: "La remolacha o betabel"
+			description: ["Recoge unas cuentas remolachas"]
+			dependencies: ["43021923E220CF68"]
+			id: "752B59CA25C5E554"
+			tasks: [{
+				id: "00F37C38BE186E9D"
+				type: "item"
+				item: "minecraft:beetroot"
+				count: 6L
+			}]
+			rewards: [
+				{
+					id: "34924A499D485099"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "20EE74F40D259E14"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 3.5d
+			subtitle: "Put@ que rico"
+			description: ["Junta tus remolachas y tu cuenco "]
+			dependencies: ["2A9CAAA16A3D0103"]
+			id: "7A851FFA1F64935F"
+			tasks: [{
+				id: "5721E753BE8A6F76"
+				type: "item"
+				item: "minecraft:beetroot_soup"
+			}]
+			rewards: [
+				{
+					id: "79D7456F9D28B365"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "708618FA67269B6C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -2.0d
+			y: 1.25d
+			subtitle: "Esto es muy util"
+			description: ["Con tres de madera lo crafteas facil"]
+			dependencies: ["752B59CA25C5E554"]
+			id: "2A9CAAA16A3D0103"
+			tasks: [{
+				id: "6837F5D9F290EFE9"
+				type: "item"
+				item: "minecraft:bowl"
+			}]
+			rewards: [
+				{
+					id: "59EFB9E5132B4FFA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3ECF5855817DECE3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 3.5d
+			dependencies: ["7FA4924C85C03CB3"]
+			id: "5D65BC6A04A3858A"
+			tasks: [{
+				id: "231E321DE5D42340"
+				type: "item"
+				item: "minecraft:golden_carrot"
+			}]
+			rewards: [
+				{
+					id: "074643336290CA4B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "12C6260655AC6D72"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -6.0d
+			y: 1.25d
+			subtitle: "Pequeñas y valiosas"
+			description: ["Craftea unas cuentas pepitas de un lingote de oro"]
+			dependencies: ["62E2A74453D48E02"]
+			id: "7FA4924C85C03CB3"
+			tasks: [{
+				id: "1DE3E5BB70E23047"
+				type: "item"
+				item: "minecraft:gold_nugget"
+				count: 8L
+			}]
+			rewards: [
+				{
+					id: "07ACC7ACAE7EE8BA"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "256644D685F97046"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: -0.75d
+			subtitle: "El Super Champiñón"
+			description: ["Encuentra champiñones"]
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "61D552073909B4CC"
+			tasks: [
+				{
+					id: "627A03808141CAF1"
+					type: "item"
+					item: "minecraft:red_mushroom"
+				}
+				{
+					id: "2FAE5F98A2105A3C"
+					type: "item"
+					item: "minecraft:brown_mushroom"
+				}
+			]
+			rewards: [
+				{
+					id: "7A8D479C2FE46867"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "555D8EB74B9F3CC5"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 4.0d
+			y: 1.0d
+			subtitle: "Esto sabe de dioses"
+			description: ["Junta tus champiñones con un cuenco"]
+			dependencies: ["61D552073909B4CC"]
+			id: "23DED901C5678BF0"
+			tasks: [{
+				id: "2B495917B89FCB4A"
+				type: "item"
+				item: "minecraft:mushroom_stew"
+			}]
+			rewards: [
+				{
+					id: "292E0E40B0533E6A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3A9337F2A9AC1F15"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 1.5d
+			dependencies: ["0102E933793B0707"]
+			id: "2D5AA8D19E56C467"
+			tasks: [{
+				id: "64A913DD2BA88D56"
+				type: "item"
+				item: "minecraft:honeycomb"
+			}]
+			rewards: [
+				{
+					id: "09BC17E9BC72287E"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "74529E9A5B1E6A44"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: 3.0d
+			dependencies: ["2D5AA8D19E56C467"]
+			id: "52E24610C201DA7E"
+			tasks: [{
+				id: "727F933D1AF4A369"
+				type: "item"
+				item: "minecraft:honeycomb_block"
+			}]
+			rewards: [
+				{
+					id: "0C7A5F6A771DFFB3"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7B2EAD5431A776AC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: 6.5d
+			y: -0.25d
+			subtitle: "Miel pura de abeja"
+			dependencies: ["2E9C035EEE7E5C34"]
+			id: "0102E933793B0707"
+			tasks: [{
+				id: "7B34EBBD542A4EED"
+				type: "item"
+				item: "minecraft:honey_bottle"
+			}]
+			rewards: [
+				{
+					id: "51732636DDBBE352"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "55C481FA78E0F5F3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -2.5d
+			dependencies: ["43021923E220CF68"]
+			id: "3CA2DECDF5AE5422"
+			tasks: [{
+				id: "39B9399CD10B3E47"
+				type: "item"
+				item: "thermal:apple_block"
+			}]
+			rewards: [
+				{
+					id: "7DC124279245CD87"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1AD98C352243A35C"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: -1.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "606FF2588C426340"
+			tasks: [{
+				id: "1897E1759D2A5D6A"
+				type: "item"
+				item: "thermal:strawberry"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "07C5DC78FD5A8A02"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "7F34F2D65703E7E0"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: -1.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "259DB6DA8DE05321"
+			tasks: [{
+				id: "6B81FC84714B08AA"
+				type: "item"
+				item: "thermal:tomato"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "137A4E44D0AC7620"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "6F70FB707DB17114"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: -1.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "585F1A06269FD90D"
+			tasks: [{
+				id: "3868466FE6445A6A"
+				type: "item"
+				item: "thermal:coffee"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "45BED86E5D5AD92F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "5603424AEDE17FA4"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 0.5d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "3CDDAA4630BDD5E3"
+			tasks: [{
+				id: "34D91A77CB59BF47"
+				type: "item"
+				item: "thermal:hops"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "2B015DEE0403DC11"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3526066E0565F509"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 0.5d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "48D7F13B526C18BF"
+			tasks: [{
+				id: "4EC34A0B290D9DF8"
+				type: "item"
+				item: "thermal:tea"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "43100018DB7E8C75"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3DBB2DD3FF9FB0D9"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 2.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "02BC65D063DB467C"
+			tasks: [{
+				id: "544C1BD9A8AC30FD"
+				type: "item"
+				item: "thermal:barley"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "55833FE8C39E525A"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "73896C3039634F9A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 0.5d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "7F088DF48B72D8AD"
+			tasks: [{
+				id: "65154D0487271BE1"
+				type: "item"
+				item: "thermal:glowstone_mushroom_spores"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "1F3F538FF5900745"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "2102CFF8803F20EC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 2.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "668FD96D991AFC77"
+			tasks: [{
+				id: "0EA42E9CFB22A81B"
+				type: "item"
+				item: "thermal:corn"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "05E624894B30229B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "1ED3E49CE64A5DBE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 2.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "563BF5280685634B"
+			tasks: [{
+				id: "20B43BC8F87C9B5C"
+				type: "item"
+				item: "thermal:onion"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "56C54E4C298F777D"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3AE656EDAFA2BFAE"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 3.5d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "0C36C898CAA7879D"
+			tasks: [{
+				id: "07168052041B45AD"
+				type: "item"
+				item: "thermal:radish"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "651B335E21A9D03B"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "35EEC9C47897320B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 3.5d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "197E56FC08876191"
+			tasks: [{
+				id: "488972EE1F40FF0A"
+				type: "item"
+				item: "thermal:bell_pepper"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "6C68E526A0DAC092"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "496B0CDF552FD6F3"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 3.5d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "484E22101F1E6896"
+			tasks: [{
+				id: "37EED835AA85EA61"
+				type: "item"
+				item: "thermal:eggplant"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "49306EA770C09FEE"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "15AD7AA8DC50632B"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -11.0d
+			y: 5.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "1F233E306F453749"
+			tasks: [{
+				id: "17F663331D2E7F0C"
+				type: "item"
+				item: "thermal:green_bean"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "6FD9D6F57E693E5F"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "612F30CDBF99DE9A"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -9.5d
+			y: 5.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "6A899C303C851FC4"
+			tasks: [{
+				id: "11DBB34719CABF53"
+				type: "item"
+				item: "thermal:spinach"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "085FD877424AA598"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "00E77CA3A543AB93"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+		{
+			x: -8.0d
+			y: 5.0d
+			dependencies: ["3CA2DECDF5AE5422"]
+			id: "43A3BDDBF2B418A1"
+			tasks: [{
+				id: "43EF15E4ABC64509"
+				type: "item"
+				item: "thermal:peanut"
+				count: 32L
+			}]
+			rewards: [
+				{
+					id: "67C24EBF738760E6"
+					type: "loot"
+					exclude_from_claim_all: true
+					table_id: 9064214687152083018L
+				}
+				{
+					id: "3D72A3FE7B4973DC"
+					type: "random"
+					exclude_from_claim_all: true
+					table_id: 2024240799334710852L
+				}
+			]
+		}
+	]
+	quest_links: [ ]
+}
