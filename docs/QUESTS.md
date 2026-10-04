@@ -2,7 +2,8 @@
 
 **Ruta:** `config/ftbquests/quests/` (espejo en `client/` y `server/`)
 
-Smoke: Loaded **6 groups**, **11 chapters**, **405 quests**, **11 reward tables**.
+Smoke base: **6 groups**, **11 chapters**.  
+**Create (Tech I) reescrito:** ~**124** quests estilo ATM/Mekanism (addons + gates Oasis). Pendiente smoke tras reload.
 
 ## Grupos
 

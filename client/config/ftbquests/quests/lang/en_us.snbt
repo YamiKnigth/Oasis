@@ -5,7 +5,6 @@
 	chapter.2B4D0BB6F0033714.title: "&c&lDragona"
 	chapter.33BC804FAE31EEBC.title: "&d&lMalum"
 	chapter.3A95899B1ED34CBF.title: "&b&lMekanism"
-	chapter.3BBA0CC96A0392C9.title: "&b&lCreate"
 	chapter.49D036EA72296C7E.title: "&a&lGuia Oasis"
 	chapter.5FF2F8E6FDE52902.title: "&d&lIron's Spells"
 	chapter.6451876239C201DF.title: "&b&lApplied Energistics 2"
@@ -15,181 +14,181 @@
 	chapter_group.22F7FAA010DA678A.title: "&e&lCozy"
 	chapter_group.6441F8F3D6741F60.title: "&2&lExploracion"
 	chapter_group.7726645EE79AB0A8.title: "&d&lMagia"
-	quest.00000000000000FD.quest_desc: ["Espero que hayas disfrutado haciendo este acero, necesitarás MUCHO en el futuro."]
+	quest.00000000000000FD.quest_desc: ["Espero que hayas disfrutado haciendo este acero, necesitarÃ¡s MUCHO en el futuro."]
 	quest.0000000000000104.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"El alto horno es tu primer paso en el camino hacia tu propio imperio del acero."
 		""
 		"Coloca el ladrillo explosivo en un cubo de 3x3x3 y haz clic derecho en una cara con el martillo de ingeniero para formar el horno."
 		""
-		"Al combinar coque de carbón o carbón vegetal con hierro en el horno, se producirá acero."
+		"Al combinar coque de carbÃ³n o carbÃ³n vegetal con hierro en el horno, se producirÃ¡ acero."
 	]
 	quest.0000000000000104.title: "Alto horno"
 	quest.0000000000000106.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"Al revestir de acero algunos ladrillos explosivos, puede contener mejor el calor de su horno."
 		""
-		"Un bloque de 3x3x3 de ladrillos explosivos reforzados con una tolva colocada en el bloque central superior. Al hacer clic derecho con un martillo de ingeniero en una cara del bloque de 3x3x3 se formará el horno."
+		"Un bloque de 3x3x3 de ladrillos explosivos reforzados con una tolva colocada en el bloque central superior. Al hacer clic derecho con un martillo de ingeniero en una cara del bloque de 3x3x3 se formarÃ¡ el horno."
 	]
 	quest.0000000000000108.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El precalentador de alto horno mejorará aún más su producción de acero. Cada Alto Horno Reforzado puede tener hasta 2 precalentadores."
+		"El precalentador de alto horno mejorarÃ¡ aÃºn mÃ¡s su producciÃ³n de acero. Cada Alto Horno Reforzado puede tener hasta 2 precalentadores."
 		""
 		"Cada precalentador de alto horno consume 32 RF/t."
-		"Un solo precalentador duplicará la velocidad del Alto Horno Mejorado, mientras que dos precalentadores triplicarán su velocidad."
+		"Un solo precalentador duplicarÃ¡ la velocidad del Alto Horno Mejorado, mientras que dos precalentadores triplicarÃ¡n su velocidad."
 	]
-	quest.000000000000010A.quest_desc: ["El horno de aleación es un bloque de ladrillos de horno de 2x2x2 que le permite crear aleaciones de metales."]
-	quest.000000000000010A.title: "horno de aleación"
-	quest.000000000000010C.quest_desc: ["Un subproducto de la producción de acero en altos hornos que se puede utilizar para una serie de otros productos."]
+	quest.000000000000010A.quest_desc: ["El horno de aleaciÃ³n es un bloque de ladrillos de horno de 2x2x2 que le permite crear aleaciones de metales."]
+	quest.000000000000010A.title: "horno de aleaciÃ³n"
+	quest.000000000000010C.quest_desc: ["Un subproducto de la producciÃ³n de acero en altos hornos que se puede utilizar para una serie de otros productos."]
 	quest.000000000000010E.quest_desc: ["Ah, el piso favorito de los ingenieros."]
-	quest.0000000000000111.quest_desc: ["El Kinetic Dynamo toma energía rotacional y la convierte en RF."]
+	quest.0000000000000111.quest_desc: ["El Kinetic Dynamo toma energÃ­a rotacional y la convierte en RF."]
 	quest.0000000000000113.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"El Waterwheel se utiliza para generar RF cuando se conecta a la parte delantera de un Kinetic Dynamo."
 		""
-		"La rueda de agua debe estar en contacto con una corriente de agua que fluye para poder funcionar, y la cantidad de energía producida escala directamente con la cantidad de bloques de agua que fluyen adyacentes a la rueda."
+		"La rueda de agua debe estar en contacto con una corriente de agua que fluye para poder funcionar, y la cantidad de energÃ­a producida escala directamente con la cantidad de bloques de agua que fluyen adyacentes a la rueda."
 		""
-		"Se pueden colocar hasta tres ruedas hidráulicas una contra la otra. Las ruedas hidráulicas conectadas generarán potencia a la misma dínamo."
+		"Se pueden colocar hasta tres ruedas hidrÃ¡ulicas una contra la otra. Las ruedas hidrÃ¡ulicas conectadas generarÃ¡n potencia a la misma dÃ­namo."
 	]
 	quest.0000000000000115.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El Kinetic Dynamo toma energía rotacional y la convierte en RF."
+		"El Kinetic Dynamo toma energÃ­a rotacional y la convierte en RF."
 		""
-		"Construir otro molino de viento de cualquier tipo en las proximidades (hasta 7 bloques frente a él) reducirá su velocidad."
+		"Construir otro molino de viento de cualquier tipo en las proximidades (hasta 7 bloques frente a Ã©l) reducirÃ¡ su velocidad."
 	]
 	quest.00000000000001F0.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El Generador Termoeléctrico genera RF a través de la diferencia de temperatura entre bloques/líquidos adyacentes."
+		"El Generador TermoelÃ©ctrico genera RF a travÃ©s de la diferencia de temperatura entre bloques/lÃ­quidos adyacentes."
 		""
-		"Los dos líquidos/bloques utilizados deben ser opuestos entre sí; tener un líquido en el este del generador y otro líquido en el norte del generador (por ejemplo) NO permitirá que funcione."
-		"Tener dos juegos de opuestos funcionará y aumentará la producción."
+		"Los dos lÃ­quidos/bloques utilizados deben ser opuestos entre sÃ­; tener un lÃ­quido en el este del generador y otro lÃ­quido en el norte del generador (por ejemplo) NO permitirÃ¡ que funcione."
+		"Tener dos juegos de opuestos funcionarÃ¡ y aumentarÃ¡ la producciÃ³n."
 	]
-	quest.00000000000001F2.quest_desc: ["El condensador de nivel más bajo soporta hasta 100k RF."]
+	quest.00000000000001F2.quest_desc: ["El condensador de nivel mÃ¡s bajo soporta hasta 100k RF."]
 	quest.00000000000001F4.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"El calentador externo, cuando se coloca junto a un horno normal o en un horno de laboratorio, toma RF y la convierte en calor."
-		"Cuando se coloca junto a un horno normal, tardará hasta 32 RF/t en funcionar."
+		"Cuando se coloca junto a un horno normal, tardarÃ¡ hasta 32 RF/t en funcionar."
 	]
 	quest.00000000000001F8.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Cableado básico que puede transportar hasta 2048 RF/t antes de quemarse y necesitar ser reemplazado."
-		"Te sorprenderá si lo tocas."
+		"Cableado bÃ¡sico que puede transportar hasta 2048 RF/t antes de quemarse y necesitar ser reemplazado."
+		"Te sorprenderÃ¡ si lo tocas."
 	]
-	quest.00000000000001FA.quest_desc: ["Los conectores y relés de BT permiten que fluyan hasta 256 RF/t a través de ellos o dentro/fuera de las máquinas."]
+	quest.00000000000001FA.quest_desc: ["Los conectores y relÃ©s de BT permiten que fluyan hasta 256 RF/t a travÃ©s de ellos o dentro/fuera de las mÃ¡quinas."]
 	quest.00000000000001FD.quest_desc: ["Le permite pasar cables por encima de su cabeza para evitar que se sorprenda."]
 	quest.00000000000001FF.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El interruptor automático le permite cortar manualmente el flujo de cables de BT/MT a través de él. No está lo suficientemente aislado para HV."
-		"El interruptor de piedra roja está lo suficientemente aislado para manejar todos los cables (LV-HV) que lo atraviesan. Para operar su método de ruptura, se debe proporcionar una señal de redstone."
+		"El interruptor automÃ¡tico le permite cortar manualmente el flujo de cables de BT/MT a travÃ©s de Ã©l. No estÃ¡ lo suficientemente aislado para HV."
+		"El interruptor de piedra roja estÃ¡ lo suficientemente aislado para manejar todos los cables (LV-HV) que lo atraviesan. Para operar su mÃ©todo de ruptura, se debe proporcionar una seÃ±al de redstone."
 	]
 	quest.0000000000000201.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Los cables y conectores de redstone le permitirán enviar señales de redstone a través de cables."
-		"Al usar el destornillador en el conector, le permitirá cambiar el color del canal en el que está operando el conector, y si es una entrada o una salida."
+		"Los cables y conectores de redstone le permitirÃ¡n enviar seÃ±ales de redstone a travÃ©s de cables."
+		"Al usar el destornillador en el conector, le permitirÃ¡ cambiar el color del canal en el que estÃ¡ operando el conector, y si es una entrada o una salida."
 	]
-	quest.0000000000000205.quest_desc: ["Cuando se sostiene en la mano y se desplaza sobre un bloque, indicará el nivel de potencia almacenado en el bloque. También se puede usar para calcular la pérdida entre dos conectores haciendo clic derecho en los extremos del conector."]
-	quest.0000000000000207.quest_desc: ["Realiza un seguimiento de la tasa de flujo de energía a través del transformador y da el nivel con un clic derecho."]
-	quest.0000000000000209.quest_desc: ["Un capacitor portátil que puede usar y que cargará los artículos en sus manos."]
+	quest.0000000000000205.quest_desc: ["Cuando se sostiene en la mano y se desplaza sobre un bloque, indicarÃ¡ el nivel de potencia almacenado en el bloque. TambiÃ©n se puede usar para calcular la pÃ©rdida entre dos conectores haciendo clic derecho en los extremos del conector."]
+	quest.0000000000000207.quest_desc: ["Realiza un seguimiento de la tasa de flujo de energÃ­a a travÃ©s del transformador y da el nivel con un clic derecho."]
+	quest.0000000000000209.quest_desc: ["Un capacitor portÃ¡til que puede usar y que cargarÃ¡ los artÃ­culos en sus manos."]
 	quest.000000000000020C.quest_desc: ["Un capacitor de nivel medio, soporta hasta 1M RF."]
-	quest.000000000000020E.quest_desc: ["Los conectores y relés de MT permiten que fluyan hasta 2048 RF/t a través de ellos o dentro/fuera de las máquinas."]
-	quest.0000000000000211.quest_desc: ["Cableado de nivel medio que puede transportar hasta 8192 RF/t antes de quemarse y necesitar ser reemplazado. Estos te dolerán más que los cables de baja tensión cuando te den una descarga eléctrica."]
+	quest.000000000000020E.quest_desc: ["Los conectores y relÃ©s de MT permiten que fluyan hasta 2048 RF/t a travÃ©s de ellos o dentro/fuera de las mÃ¡quinas."]
+	quest.0000000000000211.quest_desc: ["Cableado de nivel medio que puede transportar hasta 8192 RF/t antes de quemarse y necesitar ser reemplazado. Estos te dolerÃ¡n mÃ¡s que los cables de baja tensiÃ³n cuando te den una descarga elÃ©ctrica."]
 	quest.0000000000000213.quest_desc: ["Le permite reducir los niveles de potencia de los cables."]
-	quest.0000000000000215.quest_desc: ["El capacitor de nivel más alto soporta hasta 4M RF."]
-	quest.0000000000000217.quest_desc: ["El cableado de nivel más alto que puede transferir hasta 32 768 RF/t antes de quemarse y necesitar ser reemplazado. Sorprenderse por esto será una muerte casi segura."]
-	quest.0000000000000219.quest_desc: ["Los conectores HV permiten que fluyan hasta 4096 RF/t a través de ellos y dentro/fuera de las máquinas."]
-	quest.000000000000021D.quest_desc: ["Una estructura de defensa que te permitirá electrocutar a los enemigos cuando se active."]
-	quest.000000000000021F.quest_desc: ["Esta estación cargará los dispositivos colocados dentro."]
+	quest.0000000000000215.quest_desc: ["El capacitor de nivel mÃ¡s alto soporta hasta 4M RF."]
+	quest.0000000000000217.quest_desc: ["El cableado de nivel mÃ¡s alto que puede transferir hasta 32 768 RF/t antes de quemarse y necesitar ser reemplazado. Sorprenderse por esto serÃ¡ una muerte casi segura."]
+	quest.0000000000000219.quest_desc: ["Los conectores HV permiten que fluyan hasta 4096 RF/t a travÃ©s de ellos y dentro/fuera de las mÃ¡quinas."]
+	quest.000000000000021D.quest_desc: ["Una estructura de defensa que te permitirÃ¡ electrocutar a los enemigos cuando se active."]
+	quest.000000000000021F.quest_desc: ["Esta estaciÃ³n cargarÃ¡ los dispositivos colocados dentro."]
 	quest.0000000000000221.quest_desc: ["Light Engineering Blocks can be thought of as the basic components that go into a larger machine."]
-	quest.0000000000000223.quest_desc: ["Los bloques de ingeniería pesados ​​se pueden considerar como los componentes complejos que forman parte de una máquina más grande."]
+	quest.0000000000000223.quest_desc: ["Los bloques de ingenierÃ­a pesados â€‹â€‹se pueden considerar como los componentes complejos que forman parte de una mÃ¡quina mÃ¡s grande."]
 	quest.0000000000000225.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Las bombas y tuberías serán fundamentales una vez que comience a mover líquidos alrededor de su base."
+		"Las bombas y tuberÃ­as serÃ¡n fundamentales una vez que comience a mover lÃ­quidos alrededor de su base."
 		""
-		"Usar tinte en una tubería lo codificará por color, sin usar el tinte."
+		"Usar tinte en una tuberÃ­a lo codificarÃ¡ por color, sin usar el tinte."
 	]
-	quest.000000000000022D.quest_desc: ["Una mesa de elaboración personalizada que te permite hacer recetas especiales a partir de planos que se pueden hacer y encontrar en aldeas de todo el mundo."]
+	quest.000000000000022D.quest_desc: ["Una mesa de elaboraciÃ³n personalizada que te permite hacer recetas especiales a partir de planos que se pueden hacer y encontrar en aldeas de todo el mundo."]
 	quest.000000000000022F.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Algunas herramientas de ingeniero más para complementar el martillo de ingeniero."
+		"Algunas herramientas de ingeniero mÃ¡s para complementar el martillo de ingeniero."
 		""
-		"Cortadores de alambre: te permitirán fabricar alambre a partir de placas y romper todas las conexiones de alambre hasta un punto haciendo clic con el botón derecho en un bloque."
+		"Cortadores de alambre: te permitirÃ¡n fabricar alambre a partir de placas y romper todas las conexiones de alambre hasta un punto haciendo clic con el botÃ³n derecho en un bloque."
 		"Screwdriver - Allows you to invert the redstone control of a block."
 	]
 	quest.000000000000022F.title: "Herramientas de ingeniero"
 	quest.0000000000000234.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Comience a explorar llevando Survey Tools a la naturaleza para buscar vetas minerales. Survey Tools proporciona ubicaciones aproximadas de vetas y múltiples muestras de la misma veta aumentan la información de las vetas."
+		"Comience a explorar llevando Survey Tools a la naturaleza para buscar vetas minerales. Survey Tools proporciona ubicaciones aproximadas de vetas y mÃºltiples muestras de la misma veta aumentan la informaciÃ³n de las vetas."
 		"Samples can overlap, so samples may contain information from multiple veins."
-		"A continuación, es bueno llevar un Core Sample Drill a un área prospectiva para obtener datos más precisos sobre una veta. Asegúrate de llevar contigo una fuente de energía (un condensador sería bueno) para encender el taladro."
+		"A continuaciÃ³n, es bueno llevar un Core Sample Drill a un Ã¡rea prospectiva para obtener datos mÃ¡s precisos sobre una veta. AsegÃºrate de llevar contigo una fuente de energÃ­a (un condensador serÃ­a bueno) para encender el taladro."
 		"The sample it will provide gives detailed vein information at that location. Veins are no longer chunk based."
 		""
-		"Para obtener más información, consulte la sección Depósitos minerales del manual de IE."
+		"Para obtener mÃ¡s informaciÃ³n, consulte la secciÃ³n DepÃ³sitos minerales del manual de IE."
 	]
-	quest.0000000000000234.title: "Prospección"
+	quest.0000000000000234.title: "ProspecciÃ³n"
 	quest.0000000000000236.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Las cintas transportadoras moverán tus artículos alrededor de tu base a la velocidad de... caminar."
+		"Las cintas transportadoras moverÃ¡n tus artÃ­culos alrededor de tu base a la velocidad de... caminar."
 		""
-		"Se puede hacer clic derecho con tinte para codificar por color las paredes del cinturón."
+		"Se puede hacer clic derecho con tinte para codificar por color las paredes del cinturÃ³n."
 	]
 	quest.0000000000000238.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Los enrutadores de elementos ordenarán los elementos entrantes de sus caras respectivas. Esto se puede usar para dividir un solo transportador en 2 o más transportadores de flujo igual."
+		"Los enrutadores de elementos ordenarÃ¡n los elementos entrantes de sus caras respectivas. Esto se puede usar para dividir un solo transportador en 2 o mÃ¡s transportadores de flujo igual."
 		""
-		"Se puede ver una descripción más extensa en el manual de IE."
+		"Se puede ver una descripciÃ³n mÃ¡s extensa en el manual de IE."
 	]
-	quest.000000000000023A.quest_desc: ["Una linterna especial que forma un \"cono\" de luz de 32 bloques de largo. La posición se puede ajustar haciendo clic derecho con el martillo de ingenieros."]
+	quest.000000000000023A.quest_desc: ["Una linterna especial que forma un \"cono\" de luz de 32 bloques de largo. La posiciÃ³n se puede ajustar haciendo clic derecho con el martillo de ingenieros."]
 	quest.000000000000023C.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"La campana de jardín se utiliza para automatizar y acelerar el crecimiento de cultivos de forma industrial."
+		"La campana de jardÃ­n se utiliza para automatizar y acelerar el crecimiento de cultivos de forma industrial."
 		""
-		"Al colocar semillas y tierra correcta en el interior y proporcionar energía y agua a la campana, puede cultivar con facilidad."
+		"Al colocar semillas y tierra correcta en el interior y proporcionar energÃ­a y agua a la campana, puede cultivar con facilidad."
 		""
 		"Power can be inserted at the top copper point on the glass globe."
 		"El agua se puede insertar en los grandes puertos grises en la parte delantera y trasera de la campana."
 		"Finally products can be pulled from the front center port with the orange dot. "
 	]
-	quest.0000000000000240.quest_desc: ["Una práctica caja de herramientas para llevar tus herramientas, junto con algunos alimentos y otros artículos."]
-	quest.0000000000000244.quest_desc: ["Una mesa de trabajo especial con un pequeño inventario interno y contiene elementos en los espacios de trabajo, en lugar de volver a colocarlos en su inventario, al cerrar la mesa."]
+	quest.0000000000000240.quest_desc: ["Una prÃ¡ctica caja de herramientas para llevar tus herramientas, junto con algunos alimentos y otros artÃ­culos."]
+	quest.0000000000000244.quest_desc: ["Una mesa de trabajo especial con un pequeÃ±o inventario interno y contiene elementos en los espacios de trabajo, en lugar de volver a colocarlos en su inventario, al cerrar la mesa."]
 	quest.0000000000000246.quest_desc: ["Un bonito poste de acero para mantener los cables fuera de tu cara."]
 	quest.0000000000000248.quest_desc: ["Un bonito poste de aluminio para mantener los cables fuera de tu cara."]
-	quest.000000000000024A.quest_desc: ["Una linterna que, cuando se proporciona RF, crea tanta luz como una antorcha, pero detiene la aparición de la mafia dentro de un radio de 32 bloques."]
+	quest.000000000000024A.quest_desc: ["Una linterna que, cuando se proporciona RF, crea tanta luz como una antorcha, pero detiene la apariciÃ³n de la mafia dentro de un radio de 32 bloques."]
 	quest.000000000000024D.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"La excavadora está hecha de dos partes. La \"Rueda\" es la parte central y se forma haciendo clic derecho con un martillo de ingeniero en el bloque de acero. El \"Motor\" es la otra parte, y se forma haciendo clic con el botón derecho del ratón en el Martillo de Ingeniero en"
-		"el bloque de ingeniería pesada en el centro de la parte trasera."
+		"La excavadora estÃ¡ hecha de dos partes. La \"Rueda\" es la parte central y se forma haciendo clic derecho con un martillo de ingeniero en el bloque de acero. El \"Motor\" es la otra parte, y se forma haciendo clic con el botÃ³n derecho del ratÃ³n en el Martillo de Ingeniero en"
+		"el bloque de ingenierÃ­a pesada en el centro de la parte trasera."
 		""
-		"La Excavadora no tiene GUI y requiere 4096 RF/t para funcionar. La energía se debe introducir por al menos uno de los 3 enchufes traseros del motor."
-		"Una vez que reciba la energía necesaria, la rueda de la máquina comenzará a girar y a minar. La velocidad de la minería depende del nivel de energía recibido."
+		"La Excavadora no tiene GUI y requiere 4096 RF/t para funcionar. La energÃ­a se debe introducir por al menos uno de los 3 enchufes traseros del motor."
+		"Una vez que reciba la energÃ­a necesaria, la rueda de la mÃ¡quina comenzarÃ¡ a girar y a minar. La velocidad de la minerÃ­a depende del nivel de energÃ­a recibido."
 		""
-		"Los procesos del bloque múltiple se pueden detener a través de Redstone a través del \"panel de control\", el bloque en el punto central izquierdo del lado derecho. Los artículos extraídos serán expulsados por el punto central del lado derecho."
+		"Los procesos del bloque mÃºltiple se pueden detener a travÃ©s de Redstone a travÃ©s del \"panel de control\", el bloque en el punto central izquierdo del lado derecho. Los artÃ­culos extraÃ­dos serÃ¡n expulsados por el punto central del lado derecho."
 		""
-		"La Excavadora puede romper algunos bloques debajo de ella cuando arranca, pero una vez que tiene espacio, no se rompen otros bloques. Todos los bloques se rompen como si hubieran sido extraídos con Silk Touch."
+		"La Excavadora puede romper algunos bloques debajo de ella cuando arranca, pero una vez que tiene espacio, no se rompen otros bloques. Todos los bloques se rompen como si hubieran sido extraÃ­dos con Silk Touch."
 		""
 		"Una excavadora completamente equipada puede extraer hasta un mineral cada 3 segundos."
 	]
 	quest.000000000000024D.title: "Excavadora"
-	quest.000000000000024F.quest_desc: ["El enrutador de fluidos redirige los fluidos que fluyen hacia él fuera de sus respectivas caras. Para una descripción más detallada consulte el manual de IE."]
-	quest.0000000000000251.quest_desc: ["El Mining Drill será su mejor amigo, ya que este taladro alimentado por combustible hará un trabajo rápido con los bloques. El taladro debe estar equipado con un cabezal de perforación y alimentado para funcionar. Se pueden ver varias actualizaciones en torno a esta misión para configurar el funcionamiento del taladro, que se puede realizar en un banco de trabajo del ingeniero."]
+	quest.000000000000024F.quest_desc: ["El enrutador de fluidos redirige los fluidos que fluyen hacia Ã©l fuera de sus respectivas caras. Para una descripciÃ³n mÃ¡s detallada consulte el manual de IE."]
+	quest.0000000000000251.quest_desc: ["El Mining Drill serÃ¡ su mejor amigo, ya que este taladro alimentado por combustible harÃ¡ un trabajo rÃ¡pido con los bloques. El taladro debe estar equipado con un cabezal de perforaciÃ³n y alimentado para funcionar. Se pueden ver varias actualizaciones en torno a esta misiÃ³n para configurar el funcionamiento del taladro, que se puede realizar en un banco de trabajo del ingeniero."]
 	quest.0000000000000253.quest_desc: ["La Buzzsaw es una sierra alimentada por combustible que puede masticar bloques con facilidad. Las misiones que rodean a esta enumeran una serie de actualizaciones que se pueden aplicar en el banco de trabajo del ingeniero para cambiar su funcionalidad."]
-	quest.0000000000000255.quest_desc: ["Una caja de almacenamiento es un bloque de almacenamiento de tamaño estándar (27 espacios) que mantiene su inventario cuando se rompe."]
-	quest.0000000000000257.quest_desc: ["La caja de almacenamiento reforzada actúa igual que la caja de almacenamiento de madera, pero es a prueba de explosiones."]
+	quest.0000000000000255.quest_desc: ["Una caja de almacenamiento es un bloque de almacenamiento de tamaÃ±o estÃ¡ndar (27 espacios) que mantiene su inventario cuando se rompe."]
+	quest.0000000000000257.quest_desc: ["La caja de almacenamiento reforzada actÃºa igual que la caja de almacenamiento de madera, pero es a prueba de explosiones."]
 	quest.000000000000025B.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Puede almacenar 12.000 mB (12 cubos) de un líquido para uso futuro."
+		"Puede almacenar 12.000 mB (12 cubos) de un lÃ­quido para uso futuro."
 		"Cannot hold \"hot\" liquids or gases."
 	]
-	quest.000000000000025D.quest_desc: ["Un \"cubo\" resistente que puede contener 10 000 mB de un líquido (10 cubos)."]
+	quest.000000000000025D.quest_desc: ["Un \"cubo\" resistente que puede contener 10 000 mB de un lÃ­quido (10 cubos)."]
 	quest.000000000000025F.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"El fermentador industrial se utiliza para hacer etanol."
-		"Una vez que esté completamente arreglado, haz clic con el botón derecho en el caldero central con un martillo de ingeniero para completar la estructura de bloques múltiples."
+		"Una vez que estÃ© completamente arreglado, haz clic con el botÃ³n derecho en el caldero central con un martillo de ingeniero para completar la estructura de bloques mÃºltiples."
 		""
-		"La RF se puede recibir desde los bloques centrales superior e inferior, y el etanol puede salir desde el bloque central inferior de cada lado. Dado que el fermentador tiene 8 ranuras, puede realizar hasta 8 operaciones simultáneamente."
+		"La RF se puede recibir desde los bloques centrales superior e inferior, y el etanol puede salir desde el bloque central inferior de cada lado. Dado que el fermentador tiene 8 ranuras, puede realizar hasta 8 operaciones simultÃ¡neamente."
 		""
 		"- Apple - 80 MB"
-		"- Cañas de azúcar - 80 mB"
-		"- Melón - 80 MB"
+		"- CaÃ±as de azÃºcar - 80 mB"
+		"- MelÃ³n - 80 MB"
 		"- Patata - 80 MB"
 	]
 	quest.000000000000025F.title: "fermentadores industriales"
@@ -197,125 +196,125 @@
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"El exprimidor industrial se utiliza para hacer aceite vegetal o polvo de grafito HOP"
 		""
-		"Una vez que esté completamente arreglado, haga clic con el botón derecho en el barril de madera central que se encuentra entre el bloque de ingeniería ligera y el bloque de ingeniería de piedra roja con un martillo de ingeniero para completar la estructura de múltiples bloques."
+		"Una vez que estÃ© completamente arreglado, haga clic con el botÃ³n derecho en el barril de madera central que se encuentra entre el bloque de ingenierÃ­a ligera y el bloque de ingenierÃ­a de piedra roja con un martillo de ingeniero para completar la estructura de mÃºltiples bloques."
 		""
-		"Poner una semilla en una de las ranuras de la izquierda iniciará el proceso. Se consumen 800 Redstone Flux (RF) por uso. Después de aproximadamente un segundo, la semilla se convertirá en aceite vegetal."
+		"Poner una semilla en una de las ranuras de la izquierda iniciarÃ¡ el proceso. Se consumen 800 Redstone Flux (RF) por uso. DespuÃ©s de aproximadamente un segundo, la semilla se convertirÃ¡ en aceite vegetal."
 		""
-		"- Semillas de Melón - 20 mB"
+		"- Semillas de MelÃ³n - 20 mB"
 		"- Semillas de calabaza - 40 mB"
 		"- Semillas de Remolacha - 60 mb"
 		"- Semillas de Trigo - 80 mB"
-		"- Semillas de Cáñamo Industrial - 120 mB"
+		"- Semillas de CÃ¡Ã±amo Industrial - 120 mB"
 	]
 	quest.0000000000000261.title: "Exprimidores industriales"
 	quest.0000000000000263.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"La Refinería se utiliza para hacer Biodiesel."
-		"Una vez completado, al hacer clic con el botón derecho en el bloque de ingeniería pesado central con un martillo de ingeniero, se finalizará el multibloque."
+		"La RefinerÃ­a se utiliza para hacer Biodiesel."
+		"Una vez completado, al hacer clic con el botÃ³n derecho en el bloque de ingenierÃ­a pesado central con un martillo de ingeniero, se finalizarÃ¡ el multibloque."
 		""
-		"El bloque delantero, inferior y central se utiliza para producir biodiésel. Los dos bloques laterales, inferiores y centrales se utilizan para introducir aceite vegetal y etanol. La entrada de RF proviene del bloque central posterior y los procesos de bloques múltiples se pueden detener a través de Redstone"
-		"a través del \"panel de control\", el bloque con el punto rojo."
+		"El bloque delantero, inferior y central se utiliza para producir biodiÃ©sel. Los dos bloques laterales, inferiores y centrales se utilizan para introducir aceite vegetal y etanol. La entrada de RF proviene del bloque central posterior y los procesos de bloques mÃºltiples se pueden detener a travÃ©s de Redstone"
+		"a travÃ©s del \"panel de control\", el bloque con el punto rojo."
 		""
-		"Cada tick, la Refinería consume hasta 8 mB de Aceite Vegetal, 8 mB de Etanol y 10 RF, mientras genera 16 mB de Biodiesel. Se necesitan 3,125 segundos para hacer un balde de biodiesel. Dicho de otra manera, la Refinería es capaz de producir dos baldes"
-		"de Biodiesel cada 6.25 segundos. Dado que una cubeta de biodiésel se quema durante 6,25 segundos en un generador diésel, una refinería que funciona a plena capacidad puede mantener dos generadores diésel a la vez."
+		"Cada tick, la RefinerÃ­a consume hasta 8 mB de Aceite Vegetal, 8 mB de Etanol y 10 RF, mientras genera 16 mB de Biodiesel. Se necesitan 3,125 segundos para hacer un balde de biodiesel. Dicho de otra manera, la RefinerÃ­a es capaz de producir dos baldes"
+		"de Biodiesel cada 6.25 segundos. Dado que una cubeta de biodiÃ©sel se quema durante 6,25 segundos en un generador diÃ©sel, una refinerÃ­a que funciona a plena capacidad puede mantener dos generadores diÃ©sel a la vez."
 	]
-	quest.0000000000000263.title: "Refinería"
+	quest.0000000000000263.title: "RefinerÃ­a"
 	quest.0000000000000265.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El generador diésel es un generador multibloque de 3x5x3 que se utiliza para crear RF a partir de biodiésel y combustible."
+		"El generador diÃ©sel es un generador multibloque de 3x5x3 que se utiliza para crear RF a partir de biodiÃ©sel y combustible."
 		""
-		"Una vez que esté completamente arreglado (con suerte con la ayuda de un proyector), el jugador debe hacer clic con el botón derecho en el bloque superior central de la parte frontal (que debería ser un bloque generador) con un martillo de ingeniero, luego el bloque múltiple está completo. ."
+		"Una vez que estÃ© completamente arreglado (con suerte con la ayuda de un proyector), el jugador debe hacer clic con el botÃ³n derecho en el bloque superior central de la parte frontal (que deberÃ­a ser un bloque generador) con un martillo de ingeniero, luego el bloque mÃºltiple estÃ¡ completo. ."
 		""
-		"El generador diésel no tiene una GUI. El combustible se inserta en los bloques de las esquinas inferiores. La salida de RF se realiza a través de la parte superior de los tres bloques frontales con un punto naranja."
-		"Los procesos del bloque múltiple se pueden detener a través de Redstone a través del \"panel de control\", el bloque central del lado derecho."
+		"El generador diÃ©sel no tiene una GUI. El combustible se inserta en los bloques de las esquinas inferiores. La salida de RF se realiza a travÃ©s de la parte superior de los tres bloques frontales con un punto naranja."
+		"Los procesos del bloque mÃºltiple se pueden detener a travÃ©s de Redstone a travÃ©s del \"panel de control\", el bloque central del lado derecho."
 		""
-		"El Generador Diesel tiene un buffer de fluido interno de 24000mB para combustible. El generador no tiene un buffer de energía interno. Se apagará automáticamente si no puede exportar energía."
-		"Quemar 1000 mB (una cubeta) de biodiésel hará que el generador diésel genere 4096 RF/t durante 6,25 segundos."
+		"El Generador Diesel tiene un buffer de fluido interno de 24000mB para combustible. El generador no tiene un buffer de energÃ­a interno. Se apagarÃ¡ automÃ¡ticamente si no puede exportar energÃ­a."
+		"Quemar 1000 mB (una cubeta) de biodiÃ©sel harÃ¡ que el generador diÃ©sel genere 4096 RF/t durante 6,25 segundos."
 		""
-		"Para una configuración de generador diésel eficiente, se requiere una refinería, dos exprimidores industriales y dos fermentadores industriales por cada dos generadores diésel."
+		"Para una configuraciÃ³n de generador diÃ©sel eficiente, se requiere una refinerÃ­a, dos exprimidores industriales y dos fermentadores industriales por cada dos generadores diÃ©sel."
 	]
 	quest.0000000000000265.title: "Generador de diesel"
 	quest.0000000000000267.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El horno de arco se utiliza para fundir rápidamente minerales, arena y crear acero y otras aleaciones, así como para reciclar herramientas y armaduras. Después de construir la estructura, haz clic derecho en el caldero con un martillo de ingeniero para completarlo."
+		"El horno de arco se utiliza para fundir rÃ¡pidamente minerales, arena y crear acero y otras aleaciones, asÃ­ como para reciclar herramientas y armaduras. DespuÃ©s de construir la estructura, haz clic derecho en el caldero con un martillo de ingeniero para completarlo."
 		""
-		"La entrada de RF se realiza a través de uno (o más) de los tres enchufes de alimentación negros en la parte posterior del horno de arco y los procesos de los bloques múltiples se pueden detener a través de una señal de Redstone a través del \"panel de control\", el bloque central más a la izquierda."
-		"Al hacer clic con el botón derecho en la parte \"vat\" del bloque múltiple, se abrirá la GUI."
+		"La entrada de RF se realiza a travÃ©s de uno (o mÃ¡s) de los tres enchufes de alimentaciÃ³n negros en la parte posterior del horno de arco y los procesos de los bloques mÃºltiples se pueden detener a travÃ©s de una seÃ±al de Redstone a travÃ©s del \"panel de control\", el bloque central mÃ¡s a la izquierda."
+		"Al hacer clic con el botÃ³n derecho en la parte \"vat\" del bloque mÃºltiple, se abrirÃ¡ la GUI."
 		""
 		"Las tres ranuras superiores en la GUI son para electrodos de grafito. Cada uno debe llenarse manualmente para que funcione el horno de arco."
 		""
-		"El horno de arco comenzará sus procesos cuando tenga los tres electrodos de grafito, suficiente RF y las entradas. La integridad de cada electrodo de grafito disminuye con el uso y debe reemplazarse con el tiempo."
+		"El horno de arco comenzarÃ¡ sus procesos cuando tenga los tres electrodos de grafito, suficiente RF y las entradas. La integridad de cada electrodo de grafito disminuye con el uso y debe reemplazarse con el tiempo."
 	]
 	quest.0000000000000267.title: "horno de arco"
 	quest.000000000000026D.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"La trituradora se usa para triturar minerales en arena (polvo), que es más eficiente que la fundición normal."
+		"La trituradora se usa para triturar minerales en arena (polvo), que es mÃ¡s eficiente que la fundiciÃ³n normal."
 		""
-		"Una vez que esté completamente arreglado (el proyector ayudará), el jugador debe hacer clic con el botón derecho en el bloque frontal central del lado más largo (que debería ser una cerca de acero debajo de una tolva) con un martillo de ingeniero para completar el bloque múltiple."
+		"Una vez que estÃ© completamente arreglado (el proyector ayudarÃ¡), el jugador debe hacer clic con el botÃ³n derecho en el bloque frontal central del lado mÃ¡s largo (que deberÃ­a ser una cerca de acero debajo de una tolva) con un martillo de ingeniero para completar el bloque mÃºltiple."
 		""
-		"La trituradora no tiene una GUI. La entrada de RF se realiza a través de la parte superior del bloque múltiple en el puerto de punto naranja."
+		"La trituradora no tiene una GUI. La entrada de RF se realiza a travÃ©s de la parte superior del bloque mÃºltiple en el puerto de punto naranja."
 		""
-		"El aplastamiento ocurre cuando se deja caer un mob o un elemento en el pozo central. Después del procesamiento, los elementos triturados serán expulsados ​​por el puerto frontal, inferior y central. Si hay un inventario allí (como un cofre), simplemente se colocará en él."
+		"El aplastamiento ocurre cuando se deja caer un mob o un elemento en el pozo central. DespuÃ©s del procesamiento, los elementos triturados serÃ¡n expulsados â€‹â€‹por el puerto frontal, inferior y central. Si hay un inventario allÃ­ (como un cofre), simplemente se colocarÃ¡ en Ã©l."
 		""
-		"Los procesos del bloque múltiple se pueden detener a través de Redstone a través del \"panel de control\", el bloque central delantero derecho."
+		"Los procesos del bloque mÃºltiple se pueden detener a travÃ©s de Redstone a travÃ©s del \"panel de control\", el bloque central delantero derecho."
 	]
 	quest.000000000000026D.title: "Trituradora"
 	quest.000000000000026F.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"La prensa de metal es una forma automatizada de crear placas, varillas, alambres y elementos de embalaje."
 		""
-		"Una vez que esté completamente arreglado (lo más probable es que no necesite el proyector, pero puede ayudar), haga clic con el botón derecho en el lado izquierdo o derecho del pistón con un martillo de ingeniero para completar el bloque múltiple."
+		"Una vez que estÃ© completamente arreglado (lo mÃ¡s probable es que no necesite el proyector, pero puede ayudar), haga clic con el botÃ³n derecho en el lado izquierdo o derecho del pistÃ³n con un martillo de ingeniero para completar el bloque mÃºltiple."
 		""
-		"La Metal Press no tiene GUI. La entrada de RF se realiza a través del bloque superior de la prensa. Los artículos entran y salen a través de las cintas transportadoras integradas. Se debe construir una cinta transportadora o tolva adicional que conduzca a la prensa de metal para automatizar correctamente la prensa."
+		"La Metal Press no tiene GUI. La entrada de RF se realiza a travÃ©s del bloque superior de la prensa. Los artÃ­culos entran y salen a travÃ©s de las cintas transportadoras integradas. Se debe construir una cinta transportadora o tolva adicional que conduzca a la prensa de metal para automatizar correctamente la prensa."
 		""
-		"La prensa de metal requiere un molde para funcionar. Al hacer clic con el botón derecho en la prensa de metal con un molde, se adjuntará el molde a la prensa de metal. El molde se puede desmontar haciendo clic con el botón derecho del ratón con la mano vacía."
+		"La prensa de metal requiere un molde para funcionar. Al hacer clic con el botÃ³n derecho en la prensa de metal con un molde, se adjuntarÃ¡ el molde a la prensa de metal. El molde se puede desmontar haciendo clic con el botÃ³n derecho del ratÃ³n con la mano vacÃ­a."
 	]
-	quest.000000000000026F.title: "Prensa Metálica"
+	quest.000000000000026F.title: "Prensa MetÃ¡lica"
 	quest.0000000000000271.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"El aserradero es una estructura de bloques múltiples que procesará troncos en tablones o troncos desforrados. El aserradero requiere una hoja de sierra que se inserta haciendo clic derecho en una hoja de sierra en la ranura alrededor de la parte posterior de la máquina (shift + clic derecho para quitar)."
+		"El aserradero es una estructura de bloques mÃºltiples que procesarÃ¡ troncos en tablones o troncos desforrados. El aserradero requiere una hoja de sierra que se inserta haciendo clic derecho en una hoja de sierra en la ranura alrededor de la parte posterior de la mÃ¡quina (shift + clic derecho para quitar)."
 		""
-		"Si no se proporciona una hoja de sierra, el aserradero producirá troncos despuntados."
+		"Si no se proporciona una hoja de sierra, el aserradero producirÃ¡ troncos despuntados."
 		"If provided a blade, planks will be produced instead."
 		""
-		"El aserrín se produce como subproducto del uso."
-		"Para obtener más información, consulte el capítulo Aserradero del manual de IE."
+		"El aserrÃ­n se produce como subproducto del uso."
+		"Para obtener mÃ¡s informaciÃ³n, consulte el capÃ­tulo Aserradero del manual de IE."
 	]
 	quest.0000000000000271.title: "Aserradero"
-	quest.0000000000000274.quest_desc: ["Estos moldes le permitirán usar la prensa de metal para hacer una variedad de productos con mayor eficiencia que a mano."]
+	quest.0000000000000274.quest_desc: ["Estos moldes le permitirÃ¡n usar la prensa de metal para hacer una variedad de productos con mayor eficiencia que a mano."]
 	quest.0000000000000274.title: "Metal Press Molds"
-	quest.00000000000002C8.quest_desc: ["El skyhook le permitirá deslizarse a lo largo de los cables o la cuerda IE haciendo clic con el botón derecho en sus conectores finales."]
+	quest.00000000000002C8.quest_desc: ["El skyhook le permitirÃ¡ deslizarse a lo largo de los cables o la cuerda IE haciendo clic con el botÃ³n derecho en sus conectores finales."]
 	quest.00000000000002C8.title: "Ganchos"
-	quest.0000000000000330.quest_desc: ["Al tratar la madera con aceite de creosota, se volverán ignífugas."]
+	quest.0000000000000330.quest_desc: ["Al tratar la madera con aceite de creosota, se volverÃ¡n ignÃ­fugas."]
 	quest.0000000000000330.title: "Tablones de madera tratada"
-	quest.0000000000000F99.quest_desc: ["(Conexión del capítulo Primeros pasos)"]
+	quest.0000000000000F99.quest_desc: ["(ConexiÃ³n del capÃ­tulo Primeros pasos)"]
 	quest.0000000000000F99.title: "&#6a3c00&lI&#6f3f00&ln&#734100&lm&#784400&le&#7c4700&lr&#814900&ls&#854c00&li&#8a4e00&lv&#8f5100&le &#935400&lE&#985600&ln&#9c5900&lg&#a15c00&li&#a65e00&ln&#aa6100&ln&#af6300&le&#b36600&lr&#b86900&li&#bc6b00&ln&#c16e00&lg"
-	quest.0000000000000FA5.quest_desc: ["Los bloques de ingeniería de Redstone se pueden considerar como los bloques de control de una máquina, un panel de control en esencia."]
-	quest.0000000000000FA7.quest_desc: ["El andamio de acero se utilizará en toda la construcción de su máquina de bloques múltiples, y también se ve muy bien como decoración."]
+	quest.0000000000000FA5.quest_desc: ["Los bloques de ingenierÃ­a de Redstone se pueden considerar como los bloques de control de una mÃ¡quina, un panel de control en esencia."]
+	quest.0000000000000FA7.quest_desc: ["El andamio de acero se utilizarÃ¡ en toda la construcciÃ³n de su mÃ¡quina de bloques mÃºltiples, y tambiÃ©n se ve muy bien como decoraciÃ³n."]
 	quest.0000000000000FA9.quest_desc: [""]
 	quest.0000000000000FA9.title: "Maquinas pesadas"
-	quest.000000000000102E.quest_desc: ["Estos planos son algunos conjuntos, pero críticos, que puede usar en el banco de trabajo del ingeniero."]
+	quest.000000000000102E.quest_desc: ["Estos planos son algunos conjuntos, pero crÃ­ticos, que puede usar en el banco de trabajo del ingeniero."]
 	quest.000000000000102E.title: "Engineer's Blueprints"
 	quest.0000000000001031.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Grandes fuentes de conocimiento en tus próximas aventuras en la industria y la automatización."
+		"Grandes fuentes de conocimiento en tus prÃ³ximas aventuras en la industria y la automatizaciÃ³n."
 		""
-		"Para cualquier estructura multibloque de Immersive Engineering, puede consultar el manual para obtener un desglose sobre cómo construir la estructura y su función completa."
+		"Para cualquier estructura multibloque de Immersive Engineering, puede consultar el manual para obtener un desglose sobre cÃ³mo construir la estructura y su funciÃ³n completa."
 	]
 	quest.0000000000001031.title: "manuales de ingenieros"
-	quest.0000000000001035.quest_desc: ["Este barril también contiene 12.000 mB (12 cubos) de un líquido, pero puede ser caliente o gaseoso."]
-	quest.0000000000001039.quest_desc: ["Transfiere la misma cantidad de energía que el cable LV estándar, pero no le causará descargas eléctricas."]
-	quest.000000000000103D.quest_desc: ["Transfiere la misma cantidad de energía que los cables de MT pero sin riesgo de descarga."]
-	quest.000000000000103F.quest_desc: ["El traje de Faraday evitará que te sorprendas con los cables sin aislamiento."]
+	quest.0000000000001035.quest_desc: ["Este barril tambiÃ©n contiene 12.000 mB (12 cubos) de un lÃ­quido, pero puede ser caliente o gaseoso."]
+	quest.0000000000001039.quest_desc: ["Transfiere la misma cantidad de energÃ­a que el cable LV estÃ¡ndar, pero no le causarÃ¡ descargas elÃ©ctricas."]
+	quest.000000000000103D.quest_desc: ["Transfiere la misma cantidad de energÃ­a que los cables de MT pero sin riesgo de descarga."]
+	quest.000000000000103F.quest_desc: ["El traje de Faraday evitarÃ¡ que te sorprendas con los cables sin aislamiento."]
 	quest.000000000000103F.title: "Traje Faraday"
 	quest.0000000000001047.quest_desc: ["The blocks surrounding this quest are critical pieces in the multiblock structures of Immersive Engineering."]
 	quest.0000000000001047.title: "Bloques de ingeniero"
-	quest.0000000000001049.quest_desc: ["Se puede pensar en los bloques de radiadores como los componentes de la maquinaria que ayudan a disipar el calor de una máquina en funcionamiento."]
-	quest.000000000000104B.quest_desc: ["Los bloques generadores se pueden considerar como los componentes de una máquina donde se genera electricidad."]
+	quest.0000000000001049.quest_desc: ["Se puede pensar en los bloques de radiadores como los componentes de la maquinaria que ayudan a disipar el calor de una mÃ¡quina en funcionamiento."]
+	quest.000000000000104B.quest_desc: ["Los bloques generadores se pueden considerar como los componentes de una mÃ¡quina donde se genera electricidad."]
 	quest.0000000000001189.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"El Ensamblador puede automatizar hasta tres conjuntos de recetas de su inventario interno."
-		"Después de ensamblar el bloque múltiple, use el martillo de ingeniero en la cinta transportadora para completar la máquina. El ensamblador tiene una entrada de fluido en su lado de entrada que le permite automatizar recetas que necesitan fluido también."
+		"DespuÃ©s de ensamblar el bloque mÃºltiple, use el martillo de ingeniero en la cinta transportadora para completar la mÃ¡quina. El ensamblador tiene una entrada de fluido en su lado de entrada que le permite automatizar recetas que necesitan fluido tambiÃ©n."
 		"The power connection is on the top port with the orange dot."
 	]
 	quest.0000000000001189.title: "Ensamblador"
@@ -323,63 +322,59 @@
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
 		"Hay una serie de transportadores especializados que se pueden hacer."
 		""
-		"Transportador de caída: deja caer artículos en el inventario debajo del cinturón. Se puede desactivar con señal de redstone."
+		"Transportador de caÃ­da: deja caer artÃ­culos en el inventario debajo del cinturÃ³n. Se puede desactivar con seÃ±al de redstone."
 		"Vertical Conveyor - Conveyor that is placeable on walls to bring items up."
 		"Splitting Conveyor - Equally splits items left and right. "
 		"Extractor Conveyor - Removes items from the connected inventory and places them on the belt. The Engineer's Screwdriver will allow you to change the extraction speed."
 	]
 	quest.000000000000118B.title: "Specialized Conveyors"
-	quest.0000000000001196.quest_desc: ["Dirige los elementos directamente hacia abajo y evita que los jugadores los recojan. Se inserta en los inventarios debajo de ellos y se puede girar para que se expulse lateralmente con un clic con el botón derecho del ratón del mazo de ingenieros."]
+	quest.0000000000001196.quest_desc: ["Dirige los elementos directamente hacia abajo y evita que los jugadores los recojan. Se inserta en los inventarios debajo de ellos y se puede girar para que se expulse lateralmente con un clic con el botÃ³n derecho del ratÃ³n del mazo de ingenieros."]
 	quest.001DE8028CAF0A08.quest_subtitle: "shhhhh... demasiado fuerte..."
 	quest.00611844AFD5C31E.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Si bien el Inscriber y el cargador aceptarán de forma nativa RF/FE, la gran mayoría de una red ME utiliza su propio sistema de energía dedicado llamado AE."
+		"Si bien el Inscriber y el cargador aceptarÃ¡n de forma nativa RF/FE, la gran mayorÃ­a de una red ME utiliza su propio sistema de energÃ­a dedicado llamado AE."
 		""
-		"RF/FE se puede convertir en AE nativo en una proporción de 2:1 RF:AE, ya sea directamente a través de un controlador ME o a través del &baceptador de energía&f, que en su lugar se puede conectar a cualquier parte de la red."
+		"RF/FE se puede convertir en AE nativo en una proporciÃ³n de 2:1 RF:AE, ya sea directamente a travÃ©s de un controlador ME o a travÃ©s del &baceptador de energÃ­a&f, que en su lugar se puede conectar a cualquier parte de la red."
 	]
 	quest.00611844AFD5C31E.quest_subtitle: "Conectar"
-	quest.009EE5213EC547D7.quest_desc: ["Fabrica sheet metal de andesita para paredes industriales cozy."]
-	quest.009EE5213EC547D7.title: "Chapas andesita"
-	quest.01C74BC5778378FE.quest_desc: ["El diseño de placas de circuito personalizadas le permitirá compactar grandes circuitos de redstone en placas lógicas individuales. Para obtener información mucho más detallada de la que puedo brindar, lea la sección Circuitos lógicos del manual Ingeniería inmersiva."]
-	quest.01C74BC5778378FE.title: "Diseño de circuitos 101"
+	quest.01C74BC5778378FE.quest_desc: ["El diseÃ±o de placas de circuito personalizadas le permitirÃ¡ compactar grandes circuitos de redstone en placas lÃ³gicas individuales. Para obtener informaciÃ³n mucho mÃ¡s detallada de la que puedo brindar, lea la secciÃ³n Circuitos lÃ³gicos del manual IngenierÃ­a inmersiva."]
+	quest.01C74BC5778378FE.title: "DiseÃ±o de circuitos 101"
 	quest.01F3F0C25BA72BDA.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Aparte del almacenamiento de artículos y fluidos, AE2 también proporciona una forma nativa de almacenar estructuras completas dentro de las celdas de almacenamiento, no muy diferente al modelo Compact Machines."
+		"Aparte del almacenamiento de artÃ­culos y fluidos, AE2 tambiÃ©n proporciona una forma nativa de almacenar estructuras completas dentro de las celdas de almacenamiento, no muy diferente al modelo Compact Machines."
 		""
-		"El &bPuerto de E/S espacial&f permite que las estructuras contenidas dentro de una &bEstructura de contención espacial&f se capturen dentro de una celda de almacenamiento especialmente diseñada, activada a través de una señal de redstone."
+		"El &bPuerto de E/S espacial&f permite que las estructuras contenidas dentro de una &bEstructura de contenciÃ³n espacial&f se capturen dentro de una celda de almacenamiento especialmente diseÃ±ada, activada a travÃ©s de una seÃ±al de redstone."
 		""
-		"Si una mafia o un jugador se paran dentro del SCS mientras se captura el espacio, también serán transportados a donde va el resto del espacio, es decir, en una dimensión dedicada. Solo asegúrate de tener una forma de volver a salir y entrar si eres el que está siendo capturado."
+		"Si una mafia o un jugador se paran dentro del SCS mientras se captura el espacio, tambiÃ©n serÃ¡n transportados a donde va el resto del espacio, es decir, en una dimensiÃ³n dedicada. Solo asegÃºrate de tener una forma de volver a salir y entrar si eres el que estÃ¡ siendo capturado."
 	]
 	quest.01F3F0C25BA72BDA.title: "Spatial IO"
 	quest.01FA04AE6B770D3A.quest_desc: ["Tu primer spell book."]
 	quest.01FA04AE6B770D3A.title: "Libro de cobre"
 	quest.027084AE2DF5EBA6.quest_desc: [""]
-	quest.027084AE2DF5EBA6.quest_subtitle: "Salmuera caliente aquí. Obtenga su salmuera caliente aquí."
-	quest.027084AE2DF5EBA6.title: "Calentando nuestra producción de salmuera"
+	quest.027084AE2DF5EBA6.quest_subtitle: "Salmuera caliente aquÃ­. Obtenga su salmuera caliente aquÃ­."
+	quest.027084AE2DF5EBA6.title: "Calentando nuestra producciÃ³n de salmuera"
 	quest.0289A799509AF964.quest_desc: ["Early storage: &eSophisticated Backpacks / Storage&r. AE2 llega mas tarde en la linea tech."]
 	quest.0289A799509AF964.title: "Mochila cozy"
-	quest.02D4C51B66A6DD20.quest_desc: ["El Steel Drill Head es un cabezal mejorado para Mining Drill. Proporciona una mayor cantidad de durabilidad y puede minar un área de 3x3."]
+	quest.02D4C51B66A6DD20.quest_desc: ["El Steel Drill Head es un cabezal mejorado para Mining Drill. Proporciona una mayor cantidad de durabilidad y puede minar un Ã¡rea de 3x3."]
 	quest.037488EF1F3581CE.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"De forma predeterminada, una red ME por sí sola solo tiene un búfer interno de 800 AE sin un controlador ME, y el controlador agrega 8 kAE adicionales por bloque. Para redes lo suficientemente grandes, esto puede ser insuficiente y puede hacer que una red se apague de forma intermitente cuando se intente recuperar energía para cualquier dispositivo conectado."
+		"De forma predeterminada, una red ME por sÃ­ sola solo tiene un bÃºfer interno de 800 AE sin un controlador ME, y el controlador agrega 8 kAE adicionales por bloque. Para redes lo suficientemente grandes, esto puede ser insuficiente y puede hacer que una red se apague de forma intermitente cuando se intente recuperar energÃ­a para cualquier dispositivo conectado."
 		""
-		"La &bEnergy Cell&f permite que una red ME mantenga significativamente más energía, agregando otros 200kAE por Energy Cell regular y 1.6MAE por &bDense&f Energy Cell. Estos también se pueden colocar en cualquier lugar de la red para proporcionar un mayor búfer de energía."
+		"La &bEnergy Cell&f permite que una red ME mantenga significativamente mÃ¡s energÃ­a, agregando otros 200kAE por Energy Cell regular y 1.6MAE por &bDense&f Energy Cell. Estos tambiÃ©n se pueden colocar en cualquier lugar de la red para proporcionar un mayor bÃºfer de energÃ­a."
 	]
 	quest.03E6FA4DCB71162E.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bColor Applicator&f es una herramienta recargable que permite teñir cables en el mundo. Funciona más o menos como una &estorage cell&f especializada para ser cargada con tintes de vainilla o &epaint balls&f para colores específicos, junto con &esnowballs&f para lavar los colores y devolver los cables a su variante Fluix."
+		"El &bColor Applicator&f es una herramienta recargable que permite teÃ±ir cables en el mundo. Funciona mÃ¡s o menos como una &estorage cell&f especializada para ser cargada con tintes de vainilla o &epaint balls&f para colores especÃ­ficos, junto con &esnowballs&f para lavar los colores y devolver los cables a su variante Fluix."
 		""
-		"Aplicar color a un cable utiliza 100 AE de energía de su batería interna, para un total de 3400 segmentos de cable en una sola carga."
+		"Aplicar color a un cable utiliza 100 AE de energÃ­a de su baterÃ­a interna, para un total de 3400 segmentos de cable en una sola carga."
 	]
 	quest.03E6FA4DCB71162E.title: "Color Applicator"
 	quest.0482C3161B03B586.quest_desc: ["Un casting implement basico."]
 	quest.0482C3161B03B586.title: "Staff"
 	quest.0498A578D0EC3254.quest_desc: [""]
-	quest.0498A578D0EC3254.quest_subtitle: "El circuito de control básico"
-	quest.04B6358714B03948.quest_desc: ["Energia → rotacion. Util junto a IE/AE2 mas adelante."]
-	quest.04B6358714B03948.title: "Electric Motor"
+	quest.0498A578D0EC3254.quest_subtitle: "El circuito de control bÃ¡sico"
 	quest.04E2D539E33B7B0F.quest_desc: [""]
-	quest.04E2D539E33B7B0F.quest_subtitle: "El combinador químico"
+	quest.04E2D539E33B7B0F.quest_subtitle: "El combinador quÃ­mico"
 	quest.056CAC7A1908A3FB.quest_desc: ["Hechizos y grimorios. Paralelo a la tech: no obligatorio para Mek/AE2."]
 	quest.056CAC7A1908A3FB.quest_subtitle: "Magia suave"
 	quest.056CAC7A1908A3FB.title: "Irons Spells"
@@ -387,48 +382,41 @@
 	quest.06470C09B6DDD072.quest_subtitle: "Enciclopedia Arcana"
 	quest.065D844BF693A662.quest_desc: ["Consigue ojos de End Remastered explorando."]
 	quest.065D844BF693A662.title: "Old Eye"
-	quest.078C116F96A75648.quest_desc: ["Create Craft & Additions aporta generadores electricos, cables y motores que conectan Create con RF/FE."]
-	quest.078C116F96A75648.quest_subtitle: "Addon energia"
-	quest.078C116F96A75648.title: "Craft & Additions"
 	quest.07AD45DCF9EE3C2E.quest_desc: [""]
-	quest.07AD45DCF9EE3C2E.quest_subtitle: "Actualización a fábricas"
-	quest.083D458032F0325C.quest_desc: ["El &bME Export Bus&f escupe periódicamente elementos en su filtro de lista blanca a cualquier almacenamiento externo al que se enfrente el bus. A diferencia del Bus de importación, el Bus de exportación no puede funcionar sin ser filtrado."]
+	quest.07AD45DCF9EE3C2E.quest_subtitle: "ActualizaciÃ³n a fÃ¡bricas"
+	quest.083D458032F0325C.quest_desc: ["El &bME Export Bus&f escupe periÃ³dicamente elementos en su filtro de lista blanca a cualquier almacenamiento externo al que se enfrente el bus. A diferencia del Bus de importaciÃ³n, el Bus de exportaciÃ³n no puede funcionar sin ser filtrado."]
 	quest.083D458032F0325C.quest_subtitle: "La O"
 	quest.08DDE018A804BFE7.quest_desc: [""]
 	quest.08DDE018A804BFE7.quest_subtitle: "Rompe minerales crudos en polvo"
 	quest.09408C6DCAC90318.quest_desc: [""]
-	quest.09408C6DCAC90318.quest_subtitle: "Almacenamiento de energía"
-	quest.0A14F9D178806AF6.quest_desc: ["Tritura materiales con rotation."]
-	quest.0A14F9D178806AF6.title: "Millstone"
-	quest.0A250E934A829C65.quest_desc: ["Te los dropean los mobs pacificos al matarlos con la guadaña"]
+	quest.09408C6DCAC90318.quest_subtitle: "Almacenamiento de energÃ­a"
+	quest.0A250E934A829C65.quest_desc: ["Te los dropean los mobs pacificos al matarlos con la guadaÃ±a"]
 	quest.0A5AC12E3D58FB60.quest_desc: ["Otro ojo para el marco."]
 	quest.0A5AC12E3D58FB60.title: "Magical Eye"
-	quest.0AA9BCA31051FE6C.quest_desc: ["Lo sueltan mobs con cierto nivel de magia &6(por ejemplo: brujas, blaze o ghast) &fademás de esqueletos, slimes, creepers y champivacas"]
+	quest.0AA9BCA31051FE6C.quest_desc: ["Lo sueltan mobs con cierto nivel de magia &6(por ejemplo: brujas, blaze o ghast) &fademÃ¡s de esqueletos, slimes, creepers y champivacas"]
 	quest.0B218DD73FE8D985.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Si hiciste la última misión correctamente, deberías haber convertido esa singularidad en un par de &bSingularidades entrelazadas cuánticas&f. Estas nuevas singularidades se utilizan para unir un dispositivo en forma de anillo conocido como &eQuantum Network Bridge&f."
+		"Si hiciste la Ãºltima misiÃ³n correctamente, deberÃ­as haber convertido esa singularidad en un par de &bSingularidades entrelazadas cuÃ¡nticas&f. Estas nuevas singularidades se utilizan para unir un dispositivo en forma de anillo conocido como &eQuantum Network Bridge&f."
 		""
-		"Cuando dos de estos anillos individuales se han vinculado utilizando las Singularidades Entrelazadas Cuánticas y se han puesto en marcha con algo de potencia AE (por ejemplo, una celda de energía), una red ME se puede expandir de forma inalámbrica en el otro lado del puente, a través de largas distancias o incluso dimensiones."
+		"Cuando dos de estos anillos individuales se han vinculado utilizando las Singularidades Entrelazadas CuÃ¡nticas y se han puesto en marcha con algo de potencia AE (por ejemplo, una celda de energÃ­a), una red ME se puede expandir de forma inalÃ¡mbrica en el otro lado del puente, a travÃ©s de largas distancias o incluso dimensiones."
 	]
 	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
 	quest.0C0CE58B4CD32FE3.quest_desc: ["El cuchillo de cocina acelera la prep."]
 	quest.0C0CE58B4CD32FE3.title: "Cuchillo"
 	quest.0CF2CA72D3553F24.quest_desc: ["Sube a iron spell book o superior."]
 	quest.0CF2CA72D3553F24.title: "Libro de hierro"
-	quest.0D13FB98745BE405.quest_desc: ["Ilumina la fabrica con estilo."]
-	quest.0D13FB98745BE405.title: "Farol Create Deco"
 	quest.0F326EEEC2EBE4E5.quest_desc: [""]
-	quest.0F326EEEC2EBE4E5.quest_subtitle: "¡Enriquece tus artículos primero!"
-	quest.0F326EEEC2EBE4E5.title: "Artículos enriquecidos"
+	quest.0F326EEEC2EBE4E5.quest_subtitle: "Â¡Enriquece tus artÃ­culos primero!"
+	quest.0F326EEEC2EBE4E5.title: "ArtÃ­culos enriquecidos"
 	quest.0FA2C19085759330.quest_desc: ["Cuando tengas IE y Create listos, AE2 es el storage digital mid-game."]
 	quest.0FA2C19085759330.title: "Siguiente AE2"
 	quest.1112E4E2CCEB2467.quest_desc: [""]
-	quest.1112E4E2CCEB2467.quest_subtitle: "Fábrica de mineral de nivel 3"
+	quest.1112E4E2CCEB2467.quest_subtitle: "FÃ¡brica de mineral de nivel 3"
 	quest.124CA5F8643ACDC1.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Hasta este punto, este metal hormigueante ha sido bastante inútil... Me pregunto si podría procesarse para convertirlo en un material mejor."
+		"Hasta este punto, este metal hormigueante ha sido bastante inÃºtil... Me pregunto si podrÃ­a procesarse para convertirlo en un material mejor."
 		""
-		"Tal vez debería disolver la arena en un poco de gasolina y ver qué puedo extraer."
+		"Tal vez deberÃ­a disolver la arena en un poco de gasolina y ver quÃ© puedo extraer."
 	]
 	quest.12E1EBB4D51C212F.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
@@ -440,76 +428,71 @@
 	]
 	quest.1348995F64A94396.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El monitor de creación y creación muestra el elemento general que se está creando, junto con la cantidad restante de ese elemento que aún se está elaborando."
+		"El monitor de creaciÃ³n y creaciÃ³n muestra el elemento general que se estÃ¡ creando, junto con la cantidad restante de ese elemento que aÃºn se estÃ¡ elaborando."
 		""
-		"Tanto el monitor base AE2 como el monitor MEGA funcionan de manera idéntica, pero se proporcionan con fines estéticos."
+		"Tanto el monitor base AE2 como el monitor MEGA funcionan de manera idÃ©ntica, pero se proporcionan con fines estÃ©ticos."
 	]
-	quest.1348995F64A94396.quest_subtitle: "Descargar más VRAM"
-	quest.13EAA5D4B9CD59D8.quest_desc: ["Create Deco anade chapas, faroles y detalles aesthetic para tu fabrica-casa."]
-	quest.13EAA5D4B9CD59D8.quest_subtitle: "Addon deco"
-	quest.13EAA5D4B9CD59D8.title: "Create Deco"
+	quest.1348995F64A94396.quest_subtitle: "Descargar mÃ¡s VRAM"
 	quest.140DE53DC0FCD9F4.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bavión de aniquilación de ME&f se puede usar para romper automáticamente cualquier bloque que se encuentre frente a él y devolver todo lo que el bloque deje caer directamente a la red de ME."
+		"El &baviÃ³n de aniquilaciÃ³n de ME&f se puede usar para romper automÃ¡ticamente cualquier bloque que se encuentre frente a Ã©l y devolver todo lo que el bloque deje caer directamente a la red de ME."
 		""
-		"Como beneficio adicional, el avión de aniquilación se puede encantar de la misma manera que una herramienta de excavación normal, lo que afecta la caída de bloques de la misma manera que lo haría esa herramienta encantada. Esto lo hace ideal para procesar bloques de mineral cuando está encantado con Fortune, por ejemplo."
+		"Como beneficio adicional, el aviÃ³n de aniquilaciÃ³n se puede encantar de la misma manera que una herramienta de excavaciÃ³n normal, lo que afecta la caÃ­da de bloques de la misma manera que lo harÃ­a esa herramienta encantada. Esto lo hace ideal para procesar bloques de mineral cuando estÃ¡ encantado con Fortune, por ejemplo."
 		""
-		"Cualquier encantamiento agregado aumenta significativamente la cantidad de energía utilizada por el avión cada vez que se rompe un bloque. Encantar el avión con &eEfficiency&f disminuirá el uso general de energía incurrido por todos los demás encantamientos, mientras que el encantamiento &eUnbreaking&f le da al avión la oportunidad de usar energía solo a veces, de manera similar a Unbreaking en herramientas normales."
+		"Cualquier encantamiento agregado aumenta significativamente la cantidad de energÃ­a utilizada por el aviÃ³n cada vez que se rompe un bloque. Encantar el aviÃ³n con &eEfficiency&f disminuirÃ¡ el uso general de energÃ­a incurrido por todos los demÃ¡s encantamientos, mientras que el encantamiento &eUnbreaking&f le da al aviÃ³n la oportunidad de usar energÃ­a solo a veces, de manera similar a Unbreaking en herramientas normales."
 	]
 	quest.140DE53DC0FCD9F4.quest_subtitle: "ENTRA"
 	quest.1529D727F773D347.quest_desc: ["Stove para cocinar al estilo FD."]
 	quest.1529D727F773D347.title: "Estufa"
-	quest.15564C11744D6AA0.quest_desc: ["Una vez que haya obtenido un conjunto completo de las &eInscriber Press&r requeridas, es hora de comenzar a fabricar algunos &eProcessors&f. Estos son un ingrediente de fabricación importante que se utiliza para fabricar la gran mayoría de los dispositivos conectados a ME."]
+	quest.15564C11744D6AA0.quest_desc: ["Una vez que haya obtenido un conjunto completo de las &eInscriber Press&r requeridas, es hora de comenzar a fabricar algunos &eProcessors&f. Estos son un ingrediente de fabricaciÃ³n importante que se utiliza para fabricar la gran mayorÃ­a de los dispositivos conectados a ME."]
 	quest.15564C11744D6AA0.title: "Processors"
-	quest.15A0C81F5263815E.quest_desc: ["Los mobs que se mueven por el suelo te lo soltaran al matarlos &6(Excepto los antrópodos)"]
+	quest.15A0C81F5263815E.quest_desc: ["Los mobs que se mueven por el suelo te lo soltaran al matarlos &6(Excepto los antrÃ³podos)"]
 	quest.16285BA4AE30324B.quest_desc: ["Ink para hechizos. Mira JEI si usas otra variante."]
 	quest.16285BA4AE30324B.title: "Tinta comun"
 	quest.16299B9AE87257DC.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"el &bTerminal Inalámbrico&f funciona de manera idéntica a un terminal normal, pero de forma inalámbrica. Imagínate."
+		"el &bTerminal InalÃ¡mbrico&f funciona de manera idÃ©ntica a un terminal normal, pero de forma inalÃ¡mbrica. ImagÃ­nate."
 		""
-		"Antes de poder usar un terminal inalámbrico para acceder a una red, primero debe &evincularse&f a la red a través del &eTerminal de seguridad&f que creó anteriormente. Si no está conectado a una red, o está fuera del alcance o de la alimentación, el terminal no funcionará."
+		"Antes de poder usar un terminal inalÃ¡mbrico para acceder a una red, primero debe &evincularse&f a la red a travÃ©s del &eTerminal de seguridad&f que creÃ³ anteriormente. Si no estÃ¡ conectado a una red, o estÃ¡ fuera del alcance o de la alimentaciÃ³n, el terminal no funcionarÃ¡."
 		""
-		"Los terminales inalámbricos también se pueden actualizar con &eEnergy Cards&f para proporcionar una batería interna más grande."
+		"Los terminales inalÃ¡mbricos tambiÃ©n se pueden actualizar con &eEnergy Cards&f para proporcionar una baterÃ­a interna mÃ¡s grande."
 	]
-	quest.16299B9AE87257DC.quest_subtitle: "Esto es por lo que estás aquí."
+	quest.16299B9AE87257DC.quest_subtitle: "Esto es por lo que estÃ¡s aquÃ­."
 	quest.162CE44400A63575.quest_desc: [""]
-	quest.162CE44400A63575.quest_subtitle: "La máquina de arranque"
+	quest.162CE44400A63575.quest_subtitle: "La mÃ¡quina de arranque"
 	quest.162CE44400A63575.title: "&#55aa00&lM&#59a524&le&#5da048&lk&#619b6c&la&#649691&ln&#6891b5&li&#6c8cd9&ls&#7087fd&lm"
-	quest.164900497993E2C5.quest_desc: ["Automatiza clics con brass hand."]
-	quest.164900497993E2C5.title: "Deployer"
 	quest.166971866A9234C7.quest_desc: [""]
-	quest.166971866A9234C7.quest_subtitle: "La aleación básica para fabricar objetos"
+	quest.166971866A9234C7.quest_subtitle: "La aleaciÃ³n bÃ¡sica para fabricar objetos"
 	quest.1710B3D05215A71E.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"&bP2P&f (peer-to-peer) es un poderoso sistema dentro de AE2, que permite la transferencia de artículos, fluidos y aún más sin la necesidad de ningún almacenamiento intermedio de ME."
+		"&bP2P&f (peer-to-peer) es un poderoso sistema dentro de AE2, que permite la transferencia de artÃ­culos, fluidos y aÃºn mÃ¡s sin la necesidad de ningÃºn almacenamiento intermedio de ME."
 		""
-		"Al hacer clic con el botón derecho en un túnel P2P con ciertos elementos, se sintonizará el túnel en uno capaz de transferir otra cosa, como elementos a través de tuberías, energía a través de cables, señales de redstone y (por defecto) incluso conexiones ME."
+		"Al hacer clic con el botÃ³n derecho en un tÃºnel P2P con ciertos elementos, se sintonizarÃ¡ el tÃºnel en uno capaz de transferir otra cosa, como elementos a travÃ©s de tuberÃ­as, energÃ­a a travÃ©s de cables, seÃ±ales de redstone y (por defecto) incluso conexiones ME."
 		""
-		"Los túneles P2P deben vincularse entre sí mediante el uso de una &eMemory Card&f, detallada en la siguiente misión."
+		"Los tÃºneles P2P deben vincularse entre sÃ­ mediante el uso de una &eMemory Card&f, detallada en la siguiente misiÃ³n."
 	]
 	quest.1710B3D05215A71E.quest_subtitle: "Elimina al intermediario"
 	quest.1710B3D05215A71E.title: "P2P Tunnels"
-	quest.18ADDB7EC1E2A552.quest_desc: ["El Iron Drill Head es el cabezal de perforación básico para Mining Drill. Tiene una buena cantidad de durabilidad y un área de minería de 2x2."]
+	quest.18ADDB7EC1E2A552.quest_desc: ["El Iron Drill Head es el cabezal de perforaciÃ³n bÃ¡sico para Mining Drill. Tiene una buena cantidad de durabilidad y un Ã¡rea de minerÃ­a de 2x2."]
 	quest.18D88932916C7A98.quest_desc: [""]
 	quest.18D88932916C7A98.quest_subtitle: "Hora de romperlo"
 	quest.18DFB25DC48D8BF7.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La estructura de contención espacial (SCS) consta de una jaula de &bpilones espaciales&f que cubre el volumen que desea encerrar en una celda de E/S espacial. Como mínimo absoluto, un SCS requiere tres líneas de bloques de pilones espaciales, uno para cada dimensión del espacio contenido (largo, ancho, alto)."
+		"La estructura de contenciÃ³n espacial (SCS) consta de una jaula de &bpilones espaciales&f que cubre el volumen que desea encerrar en una celda de E/S espacial. Como mÃ­nimo absoluto, un SCS requiere tres lÃ­neas de bloques de pilones espaciales, uno para cada dimensiÃ³n del espacio contenido (largo, ancho, alto)."
 		""
-		"Sin embargo, Spatial IO es una característica que consume mucha energía, especialmente cuando se trata de capturar espacios mucho más grandes (hasta 128x128x128). Tener más torres espaciales incluidas en el SCS alrededor del volumen deseado aumentará su eficiencia general, lo que le permitirá usar menos energía para capturar."
+		"Sin embargo, Spatial IO es una caracterÃ­stica que consume mucha energÃ­a, especialmente cuando se trata de capturar espacios mucho mÃ¡s grandes (hasta 128x128x128). Tener mÃ¡s torres espaciales incluidas en el SCS alrededor del volumen deseado aumentarÃ¡ su eficiencia general, lo que le permitirÃ¡ usar menos energÃ­a para capturar."
 		""
-		"Además, tenga en cuenta que cada pilón individual (independientemente de su longitud) ocupa un canal. Para espacios particularmente grandes, es posible que desee construir una red dedicada con un controlador para adaptarse a todas las torres necesarias."
+		"AdemÃ¡s, tenga en cuenta que cada pilÃ³n individual (independientemente de su longitud) ocupa un canal. Para espacios particularmente grandes, es posible que desee construir una red dedicada con un controlador para adaptarse a todas las torres necesarias."
 	]
 	quest.18DFB25DC48D8BF7.title: "Spatial Pylon"
-	quest.18EB13DD9B7E7001.quest_desc: ["Cuando se aplica el Tanque Grande al Mining Drill, se duplicará su capacidad de combustible."]
+	quest.18EB13DD9B7E7001.quest_desc: ["Cuando se aplica el Tanque Grande al Mining Drill, se duplicarÃ¡ su capacidad de combustible."]
 	quest.195729280394ABFB.quest_desc: [""]
 	quest.195729280394ABFB.quest_subtitle: "Realmente solo es bueno para 2 cosas"
 	quest.1AAF0B31B47AF23D.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Los dispositivos ME individuales también se pueden configurar para responder a las señales de redstone. Cuando se actualiza con una &bTarjeta Redstone&f, un dispositivo se puede configurar para que funcione solo cuando se alimenta con redstone o según sea necesario."
+		"Los dispositivos ME individuales tambiÃ©n se pueden configurar para responder a las seÃ±ales de redstone. Cuando se actualiza con una &bTarjeta Redstone&f, un dispositivo se puede configurar para que funcione solo cuando se alimenta con redstone o segÃºn sea necesario."
 		""
-		"Este comportamiento también se puede aplicar a &osecciones&r completas de una red ME mediante el uso de un &bME Toggle Bus&f. Esto permite que una sección de la red en el otro lado del bus se conecte solo cuando el bus esté alimentado por redstone, o que se desconecte si se usa un bus de alternancia &einvertido&f."
+		"Este comportamiento tambiÃ©n se puede aplicar a &osecciones&r completas de una red ME mediante el uso de un &bME Toggle Bus&f. Esto permite que una secciÃ³n de la red en el otro lado del bus se conecte solo cuando el bus estÃ© alimentado por redstone, o que se desconecte si se usa un bus de alternancia &einvertido&f."
 	]
 	quest.1AAF0B31B47AF23D.title: "Redstone-Controlled ME"
 	quest.1AE756D0C3916D9B.quest_desc: ["Los cofres de estructuras son per-player con Lootr."]
@@ -518,13 +501,13 @@
 	quest.1B07021112067C3F.title: "Nether Eye"
 	quest.1B686954D34A0F23.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La &bllave de cuarzo&f hace lo que haría cualquier llave de modulación tecnológica normal. Gira bloques y dispositivos a lo largo de la cara en la que haces clic derecho y los desmantela cuando haces clic derecho mientras shifteas."
+		"La &bllave de cuarzo&f hace lo que harÃ­a cualquier llave de modulaciÃ³n tecnolÃ³gica normal. Gira bloques y dispositivos a lo largo de la cara en la que haces clic derecho y los desmantela cuando haces clic derecho mientras shifteas."
 		""
 		"La llave de AE2 tiene 2 versiones, certus y cuarzo inferior."
 	]
 	quest.1B686954D34A0F23.quest_subtitle: "Hace exactamente lo que esperas."
 	quest.1B69BC1F5169F856.quest_desc: ["IE pide piezas de Create (mechanism / electron tube) en crafts clave. Acero, cables y componentes electronicos."]
-	quest.1B69BC1F5169F856.title: "Tech II — Immersive"
+	quest.1B69BC1F5169F856.title: "Tech II â€” Immersive"
 	quest.1B6DDF50D00CBB31.quest_desc: [""]
 	quest.1B96B3D57D7455D0.quest_desc: ["Muchos items magicos usan slots Curios."]
 	quest.1B96B3D57D7455D0.title: "Curios"
@@ -532,26 +515,26 @@
 	quest.1D649DD59E87EB95.title: "Gold opcional"
 	quest.1E126DF9E632A280.quest_desc: ["Sigue cazando ojos raros."]
 	quest.1E126DF9E632A280.title: "Corrupted Eye"
-	quest.1EEF3F593EC2A230.quest_desc: ["Los circuitos lógicos creados deben colocarse dentro de una unidad lógica para que funcionen. Cada Unidad Lógica puede contener hasta 10 Circuitos Lógicos, los cuales realizará en su orden en la Unidad. Para conectar la Unidad Lógica a una red con un Conector de Interfaz Redstone."]
+	quest.1EEF3F593EC2A230.quest_desc: ["Los circuitos lÃ³gicos creados deben colocarse dentro de una unidad lÃ³gica para que funcionen. Cada Unidad LÃ³gica puede contener hasta 10 Circuitos LÃ³gicos, los cuales realizarÃ¡ en su orden en la Unidad. Para conectar la Unidad LÃ³gica a una red con un Conector de Interfaz Redstone."]
 	quest.1F7DFA5AA65F2812.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La tarjeta de aceleración&f, según el dispositivo que se actualice con ella, aumentará la velocidad a la que funciona el dispositivo o permitirá que el dispositivo realice más operaciones de una sola vez."
+		"La tarjeta de aceleraciÃ³n&f, segÃºn el dispositivo que se actualice con ella, aumentarÃ¡ la velocidad a la que funciona el dispositivo o permitirÃ¡ que el dispositivo realice mÃ¡s operaciones de una sola vez."
 		""
-		"En el caso del &eMolecular Assembler&f, un conjunto completo de 5 tarjetas reduce el tiempo que tarda el MA en realizar una artesanía de un segundo (sin tarjetas) a un &otick&r."
+		"En el caso del &eMolecular Assembler&f, un conjunto completo de 5 tarjetas reduce el tiempo que tarda el MA en realizar una artesanÃ­a de un segundo (sin tarjetas) a un &otick&r."
 	]
 	quest.1FC7E9DBF92BE6AA.quest_desc: [""]
-	quest.1FC7E9DBF92BE6AA.quest_subtitle: "Paquete de batería portátil"
+	quest.1FC7E9DBF92BE6AA.quest_subtitle: "Paquete de baterÃ­a portÃ¡til"
 	quest.1FEB1860CB1AAA43.quest_desc: ["Iron's Spells y Malum son poder/utilidad &eparalelos&r: no bloquean la tech ni la cocina."]
 	quest.1FEB1860CB1AAA43.title: "Magia en paralelo"
 	quest.2077D64428E9C067.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Un concepto importante dentro de AE2 es una técnica conocida como \"&esubnetting&f\", en la que una red ME separada adicional (una &esubnetwork&f) actúa en conjunción con la red principal para realizar alguna función o proceso especializado."
+		"Un concepto importante dentro de AE2 es una tÃ©cnica conocida como \"&esubnetting&f\", en la que una red ME separada adicional (una &esubnetwork&f) actÃºa en conjunciÃ³n con la red principal para realizar alguna funciÃ³n o proceso especializado."
 		""
-		"Lo que separa a una subred de una red independiente completamente desconectada suele ser el uso de la &bfibra de cuarzo&f como parte del cable. Cuando se coloca entre dos longitudes de cable que de otro modo no estarían conectadas, la fibra de cuarzo no transfiere datos ni canales entre los dos, sino que solo transmite energía."
+		"Lo que separa a una subred de una red independiente completamente desconectada suele ser el uso de la &bfibra de cuarzo&f como parte del cable. Cuando se coloca entre dos longitudes de cable que de otro modo no estarÃ­an conectadas, la fibra de cuarzo no transfiere datos ni canales entre los dos, sino que solo transmite energÃ­a."
 		""
-		"Por lo tanto, una subred en el otro lado de la fibra puede alimentarse completamente con la fuente de alimentación de la red principal, sin necesidad de ningún generador de energía dedicado adicional."
+		"Por lo tanto, una subred en el otro lado de la fibra puede alimentarse completamente con la fuente de alimentaciÃ³n de la red principal, sin necesidad de ningÃºn generador de energÃ­a dedicado adicional."
 	]
-	quest.2077D64428E9C067.quest_subtitle: "Esto tiene un uso fuera de la fabricación de cables."
+	quest.2077D64428E9C067.quest_subtitle: "Esto tiene un uso fuera de la fabricaciÃ³n de cables."
 	quest.2077D64428E9C067.title: "Forgot to Mention"
 	quest.20C42841343DD706.quest_desc: ["Consigue un scroll de hechizo."]
 	quest.20C42841343DD706.title: "Pergamino"
@@ -560,49 +543,47 @@
 	quest.219932CB19258C16.title: "16k Storage Component"
 	quest.22C4318523A43B49.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"&eTerminals&f proporciona acceso a cualquiera de los contenidos de una red ME. El &eME Terminal&f estándar simplemente enumera todo en la red como una gran cuadrícula para extraer e insertar, similar a un solo inventario."
+		"&eTerminals&f proporciona acceso a cualquiera de los contenidos de una red ME. El &eME Terminal&f estÃ¡ndar simplemente enumera todo en la red como una gran cuadrÃ­cula para extraer e insertar, similar a un solo inventario."
 		""
-		"El &eME Crafting Terminal&f es una extensión del ME Terminal que también proporciona una cuadrícula de elaboración integrada, lo que permite la elaboración conveniente utilizando cualquier elemento contenido en la red y visible a través de la pantalla de la terminal."
+		"El &eME Crafting Terminal&f es una extensiÃ³n del ME Terminal que tambiÃ©n proporciona una cuadrÃ­cula de elaboraciÃ³n integrada, lo que permite la elaboraciÃ³n conveniente utilizando cualquier elemento contenido en la red y visible a travÃ©s de la pantalla de la terminal."
 	]
-	quest.22C4318523A43B49.quest_subtitle: "[La broma de un usuario de Linux va aquí]"
+	quest.22C4318523A43B49.quest_subtitle: "[La broma de un usuario de Linux va aquÃ­]"
 	quest.22C4318523A43B49.title: "Terminals"
 	quest.23DB492528A25B25.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"En lugar de tener que extraer constantemente mineral de Certus Quartz para obtener más &eCrystals&f, la forma más fácil de obtenerlos será usar todo el &eDust&f que hayas reunido hasta ahora para hacer &eSeeds&f."
+		"En lugar de tener que extraer constantemente mineral de Certus Quartz para obtener mÃ¡s &eCrystals&f, la forma mÃ¡s fÃ¡cil de obtenerlos serÃ¡ usar todo el &eDust&f que hayas reunido hasta ahora para hacer &eSeeds&f."
 		""
-		"Para hacer crecer las semillas en cristales completos, simplemente colóquelas en agua y espere a que crezcan. No desaparecerán a medida que crezcan. Al principio, estos tardarán &olargo&r tiempo en crecer, así que considere hacerlos a granel."
+		"Para hacer crecer las semillas en cristales completos, simplemente colÃ³quelas en agua y espere a que crezcan. No desaparecerÃ¡n a medida que crezcan. Al principio, estos tardarÃ¡n &olargo&r tiempo en crecer, asÃ­ que considere hacerlos a granel."
 		""
-		"Alternativamente, la &bCámara de Enriquecimiento&f de Mekanism se puede utilizar para una ventaja inicial significativa desde el principio."
+		"Alternativamente, la &bCÃ¡mara de Enriquecimiento&f de Mekanism se puede utilizar para una ventaja inicial significativa desde el principio."
 		""
-		"Puede notar que un cristal de cuarzo Certus completamente desarrollado se puede volver a triturar hasta convertirlo en polvo, lo que luego hace que crezcan otras &otwo&r semillas. Esto hace que Certus Quartz sea efectivamente renovable, ¡así que utilícelo para su beneficio!"
+		"Puede notar que un cristal de cuarzo Certus completamente desarrollado se puede volver a triturar hasta convertirlo en polvo, lo que luego hace que crezcan otras &otwo&r semillas. Esto hace que Certus Quartz sea efectivamente renovable, Â¡asÃ­ que utilÃ­celo para su beneficio!"
 	]
 	quest.23DB492528A25B25.quest_subtitle: "Acuicultura cristalina"
 	quest.23DB492528A25B25.title: "Crystal Seeds"
 	quest.23F165DEAD225B10.quest_desc: [""]
-	quest.23F165DEAD225B10.quest_subtitle: "Para transferir energía"
+	quest.23F165DEAD225B10.quest_subtitle: "Para transferir energÃ­a"
 	quest.263220DCCDB90E29.quest_desc: [""]
-	quest.263220DCCDB90E29.quest_subtitle: "Fábrica de mineral de nivel 2"
+	quest.263220DCCDB90E29.quest_subtitle: "FÃ¡brica de mineral de nivel 2"
 	quest.2893F483C10293E6.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"&lBienvenido al&bApplied Energistics 2&f!"
 		""
-		"Applied Energistics 2 (o &oAE2&r para abreviar) es un mod de &balmacenamiento digital&f increíblemente versátil, que permite un almacenamiento extremadamente eficiente y todo tipo de capacidades de automatización para aumentar en gran medida tu experiencia de Minecraft modificada desde tan pronto como quieras hasta el final del juego."
+		"Applied Energistics 2 (o &oAE2&r para abreviar) es un mod de &balmacenamiento digital&f increÃ­blemente versÃ¡til, que permite un almacenamiento extremadamente eficiente y todo tipo de capacidades de automatizaciÃ³n para aumentar en gran medida tu experiencia de Minecraft modificada desde tan pronto como quieras hasta el final del juego."
 		""
-		"Para comenzar con AE2, deberá extraer un recurso importante para el mod conocido como &bCertus Quartz&f. Su mineral arroja con mayor frecuencia Certus Quartz &eDust&f, pero es posible que pueda encontrar un &eCrystal&f de vez en cuando."
+		"Para comenzar con AE2, deberÃ¡ extraer un recurso importante para el mod conocido como &bCertus Quartz&f. Su mineral arroja con mayor frecuencia Certus Quartz &eDust&f, pero es posible que pueda encontrar un &eCrystal&f de vez en cuando."
 		""
-		"Para obtener más información sobre AE2 más allá de este capítulo, consulte la wiki en &o&bappliedenergistics.github.io&f&r."
+		"Para obtener mÃ¡s informaciÃ³n sobre AE2 mÃ¡s allÃ¡ de este capÃ­tulo, consulte la wiki en &o&bappliedenergistics.github.io&f&r."
 	]
 	quest.2893F483C10293E6.quest_subtitle: "Sistema de almacenamiento virtual"
 	quest.2893F483C10293E6.title: "Applied Energistics 2"
-	quest.2897FA291E5A38D8.quest_desc: ["El &bSpatial Anchor&f es un dispositivo complementario del linaje Spatial IO que simplemente funciona como un cargador de fragmentos. Cuando se conecta a una red ME, Anchor forzará la carga de todos los fragmentos ocupados por la red ME en todos los cables y dispositivos, excluyendo las subredes, siempre que la red permanezca encendida."]
-	quest.2B31E6C1707D8195.quest_desc: ["Lo siguiente que debe hacer para permitir el acceso a la red inalámbrica es el &bME Wireless Access Point&f. El punto de acceso se usa para abrir la red al acceso inalámbrico a través de un &eterminal inalámbrico&f, y tiene un rango fijo (finito) dependiendo de cuántos &bamplificadores inalámbricos&f se inserten en el punto de acceso."]
-	quest.2BFE09726CD02016.quest_desc: ["Una water wheel (o windmill) pone en marcha la linea."]
-	quest.2BFE09726CD02016.title: "Energia del agua"
+	quest.2897FA291E5A38D8.quest_desc: ["El &bSpatial Anchor&f es un dispositivo complementario del linaje Spatial IO que simplemente funciona como un cargador de fragmentos. Cuando se conecta a una red ME, Anchor forzarÃ¡ la carga de todos los fragmentos ocupados por la red ME en todos los cables y dispositivos, excluyendo las subredes, siempre que la red permanezca encendida."]
+	quest.2B31E6C1707D8195.quest_desc: ["Lo siguiente que debe hacer para permitir el acceso a la red inalÃ¡mbrica es el &bME Wireless Access Point&f. El punto de acceso se usa para abrir la red al acceso inalÃ¡mbrico a travÃ©s de un &eterminal inalÃ¡mbrico&f, y tiene un rango fijo (finito) dependiendo de cuÃ¡ntos &bamplificadores inalÃ¡mbricos&f se inserten en el punto de acceso."]
 	quest.2C04B3BA507D5673.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Los &bpatrones&f son los que contienen una receta codificada que debe cumplir un proveedor de patrones. Para codificar una receta en un patrón, se debe usar el &bME terminal de codificación de patrones&f."
+		"Los &bpatrones&f son los que contienen una receta codificada que debe cumplir un proveedor de patrones. Para codificar una receta en un patrÃ³n, se debe usar el &bME terminal de codificaciÃ³n de patrones&f."
 		""
-		"Los patrones se pueden configurar para contener una receta de &ecrafting&f regular, que requerirá el uso de un &eMolecular Assembler&f en la cara de su proveedor, o una receta de \"&eprocessing&f\" más general, en la que el proveedor puede enviar cualquier elemento de entrada a algún otro bloque de máquina o planta de procesamiento especializada."
+		"Los patrones se pueden configurar para contener una receta de &ecrafting&f regular, que requerirÃ¡ el uso de un &eMolecular Assembler&f en la cara de su proveedor, o una receta de \"&eprocessing&f\" mÃ¡s general, en la que el proveedor puede enviar cualquier elemento de entrada a algÃºn otro bloque de mÃ¡quina o planta de procesamiento especializada."
 	]
 	quest.2C04B3BA507D5673.title: "Patterns"
 	quest.2D697FA9C8B44085.quest_desc: ["Equipo basico del cielo."]
@@ -611,74 +592,68 @@
 	quest.2EF4DD5CC254CC80.quest_subtitle: "Para transferir fluidos"
 	quest.2F16B6A173525277.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La última pieza del rompecabezas para cualquier red ME grande es el &bME Controller&f."
+		"La Ãºltima pieza del rompecabezas para cualquier red ME grande es el &bME Controller&f."
 		""
-		"Un controlador proporciona una red ME con una cantidad mucho mayor de canales que los 8 canales estándar para redes ad-hoc, proporcionando 32 canales de cada cara del bloque para un total de 216 canales."
+		"Un controlador proporciona una red ME con una cantidad mucho mayor de canales que los 8 canales estÃ¡ndar para redes ad-hoc, proporcionando 32 canales de cada cara del bloque para un total de 216 canales."
 		""
-		"Sin embargo, eso es solo para un controlador de un solo bloque, ya que el controlador ME es, de hecho, una estructura de varios bloques. El controlador puede tener un tamaño de bloques de hasta 7x7x7 y puede venir en cualquier disposición de forma libre dentro de ese tamaño máximo. Cada bloque individual puede proporcionar su propio conjunto de canales, siempre que ningún bloque de controlador único esté rodeado por otros 4 bloques en el mismo plano."
+		"Sin embargo, eso es solo para un controlador de un solo bloque, ya que el controlador ME es, de hecho, una estructura de varios bloques. El controlador puede tener un tamaÃ±o de bloques de hasta 7x7x7 y puede venir en cualquier disposiciÃ³n de forma libre dentro de ese tamaÃ±o mÃ¡ximo. Cada bloque individual puede proporcionar su propio conjunto de canales, siempre que ningÃºn bloque de controlador Ãºnico estÃ© rodeado por otros 4 bloques en el mismo plano."
 		""
-		"Una red ME solo puede contener un controlador multibloque en un momento dado. Intentar conectar más de un controlador en partes separadas de la red provocará un conflicto y apagará toda la red."
+		"Una red ME solo puede contener un controlador multibloque en un momento dado. Intentar conectar mÃ¡s de un controlador en partes separadas de la red provocarÃ¡ un conflicto y apagarÃ¡ toda la red."
 	]
 	quest.2F556E7919582D2D.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bCell Workbench&f permite que las celdas se \"particionen\" para contener elementos específicos, es decir, se les da un filtro de lista blanca. También permite que la celda se actualice con ciertas tarjetas de actualización, como la tarjeta inversora, que configura la lista blanca antes mencionada como una lista negra."
+		"El &bCell Workbench&f permite que las celdas se \"particionen\" para contener elementos especÃ­ficos, es decir, se les da un filtro de lista blanca. TambiÃ©n permite que la celda se actualice con ciertas tarjetas de actualizaciÃ³n, como la tarjeta inversora, que configura la lista blanca antes mencionada como una lista negra."
 		""
-		"A las celdas también se les puede dar una \"prioridad\" más alta o más baja a través del banco de trabajo, es decir, permitir que la celda sea la primera en recibir ciertos elementos hasta que se llene, o esperar a que otras celdas de mayor prioridad se llenen primero."
+		"A las celdas tambiÃ©n se les puede dar una \"prioridad\" mÃ¡s alta o mÃ¡s baja a travÃ©s del banco de trabajo, es decir, permitir que la celda sea la primera en recibir ciertos elementos hasta que se llene, o esperar a que otras celdas de mayor prioridad se llenen primero."
 	]
 	quest.2FB231069D2E4E77.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Cada celda individual tiene una cierta capacidad dictada por el &ecomponent&f con el que se ha fabricado la celda."
 		""
-		"El primero de los componentes es &b1k ME Storage Component&f, que proporciona &e1024&f \"bytes\" de almacenamiento para una celda dada. Más sobre eso más adelante."
+		"El primero de los componentes es &b1k ME Storage Component&f, que proporciona &e1024&f \"bytes\" de almacenamiento para una celda dada. MÃ¡s sobre eso mÃ¡s adelante."
 		""
-		"Cree el Componente 1k, que se combinará con la vivienda en la próxima misión."
+		"Cree el Componente 1k, que se combinarÃ¡ con la vivienda en la prÃ³xima misiÃ³n."
 	]
 	quest.2FB231069D2E4E77.quest_subtitle: "El primer kilobyte."
 	quest.2FB231069D2E4E77.title: "Creating your first Storage Cell"
-	quest.30CD48E99C9FE01D.quest_desc: ["Rotation Speed Controller para lineas serias."]
-	quest.30CD48E99C9FE01D.title: "Encoded Factory"
-	quest.30D07100E8D40406.quest_desc: ["Prensas placas e lingotes."]
-	quest.30D07100E8D40406.title: "Mechanical Press"
 	quest.30E853CE699E669B.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Antes de que pueda llevar a cabo un trabajo de creación automática, necesita un dispositivo para almacenar la solicitud en sí misma junto con cualquier artículo provisional para manualidades de varios pasos. Este dispositivo se conoce como crafting CP&f."
+		"Antes de que pueda llevar a cabo un trabajo de creaciÃ³n automÃ¡tica, necesita un dispositivo para almacenar la solicitud en sÃ­ misma junto con cualquier artÃ­culo provisional para manualidades de varios pasos. Este dispositivo se conoce como crafting CP&f."
 		""
-		"Una CPU de fabricación es una estructura multibloque que requiere al menos un bloque de &bAlmacenamiento de fabricación&f, opcionalmente junto con cualquier otra Unidad de fabricación. El bloque múltiple se puede fabricar en cualquier tamaño, pero debe ser un paralelepípedo sólido para que se forme y funcione en consecuencia."
+		"Una CPU de fabricaciÃ³n es una estructura multibloque que requiere al menos un bloque de &bAlmacenamiento de fabricaciÃ³n&f, opcionalmente junto con cualquier otra Unidad de fabricaciÃ³n. El bloque mÃºltiple se puede fabricar en cualquier tamaÃ±o, pero debe ser un paralelepÃ­pedo sÃ³lido para que se forme y funcione en consecuencia."
 	]
-	quest.30E853CE699E669B.quest_subtitle: "Descargar más RAM"
+	quest.30E853CE699E669B.quest_subtitle: "Descargar mÃ¡s RAM"
 	quest.3195A7AA874163CD.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La &bTarjeta de Distribución Equitativa&f es una actualización para las celdas de almacenamiento que asigna previamente una cierta cantidad de elementos que pueden ser ocupados por cualquier tipo individual."
+		"La &bTarjeta de DistribuciÃ³n Equitativa&f es una actualizaciÃ³n para las celdas de almacenamiento que asigna previamente una cierta cantidad de elementos que pueden ser ocupados por cualquier tipo individual."
 		""
-		"Este comportamiento es comparable a algo así como un cajón de almacenamiento funcional, en el que cada compartimento contiene una cantidad determinada de pilas en lugar de permitir que los elementos de un compartimento se filtren en los demás y alejen otros tipos de elementos."
+		"Este comportamiento es comparable a algo asÃ­ como un cajÃ³n de almacenamiento funcional, en el que cada compartimento contiene una cantidad determinada de pilas en lugar de permitir que los elementos de un compartimento se filtren en los demÃ¡s y alejen otros tipos de elementos."
 	]
 	quest.3195A7AA874163CD.quest_subtitle: "ME Storage &mCells&r Cajones"
 	quest.33250F85C3028681.quest_desc: ["Base para upgrades de mochila."]
 	quest.33250F85C3028681.title: "Upgrade base"
 	quest.332F061E972CC0B5.quest_desc: [
 		"&6Oasis:&r Magia paralela. No bloquea la linea Create/IE/AE2/Mek."
-		"El altar de los espirítus es una nueva mesa de crafteo que te servira para hacer los items del mod"
+		"El altar de los espirÃ­tus es una nueva mesa de crafteo que te servira para hacer los items del mod"
 		"&6Para utilizarla necesitaras espiritus"
 	]
-	quest.33ADE41526C39AFD.quest_desc: ["La &bTarjeta de destrucción de desbordamiento&f es una actualización de celda que permite que las celdas de almacenamiento eliminen (anulen) cualquier elemento de un tipo que ya se encuentre dentro de ellas, cuando se intenta ingresar a la celda y esta ya está llena."]
+	quest.33ADE41526C39AFD.quest_desc: ["La &bTarjeta de destrucciÃ³n de desbordamiento&f es una actualizaciÃ³n de celda que permite que las celdas de almacenamiento eliminen (anulen) cualquier elemento de un tipo que ya se encuentre dentro de ellas, cuando se intenta ingresar a la celda y esta ya estÃ¡ llena."]
 	quest.34E3EA17DFDD1357.quest_desc: ["La cocina es tan valida como la fabrica. Empieza con Farmers Delight y termina en la parrilla."]
 	quest.34E3EA17DFDD1357.quest_subtitle: "Farmers Delight + BBQ"
 	quest.34E3EA17DFDD1357.title: "Cocina Oasis"
 	quest.361CCBD353D6FF34.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Con el componente de almacenamiento de 1k, ahora puede crear una celda de almacenamiento de elementos ME de 1k para iniciar su sistema de almacenamiento de elementos digitales. Lo más probable es que desee que la mayor parte de su almacenamiento sea para elementos, por lo que probablemente desee crear algunas &bME celdas de almacenamiento de elementos&f."
+		"Con el componente de almacenamiento de 1k, ahora puede crear una celda de almacenamiento de elementos ME de 1k para iniciar su sistema de almacenamiento de elementos digitales. Lo mÃ¡s probable es que desee que la mayor parte de su almacenamiento sea para elementos, por lo que probablemente desee crear algunas &bME celdas de almacenamiento de elementos&f."
 		""
-		"Cada una de las celdas de almacenamiento de artículos ME puede contener hasta 63 tipos diferentes de artículos. Cada nuevo tipo de elemento agregado a una celda ocupará una determinada fracción de la capacidad total de la celda de almacenamiento en bytes. Para cada tipo ya presente, 1 \"byte\" cuenta para 8 elementos de ese mismo tipo."
+		"Cada una de las celdas de almacenamiento de artÃ­culos ME puede contener hasta 63 tipos diferentes de artÃ­culos. Cada nuevo tipo de elemento agregado a una celda ocuparÃ¡ una determinada fracciÃ³n de la capacidad total de la celda de almacenamiento en bytes. Para cada tipo ya presente, 1 \"byte\" cuenta para 8 elementos de ese mismo tipo."
 		""
 		"Como ejemplo, una celda de almacenamiento de elementos de 1k que contiene solo adoquines puede contener hasta 8128 adoquines (8*1024b - 8b/tipo * 1 tipo)."
 		""
-		"Si una celda está vacía, se puede reutilizar desmontándola en su respectivo componente y alojamiento. Esto se hace sigilosamente y haciendo clic derecho en el aire con la celda en la mano."
+		"Si una celda estÃ¡ vacÃ­a, se puede reutilizar desmontÃ¡ndola en su respectivo componente y alojamiento. Esto se hace sigilosamente y haciendo clic derecho en el aire con la celda en la mano."
 	]
 	quest.361CCBD353D6FF34.title: "Item Storage"
-	quest.371A382CF1DDF2B2.quest_desc: ["La &bTarjeta de capacidad&f permite que un autobús mejorado con ella lleve un filtro más grande. Los buses de importación y exportación actualizados con tarjetas de capacidad pueden pasar de admitir solo un elemento filtrado cada uno a su filtro máximo de nueve ranuras, mientras que los buses de almacenamiento pasarán de 18 ranuras a un máximo de 63."]
-	quest.37D4E5ACB35D8BF1.quest_subtitle: "¡Requiere hidrógeno para funcionar!"
-	quest.39609D4E31D3A7A1.quest_desc: ["Aplica aleacion a troncos para obtener carcasas."]
-	quest.39609D4E31D3A7A1.title: "Andesite Casing"
+	quest.371A382CF1DDF2B2.quest_desc: ["La &bTarjeta de capacidad&f permite que un autobÃºs mejorado con ella lleve un filtro mÃ¡s grande. Los buses de importaciÃ³n y exportaciÃ³n actualizados con tarjetas de capacidad pueden pasar de admitir solo un elemento filtrado cada uno a su filtro mÃ¡ximo de nueve ranuras, mientras que los buses de almacenamiento pasarÃ¡n de 18 ranuras a un mÃ¡ximo de 63."]
+	quest.37D4E5ACB35D8BF1.quest_subtitle: "Â¡Requiere hidrÃ³geno para funcionar!"
 	quest.3999760881C855FA.quest_desc: [""]
 	quest.3999760881C855FA.quest_subtitle: "Convierte lodos de mineral en cristales"
 	quest.3B3F32C5F67D3196.quest_desc: ["En Oasis el brazo usa &ecomponent_iron&r de IE."]
@@ -691,34 +666,30 @@
 	quest.3B851C1C5AF8C3C3.quest_desc: ["Valkyrie Queen - opcional."]
 	quest.3B851C1C5AF8C3C3.title: "Silver opcional"
 	quest.3C49F2EEDCCAF1DF.quest_desc: [""]
-	quest.3C49F2EEDCCAF1DF.quest_subtitle: "Esto es mucho, lo sé."
+	quest.3C49F2EEDCCAF1DF.quest_subtitle: "Esto es mucho, lo sÃ©."
 	quest.3D26C2CC5842BB7C.quest_desc: ["Te los dropean los mobs acuaticos"]
-	quest.3D503A0D4408311D.quest_desc: ["Mezclas automaticas: brass y mas."]
-	quest.3D503A0D4408311D.title: "Basin + Mixer"
 	quest.3DDB0DDA7571B2C1.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bME Level Emitter&f, cuando se configura con un elemento específico y una cantidad del mismo para responder, emitirá una señal de piedra roja dependiendo de si el elemento almacenado en la red cae por debajo, supera o iguala la cantidad dada."
+		"El &bME Level Emitter&f, cuando se configura con un elemento especÃ­fico y una cantidad del mismo para responder, emitirÃ¡ una seÃ±al de piedra roja dependiendo de si el elemento almacenado en la red cae por debajo, supera o iguala la cantidad dada."
 		""
-		"Esto se puede usar, por ejemplo, para encender automáticamente ciertas máquinas con redstone para crear automáticamente un recurso cuando cae por debajo de una cantidad mínima determinada."
+		"Esto se puede usar, por ejemplo, para encender automÃ¡ticamente ciertas mÃ¡quinas con redstone para crear automÃ¡ticamente un recurso cuando cae por debajo de una cantidad mÃ­nima determinada."
 	]
-	quest.3E3D2E6FD1407701.quest_desc: ["Transmite rotacion con shafts y cogwheels."]
-	quest.3E3D2E6FD1407701.title: "Ejes y engranajes"
 	quest.3E3DF8E967D95DB0.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Cuando se utiliza un componente de almacenamiento de 64k o superior, el condensador de materia se vuelve capaz de condensar significativamente más para producir una &bSingularidad&f. Una sola singularidad requiere que se anulen 256000 artículos. ¡Eso es exactamente &o4000 acumulaciones&r!"
+		"Cuando se utiliza un componente de almacenamiento de 64k o superior, el condensador de materia se vuelve capaz de condensar significativamente mÃ¡s para producir una &bSingularidad&f. Una sola singularidad requiere que se anulen 256000 artÃ­culos. Â¡Eso es exactamente &o4000 acumulaciones&r!"
 		""
-		"Mira lo que sucede cuando arrojas esta singularidad al suelo con un pedazo de &eender dust&f. Tendrás que causar algún daño a los alrededores mientras lo haces, pero afortunadamente AE2 ofrece su propio &bTiny TNT&f para minimizar eso."
+		"Mira lo que sucede cuando arrojas esta singularidad al suelo con un pedazo de &eender dust&f. TendrÃ¡s que causar algÃºn daÃ±o a los alrededores mientras lo haces, pero afortunadamente AE2 ofrece su propio &bTiny TNT&f para minimizar eso."
 	]
 	quest.3E3DF8E967D95DB0.quest_subtitle: "Not quite antimatter"
 	quest.3E3DF8E967D95DB0.title: "Hyper-Condensed Matter"
 	quest.3EC9D0DA61B45328.quest_desc: [""]
-	quest.3EC9D0DA61B45328.quest_subtitle: "¡Queme gases en energía!"
+	quest.3EC9D0DA61B45328.quest_subtitle: "Â¡Queme gases en energÃ­a!"
 	quest.3F4339BEA81EA234.quest_desc: ["Oasis prioriza un Overworld hermoso (Terralith, Tectonic, BWG). Sal a caminar: biomas, aldeas y estructuras os esperan."]
 	quest.3F4339BEA81EA234.title: "Explora el Overworld"
-	quest.3F82A41908EC52BF.quest_desc: ["bocas adicionales permitirán que Mining Drill explote más rápido y haga más daño a las turbas. Se puede aplicar hasta 3 veces a un Mining Drill."]
+	quest.3F82A41908EC52BF.quest_desc: ["bocas adicionales permitirÃ¡n que Mining Drill explote mÃ¡s rÃ¡pido y haga mÃ¡s daÃ±o a las turbas. Se puede aplicar hasta 3 veces a un Mining Drill."]
 	quest.402B13D217EA14FD.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"Aplicando velas a su molino de viento aumentará su eficiencia. Con esta mayor eficiencia, obtendrá una generación de energía adicional."
+		"Aplicando velas a su molino de viento aumentarÃ¡ su eficiencia. Con esta mayor eficiencia, obtendrÃ¡ una generaciÃ³n de energÃ­a adicional."
 		"A sail can be applied by right clicking the center of the windmill you want the sail added to."
 	]
 	quest.410879D6220D0573.quest_desc: [
@@ -727,40 +698,38 @@
 		"Asi vuestra casa queda protegida entre amigas."
 	]
 	quest.410879D6220D0573.title: "Equipo y claims"
-	quest.415134D9266AB3AA.quest_desc: ["El Rockcutter es el cabezal mejorado de Buzzsaw. Es capaz de tocar con seda los bloques de piedra y el mineral, pero ya no funcionará en los árboles."]
+	quest.415134D9266AB3AA.quest_desc: ["El Rockcutter es el cabezal mejorado de Buzzsaw. Es capaz de tocar con seda los bloques de piedra y el mineral, pero ya no funcionarÃ¡ en los Ã¡rboles."]
 	quest.41A6688F3AAD00E9.quest_desc: ["Se obtienen al matar mobs hostiles"]
 	quest.41EB0C570FC54F43.quest_desc: [""]
 	quest.41EB0C570FC54F43.quest_subtitle: "Almacenar todo ese gas"
 	quest.4204702AA6FBF40B.quest_desc: [""]
 	quest.4236B9F071BE18F3.quest_desc: [""]
 	quest.4434D7B66521D69A.quest_subtitle: "Para transferir gases"
-	quest.45070C9C0089163F.quest_desc: ["En Oasis el crafter pide la &emesa de ingeniero IE&r. Cruza a Immersive cuando puedas."]
-	quest.45070C9C0089163F.title: "Mechanical Crafter"
 	quest.4597D3B3BDC2BED5.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bMolecular Assembler&f es el equivalente de AE2 de una mesa de elaboración automática, necesaria para cumplir con todos y cada uno de los trabajos de &ecrafting&f patrón."
+		"El &bMolecular Assembler&f es el equivalente de AE2 de una mesa de elaboraciÃ³n automÃ¡tica, necesaria para cumplir con todos y cada uno de los trabajos de &ecrafting&f patrÃ³n."
 		""
-		"Los Ensambladores Moleculares son capaces de transferir energía y canales a otros dispositivos ME conectados a ellos, pero ellos mismos no tomarán un canal. Se pueden conectar hasta 6 MA a un solo proveedor de patrones (si se emplea) para permitir que se realicen más manualidades en paralelo."
+		"Los Ensambladores Moleculares son capaces de transferir energÃ­a y canales a otros dispositivos ME conectados a ellos, pero ellos mismos no tomarÃ¡n un canal. Se pueden conectar hasta 6 MA a un solo proveedor de patrones (si se emplea) para permitir que se realicen mÃ¡s manualidades en paralelo."
 		""
-		"Los MA también tienen su propia ranura dedicada para un solo patrón de elaboración, lo que les permite funcionar de forma independiente cuando están encendidos. Cuando se opera de esta manera, cualquier elemento coincidente insertado en el MA se convertirá automáticamente en el resultado del patrón."
+		"Los MA tambiÃ©n tienen su propia ranura dedicada para un solo patrÃ³n de elaboraciÃ³n, lo que les permite funcionar de forma independiente cuando estÃ¡n encendidos. Cuando se opera de esta manera, cualquier elemento coincidente insertado en el MA se convertirÃ¡ automÃ¡ticamente en el resultado del patrÃ³n."
 	]
 	quest.47106CE1937C4340.quest_desc: [""]
 	quest.49675EA8CBCA1388.quest_subtitle: "La herramienta todo en uno de Mekanism"
 	quest.4AFF81D3D0E78255.quest_desc: [""]
-	quest.4AFF81D3D0E78255.quest_subtitle: "Dando un baño a los minerales"
+	quest.4AFF81D3D0E78255.quest_subtitle: "Dando un baÃ±o a los minerales"
 	quest.4B5436D5624175C6.quest_desc: ["Construye un portal al Aether. Hay &e1 boss obligatorio&r en el capitulo Aether; el resto es opcional."]
 	quest.4B5436D5624175C6.title: "Aether"
 	quest.4B87F86B444871F2.quest_desc: ["Bronze Dungeon y el Slider. Unica mision de boss obligatoria del Aether."]
 	quest.4B87F86B444871F2.quest_subtitle: "Obligatorio"
 	quest.4B87F86B444871F2.title: "Boss obligatorio Bronze"
-	quest.4BDE773C3359D584.quest_subtitle: "Un mini-robot para acompañarte en tus viajes"
+	quest.4BDE773C3359D584.quest_subtitle: "Un mini-robot para acompaÃ±arte en tus viajes"
 	quest.4BF0BB763BFFACF0.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Podría decirse que el recurso más importante que necesitará a continuación es &eFluix&f, utilizado en la gran mayoría de los dispositivos AE2 y que sirve como base para diseñar todo el cableado dentro de una red ME."
+		"PodrÃ­a decirse que el recurso mÃ¡s importante que necesitarÃ¡ a continuaciÃ³n es &eFluix&f, utilizado en la gran mayorÃ­a de los dispositivos AE2 y que sirve como base para diseÃ±ar todo el cableado dentro de una red ME."
 		""
-		"Para empezar, cualquier meteorito que encuentre en el mundo contendrá un núcleo de 6 bloques de flujo, para un total de 24 cristales por meteorito."
+		"Para empezar, cualquier meteorito que encuentre en el mundo contendrÃ¡ un nÃºcleo de 6 bloques de flujo, para un total de 24 cristales por meteorito."
 		""
-		"Sin embargo, por lo general querrás producirlos en masa, y la forma de hacerlo es comenzar haciendo &bFluix Dust&f arrojando &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r y &eRedstone&f juntos en un charco de agua. Luego, puede convertir el polvo en cristales de la misma manera que lo haría con Certus Quartz a través de semillas."
+		"Sin embargo, por lo general querrÃ¡s producirlos en masa, y la forma de hacerlo es comenzar haciendo &bFluix Dust&f arrojando &eNether Quartz&f, &e&oCharged&r&e Certus quartz&r y &eRedstone&f juntos en un charco de agua. Luego, puede convertir el polvo en cristales de la misma manera que lo harÃ­a con Certus Quartz a travÃ©s de semillas."
 	]
 	quest.4BF0BB763BFFACF0.title: "Fluix Crystal"
 	quest.4D442196D1C6A18F.quest_desc: ["BetterNether / BetterEnd mejoran las dimensiones. Prepara ojos con &cEnd Remastered&r antes de la dragona."]
@@ -769,23 +738,23 @@
 	quest.4D4CFB7FCC133322.title: "Mochila"
 	quest.4D846582D408479D.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Las redes ME también brindan una funcionalidad inalámbrica sólida, tanto en el sentido de acceso remoto sobre la marcha de los contenidos de almacenamiento ME, o conexiones de red de larga distancia (y multidimensionales)."
+		"Las redes ME tambiÃ©n brindan una funcionalidad inalÃ¡mbrica sÃ³lida, tanto en el sentido de acceso remoto sobre la marcha de los contenidos de almacenamiento ME, o conexiones de red de larga distancia (y multidimensionales)."
 		""
-		"Normalmente, el primer paso para el primero es crear un &bME Security Terminal&f. La Terminal de seguridad, como su nombre indica, permite proteger las redes de usuarios no deseados al establecer permisos explícitos para acceder a la red. Se pueden otorgar permisos a usuarios específicos mediante el uso de una &bTarjeta biométrica&f vinculada (haciendo clic con el botón derecho) al usuario correspondiente. Alternativamente, se puede usar una tarjeta en blanco para establecer permisos generales para cualquier persona que no sea el propietario o que ya esté en la lista blanca con una tarjeta."
+		"Normalmente, el primer paso para el primero es crear un &bME Security Terminal&f. La Terminal de seguridad, como su nombre indica, permite proteger las redes de usuarios no deseados al establecer permisos explÃ­citos para acceder a la red. Se pueden otorgar permisos a usuarios especÃ­ficos mediante el uso de una &bTarjeta biomÃ©trica&f vinculada (haciendo clic con el botÃ³n derecho) al usuario correspondiente. Alternativamente, se puede usar una tarjeta en blanco para establecer permisos generales para cualquier persona que no sea el propietario o que ya estÃ© en la lista blanca con una tarjeta."
 		""
-		"De forma predeterminada, se determina que la persona que colocó el terminal es el \"propietario\" de la red y automáticamente tiene el control total de la red sin necesidad de una tarjeta biométrica."
+		"De forma predeterminada, se determina que la persona que colocÃ³ el terminal es el \"propietario\" de la red y automÃ¡ticamente tiene el control total de la red sin necesidad de una tarjeta biomÃ©trica."
 	]
-	quest.4D846582D408479D.quest_subtitle: "Salir de la conexión por cable"
+	quest.4D846582D408479D.quest_subtitle: "Salir de la conexiÃ³n por cable"
 	quest.4D846582D408479D.title: "The Wireless"
 	quest.4D92E5E0E77883C5.quest_desc: ["Derrotad a la Ender Dragon. Cierre de aventura."]
 	quest.4D92E5E0E77883C5.title: "Dragon Egg"
 	quest.4E8A05C3BFA80540.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Podría decirse que el aspecto más importante de Applied Energistics 2 es su sistema de almacenamiento, que utiliza &eStorage Cells&f digitales. Se puede acceder a estas celdas a través de un &eME Chest&r para celdas individuales o un &eME Drive&r para varias celdas."
+		"PodrÃ­a decirse que el aspecto mÃ¡s importante de Applied Energistics 2 es su sistema de almacenamiento, que utiliza &eStorage Cells&f digitales. Se puede acceder a estas celdas a travÃ©s de un &eME Chest&r para celdas individuales o un &eME Drive&r para varias celdas."
 		""
-		"El &bME Chest&f contiene una sola celda a la vez, que luego se puede leer y escribir desde cualquier otro terminal en la misma red. El propio ME Chest también proporciona su propia pantalla de terminal en la parte superior con acceso específico solo a la celda que contiene."
+		"El &bME Chest&f contiene una sola celda a la vez, que luego se puede leer y escribir desde cualquier otro terminal en la misma red. El propio ME Chest tambiÃ©n proporciona su propia pantalla de terminal en la parte superior con acceso especÃ­fico solo a la celda que contiene."
 		""
-		"El &bME Drive&f puede contener hasta 10 celdas de almacenamiento variadas en el espacio de un solo bloque y un solo canal ME. Sin embargo, no proporciona su propia pantalla de terminal, lo que requiere algún terminal externo en otra parte de la red para acceder al almacenamiento."
+		"El &bME Drive&f puede contener hasta 10 celdas de almacenamiento variadas en el espacio de un solo bloque y un solo canal ME. Sin embargo, no proporciona su propia pantalla de terminal, lo que requiere algÃºn terminal externo en otra parte de la red para acceder al almacenamiento."
 	]
 	quest.4E8A05C3BFA80540.quest_subtitle: "Elementos como un sistema de archivos"
 	quest.4E8A05C3BFA80540.title: "The Storage"
@@ -793,9 +762,7 @@
 	quest.4F1C04C0F6769825.quest_desc: [""]
 	quest.4F1C04C0F6769825.quest_subtitle: "Convierte 3 minerales en bruto en 8 fragmentos de minerales"
 	quest.4F436770D30D8520.quest_desc: [""]
-	quest.4F436770D30D8520.title: "El comienzo de una fábrica de mineral de nivel 4"
-	quest.500A3FEB4A398A07.quest_desc: ["Polished rose quartz + hierro fundido. &eClave para IE&r en Oasis."]
-	quest.500A3FEB4A398A07.title: "Electron Tube"
+	quest.4F436770D30D8520.title: "El comienzo de una fÃ¡brica de mineral de nivel 4"
 	quest.5047792C6EF6D2AD.quest_desc: [""]
 	quest.5047792C6EF6D2AD.title: "Substrates"
 	quest.508311F700BECEDF.quest_desc: ["Asa en la grill. Momento reunion."]
@@ -804,25 +771,25 @@
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Ahora que tiene su primer cristal de cuarzo Certus cargado, es hora de usarlo en el paso final importante para comenzar a usar AE2."
 		""
-		"La &bbrújula de meteoritos&f apuntará hacia el fragmento más cercano que pueda encontrar que contenga &bpiedra celeste&f, que se genera naturalmente como parte de grandes &emeteoritos&f. Estos pueden estar en la superficie o bajo tierra, y contienen un núcleo de &bFluix Blocks&f con un &bSky Stone Chest&f en su centro."
+		"La &bbrÃºjula de meteoritos&f apuntarÃ¡ hacia el fragmento mÃ¡s cercano que pueda encontrar que contenga &bpiedra celeste&f, que se genera naturalmente como parte de grandes &emeteoritos&f. Estos pueden estar en la superficie o bajo tierra, y contienen un nÃºcleo de &bFluix Blocks&f con un &bSky Stone Chest&f en su centro."
 		""
-		"Este cofre suele contener al menos una de las cuatro &ePrensas&f diferentes que se utilizan en el Inscriber para fabricar los componentes especiales de fabricación de AE2. Sin embargo, en este paquete, en lugar de tener que encontrar varios meteoritos para completar el conjunto, es posible fabricar los restantes utilizando algunas de las piedras del cielo extraídas de los meteoritos."
+		"Este cofre suele contener al menos una de las cuatro &ePrensas&f diferentes que se utilizan en el Inscriber para fabricar los componentes especiales de fabricaciÃ³n de AE2. Sin embargo, en este paquete, en lugar de tener que encontrar varios meteoritos para completar el conjunto, es posible fabricar los restantes utilizando algunas de las piedras del cielo extraÃ­das de los meteoritos."
 	]
-	quest.51236544BFEF487B.quest_subtitle: "\"CÓMIC #42: buscando a 4 bobby [Fischer]\""
-	quest.514B8A9DF6CCDA01.quest_desc: ["Con la Guadaña al matar a los mobs recibiras los distintos tipos de espiritus"]
+	quest.51236544BFEF487B.quest_subtitle: "\"CÃ“MIC #42: buscando a 4 bobby [Fischer]\""
+	quest.514B8A9DF6CCDA01.quest_desc: ["Con la GuadaÃ±a al matar a los mobs recibiras los distintos tipos de espiritus"]
 	quest.518F9052C66706F0.quest_desc: ["Antes de AE2, Sophisticated cubre inventario y cofres. Lootr hace el loot multiplayer justo."]
 	quest.518F9052C66706F0.title: "Almacenamiento cozy"
 	quest.51DE3157DE3E57B8.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El almacenamiento es bueno y todo eso, pero ¿de qué sirve un sistema de almacenamiento si está atascado con materias primas que necesitan ser elaboradas y procesadas en algo y todavía tiene que hacerlo manualmente?"
+		"El almacenamiento es bueno y todo eso, pero Â¿de quÃ© sirve un sistema de almacenamiento si estÃ¡ atascado con materias primas que necesitan ser elaboradas y procesadas en algo y todavÃ­a tiene que hacerlo manualmente?"
 		""
-		"El sistema &eauto-crafting&f de AE2 comienza con el &bME Pattern Provider&f. El proveedor de patrones contiene ciertos elementos llamados &bPatterns&f (cubiertos en la siguiente búsqueda) que están programados para contener alguna receta que convierte los elementos de entrada en una determinada salida. En un proveedor pueden caber hasta 9 patrones."
+		"El sistema &eauto-crafting&f de AE2 comienza con el &bME Pattern Provider&f. El proveedor de patrones contiene ciertos elementos llamados &bPatterns&f (cubiertos en la siguiente bÃºsqueda) que estÃ¡n programados para contener alguna receta que convierte los elementos de entrada en una determinada salida. En un proveedor pueden caber hasta 9 patrones."
 		""
-		"A menudo utilizará múltiples proveedores de patrones repartidos por toda su base, por lo que es útil tener una &bTerminal de acceso a patrones&f para acceder de forma remota a los contenidos de todos y cada uno de los proveedores en su red ME más amplia."
+		"A menudo utilizarÃ¡ mÃºltiples proveedores de patrones repartidos por toda su base, por lo que es Ãºtil tener una &bTerminal de acceso a patrones&f para acceder de forma remota a los contenidos de todos y cada uno de los proveedores en su red ME mÃ¡s amplia."
 	]
 	quest.51DE3157DE3E57B8.quest_subtitle: "Ordena"
 	quest.51DE3157DE3E57B8.title: "Auto-Crafting"
-	quest.5233A447BAA4593C.quest_desc: ["El &bME Smart Cable&f y el &bDense Smart Cable&f funcionan de manera idéntica a los cables cubiertos en términos de distribución de canales, pero también mostrarán visiblemente la cantidad de canales que están usando como líneas de colores sobre sí mismos."]
+	quest.5233A447BAA4593C.quest_desc: ["El &bME Smart Cable&f y el &bDense Smart Cable&f funcionan de manera idÃ©ntica a los cables cubiertos en tÃ©rminos de distribuciÃ³n de canales, pero tambiÃ©n mostrarÃ¡n visiblemente la cantidad de canales que estÃ¡n usando como lÃ­neas de colores sobre sÃ­ mismos."]
 	quest.5233A447BAA4593C.quest_subtitle: "\"S.M.R.T.\""
 	quest.5233A447BAA4593C.title: "Advanced Cabling"
 	quest.523853C1C4E688BA.quest_desc: ["El cuarto nivel del componente de almacenamiento, que proporciona &e65536&f bytes de almacenamiento."]
@@ -830,20 +797,20 @@
 	quest.523853C1C4E688BA.title: "64k Storage Component"
 	quest.525F25F4ADE45B50.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bME Plano de Formación&f actúa de manera similar al Bus de Almacenamiento, pero trata al mundo mismo como su medio de almacenamiento. En otras palabras, colocará cualquier bloque en su filtro directamente frente a él."
+		"El &bME Plano de FormaciÃ³n&f actÃºa de manera similar al Bus de Almacenamiento, pero trata al mundo mismo como su medio de almacenamiento. En otras palabras, colocarÃ¡ cualquier bloque en su filtro directamente frente a Ã©l."
 		""
-		"Esto puede ser útil para situaciones en las que un bloque se puede procesar simplemente colocándolo y rompiéndolo con una determinada herramienta."
+		"Esto puede ser Ãºtil para situaciones en las que un bloque se puede procesar simplemente colocÃ¡ndolo y rompiÃ©ndolo con una determinada herramienta."
 	]
 	quest.525F25F4ADE45B50.quest_subtitle: "SAL"
 	quest.531E3FF1F2865C67.quest_subtitle: "Para transferir calor"
-	quest.549B782573F18424.quest_desc: ["Los mobs que se desplazen volando o los artrópodos te daran este item"]
+	quest.549B782573F18424.quest_desc: ["Los mobs que se desplazen volando o los artrÃ³podos te daran este item"]
 	quest.55186B8602689B66.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La &bMemory Card&f es una herramienta con diferentes funciones. La más sencilla de las dos es guardar las configuraciones de varios dispositivos (como los filtros de la lista blanca) para copiarlas en otro dispositivo del mismo tipo."
+		"La &bMemory Card&f es una herramienta con diferentes funciones. La mÃ¡s sencilla de las dos es guardar las configuraciones de varios dispositivos (como los filtros de la lista blanca) para copiarlas en otro dispositivo del mismo tipo."
 		""
-		"La segunda función de una tarjeta de memoria es vincular &eP2P tunnels&f entre sí. Al hacerlo, al túnel P2P que se está vinculando se le asignará una identificación única, que se almacena en la tarjeta de memoria para su posterior vinculación."
+		"La segunda funciÃ³n de una tarjeta de memoria es vincular &eP2P tunnels&f entre sÃ­. Al hacerlo, al tÃºnel P2P que se estÃ¡ vinculando se le asignarÃ¡ una identificaciÃ³n Ãºnica, que se almacena en la tarjeta de memoria para su posterior vinculaciÃ³n."
 	]
-	quest.56749328894F5791.quest_desc: ["Sawblade es el cabezal básico de Buzzsaw. Se puede utilizar para cortar rápidamente artículos de madera."]
+	quest.56749328894F5791.quest_desc: ["Sawblade es el cabezal bÃ¡sico de Buzzsaw. Se puede utilizar para cortar rÃ¡pidamente artÃ­culos de madera."]
 	quest.576128B100C864ED.quest_desc: ["Corta ingredientes en la cutting board."]
 	quest.576128B100C864ED.title: "Tabla de cortar"
 	quest.587A19FC348387C5.quest_desc: [""]
@@ -852,16 +819,16 @@
 	quest.597575A3BE790404.title: "La parrilla"
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Naturalmente, AE2 proporciona su propia forma de acelerar drásticamente el crecimiento de cristales, suponiendo que no tenga a mano la cámara de enriquecimiento de Mekanism."
+		"Naturalmente, AE2 proporciona su propia forma de acelerar drÃ¡sticamente el crecimiento de cristales, suponiendo que no tenga a mano la cÃ¡mara de enriquecimiento de Mekanism."
 		""
-		"Colocar un bloque de fuente de agua dentro de un conjunto completo de 5 y Crystal Growth Accelerator S&f reducirá el tiempo de crecimiento de las semillas de cristal de 20 minutos sin acelerar a tan solo 24 segundos."
+		"Colocar un bloque de fuente de agua dentro de un conjunto completo de 5 y Crystal Growth Accelerator S&f reducirÃ¡ el tiempo de crecimiento de las semillas de cristal de 20 minutos sin acelerar a tan solo 24 segundos."
 	]
-	quest.5B681BC43371CC5C.quest_subtitle: "Para transferir artículos"
+	quest.5B681BC43371CC5C.quest_subtitle: "Para transferir artÃ­culos"
 	quest.5BB887411B8B38FA.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"En cuanto a la expansión inalámbrica de la propia red ME, el primer paso es algo poco ortodoxo."
+		"En cuanto a la expansiÃ³n inalÃ¡mbrica de la propia red ME, el primer paso es algo poco ortodoxo."
 		""
-		"El &bMatter Condenser&f es la versión de AE2 de un bote de basura, que anula cualquier elemento insertado en él. Sin embargo, cuando está equipado con un &ecomponente de almacenamiento&f, el condensador puede aprovechar parte de la energía sobrante del objeto que se está anulando y almacenarla para hacer dos objetos de artesanía especiales con suficiente energía concentrada."
+		"El &bMatter Condenser&f es la versiÃ³n de AE2 de un bote de basura, que anula cualquier elemento insertado en Ã©l. Sin embargo, cuando estÃ¡ equipado con un &ecomponente de almacenamiento&f, el condensador puede aprovechar parte de la energÃ­a sobrante del objeto que se estÃ¡ anulando y almacenarla para hacer dos objetos de artesanÃ­a especiales con suficiente energÃ­a concentrada."
 		""
 		"El primero de estos dos elementos es &bMatter Ball&f, que requiere al menos un componente de almacenamiento de 1k y 256 elementos de material anulado."
 	]
@@ -869,73 +836,65 @@
 	quest.5BF644CD6DF6C10D.quest_desc: ["Los dan los mobs del end"]
 	quest.5C22E3103544B120.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Para conectar la gran mayoría de su red ME, necesitará un cable. &eME Glass Cable&f es el primer tipo de cable y el más básico, y lo fabricará en todo momento como el primer paso para crear los otros tipos de cable."
+		"Para conectar la gran mayorÃ­a de su red ME, necesitarÃ¡ un cable. &eME Glass Cable&f es el primer tipo de cable y el mÃ¡s bÃ¡sico, y lo fabricarÃ¡ en todo momento como el primer paso para crear los otros tipos de cable."
 		""
-		"Tanto los cables de vidrio como su contraparte recuperada pueden transportar hasta 8 canales a lo largo de una sola sección de cableado. A diferencia de los cables de vidrio, los cables cubiertos se pueden convertir posteriormente en cables cubiertos &edense&f, capaces de transportar hasta 32 canales. Sin embargo, la mayoría de los dispositivos \"multipartes\", como buses y terminales, no se pueden conectar directamente a cables densos, por lo que se requieren cables de ancho normal para formar una conexión."
+		"Tanto los cables de vidrio como su contraparte recuperada pueden transportar hasta 8 canales a lo largo de una sola secciÃ³n de cableado. A diferencia de los cables de vidrio, los cables cubiertos se pueden convertir posteriormente en cables cubiertos &edense&f, capaces de transportar hasta 32 canales. Sin embargo, la mayorÃ­a de los dispositivos \"multipartes\", como buses y terminales, no se pueden conectar directamente a cables densos, por lo que se requieren cables de ancho normal para formar una conexiÃ³n."
 		""
-		"Todos los cables también se pueden fabricar con tinte para colorearlos. Los cables sin color (\"Fluix\") se pueden conectar a cualquier otro color de cable, pero de lo contrario, los cables de diferentes colores nunca se conectarán entre sí."
+		"Todos los cables tambiÃ©n se pueden fabricar con tinte para colorearlos. Los cables sin color (\"Fluix\") se pueden conectar a cualquier otro color de cable, pero de lo contrario, los cables de diferentes colores nunca se conectarÃ¡n entre sÃ­."
 	]
 	quest.5C22E3103544B120.title: "Basic Cabling"
 	quest.5CD8D169181C7339.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Estos últimos tres elementos son más o menos algunos juguetes adicionales proporcionados por AE2 y no necesariamente encajan en ninguno de estos árboles de búsqueda."
+		"Estos Ãºltimos tres elementos son mÃ¡s o menos algunos juguetes adicionales proporcionados por AE2 y no necesariamente encajan en ninguno de estos Ã¡rboles de bÃºsqueda."
 		""
-		"El &bBastón cargado&f es simplemente un bastón motorizado que inflige 3 corazones de daño y consume 300AE por golpe. También utiliza mecánicas de combate anteriores a la 1.9, lo que significa que puedes hacer clic con spam como en los viejos tiempos."
+		"El &bBastÃ³n cargado&f es simplemente un bastÃ³n motorizado que inflige 3 corazones de daÃ±o y consume 300AE por golpe. TambiÃ©n utiliza mecÃ¡nicas de combate anteriores a la 1.9, lo que significa que puedes hacer clic con spam como en los viejos tiempos."
 		""
-		"El &bManipulador de Entropía&f, cuando se utiliza&r en ciertos bloques del mundo, los fundirá en el lugar, como arena en vidrio y minerales metálicos en lingotes de metal. Si no, simplemente encenderá un fuego en el bloque."
+		"El &bManipulador de EntropÃ­a&f, cuando se utiliza&r en ciertos bloques del mundo, los fundirÃ¡ en el lugar, como arena en vidrio y minerales metÃ¡licos en lingotes de metal. Si no, simplemente encenderÃ¡ un fuego en el bloque."
 		""
-		"Finalmente, el &bMatter Cannon&f funciona de manera similar al Color Applicator como una celda dedicada para contener elementos de \"munición\" como Matter Balls y pepitas de hierro/oro, que luego se pueden disparar para infligir daño a las turbas o romper bloques. \"Munición\" más pesada, p. pepitas de metal, causarán más daño y destruirán bloques más duros."
+		"Finalmente, el &bMatter Cannon&f funciona de manera similar al Color Applicator como una celda dedicada para contener elementos de \"municiÃ³n\" como Matter Balls y pepitas de hierro/oro, que luego se pueden disparar para infligir daÃ±o a las turbas o romper bloques. \"MuniciÃ³n\" mÃ¡s pesada, p. pepitas de metal, causarÃ¡n mÃ¡s daÃ±o y destruirÃ¡n bloques mÃ¡s duros."
 		""
-		"Las bolas de materia en un cañón de materia se pueden sustituir por &bbolas de pintura&f, que aplicarán un efecto de salpicadura de pintura en la cara de cualquier bloque al que se dispare. Las &bLumen Paint Balls&f son una variante de las bolas de pintura utilizadas exclusivamente por Matter Cannon, cuyas salpicaduras de pintura también emiten algo de luz una vez presente en el mundo."
+		"Las bolas de materia en un caÃ±Ã³n de materia se pueden sustituir por &bbolas de pintura&f, que aplicarÃ¡n un efecto de salpicadura de pintura en la cara de cualquier bloque al que se dispare. Las &bLumen Paint Balls&f son una variante de las bolas de pintura utilizadas exclusivamente por Matter Cannon, cuyas salpicaduras de pintura tambiÃ©n emiten algo de luz una vez presente en el mundo."
 	]
 	quest.5CD8D169181C7339.quest_subtitle: "Demasiado caliente para el ATF"
 	quest.5CD8D169181C7339.title: "The... Weapons?"
-	quest.5CE43998E85C62CD.quest_desc: ["La base de casi todo. Mezcla andesita con pepitas de hierro (o zinc)."]
-	quest.5CE43998E85C62CD.title: "Aleacion de andesita"
 	quest.5E116409DC7D30BB.quest_desc: [""]
 	quest.5E116409DC7D30BB.quest_subtitle: "Llave de Mekanism"
 	quest.5E24012A3D9B72A1.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Los elementos no son las únicas cosas que se pueden almacenar en las celdas ME. Las &bME celdas de almacenamiento de fluidos&f pueden almacenar líquidos como agua, lava y cualquier variedad de aceites y combustibles modificados, solo por dar algunos ejemplos."
+		"Los elementos no son las Ãºnicas cosas que se pueden almacenar en las celdas ME. Las &bME celdas de almacenamiento de fluidos&f pueden almacenar lÃ­quidos como agua, lava y cualquier variedad de aceites y combustibles modificados, solo por dar algunos ejemplos."
 		""
-		"Tenga en cuenta que todas las celdas de almacenamiento, independientemente de para qué estén diseñadas para almacenar, solo difieren en términos de su alojamiento; Tanto las celdas de elementos como las de fluido utilizan el mismo tipo de componente de almacenamiento para fabricarse."
+		"Tenga en cuenta que todas las celdas de almacenamiento, independientemente de para quÃ© estÃ©n diseÃ±adas para almacenar, solo difieren en tÃ©rminos de su alojamiento; Tanto las celdas de elementos como las de fluido utilizan el mismo tipo de componente de almacenamiento para fabricarse."
 		""
 		"Para fluidos, 1 byte equivale a 8 cubos (8000 mb)."
 	]
 	quest.5E24012A3D9B72A1.title: "Fluid Storage"
 	quest.5E6585F7627247E3.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Cuando se aplica como una actualización a cualquier dispositivo compatible, como una interfaz o un bus de exportación, la &btarjeta de creación&f permite que el dispositivo en cuestión envíe automáticamente sus propias solicitudes de creación para un artículo requerido (filtrado). Las CPU de artesanía se pueden configurar para responder solo a estas solicitudes para evitar que se utilicen CPU destinadas a artesanías solicitadas por los jugadores."
+		"Cuando se aplica como una actualizaciÃ³n a cualquier dispositivo compatible, como una interfaz o un bus de exportaciÃ³n, la &btarjeta de creaciÃ³n&f permite que el dispositivo en cuestiÃ³n envÃ­e automÃ¡ticamente sus propias solicitudes de creaciÃ³n para un artÃ­culo requerido (filtrado). Las CPU de artesanÃ­a se pueden configurar para responder solo a estas solicitudes para evitar que se utilicen CPU destinadas a artesanÃ­as solicitadas por los jugadores."
 		""
-		"Cuando el &eLevel Emitter&f se actualiza con la Crafting Card, se puede configurar para emitir redstone con el fin de facilitar directamente la elaboración, emitiendo una señal &omientras&r se detecta un trabajo de elaboración para su artículo dado o específicamente &oto&r craftear el artículo. Esto último se aplicaría a los casos en los que lo único que se necesita para hacer un artículo determinado es una señal de piedra roja, sin siquiera requerir un patrón de elaboración."
+		"Cuando el &eLevel Emitter&f se actualiza con la Crafting Card, se puede configurar para emitir redstone con el fin de facilitar directamente la elaboraciÃ³n, emitiendo una seÃ±al &omientras&r se detecta un trabajo de elaboraciÃ³n para su artÃ­culo dado o especÃ­ficamente &oto&r craftear el artÃ­culo. Esto Ãºltimo se aplicarÃ­a a los casos en los que lo Ãºnico que se necesita para hacer un artÃ­culo determinado es una seÃ±al de piedra roja, sin siquiera requerir un patrÃ³n de elaboraciÃ³n."
 	]
-	quest.5E6585F7627247E3.quest_subtitle: "¡Automatización en forma de actualización!"
-	quest.5E7E35CCAF1C88EE.quest_desc: ["El &bME Import Bus&f absorbe periódicamente elementos de cualquier almacenamiento externo al que se enfrente el bus. Opcionalmente se puede filtrar para tomar solo ciertos artículos de dicho inventario."]
+	quest.5E6585F7627247E3.quest_subtitle: "Â¡AutomatizaciÃ³n en forma de actualizaciÃ³n!"
+	quest.5E7E35CCAF1C88EE.quest_desc: ["El &bME Import Bus&f absorbe periÃ³dicamente elementos de cualquier almacenamiento externo al que se enfrente el bus. Opcionalmente se puede filtrar para tomar solo ciertos artÃ­culos de dicho inventario."]
 	quest.5E7E35CCAF1C88EE.quest_subtitle: "La I"
-	quest.5E8AE787DEA22FA9.quest_desc: ["Cuando se aplica el tanque grande a la Buzzsaw, duplicará su capacidad de combustible."]
-	quest.5E9E8F927EE79AFE.quest_desc: ["Carcasas de brass para maquinas avanzadas."]
-	quest.5E9E8F927EE79AFE.title: "Brass Casing"
-	quest.5F56892CD904C40F.quest_desc: ["El quinto y último nivel de componente de almacenamiento estándar AE2, que proporciona &e262144&f bytes de almacenamiento."]
+	quest.5E8AE787DEA22FA9.quest_desc: ["Cuando se aplica el tanque grande a la Buzzsaw, duplicarÃ¡ su capacidad de combustible."]
+	quest.5F56892CD904C40F.quest_desc: ["El quinto y Ãºltimo nivel de componente de almacenamiento estÃ¡ndar AE2, que proporciona &e262144&f bytes de almacenamiento."]
 	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
 	quest.5F56892CD904C40F.title: "256k Storage Component"
-	quest.5FCFB801E9A217B7.quest_desc: ["Cobre + zinc en el mixer (calentado)."]
-	quest.5FCFB801E9A217B7.title: "Brass"
 	quest.5FD4E99E244B9D57.quest_desc: ["Pan + skewer + col."]
 	quest.5FD4E99E244B9D57.title: "Kebab wrap"
-	quest.601F2834402AC59D.quest_desc: ["Convierte rotacion en energia electrica."]
-	quest.601F2834402AC59D.title: "Alternator / capacitor"
 	quest.603877AB96321F1A.quest_desc: [""]
-	quest.603877AB96321F1A.quest_subtitle: "¡El agua se convierte en salmuera!"
-	quest.603877AB96321F1A.title: "Planta de Evaporación Térmica"
+	quest.603877AB96321F1A.quest_subtitle: "Â¡El agua se convierte en salmuera!"
+	quest.603877AB96321F1A.title: "Planta de EvaporaciÃ³n TÃ©rmica"
 	quest.6144202A97C6CD1C.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bcuchillo de corte de cuarzo&f, al igual que la llave inglesa, viene en sabores de cuarzo inferior y certus y es una herramienta de artesanía útil para tener a mano."
+		"El &bcuchillo de corte de cuarzo&f, al igual que la llave inglesa, viene en sabores de cuarzo inferior y certus y es una herramienta de artesanÃ­a Ãºtil para tener a mano."
 		""
-		"Los cables también se pueden separar sin necesidad de colorearlos uniendo un &bAnclaje de cable&f entre ellos, elaborado con este cuchillo y fabricable hasta 50 veces con el mismo cuchillo antes de que se rompa."
+		"Los cables tambiÃ©n se pueden separar sin necesidad de colorearlos uniendo un &bAnclaje de cable&f entre ellos, elaborado con este cuchillo y fabricable hasta 50 veces con el mismo cuchillo antes de que se rompa."
 		""
-		"Los anclajes de cables también se pueden usar para crear &bfachadas de cables&f, lo que le permite disfrazar los cables dentro de las paredes cubriéndolos con la cara de un bloque arbitrario. Si bien las recetas de fachada están ocultas en JEI, aún puede crearlas tomando cualquier bloque regular y rodeándolo con 4 anclas de cable en la cuadrícula de elaboración."
+		"Los anclajes de cables tambiÃ©n se pueden usar para crear &bfachadas de cables&f, lo que le permite disfrazar los cables dentro de las paredes cubriÃ©ndolos con la cara de un bloque arbitrario. Si bien las recetas de fachada estÃ¡n ocultas en JEI, aÃºn puede crearlas tomando cualquier bloque regular y rodeÃ¡ndolo con 4 anclas de cable en la cuadrÃ­cula de elaboraciÃ³n."
 		""
-		"Además de crear anclas, el cuchillo de corte también tiene otro uso: al hacer clic con el botón derecho del ratón, se abrirá una pequeña interfaz gráfica de usuario que te permitirá crear &bpresiones de nombre de inscriptor&f. Cuando se les da un nombre, estas prensas se pueden usar dentro de un Inscriber para cambiar el nombre de cualquier elemento de entrada con el nombre de la prensa. Dos de estas pulsaciones se pueden concatenar en el inscriptor para renombrar el artículo con el nombre de la pulsación superior, seguida por la inferior."
+		"AdemÃ¡s de crear anclas, el cuchillo de corte tambiÃ©n tiene otro uso: al hacer clic con el botÃ³n derecho del ratÃ³n, se abrirÃ¡ una pequeÃ±a interfaz grÃ¡fica de usuario que te permitirÃ¡ crear &bpresiones de nombre de inscriptor&f. Cuando se les da un nombre, estas prensas se pueden usar dentro de un Inscriber para cambiar el nombre de cualquier elemento de entrada con el nombre de la prensa. Dos de estas pulsaciones se pueden concatenar en el inscriptor para renombrar el artÃ­culo con el nombre de la pulsaciÃ³n superior, seguida por la inferior."
 	]
 	quest.6144202A97C6CD1C.quest_subtitle: "Bajo el cuchillo"
 	quest.6144202A97C6CD1C.title: "Cable Anchor"
@@ -946,13 +905,13 @@
 		""
 		"Circuitos basicos usan &esilicon&r; alloy infused usa &ecertus&r (no fluix)."
 	]
-	quest.6252388806C32865.title: "Tech IV — Mekanism"
-	quest.63E477E5096A48A8.quest_desc: ["Te los dan al matar mobs del nether con la guadaña"]
+	quest.6252388806C32865.title: "Tech IV â€” Mekanism"
+	quest.63E477E5096A48A8.quest_desc: ["Te los dan al matar mobs del nether con la guadaÃ±a"]
 	quest.6431A384DDFBF439.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La &bNetwork Tool&f es una herramienta importante en AE2, que se utiliza para mostrar varios detalles de una red en pantalla, como el consumo general de energía y el almacenamiento."
+		"La &bNetwork Tool&f es una herramienta importante en AE2, que se utiliza para mostrar varios detalles de una red en pantalla, como el consumo general de energÃ­a y el almacenamiento."
 		""
-		"Como beneficio adicional, también proporciona su propio pequeño inventario que se usa para almacenar &eupgrade cards&f, al que se puede acceder mirando la pantalla de cualquier dispositivo actualizable para reemplazarlo fácilmente. Sin embargo, no puede rotar bloques conectados a la red ME como una llave inglesa normal, solo los desmantela cuando se escabulle."
+		"Como beneficio adicional, tambiÃ©n proporciona su propio pequeÃ±o inventario que se usa para almacenar &eupgrade cards&f, al que se puede acceder mirando la pantalla de cualquier dispositivo actualizable para reemplazarlo fÃ¡cilmente. Sin embargo, no puede rotar bloques conectados a la red ME como una llave inglesa normal, solo los desmantela cuando se escabulle."
 	]
 	quest.650FD0D68E0C8767.quest_desc: ["Fermentados y bebidas para la sobremesa."]
 	quest.650FD0D68E0C8767.title: "Brewin and Chewin"
@@ -962,25 +921,23 @@
 	quest.6848E24AE957A10A.title: "Olla"
 	quest.68B0B3DAF1145191.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Dos de las primeras cosas que necesitará para comenzar con AE2 son el &bCharger&f y el &bInscriber&f."
+		"Dos de las primeras cosas que necesitarÃ¡ para comenzar con AE2 son el &bCharger&f y el &bInscriber&f."
 		""
-		"El &bcargador&f, cuando se alimenta con energía, tomará &eCertus Quartz Crystals&r y los cargará. Estos &eCharged Certus Crystals&r se pueden usar en la producción de &eFluix&f, otro recurso importante en el mod. También se puede usar para cargar cualquier artículo que almacene energía."
+		"El &bcargador&f, cuando se alimenta con energÃ­a, tomarÃ¡ &eCertus Quartz Crystals&r y los cargarÃ¡. Estos &eCharged Certus Crystals&r se pueden usar en la producciÃ³n de &eFluix&f, otro recurso importante en el mod. TambiÃ©n se puede usar para cargar cualquier artÃ­culo que almacene energÃ­a."
 		""
-		"El &bInscriber&f se puede usar para convertir los diversos cristales de cuarzo en AE2 en su forma de polvo, pero lo que es más importante, se usa para fabricar &eCircuitos impresos&f y &eProcesadores&f especiales, como quedará más claro en la próxima misión."
+		"El &bInscriber&f se puede usar para convertir los diversos cristales de cuarzo en AE2 en su forma de polvo, pero lo que es mÃ¡s importante, se usa para fabricar &eCircuitos impresos&f y &eProcesadores&f especiales, como quedarÃ¡ mÃ¡s claro en la prÃ³xima misiÃ³n."
 	]
-	quest.68B0B3DAF1145191.quest_subtitle: "Algunas máquinas básicas"
+	quest.68B0B3DAF1145191.quest_subtitle: "Algunas mÃ¡quinas bÃ¡sicas"
 	quest.68B0B3DAF1145191.title: "First Things First"
 	quest.69B7DE2283B4EE6C.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"La &bUnidad de coprocesamiento de elaboración&f ayuda a acelerar los trabajos de elaboración al permitir que los proveedores de patrones envíen artículos a sus dispositivos conectados más rápido o trabajen simultáneamente para hacer múltiples ingredientes requeridos."
+		"La &bUnidad de coprocesamiento de elaboraciÃ³n&f ayuda a acelerar los trabajos de elaboraciÃ³n al permitir que los proveedores de patrones envÃ­en artÃ­culos a sus dispositivos conectados mÃ¡s rÃ¡pido o trabajen simultÃ¡neamente para hacer mÃºltiples ingredientes requeridos."
 		""
 		"El coprocesador base AE2 proporciona un \"hilo\" de coprocesador para ayudar en esto, mientras que la unidad de coprocesamiento de MEGA Cells proporciona 4 hilos en un solo bloque de este tipo."
 	]
-	quest.69B7DE2283B4EE6C.quest_subtitle: "Descargar más núcleos de CPU"
+	quest.69B7DE2283B4EE6C.quest_subtitle: "Descargar mÃ¡s nÃºcleos de CPU"
 	quest.6C25D42C36175BF4.quest_desc: [""]
 	quest.6C25D42C36175BF4.quest_subtitle: "Hace grumos."
-	quest.6C9C9AC60F41D4ED.quest_desc: ["Con &eprecision mechanism&r y &eelectron tube&r ya puedes abrir el capitulo Immersive Engineering en serio."]
-	quest.6C9C9AC60F41D4ED.title: "Hacia Immersive"
 	quest.6CBD6C4B2C239A6E.quest_desc: ["Ensambla un skewer crudo."]
 	quest.6CBD6C4B2C239A6E.title: "Brocheta cruda"
 	quest.6CD1720B76F47806.quest_desc: [""]
@@ -989,13 +946,13 @@
 		""
 		"Create Deco y Craft & Additions estan incluidos en esa guia."
 	]
-	quest.6D4C3DA5F2BDF4CE.title: "Tech I — Create"
+	quest.6D4C3DA5F2BDF4CE.title: "Tech I â€” Create"
 	quest.6D54B45CDA70FEAB.quest_desc: ["The &bEnergy Card&f can be applied to most chargeable devices like Portable Cells and Wireless Terminals (covered later) to also increase &otheir&r energy buffer."]
 	quest.6DA2EB3C61DEA472.quest_desc: ["La dragona es mas exigente. End Remastered cambia los ojos del portal."]
 	quest.6DA2EB3C61DEA472.title: "Camino a la Dragona"
 	quest.6DB1AAAD926486BC.quest_desc: [""]
-	quest.6DB1AAAD926486BC.quest_subtitle: "¡Tiene un MODO CUBO!"
-	quest.6E15447FC3D678E0.quest_desc: ["La &bTarjeta Difusa&f permite hacer coincidir un elemento filtrado independientemente de cualquier metadato (NBT) como daños o encantamientos, mientras que la &bTarjeta Inversora&f cambia el filtro en dichos buses de una lista blanca a una lista negra."]
+	quest.6DB1AAAD926486BC.quest_subtitle: "Â¡Tiene un MODO CUBO!"
+	quest.6E15447FC3D678E0.quest_desc: ["La &bTarjeta Difusa&f permite hacer coincidir un elemento filtrado independientemente de cualquier metadato (NBT) como daÃ±os o encantamientos, mientras que la &bTarjeta Inversora&f cambia el filtro en dichos buses de una lista blanca a una lista negra."]
 	quest.6E15447FC3D678E0.quest_subtitle: "Las dos tarjetas IO restantes"
 	quest.6E15447FC3D678E0.title: "Loosely Speaking"
 	quest.6E6CD259A84BB875.quest_desc: [
@@ -1009,24 +966,24 @@
 	quest.6E6CD259A84BB875.title: "Bienvenida a Oasis"
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Las celdas de almacenamiento espacial se utilizan para contener un volumen definido cada una y vienen en tres capacidades diferentes que permiten un máximo de 2x2x2, 16x16x16 y 128x128x128 bloques de espacio."
+		"Las celdas de almacenamiento espacial se utilizan para contener un volumen definido cada una y vienen en tres capacidades diferentes que permiten un mÃ¡ximo de 2x2x2, 16x16x16 y 128x128x128 bloques de espacio."
 		""
-		"Tras la codificación, a una celda se le asigna una sección de espacio dentro de la &edición&f de almacenamiento espacial, junto con una identificación única correspondiente a la región asignada a la celda. Todavía se puede usar una celda codificada dentro del puerto de E/S espacial para recuperar cualquier bloque y entidad almacenados."
+		"Tras la codificaciÃ³n, a una celda se le asigna una secciÃ³n de espacio dentro de la &ediciÃ³n&f de almacenamiento espacial, junto con una identificaciÃ³n Ãºnica correspondiente a la regiÃ³n asignada a la celda. TodavÃ­a se puede usar una celda codificada dentro del puerto de E/S espacial para recuperar cualquier bloque y entidad almacenados."
 		""
-		"A partir de ese momento, cualquier bloque contenido dentro de la región del espacio de la celda o en un SCS con el mismo tamaño que el utilizado para la codificación inicial se puede mover de regreso al supramundo o a la dimensión espacial, respectivamente. Si hay bloques tanto dentro de la región espacial como dentro del SCS, estos simplemente cambiarán de lugar en consecuencia."
+		"A partir de ese momento, cualquier bloque contenido dentro de la regiÃ³n del espacio de la celda o en un SCS con el mismo tamaÃ±o que el utilizado para la codificaciÃ³n inicial se puede mover de regreso al supramundo o a la dimensiÃ³n espacial, respectivamente. Si hay bloques tanto dentro de la regiÃ³n espacial como dentro del SCS, estos simplemente cambiarÃ¡n de lugar en consecuencia."
 	]
-	quest.73730C3C46BF8609.quest_desc: ["El Blade Quiver, cuando se aplica, le permitirá llevar 2 hojas adicionales para Buzzsaw. Se pueden cambiar con una combinación de teclas (que debe configurar) o sigilosamente y usando la rueda de desplazamiento de su mouse."]
+	quest.73730C3C46BF8609.quest_desc: ["El Blade Quiver, cuando se aplica, le permitirÃ¡ llevar 2 hojas adicionales para Buzzsaw. Se pueden cambiar con una combinaciÃ³n de teclas (que debe configurar) o sigilosamente y usando la rueda de desplazamiento de su mouse."]
 	quest.74200A48498DD7F8.quest_desc: [""]
 	quest.74200A48498DD7F8.quest_subtitle: "Produce alrededor de 17.6FE/t"
 	quest.746DE420FBE89254.quest_desc: ["Glowstone + water bucket."]
 	quest.746DE420FBE89254.title: "Materiales de portal"
 	quest.74FC0DDDB91DB172.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"Para hacer la vida mucho más fácil, AE2 proporciona un conjunto completo de dispositivos para la manipulación de datos ME, es decir, mover elementos almacenados por todo el mundo."
+		"Para hacer la vida mucho mÃ¡s fÃ¡cil, AE2 proporciona un conjunto completo de dispositivos para la manipulaciÃ³n de datos ME, es decir, mover elementos almacenados por todo el mundo."
 		""
-		"La &bME Interface&f es uno de estos dispositivos. Como dispositivo de entrada, la interfaz permite que cualquier elemento/líquido/etc. se canalice externamente a través de ella, que luego se almacena automáticamente en la red ME a la que está conectada la interfaz."
+		"La &bME Interface&f es uno de estos dispositivos. Como dispositivo de entrada, la interfaz permite que cualquier elemento/lÃ­quido/etc. se canalice externamente a travÃ©s de ella, que luego se almacena automÃ¡ticamente en la red ME a la que estÃ¡ conectada la interfaz."
 		""
-		"Como dispositivo de salida, la interfaz se puede configurar para mantener una cierta cantidad disponible de un artículo almacenado en stock, desde la red ME hasta su propio inventario interno. Esto permite que los artículos sean recibidos por alguna fuente externa como otro jugador o alguna tubería."
+		"Como dispositivo de salida, la interfaz se puede configurar para mantener una cierta cantidad disponible de un artÃ­culo almacenado en stock, desde la red ME hasta su propio inventario interno. Esto permite que los artÃ­culos sean recibidos por alguna fuente externa como otro jugador o alguna tuberÃ­a."
 	]
 	quest.74FC0DDDB91DB172.quest_subtitle: "OI, OI, OI!"
 	quest.74FC0DDDB91DB172.title: "The IO"
@@ -1034,9 +991,9 @@
 	quest.758615AB4172C2DC.title: "Portal del End"
 	quest.7638362055CF4C13.quest_desc: [
 		"&6Oasis:&r varios crafts IE piden Create (precision mechanism / electron tube). Ver docs/TECH_PROGRESSION.md"
-		"¿Cansado de escuchar todas esas máquinas ruidosas?"
+		"Â¿Cansado de escuchar todas esas mÃ¡quinas ruidosas?"
 		""
-		"Fabrica un par de protectores auditivos para amortiguar esos sonidos. Los sonidos que amortigua se pueden configurar colocándolo en el banco de trabajo de un ingeniero junto con el nivel de puerta de ruido para comenzar a bloquear el sonido. También se pueden combinar con cascos en una mesa de trabajo para aplicarlos al casco, brindándole cierta protección mientras los usa."
+		"Fabrica un par de protectores auditivos para amortiguar esos sonidos. Los sonidos que amortigua se pueden configurar colocÃ¡ndolo en el banco de trabajo de un ingeniero junto con el nivel de puerta de ruido para comenzar a bloquear el sonido. TambiÃ©n se pueden combinar con cascos en una mesa de trabajo para aplicarlos al casco, brindÃ¡ndole cierta protecciÃ³n mientras los usa."
 	]
 	quest.76A38CCA5816CDAD.quest_desc: [""]
 	quest.76A38CCA5816CDAD.title: "Pellets de HDPE"
@@ -1045,41 +1002,39 @@
 		""
 		"Necesitaras componentes IE y Create en varias recetas Oasis."
 	]
-	quest.770631208A8588AB.title: "Tech III — AE2"
+	quest.770631208A8588AB.title: "Tech III â€” AE2"
 	quest.7778937DF377C1B4.quest_desc: [""]
-	quest.7778937DF377C1B4.quest_subtitle: "Genera energía del viento"
-	quest.77A7918BBB36BDB7.quest_desc: ["Cuando se aplica, permitirá que Mining Drill funcione bajo el agua, normalmente no puede, ya que es un motor de combustión, y no tendrá una desaceleración relacionada con la minería bajo el agua."]
+	quest.7778937DF377C1B4.quest_subtitle: "Genera energÃ­a del viento"
+	quest.77A7918BBB36BDB7.quest_desc: ["Cuando se aplica, permitirÃ¡ que Mining Drill funcione bajo el agua, normalmente no puede, ya que es un motor de combustiÃ³n, y no tendrÃ¡ una desaceleraciÃ³n relacionada con la minerÃ­a bajo el agua."]
 	quest.77C9EE701F72586D.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"&bPortable Cell S&f funcionan de manera idéntica a las celdas normales en el sentido de que pueden insertarse en un cofre o unidad y llenarse según corresponda."
+		"&bPortable Cell S&f funcionan de manera idÃ©ntica a las celdas normales en el sentido de que pueden insertarse en un cofre o unidad y llenarse segÃºn corresponda."
 		""
-		"Sin embargo, a diferencia de las celdas normales, también se puede acceder a su contenido de forma independiente a través del elemento de la celda, un poco como una mochila digital con sabor a ME."
+		"Sin embargo, a diferencia de las celdas normales, tambiÃ©n se puede acceder a su contenido de forma independiente a travÃ©s del elemento de la celda, un poco como una mochila digital con sabor a ME."
 	]
 	quest.78311531069807DE.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"En Applied Energistics 2, cada red ME tiene una cierta cantidad de &echannels&f disponibles, lo que simplemente significa cuántos dispositivos en red caben en toda la red."
+		"En Applied Energistics 2, cada red ME tiene una cierta cantidad de &echannels&f disponibles, lo que simplemente significa cuÃ¡ntos dispositivos en red caben en toda la red."
 		""
-		"Como regla general, cualquier dispositivo que más o menos maneje datos ME directamente (elementos almacenados dentro de la red) y lleve a cabo algún tipo de E/S ocupará un canal. Por lo general, los componentes que solo están relacionados con el almacenamiento de energía interna de la red, como &eEnergy Cells&f y &eInscribers&f, &onot&r ocupan canales."
+		"Como regla general, cualquier dispositivo que mÃ¡s o menos maneje datos ME directamente (elementos almacenados dentro de la red) y lleve a cabo algÃºn tipo de E/S ocuparÃ¡ un canal. Por lo general, los componentes que solo estÃ¡n relacionados con el almacenamiento de energÃ­a interna de la red, como &eEnergy Cells&f y &eInscribers&f, &onot&r ocupan canales."
 		""
-		"Las redes sin un &bME Controller&f se conocen como redes \"ad-hoc\" y solo admiten un máximo de 8 canales."
+		"Las redes sin un &bME Controller&f se conocen como redes \"ad-hoc\" y solo admiten un mÃ¡ximo de 8 canales."
 	]
 	quest.78311531069807DE.title: "Foreword on Channels"
-	quest.78F344BFDB8B3A69.quest_desc: ["Sequenced assembly. &eObligatorio para la mesa de ingeniero IE&r y varios crafts Oasis."]
-	quest.78F344BFDB8B3A69.title: "Precision Mechanism"
 	quest.79BB8C00EA2B74A6.quest_desc: ["La pelea de dragona es mas exigente que vanilla. Completa el capitulo &cDragona&r cuando esteis listas."]
-	quest.79BB8C00EA2B74A6.title: "Cierre — Dragona"
+	quest.79BB8C00EA2B74A6.title: "Cierre â€” Dragona"
 	quest.7AE502EDB73BD57A.quest_desc: [""]
 	quest.7AE502EDB73BD57A.quest_subtitle: "Aplasta las cosas."
 	quest.7B0DFA55B4D8B16D.quest_desc: [""]
-	quest.7B0DFA55B4D8B16D.quest_subtitle: "Teletransportación en su máxima expresión."
-	quest.7B0DFA55B4D8B16D.title: "¡Portales personalizados!"
+	quest.7B0DFA55B4D8B16D.quest_subtitle: "TeletransportaciÃ³n en su mÃ¡xima expresiÃ³n."
+	quest.7B0DFA55B4D8B16D.title: "Â¡Portales personalizados!"
 	quest.7B7D1F0CB326B28F.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bME IO Port&f permite reorganizar rápidamente el contenido del almacenamiento de una red ME entre diferentes medios de almacenamiento, como celdas ME y contenedores externos conectados a buses de almacenamiento."
+		"El &bME IO Port&f permite reorganizar rÃ¡pidamente el contenido del almacenamiento de una red ME entre diferentes medios de almacenamiento, como celdas ME y contenedores externos conectados a buses de almacenamiento."
 		""
 		"Cuando se inserta una celda en una ranura de entrada a la izquierda, el puerto IO se puede alternar para vaciar la celda en otros almacenamientos ME o llenar la celda (idealmente, dividida) con ciertos elementos repartidos en otros almacenamientos."
 	]
-	quest.7B7D1F0CB326B28F.quest_subtitle: "Desfragmentación"
+	quest.7B7D1F0CB326B28F.quest_subtitle: "DesfragmentaciÃ³n"
 	quest.7BC9DB8AF8981ADA.quest_desc: ["Las &eWaystones&r os permiten viajar entre bases. Coloca una cerca de casa cuando puedas."]
 	quest.7BC9DB8AF8981ADA.title: "Un home lejos de casa"
 	quest.7C81D159DC812840.quest_desc: ["Barriles sofisticados para farms."]
@@ -1087,27 +1042,22 @@
 	quest.7C9E140317EBFF0D.quest_desc: ["Portal de glowstone activado con agua. Explora islas flotantes."]
 	quest.7C9E140317EBFF0D.title: "The Aether"
 	quest.7CC49360D07086B8.quest_desc: [""]
-	quest.7CC49360D07086B8.quest_subtitle: "Energía Inalámbrica, Gases, Fluidos, Todo."
+	quest.7CC49360D07086B8.quest_subtitle: "EnergÃ­a InalÃ¡mbrica, Gases, Fluidos, Todo."
 	quest.7D71BF52853B98B0.quest_desc: ["Almacen en casa con upgrades."]
 	quest.7D71BF52853B98B0.title: "Cofre Sophisticated"
 	quest.7EA6B942D1294ED6.quest_desc: [""]
-	quest.7EA6B942D1294ED6.quest_subtitle: "Un amigo robot más grande."
-	quest.7EC613D792CA188C.quest_desc: ["Cablea tu red Create Additions."]
-	quest.7EC613D792CA188C.title: "Connector electrico"
-	quest.7EEB30A5394FE9E9.quest_desc: [
+	quest.7EA6B942D1294ED6.quest_subtitle: "Un amigo robot mÃ¡s grande."
 		"Bienvenida a Create: fabrica mecanica con rotacion y ingenio."
 		""
-		"Ruta Oasis: andesita → energia → procesamiento → brass/precision → &eelectron tube&r → puente a IE."
+		"Ruta Oasis: andesita â†’ energia â†’ procesamiento â†’ brass/precision â†’ &eelectron tube&r â†’ puente a IE."
 		""
 		"Addons: &bCreate Deco&r y &bCraft & Additions&r al final del capitulo."
 	]
-	quest.7EEB30A5394FE9E9.quest_subtitle: "Tech I"
-	quest.7EEB30A5394FE9E9.title: "Create"
 	quest.7EFBAF3E281D2EBE.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
-		"El &bME Storage Bus&f, cuando esté frente a algún contenedor de almacenamiento externo, permitirá que el contenedor se use como si fuera parte de la red ME, permitiendo que los elementos se extraigan del contenedor o se inserten en él únicamente a través de ME."
+		"El &bME Storage Bus&f, cuando estÃ© frente a algÃºn contenedor de almacenamiento externo, permitirÃ¡ que el contenedor se use como si fuera parte de la red ME, permitiendo que los elementos se extraigan del contenedor o se inserten en Ã©l Ãºnicamente a travÃ©s de ME."
 		""
-		"Los buses de almacenamiento se pueden filtrar y asignar prioridades específicas, de modo que los elementos específicos intenten ir primero al almacenamiento adjunto; sin embargo, no moverá retroactivamente ningún elemento filtrado desde cualquier otro lugar de la red a su almacenamiento adjunto."
+		"Los buses de almacenamiento se pueden filtrar y asignar prioridades especÃ­ficas, de modo que los elementos especÃ­ficos intenten ir primero al almacenamiento adjunto; sin embargo, no moverÃ¡ retroactivamente ningÃºn elemento filtrado desde cualquier otro lugar de la red a su almacenamiento adjunto."
 	]
 	quest.7EFBAF3E281D2EBE.quest_subtitle: "el cofre de repuesto"
 	task.0000000000001048.title: "Engineer's Blocks"
@@ -1119,7 +1069,7 @@
 	task.1076BC82EECB73F5.title: "Quartz Wrench"
 	task.14DEFFB80CC96BC1.title: "Dense Covered Cable"
 	task.17692925B3DF43A4.title: "Any #immersiveengineering:circuits/solder"
-	task.1C34995F1401E004.title: "Salí a explorar"
+	task.1C34995F1401E004.title: "SalÃ­ a explorar"
 	task.21FB2DFFCD24E831.title: "Preparadas"
 	task.23D186249A999B8C.title: "Quartz Cutting Knife"
 	task.2B59FDF021AD781B.title: "OK"
@@ -1130,12 +1080,12 @@
 	task.36E242F421BCF19C.title: "Entendido"
 	task.38E290AC5E011888.title: "Dense Smart Cable"
 	task.3994DD6B4CEF52DA.title: ":check_mark:"
-	task.3B3B58C438FD4397.title: "Fábrica de procesamiento de mineral de nivel 4"
-	task.3E483D602640BB7D.title: "Incrementando nuestra producción de salmuera"
+	task.3B3B58C438FD4397.title: "FÃ¡brica de procesamiento de mineral de nivel 4"
+	task.3E483D602640BB7D.title: "Incrementando nuestra producciÃ³n de salmuera"
 	task.40A7CC56DACC2623.title: "Glass Cable"
 	task.460480E0A2058158.title: "Listo"
 	task.46BC2A42EE936A13.title: "Portal activado"
-	task.46C4C1AD9FA5BEE2.title: "Nuestra configuración hasta ahora"
+	task.46C4C1AD9FA5BEE2.title: "Nuestra configuraciÃ³n hasta ahora"
 	task.4B25D9748990D2CA.title: "Quiero deco"
 	task.4C37525B611184FF.title: "Entendido"
 	task.4CFF8C9831D416DF.title: "Lo tengo claro"
@@ -1155,4 +1105,461 @@
 	task.75924053D6F5B242.title: "Spatial Storage Cell"
 	task.78613D2C42AEBA70.title: "Engineer's Blueprint: Crafting Components"
 	task.7FC3DAA1BD5016A0.title: "Smart Cable"
+		"Bienvenido a Create: rotacion, estres y contraptions."
+		"Guia completa en Oasis: desde andesita hasta trenes, addons y el puente a Immersive Engineering."
+		"&6Oasis:&r Create es obligatorio antes de IE -> AE2 -> Mekanism. JEI muestra las recetas modificadas del pack."
+	]
+		"Click derecho (y sneak) para orientar maquinas, cambiar modos y configurar filtros."
+		"Llevala siempre: sin ella Create se siente roto."
+	]
+		"Equipalas en la cabeza para ver Stress Impact / Capacity sobre ejes y maquinas."
+		"Si una linea se atasca, mira el estres antes de spamear water wheels."
+	]
+		"Mezcla andesita con pepitas de hierro o zinc. Material base del early-game."
+		"Haz stock grande: vas a gastar cientos."
+	]
+		"Conectan fuentes de energia con maquinas. Alinea con la llave."
+		"Cada maquina consume Stress Units (SU); planifica la red."
+	]
+		"Construye un rotor de wool/velas. Mas velas = mas capacidad."
+		"Excelente poder pasivo mid-game antes del vapor."
+	]
+		"Gira sobre un basin. Brass, dough y Create Food pasan por aqui."
+		"Algunas recetas piden Blaze Burner heated/superheated debajo."
+	]
+		"Componente electronico de Create."
+		"&6Oasis:&r Guarda stock: Dynamo, Light Engineering e Inscriber lo piden en gates."
+	]
+		"Se fabrica en cadena de Deployers (sequenced assembly), no en mesa normal."
+		"JEI: gold sheet + cogwheels + iron nuggets (varios loops)."
+		"&6Oasis:&r Puente a IE (mesa ingeniero, heavy eng, coil MV, steel casing...)."
+	]
+		"Matriz de crafters. En Oasis la receta pide la mesa del ingeniero de IE."
+		"&6Oasis:&r Gate: Engineer Crafting Table de IE en lugar de crafting table."
+	]
+		"Mueve stacks entre depos/inventarios con puntos programados."
+		"&6Oasis:&r Gate: IE Iron Component sustituye un andesite alloy de la receta."
+	]
+		"CEI trata la experiencia como liquido Create: grindstone, printer, enchanter."
+		"Requiere Create Dragons Plus (ya en el pack)."
+	]
+		"Tienes Precision Mechanism, Electron Tubes y Mechanical Crafters."
+		"&6Oasis:&r Siguiente: Immersive Engineering. Varias piezas IE pediran Create."
+		"No hace falta 100% Create para avanzar, pero este arco te deja preparado para IE -> AE2 -> Mek."
+	]
+	chapter.3BBA0CC96A0392C9.title: "&b&lCreate"
+	quest.4D3FEAC3F1E2779D.title: "Create"
+	quest.4D3FEAC3F1E2779D.quest_subtitle: "Tech I - la fabrica cozy"
+	quest.4D3FEAC3F1E2779D.quest_desc: [
+		"Bienvenido a Create: rotacion, estres y contraptions."
+		"Guia completa en Oasis: desde andesita hasta trenes, addons y el puente a Immersive Engineering."
+		"&6Oasis:&r Create es obligatorio antes de IE -> AE2 -> Mekanism. JEI muestra las recetas modificadas del pack."
+	]
+	quest.F55A70A68564921D.title: "Llave inglesa"
+	quest.F55A70A68564921D.quest_subtitle: "Configura casi todo"
+	quest.F55A70A68564921D.quest_desc: [
+		"Click derecho (y sneak) para orientar maquinas, cambiar modos y configurar filtros."
+		"Llevala siempre: sin ella Create se siente roto."
+	]
+	quest.BC941BB6633D6F08.title: "Gafas de ingeniero"
+	quest.BC941BB6633D6F08.quest_subtitle: "Ve el estres y RPM"
+	quest.BC941BB6633D6F08.quest_desc: [
+		"Equipalas en la cabeza para ver Stress Impact / Capacity sobre ejes y maquinas."
+		"Si una linea se atasca, mira el estres antes de spamear water wheels."
+	]
+	quest.23EC940E36A5EC25.title: "Aleacion de andesita"
+	quest.23EC940E36A5EC25.quest_subtitle: "La pepita de Create"
+	quest.23EC940E36A5EC25.quest_desc: [
+		"Mezcla andesita con pepitas de hierro o zinc. Material base del early-game."
+		"Haz stock grande: vas a gastar cientos."
+	]
+	quest.AA49E0B992011D90.title: "Ejes"
+	quest.AA49E0B992011D90.quest_subtitle: "Transmiten rotacion"
+	quest.AA49E0B992011D90.quest_desc: [
+		"Conectan fuentes de energia con maquinas. Alinea con la llave."
+		"Cada maquina consume Stress Units (SU); planifica la red."
+	]
+	quest.C6DF6027258A7B5D.title: "Engranajes"
+	quest.C6DF6027258A7B5D.quest_subtitle: "Relacion 1:1 lateral"
+	quest.C6DF6027258A7B5D.quest_desc: ["Mueven la rotacion en L y cambian eje. Combinalos con large cogwheels para ratios."]
+	quest.D17DE7016BFC5C74.title: "Engranaje grande"
+	quest.D17DE7016BFC5C74.quest_subtitle: "Cambia velocidad"
+	quest.D17DE7016BFC5C74.quest_desc: ["Par large+small cambia RPM. Mas velocidad suele ser mas SU."]
+	quest.08F565E4FD380F9B.title: "Andesite Casing"
+	quest.08F565E4FD380F9B.quest_subtitle: "Chasis madera + aleacion"
+	quest.08F565E4FD380F9B.quest_desc: ["Base de funnels, gearboxes y muchas maquinas andesite."]
+	quest.9B702464C2B879ED.title: "Gearbox"
+	quest.9B702464C2B879ED.quest_subtitle: "Gira la rotacion 90 grados"
+	quest.9B702464C2B879ED.quest_desc: ["Encaja ejes en distintas caras. Esencial para layouts compactos."]
+	quest.18D5041FEEB3C177.title: "Clutch"
+	quest.18D5041FEEB3C177.quest_subtitle: "Corte con redstone"
+	quest.18D5041FEEB3C177.quest_desc: ["Con senal redstone desconecta la transmision. Pausa lineas sin romper ejes."]
+	quest.8014FEE85D5A4515.title: "Gearshift"
+	quest.8014FEE85D5A4515.quest_subtitle: "Invierte sentido"
+	quest.8014FEE85D5A4515.quest_desc: ["Invierte la rotacion con redstone. Util en crushers dobles y sync."]
+	quest.6A4D35C3A3E86228.title: "Energia cinetica"
+	quest.6A4D35C3A3E86228.quest_subtitle: "Seccion: fuentes de RPM"
+	quest.6A4D35C3A3E86228.quest_desc: ["Create usa rotacion, no FE en el core. Empieza simple y escala a windmill/steam."]
+	quest.FD9468CE06C5BBD1.title: "Hand Crank"
+	quest.FD9468CE06C5BBD1.quest_subtitle: "Pruebas a mano"
+	quest.FD9468CE06C5BBD1.quest_desc: ["Gira a mano para testear. No es base industrial, pero ensena el flujo."]
+	quest.9AAC9EF2D8A5544E.title: "Water Wheel"
+	quest.9AAC9EF2D8A5544E.quest_subtitle: "Poder early estable"
+	quest.9AAC9EF2D8A5544E.quest_desc: ["Colocala con flujo de agua real. Buen primer motor para millstone/press."]
+	quest.50EF97C44B9CB5D5.title: "Large Water Wheel"
+	quest.50EF97C44B9CB5D5.quest_subtitle: "Mas SU"
+	quest.50EF97C44B9CB5D5.quest_desc: ["Mayor capacidad de estres cuando ya tienes varias maquinas andesite."]
+	quest.3E5CC762F417085C.title: "Windmill Bearing"
+	quest.3E5CC762F417085C.quest_subtitle: "Velas = poder pasivo"
+	quest.3E5CC762F417085C.quest_desc: [
+		"Construye un rotor de wool/velas. Mas velas = mas capacidad."
+		"Excelente poder pasivo mid-game antes del vapor."
+	]
+	quest.6DC76306EE09FB07.title: "Empty Blaze Burner"
+	quest.6DC76306EE09FB07.quest_subtitle: "Base del vapor"
+	quest.6DC76306EE09FB07.quest_desc: ["Se convierte en Blaze Burner capturando un blaze."]
+	quest.61C2AB466D3C4776.title: "Blaze Burner"
+	quest.61C2AB466D3C4776.quest_subtitle: "Calor para vapor y cocina"
+	quest.61C2AB466D3C4776.quest_desc: ["Alimentalo con fuel. Superheated (blaze cake) desbloquea recetas avanzadas del mixer."]
+	quest.2D882DE63B6DD848.title: "Steam Engine"
+	quest.2D882DE63B6DD848.quest_subtitle: "Poder mid/late Create"
+	quest.2D882DE63B6DD848.quest_desc: ["Motor de vapor con Blaze Burner + agua. Gran salto de SU para brass y trenes."]
+	quest.7F13F6098A0A05F7.title: "Flywheel"
+	quest.7F13F6098A0A05F7.quest_subtitle: "Inercia / buffer"
+	quest.7F13F6098A0A05F7.quest_desc: ["Acompana al steam engine y estabiliza la linea."]
+	quest.544BD0259881FBD7.title: "Procesado andesite"
+	quest.544BD0259881FBD7.quest_subtitle: "Moler, prensar, mezclar, triturar"
+	quest.544BD0259881FBD7.quest_desc: ["Estas maquinas definen el early Create: harina, placas, aleaciones y crushed ores."]
+	quest.DE447BEDCA827349.title: "Millstone"
+	quest.DE447BEDCA827349.quest_subtitle: "Muele items"
+	quest.DE447BEDCA827349.quest_desc: ["Muele wheat, ores early y varios materiales. Entrada superior / depot."]
+	quest.A96C69729DA46219.title: "Mechanical Press"
+	quest.A96C69729DA46219.quest_subtitle: "Placas y compactado"
+	quest.A96C69729DA46219.quest_desc: ["Prensa lingotes a sheets y compacta packs. Sobre depot/basin segun receta."]
+	quest.8A3A4484D9700ED6.title: "Basin"
+	quest.8A3A4484D9700ED6.quest_subtitle: "Contenedor de mezclas"
+	quest.8A3A4484D9700ED6.quest_desc: ["Debajo del mixer/press. Automatiza con funnels/spouts."]
+	quest.4811876854A83DAB.title: "Mechanical Mixer"
+	quest.4811876854A83DAB.quest_subtitle: "Aleaciones y alimentos"
+	quest.4811876854A83DAB.quest_desc: [
+		"Gira sobre un basin. Brass, dough y Create Food pasan por aqui."
+		"Algunas recetas piden Blaze Burner heated/superheated debajo."
+	]
+	quest.7AE3B8DEB273D0B7.title: "Encased Fan"
+	quest.7AE3B8DEB273D0B7.quest_subtitle: "Lavado, ahumado, haunting..."
+	quest.7AE3B8DEB273D0B7.quest_desc: ["Sopla a traves de lava/agua/soul fire para procesar items en el aire o cintas."]
+	quest.3C4463E7D6BE2A2B.title: "Nozzle"
+	quest.3C4463E7D6BE2A2B.quest_subtitle: "Difunde el aire del fan"
+	quest.3C4463E7D6BE2A2B.quest_desc: ["Ensancha el area de efecto del fan para lineas en masa."]
+	quest.3BC29A8A7B03A220.title: "Crushing Wheels"
+	quest.3BC29A8A7B03A220.quest_subtitle: "Triturado avanzado"
+	quest.3BC29A8A7B03A220.quest_desc: ["Dos ruedas enfrentadas. Mejor yield de ores que el millstone. Cuidado con el SU."]
+	quest.7E9AA9519E5E4BBC.title: "Mechanical Saw"
+	quest.7E9AA9519E5E4BBC.quest_subtitle: "Tala y cortado"
+	quest.7E9AA9519E5E4BBC.quest_desc: ["Corta troncos/paneles y arma tree farms en contraptions."]
+	quest.BCCCAF428315E492.title: "Mechanical Drill"
+	quest.BCCCAF428315E492.quest_subtitle: "Mineria movil"
+	quest.BCCCAF428315E492.quest_desc: ["Taladra bloques frente a ella. Base de quarry-contraptions."]
+	quest.297FAE687FBF5A39.title: "Mechanical Plough"
+	quest.297FAE687FBF5A39.quest_subtitle: "Labra / clear path"
+	quest.297FAE687FBF5A39.quest_desc: ["En contraptions allana tierra/nieve y prepara campos."]
+	quest.824FF2403218E580.title: "Mechanical Harvester"
+	quest.824FF2403218E580.quest_subtitle: "Cosecha automatica"
+	quest.824FF2403218E580.quest_desc: ["Cosecha cultivos frente a la contraption."]
+	quest.C32F0C43C841C8D4.title: "Logistica de items"
+	quest.C32F0C43C841C8D4.quest_subtitle: "Cintas, funnels, vaults"
+	quest.C32F0C43C841C8D4.quest_desc: ["Mover items sin hoppers vanilla es el alma de Create."]
+	quest.E31B4BB21D0A4DDE.title: "Cintas (Belt)"
+	quest.E31B4BB21D0A4DDE.quest_subtitle: "Click shaft a shaft"
+	quest.E31B4BB21D0A4DDE.quest_desc: ["Usa el Belt Connector entre dos ejes paralelos. Velocidad = RPM."]
+	quest.22025ACCF91D4EDF.title: "Andesite Funnel"
+	quest.22025ACCF91D4EDF.quest_subtitle: "In/out simple"
+	quest.22025ACCF91D4EDF.quest_desc: ["Mete/saca items de inventarios y cintas. Barato y fiable."]
+	quest.E2617B6C55B7694E.title: "Andesite Tunnel"
+	quest.E2617B6C55B7694E.quest_subtitle: "Bifurca cintas"
+	quest.E2617B6C55B7694E.quest_desc: ["Separa / combina flujos en belts. Modos con la llave."]
+	quest.6867AE098B4D1CBF.title: "Chute"
+	quest.6867AE098B4D1CBF.quest_subtitle: "Caida vertical"
+	quest.6867AE098B4D1CBF.quest_desc: ["Mueve items verticalmente. Smart Chute anade filtros luego."]
+	quest.D0062032AE8F0B88.title: "Depot"
+	quest.D0062032AE8F0B88.quest_subtitle: "Estacion de 1 item"
+	quest.D0062032AE8F0B88.quest_desc: ["Sostiene un stack para press/spout/deployer/fan."]
+	quest.39A607781B9FD6C4.title: "Weighted Ejector"
+	quest.39A607781B9FD6C4.quest_subtitle: "Lanza items"
+	quest.39A607781B9FD6C4.quest_desc: ["Catapulta items a depot/cintas lejanas."]
+	quest.5CF848803125AFA9.title: "Item Vault"
+	quest.5CF848803125AFA9.quest_subtitle: "Almacen Create"
+	quest.5CF848803125AFA9.quest_desc: ["Inventario grande multibloque. Buffer mid-game antes de Sophisticated/AE2."]
+	quest.7A614DB0D9138D33.title: "Portable Storage Interface"
+	quest.7A614DB0D9138D33.quest_subtitle: "Contraption <-> inventario"
+	quest.7A614DB0D9138D33.quest_desc: ["Intercambia items con inventarios de contraptions al alinearse."]
+	quest.890B5C5EC68869EA.title: "Fluidos"
+	quest.890B5C5EC68869EA.quest_subtitle: "Tuberias Create"
+	quest.890B5C5EC68869EA.quest_desc: ["Agua, lava, chocolate, honey, XP (CEI)... Create mueve fluids con pipes y bombas."]
+	quest.906B672BB045AB7A.title: "Fluid Pipe"
+	quest.906B672BB045AB7A.quest_subtitle: "Red de liquidos"
+	quest.906B672BB045AB7A.quest_desc: ["Conecta tanques, bombas y maquinas. Llave para window pipes."]
+	quest.D3AA5F6B666C255D.title: "Mechanical Pump"
+	quest.D3AA5F6B666C255D.quest_subtitle: "Empuja fluids con RPM"
+	quest.D3AA5F6B666C255D.quest_desc: ["Sin bomba, los fluids apenas se mueven."]
+	quest.414FA87CDF66DFFA.title: "Fluid Tank"
+	quest.414FA87CDF66DFFA.quest_subtitle: "Almacen de liquidos"
+	quest.414FA87CDF66DFFA.quest_desc: ["Tanques apilables. Mira el nivel con goggles."]
+	quest.6FFE263EE6DAB5AD.title: "Spout"
+	quest.6FFE263EE6DAB5AD.quest_subtitle: "Vierte sobre depot"
+	quest.6FFE263EE6DAB5AD.quest_desc: ["Rellena items/basin desde pipes. Base de filling y Create Food."]
+	quest.DDE7199B12B6DF0C.title: "Item Drain"
+	quest.DDE7199B12B6DF0C.quest_subtitle: "Vacia items a pipes"
+	quest.DDE7199B12B6DF0C.quest_desc: ["Extrae fluid de buckets/botellas al sistema."]
+	quest.677A4A8ACDF40336.title: "Hose Pulley"
+	quest.677A4A8ACDF40336.quest_subtitle: "Lagos infinitos"
+	quest.677A4A8ACDF40336.quest_desc: ["Manguera a un cuerpo de fluido grande para I/O masivo."]
+	quest.F6E5EF128E25A364.title: "Era Brass"
+	quest.F6E5EF128E25A364.quest_subtitle: "Zinc + copper = midgame"
+	quest.F6E5EF128E25A364.quest_desc: ["Brass desbloquea electron tube, precision mechanism, deployer y mechanical crafter."]
+	quest.00010089AF5437CE.title: "Zinc"
+	quest.00010089AF5437CE.quest_subtitle: "El metal Create"
+	quest.00010089AF5437CE.quest_desc: ["Funde raw/crushed zinc. Crushing wheels ayudan al yield."]
+	quest.D50671BD654B58DD.title: "Brass"
+	quest.D50671BD654B58DD.quest_subtitle: "Cobre + zinc en mixer"
+	quest.D50671BD654B58DD.quest_desc: ["Aleacion heated en basin+mixer. Material del midgame Create."]
+	quest.4D9409B97ACA30F2.title: "Copper Casing"
+	quest.4D9409B97ACA30F2.quest_subtitle: "Chasis de fluidos"
+	quest.4D9409B97ACA30F2.quest_desc: ["Usado en componentes de fluidos y steam."]
+	quest.F42478261F6D738C.title: "Brass Casing"
+	quest.F42478261F6D738C.quest_subtitle: "Chasis inteligente"
+	quest.F42478261F6D738C.quest_desc: ["Base de funnels brass, arm, crafter, speed controller..."]
+	quest.94842997848414B9.title: "Rose Quartz"
+	quest.94842997848414B9.quest_subtitle: "Cuazo + redstone"
+	quest.94842997848414B9.quest_desc: ["Combina quartz y redstone. Luego se pule para electron tubes."]
+	quest.9B08E5CCD32D460C.title: "Polished Rose Quartz"
+	quest.9B08E5CCD32D460C.quest_subtitle: "Sandbox + water"
+	quest.9B08E5CCD32D460C.quest_desc: ["Pule rose quartz (sand paper / mechanizado)."]
+	quest.9F44588937D00461.title: "Electron Tube"
+	quest.9F44588937D00461.quest_subtitle: "Circuito Create"
+	quest.9F44588937D00461.quest_desc: [
+		"Componente electronico de Create."
+		"&6Oasis:&r Guarda stock: Dynamo, Light Engineering e Inscriber lo piden en gates."
+	]
+	quest.E621B8122AAF37BD.title: "Deployer"
+	quest.E621B8122AAF37BD.quest_subtitle: "Brazo que usa items"
+	quest.E621B8122AAF37BD.quest_desc: ["Simula clicks con el item que lleva. Base de sequenced assembly."]
+	quest.9D069F458AFDAC0F.title: "Precision Mechanism"
+	quest.9D069F458AFDAC0F.quest_subtitle: "Sequenced Assembly"
+	quest.9D069F458AFDAC0F.quest_desc: [
+		"Se fabrica en cadena de Deployers (sequenced assembly), no en mesa normal."
+		"JEI: gold sheet + cogwheels + iron nuggets (varios loops)."
+		"&6Oasis:&r Puente a IE (mesa ingeniero, heavy eng, coil MV, steel casing...)."
+	]
+	quest.950D07D054A11785.title: "Filter"
+	quest.950D07D054A11785.quest_subtitle: "Lista blanca/negra"
+	quest.950D07D054A11785.quest_desc: ["Configura con click derecho. Ponlo en funnels/deployers/chutes."]
+	quest.4002D1D12733C6B9.title: "Attribute Filter"
+	quest.4002D1D12733C6B9.quest_subtitle: "Filtra por atributos"
+	quest.4002D1D12733C6B9.quest_desc: ["Mas expresivo que el filter basico."]
+	quest.B91EC86724D7D46F.title: "Brass Funnel"
+	quest.B91EC86724D7D46F.quest_subtitle: "Funnels con filtro"
+	quest.B91EC86724D7D46F.quest_desc: ["Como andesite funnel pero con filtro y modos smart."]
+	quest.E5C30169ACEB537A.title: "Brass Tunnel"
+	quest.E5C30169ACEB537A.quest_subtitle: "Tuneles inteligentes"
+	quest.E5C30169ACEB537A.quest_desc: ["Reparto condicional en belts."]
+	quest.3F34F2BBA26DC61E.title: "Smart Chute"
+	quest.3F34F2BBA26DC61E.quest_subtitle: "Chute filtrado"
+	quest.3F34F2BBA26DC61E.quest_desc: ["Caida vertical con filtro. Ideal sobre vaults."]
+	quest.6A1B2A679D661ADE.title: "Rotation Speed Controller"
+	quest.6A1B2A679D661ADE.quest_subtitle: "Fija RPM exactas"
+	quest.6A1B2A679D661ADE.quest_desc: ["Necesita precision mechanism. Control fino para crushing y brass."]
+	quest.255993FD3A504483.title: "Sequenced Gearshift"
+	quest.255993FD3A504483.quest_subtitle: "Pasos con redstone"
+	quest.255993FD3A504483.quest_desc: ["Cambia ratios por pulsos. Ideal en timed contraptions."]
+	quest.F2091B90DEDC127F.title: "Mechanical Crafter"
+	quest.F2091B90DEDC127F.quest_subtitle: "Auto-crafting 3x3"
+	quest.F2091B90DEDC127F.quest_desc: [
+		"Matriz de crafters. En Oasis la receta pide la mesa del ingeniero de IE."
+		"&6Oasis:&r Gate: Engineer Crafting Table de IE en lugar de crafting table."
+	]
+	quest.A0347A8175260018.title: "Mechanical Arm"
+	quest.A0347A8175260018.quest_subtitle: "Logistica precisa"
+	quest.A0347A8175260018.quest_desc: [
+		"Mueve stacks entre depos/inventarios con puntos programados."
+		"&6Oasis:&r Gate: IE Iron Component sustituye un andesite alloy de la receta."
+	]
+	quest.77925ABDF0FF54BA.title: "Redstone y displays"
+	quest.77925ABDF0FF54BA.quest_subtitle: "Control y Nixie"
+	quest.77925ABDF0FF54BA.quest_desc: ["Create anade redstone utility y paneles de informacion."]
+	quest.96412503ED856AB0.title: "Nixie Tube"
+	quest.96412503ED856AB0.quest_subtitle: "Display numerico"
+	quest.96412503ED856AB0.quest_desc: ["Muestra senales/datos en paneles de fabrica."]
+	quest.C87D7E9F16AF0B3F.title: "Display Board"
+	quest.C87D7E9F16AF0B3F.quest_subtitle: "Texto en mundo"
+	quest.C87D7E9F16AF0B3F.quest_desc: ["Carteles electronicos. Conecta con Display Link."]
+	quest.8597BA1A5885BD66.title: "Display Link"
+	quest.8597BA1A5885BD66.quest_subtitle: "Fuente -> display"
+	quest.8597BA1A5885BD66.quest_desc: ["Lee inventarios, stressometers, estaciones de tren, etc."]
+	quest.7B95A59289D35A58.title: "Redstone Link"
+	quest.7B95A59289D35A58.quest_subtitle: "Redstone inalambrica"
+	quest.7B95A59289D35A58.quest_desc: ["Frecuencia por item. Emisor/receptor a distancia."]
+	quest.7AB882997F2D8B54.title: "Pulse Repeater"
+	quest.7AB882997F2D8B54.quest_subtitle: "Temporizado"
+	quest.7AB882997F2D8B54.quest_desc: ["Extiende logica de pulsos para secuencias."]
+	quest.468A46480353CCDC.title: "Contraptions y trenes"
+	quest.468A46480353CCDC.quest_subtitle: "Mundo que se mueve"
+	quest.468A46480353CCDC.quest_desc: ["Bearings, gantries y trenes: Create deja de ser solo fabrica estatica."]
+	quest.6ACBF0FFDE10136A.title: "Super Glue"
+	quest.6ACBF0FFDE10136A.quest_subtitle: "Pega bloques a contraptions"
+	quest.6ACBF0FFDE10136A.quest_desc: ["Une bloques al bearing/cart assembler."]
+	quest.661B833C875358FB.title: "Mechanical Bearing"
+	quest.661B833C875358FB.quest_subtitle: "Rota estructuras"
+	quest.661B833C875358FB.quest_desc: ["Gira todo lo pegado. Farms, saws, drills rotatorios..."]
+	quest.D6E9DE708FACAB9A.title: "Gantry Carriage"
+	quest.D6E9DE708FACAB9A.quest_subtitle: "Movimiento lineal"
+	quest.D6E9DE708FACAB9A.quest_desc: ["Desliza contraptions a lo largo de gantry shafts."]
+	quest.E99418CC72C41593.title: "Cart Assembler"
+	quest.E99418CC72C41593.quest_subtitle: "Contraption en minecart"
+	quest.E99418CC72C41593.quest_desc: ["Monta una estructura sobre un cart. Clasico early mobile farm."]
+	quest.C427236D5FA01AED.title: "Railway Casing"
+	quest.C427236D5FA01AED.quest_subtitle: "Chasis de trenes"
+	quest.C427236D5FA01AED.quest_desc: ["Material de estaciones y bloques de tren Create."]
+	quest.BCC1790DE7A5622D.title: "Train Track"
+	quest.BCC1790DE7A5622D.quest_subtitle: "Vias Create"
+	quest.BCC1790DE7A5622D.quest_desc: ["Coloca vias con el placer. Curvas y pendientes con herramientas de track."]
+	quest.8D42ACC2543E8B63.title: "Train Station"
+	quest.8D42ACC2543E8B63.quest_subtitle: "Paradas y ensamblaje"
+	quest.8D42ACC2543E8B63.quest_desc: ["Ensambla/disassemble trenes y define horarios con Schedule."]
+	quest.A3E56E499A91C3F5.title: "Track Signal"
+	quest.A3E56E499A91C3F5.quest_subtitle: "Semaforos"
+	quest.A3E56E499A91C3F5.quest_desc: ["Controla bloques de via para evitar choques."]
+	quest.B4EA0768447DA594.title: "Schedule"
+	quest.B4EA0768447DA594.quest_subtitle: "Programa rutas"
+	quest.B4EA0768447DA594.quest_desc: ["Horarios: estaciones, wait/redstone/cargo conditions."]
+	quest.5CB675F525126CD5.title: "Herramientas de ingeniero"
+	quest.5CB675F525126CD5.quest_subtitle: "Schematics y arena"
+	quest.5CB675F525126CD5.quest_desc: ["Calidad de vida para construir fabricas enormes."]
+	quest.D8FED21259CFF51E.title: "Sand Paper"
+	quest.D8FED21259CFF51E.quest_subtitle: "Pule y limpia"
+	quest.D8FED21259CFF51E.quest_desc: ["Pule rose quartz y otros. Diamond grit en Create Addition."]
+	quest.2DB589263CD034E7.title: "Clipboard"
+	quest.2DB589263CD034E7.quest_subtitle: "Notas / listas"
+	quest.2DB589263CD034E7.quest_desc: ["Listas de materiales y apuntes in-game. Muy util en multi."]
+	quest.1AB11650C9AC3306.title: "Schematic Table"
+	quest.1AB11650C9AC3306.quest_subtitle: "Carga esquemas"
+	quest.1AB11650C9AC3306.quest_desc: ["Prepara schematics para la Schematicannon."]
+	quest.364988AEFC48C056.title: "Schematicannon"
+	quest.364988AEFC48C056.quest_subtitle: "Construye desde schematic"
+	quest.364988AEFC48C056.quest_desc: ["Dispara bloques segun plano. Consume gunpowder/materiales."]
+	quest.DCEBDF52AB7892CE.title: "Potato Cannon"
+	quest.DCEBDF52AB7892CE.quest_subtitle: "Combate silly"
+	quest.DCEBDF52AB7892CE.quest_desc: ["Arma con municion de comida. Create divertido, no meta PvP."]
+	quest.511A696CFDA83C52.title: "Extendo Grip"
+	quest.511A696CFDA83C52.quest_subtitle: "Alcance extra"
+	quest.511A696CFDA83C52.quest_desc: ["Mas reach para construir. Craft brass-tier."]
+	quest.22D59D1AD21B9E6D.title: "Create Deco"
+	quest.22D59D1AD21B9E6D.quest_subtitle: "Fabrica bonita"
+	quest.22D59D1AD21B9E6D.quest_desc: ["Sheet metal, catwalks, lamps y ladrillos industriales."]
+	quest.25EA2C04D0EA10BD.title: "Andesite Sheet Metal"
+	quest.25EA2C04D0EA10BD.quest_subtitle: "Paredes de fabrica"
+	quest.25EA2C04D0EA10BD.quest_desc: ["Bloque deco barato para cerrar naves industriales."]
+	quest.9A3DBD7055C27849.title: "Lamparas Deco"
+	quest.9A3DBD7055C27849.quest_subtitle: "Iluminacion tematica"
+	quest.9A3DBD7055C27849.quest_desc: ["Lamps andesite/brass/zinc. Aqui el amarillo andesite."]
+	quest.94168C6A7302C1CF.title: "Catwalks"
+	quest.94168C6A7302C1CF.quest_subtitle: "Pasarelas"
+	quest.94168C6A7302C1CF.quest_desc: ["Pasarelas y railings para segundo piso de fabrica."]
+	quest.1EAE194A0A11528C.title: "Dean Bricks"
+	quest.1EAE194A0A11528C.quest_subtitle: "Ladrillo industrial"
+	quest.1EAE194A0A11528C.quest_desc: ["Paleta Deco (dean/dusk/scarlet...). Combina con Macaw luego."]
+	quest.71D671133421B26F.title: "Create Crafts and Additions"
+	quest.71D671133421B26F.quest_subtitle: "Electricidad Create"
+	quest.71D671133421B26F.quest_desc: ["CCA: rolling mill, wires, alternator/motor y tesla coil."]
+	quest.7297F04DC803F789.title: "Rolling Mill"
+	quest.7297F04DC803F789.quest_subtitle: "Varillas y wires"
+	quest.7297F04DC803F789.quest_desc: ["Procesa lingotes a rods/wires. Pieza central de CCA."]
+	quest.297AA8EA31834D28.title: "Alternator"
+	quest.297AA8EA31834D28.quest_subtitle: "RPM -> FE"
+	quest.297AA8EA31834D28.quest_desc: ["Convierte rotacion Create en Forge Energy."]
+	quest.E9EB9EA17238790E.title: "Electric Motor"
+	quest.E9EB9EA17238790E.quest_subtitle: "FE -> RPM"
+	quest.E9EB9EA17238790E.quest_desc: ["Alimenta lineas Create con FE si ya tienes generacion."]
+	quest.D29DF6AE6DE145E0.title: "Connector"
+	quest.D29DF6AE6DE145E0.quest_subtitle: "Cableado CCA"
+	quest.D29DF6AE6DE145E0.quest_desc: ["Conecta spools/wires entre maquinas electricas CCA."]
+	quest.FC1490DF910E5C83.title: "Capacitor"
+	quest.FC1490DF910E5C83.quest_subtitle: "Buffer FE"
+	quest.FC1490DF910E5C83.quest_desc: ["Almacena FE para picos del alternator/motor."]
+	quest.AD9BA29947221042.title: "Tesla Coil"
+	quest.AD9BA29947221042.quest_subtitle: "Carga / efecto electrico"
+	quest.AD9BA29947221042.quest_desc: ["Utilidad CCA avanzada. Lee JEI/tooltip."]
+	quest.FD5CE9C66D290F8E.title: "Create Connected"
+	quest.FD5CE9C66D290F8E.quest_subtitle: "Kinetic extras"
+	quest.FD5CE9C66D290F8E.quest_desc: ["Engranajes paralelos, brakes, inventory ports y mas."]
+	quest.5887ACC31FB96AEB.title: "Brake"
+	quest.5887ACC31FB96AEB.quest_subtitle: "Freno cinetico"
+	quest.5887ACC31FB96AEB.quest_desc: ["Detiene rotacion bajo condicion."]
+	quest.41A4D006651A32C3.title: "Parallel Gearbox"
+	quest.41A4D006651A32C3.quest_subtitle: "Layouts densos"
+	quest.41A4D006651A32C3.quest_desc: ["Gearbox compacto para parallel shafts."]
+	quest.93299C557B347259.title: "Inventory Access Port"
+	quest.93299C557B347259.quest_subtitle: "I/O de inventarios"
+	quest.93299C557B347259.quest_desc: ["Acceso lateral a inventarios/vaults en redes Connected."]
+	quest.F54A68589F36F4FE.title: "Fluid Vessel"
+	quest.F54A68589F36F4FE.quest_subtitle: "Tanque Connected"
+	quest.F54A68589F36F4FE.quest_desc: ["Almacen de fluidos del addon. Integra con pipes Create."]
+	quest.164BB5B5918B6D8D.title: "Copycats+"
+	quest.164BB5B5918B6D8D.quest_subtitle: "Deco tecnica"
+	quest.164BB5B5918B6D8D.quest_desc: ["Copycats imitan texturas ajenas en formas de slab/stair/wall/beam..."]
+	quest.7B06F31945147B4A.title: "Copycat Block"
+	quest.7B06F31945147B4A.quest_subtitle: "Camuflaje total"
+	quest.7B06F31945147B4A.quest_desc: ["Aplica textura de otro bloque. Esconde fabricas feas."]
+	quest.8FBDA48D5D5A7CA6.title: "Copycat Slab"
+	quest.8FBDA48D5D5A7CA6.quest_subtitle: "Detalle fino"
+	quest.8FBDA48D5D5A7CA6.quest_desc: ["Losas copycat para interiores industriales."]
+	quest.3A39EBA4C3C24D36.title: "Copycat Stairs"
+	quest.3A39EBA4C3C24D36.quest_subtitle: "Escaleras camufladas"
+	quest.3A39EBA4C3C24D36.quest_desc: ["Escaleras con apariencia copiada."]
+	quest.F3E40CFFE7D38912.title: "Enchantment Industry"
+	quest.F3E40CFFE7D38912.quest_subtitle: "XP como fluido"
+	quest.F3E40CFFE7D38912.quest_desc: [
+		"CEI trata la experiencia como liquido Create: grindstone, printer, enchanter."
+		"Requiere Create Dragons Plus (ya en el pack)."
+	]
+	quest.23FB89A4EBD735F0.title: "Experience Hatch"
+	quest.23FB89A4EBD735F0.quest_subtitle: "XP in/out"
+	quest.23FB89A4EBD735F0.quest_desc: ["Interfaz de experiencia hacia el sistema de fluids CEI."]
+	quest.BE3983C5DBCD775B.title: "Mechanical Grindstone"
+	quest.BE3983C5DBCD775B.quest_subtitle: "Desencanta / XP"
+	quest.BE3983C5DBCD775B.quest_desc: ["Procesa enchants y genera XP fluido."]
+	quest.3A0089AD17D25A7D.title: "Printer"
+	quest.3A0089AD17D25A7D.quest_subtitle: "Copia patrones"
+	quest.3A0089AD17D25A7D.quest_desc: ["Imprime/copia documentos de encantamiento del addon. JEI tiene el detalle."]
+	quest.EE793BA0E0FAF175.title: "Blaze Enchanter"
+	quest.EE793BA0E0FAF175.quest_subtitle: "Encanta con XP fluido"
+	quest.EE793BA0E0FAF175.quest_desc: ["Mesa de encantamiento Create alimentada por experiencia liquida."]
+	quest.D6093339F6D602EB.title: "Infuser"
+	quest.D6093339F6D602EB.quest_subtitle: "Infusion CEI"
+	quest.D6093339F6D602EB.quest_desc: ["Maquina late del addon. Sigue templates/essences en JEI."]
+	quest.A8F0E43EDF4FBEB1.title: "Cocina mecanizada"
+	quest.A8F0E43EDF4FBEB1.quest_subtitle: "Slice and Dice + Create Food"
+	quest.A8F0E43EDF4FBEB1.quest_desc: ["Puente Create <-> comida. El arco BBQ completo sigue en el capitulo Cocina."]
+	quest.3E5118BE6C4E7524.title: "Slicer"
+	quest.3E5118BE6C4E7524.quest_subtitle: "Corta comida FD"
+	quest.3E5118BE6C4E7524.quest_desc: ["Procesa alimentos Farmer Delight con rotacion Create."]
+	quest.56158B0D54679DA5.title: "Sprinkler"
+	quest.56158B0D54679DA5.quest_subtitle: "Riego"
+	quest.56158B0D54679DA5.quest_desc: ["Riegua cultivos con fluidos. Automatiza granjas cozy."]
+	quest.0DF1E5F5FFD298FD.title: "Butter"
+	quest.0DF1E5F5FFD298FD.quest_subtitle: "Base Create Food"
+	quest.0DF1E5F5FFD298FD.quest_desc: ["Ingrediente clave de Create Food en linea mechanizada."]
+	quest.4F595745A1FDFD4D.title: "Cheese Slice"
+	quest.4F595745A1FDFD4D.quest_subtitle: "Lacteos Create Food"
+	quest.4F595745A1FDFD4D.quest_desc: ["Staple del addon. JEI tiene cientos de recetas; no hace falta craftarlas todas."]
+	quest.69BA42C892E4C22C.title: "Toast"
+	quest.69BA42C892E4C22C.quest_subtitle: "Desayuno industrial"
+	quest.69BA42C892E4C22C.quest_desc: ["Hito cozy de Create Food. Vuelve a Cocina BBQ para el arco completo."]
+	quest.456A1FA407AF8D07.title: "Listo para Immersive"
+	quest.456A1FA407AF8D07.quest_subtitle: "Tech I completa"
+	quest.456A1FA407AF8D07.quest_desc: [
+		"Tienes Precision Mechanism, Electron Tubes y Mechanical Crafters."
+		"&6Oasis:&r Siguiente: Immersive Engineering. Varias piezas IE pediran Create."
+		"No hace falta 100% Create para avanzar, pero este arco te deja preparado para IE -> AE2 -> Mek."
+	]
 }
