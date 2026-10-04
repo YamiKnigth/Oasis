@@ -2902,132 +2902,6 @@
 	quest.203E7CAF4604EB3D.quest_subtitle: "Brillo crudo"
 	quest.0000000000000F99.quest_subtitle: "Tech II - tras Create"
 	quest.162CE44400A63575.quest_subtitle: "Tech IV - late game"
-	quest.D36C53FCE2A6BD5C.title: "Construccion Cozy"
-	quest.D36C53FCE2A6BD5C.quest_subtitle: "Casas bonitas, sin prisa"
-	quest.D36C53FCE2A6BD5C.quest_desc: [
-		"Macaw, Chipped, Copycats, Handcrafted y amigos: construye bases con estilo Oasis."
-		"&6Oasis:&r No gatea la tech. Usa Corail Woodcutter para no gastar troncos como loco."
-	]
-	quest.10C4E2378E56ADB3.title: "Oak Woodcutter"
-	quest.10C4E2378E56ADB3.quest_subtitle: "Sierra de madera"
-	quest.10C4E2378E56ADB3.quest_desc: ["Corta troncos a planks/stairs/slabs con mejor yield. Haz uno por madera favorita."]
-	quest.97F5DBE6EA34802C.title: "Rechiseled Beams"
-	quest.97F5DBE6EA34802C.quest_subtitle: "Detalle de planks"
-	quest.97F5DBE6EA34802C.quest_desc: ["Cincela bloques con Rechiseled. Conecta patrones para fachadas limpias."]
-	quest.7A588B1C29E98C02.title: "Chipped Crate"
-	quest.7A588B1C29E98C02.quest_subtitle: "Variantes Chipped"
-	quest.7A588B1C29E98C02.quest_desc: ["Chipped multiplica variantes de bloques vanilla. El crate es un buen primer taste."]
-	quest.B045E4489BC50D55.title: "Copycat Block"
-	quest.B045E4489BC50D55.quest_subtitle: "Camuflaje Create"
-	quest.B045E4489BC50D55.quest_desc: ["Copia la textura de otro bloque. Esconde tuberias y cables con elegancia."]
-	quest.F73BC838E5065695.title: "Copycat Stairs"
-	quest.F73BC838E5065695.quest_subtitle: "Escaleras camufladas"
-	quest.F73BC838E5065695.quest_desc: ["Stairs copycat para techos y detalles sin romper el tema."]
-	quest.6CBCF6D898C227C2.title: "Copycat Slab"
-	quest.6CBCF6D898C227C2.quest_subtitle: "Losas camufladas"
-	quest.6CBCF6D898C227C2.quest_desc: ["Slabs copycat para capas finas."]
-	quest.5A23DD01400128E8.title: "Macaw's"
-	quest.5A23DD01400128E8.quest_subtitle: "Puentes, techos, puertas..."
-	quest.5A23DD01400128E8.quest_desc: ["La suite Macaw cubre casi todo el exterior. Elige oak primero; Every Compat cubre otras maderas."]
-	quest.E25BA0910207817E.title: "Oak Bridge"
-	quest.E25BA0910207817E.quest_subtitle: "Cruza el rio"
-	quest.E25BA0910207817E.quest_desc: ["Puentes Macaw. Combina middle + pier + stairs."]
-	quest.F70E7A2AF4803560.title: "Oak Roof"
-	quest.F70E7A2AF4803560.quest_subtitle: "Tejado de verdad"
-	quest.F70E7A2AF4803560.quest_desc: ["Techos inclinados Macaw. Hay steep/attic/lower para perfiles complejos."]
-	quest.3C3531F4A364D032.title: "Oak Barn Door"
-	quest.3C3531F4A364D032.quest_subtitle: "Puerta con estilo"
-	quest.3C3531F4A364D032.quest_desc: ["Puertas tematicas. Barn doors quedan genial en granjas cozy."]
-	quest.EC041E9E8C2E44E6.title: "Oak Window"
-	quest.EC041E9E8C2E44E6.quest_subtitle: "Ventanas"
-	quest.EC041E9E8C2E44E6.quest_desc: ["Ventanas y persianas Macaw. Luz transparente sin vanilla panes aburridos."]
-	quest.7206C06C18501089.title: "Oak Picket Fence"
-	quest.7206C06C18501089.quest_subtitle: "Cercado"
-	quest.7206C06C18501089.quest_desc: ["Vallas decorativas. Delimita huertos y caminos."]
-	quest.BAC8D3774806C0F5.title: "Oak Planks Path"
-	quest.BAC8D3774806C0F5.quest_subtitle: "Senderos"
-	quest.BAC8D3774806C0F5.quest_desc: ["Paths para no pisar farmland. Combina con stone pavings."]
-	quest.9375095442116B89.title: "Bell Lantern"
-	quest.9375095442116B89.quest_subtitle: "Luz cozy"
-	quest.9375095442116B89.quest_desc: ["Faroles Macaw. Ilumina sin antorchas feas en la fachada."]
-	quest.C0E51C0631279E66.title: "Macaw Chair"
-	quest.C0E51C0631279E66.quest_subtitle: "Mueble exterior/interior"
-	quest.C0E51C0631279E66.quest_desc: ["Sillas y counters Macaw Furniture."]
-	quest.7C35DB8F60FCD998.title: "Coffee Table"
-	quest.7C35DB8F60FCD998.quest_subtitle: "Mesita"
-	quest.7C35DB8F60FCD998.quest_desc: ["Mesa baja para salas cozy."]
-	quest.3536C3012EC93366.title: "Oak Counter"
-	quest.3536C3012EC93366.quest_subtitle: "Encimera"
-	quest.3536C3012EC93366.quest_desc: ["Counters para cocina (junto al capitulo Cocina)."]
-	quest.59343A30E23F88C2.title: "Mobiliario"
-	quest.59343A30E23F88C2.quest_subtitle: "Handcrafted / Another / Beautify"
-	quest.59343A30E23F88C2.quest_desc: ["Interiores: sillas, sofás, estantes y persianas."]
-	quest.774CFDD4A6457057.title: "Handcrafted Chair"
-	quest.774CFDD4A6457057.quest_subtitle: "Silla HC"
-	quest.774CFDD4A6457057.quest_desc: ["Handcrafted aporta muebles warm. Buen set starter."]
-	quest.B60FC48AB979939D.title: "Handcrafted Couch"
-	quest.B60FC48AB979939D.quest_subtitle: "Sofa"
-	quest.B60FC48AB979939D.quest_desc: ["Sofa para la sala de estar Oasis."]
-	quest.F55EF8253A643B31.title: "Handcrafted Desk"
-	quest.F55EF8253A643B31.quest_subtitle: "Escritorio"
-	quest.F55EF8253A643B31.quest_desc: ["Desk para tu cuarto de mapas / quest book."]
-	quest.574571C550B6FDEC.title: "Handcrafted Cupboard"
-	quest.574571C550B6FDEC.quest_subtitle: "Alacena"
-	quest.574571C550B6FDEC.quest_desc: ["Almacenaje decorativo. No sustituye Sophisticated Storage."]
-	quest.45089AF40CFF84C2.title: "Another Furniture Chair"
-	quest.45089AF40CFF84C2.quest_subtitle: "Silla AF"
-	quest.45089AF40CFF84C2.quest_desc: ["Another Furniture: linea limpia alternativa a Handcrafted."]
-	quest.4569086AD48806BB.title: "Oak Shelf"
-	quest.4569086AD48806BB.quest_subtitle: "Estanteria"
-	quest.4569086AD48806BB.quest_desc: ["Estantes para decorar con items."]
-	quest.EEEF9F05C977B57E.title: "Oak Drawer"
-	quest.EEEF9F05C977B57E.quest_subtitle: "Cajonera"
-	quest.EEEF9F05C977B57E.quest_desc: ["Drawer AF. Bonito y funcional early."]
-	quest.3F5B92E4E9DB4D00.title: "Beautify Blinds"
-	quest.3F5B92E4E9DB4D00.quest_subtitle: "Persianas"
-	quest.3F5B92E4E9DB4D00.quest_desc: ["Persianas Beautify. Control de luz con estilo."]
-	quest.3F4085C1E33542A0.title: "Oak Trellis"
-	quest.3F4085C1E33542A0.quest_subtitle: "Enredaderas"
-	quest.3F4085C1E33542A0.quest_desc: ["Trellis para jardin vertical."]
-	quest.98D2C1A3E9CA050D.title: "Picture Frame"
-	quest.98D2C1A3E9CA050D.quest_subtitle: "Cuadros"
-	quest.98D2C1A3E9CA050D.quest_desc: ["Marcos Beautify para personalizar paredes."]
-	quest.DC47E3ED6E5FE6A3.title: "Bookstack"
-	quest.DC47E3ED6E5FE6A3.quest_subtitle: "Libros decorativos"
-	quest.DC47E3ED6E5FE6A3.quest_desc: ["Stacks de libros. Biblioteca cozy garantizada."]
-	quest.2515A70A3915C8FF.title: "Descanso"
-	quest.2515A70A3915C8FF.quest_subtitle: "Hammocks y sleeping bags"
-	quest.2515A70A3915C8FF.quest_desc: ["Comforts: duerme sin cama vanilla si quieres. Hammocks = vibe campamento."]
-	quest.8492AFD4CE569C48.title: "Sleeping Bag"
-	quest.8492AFD4CE569C48.quest_subtitle: "Siesta portable"
-	quest.8492AFD4CE569C48.quest_desc: ["Bolsa de dormir. Ideal exploracion (no pone spawn si el pack lo configura asi: mira tooltip)."]
-	quest.8FCC704A36CC20C7.title: "Hammock"
-	quest.8FCC704A36CC20C7.quest_subtitle: "Hamaca"
-	quest.8FCC704A36CC20C7.quest_desc: ["Hamaca entre dos puntos. Pure cozy."]
-	quest.C5F357D816135F8C.title: "Supplementaries"
-	quest.C5F357D816135F8C.quest_subtitle: "Detalles utiles"
-	quest.C5F357D816135F8C.quest_desc: ["Supplementaries mezcla decor y utilidad: jars, faucets, signs..."]
-	quest.CAE6AF5C85AC69FE.title: "Jar"
-	quest.CAE6AF5C85AC69FE.quest_subtitle: "Tarro"
-	quest.CAE6AF5C85AC69FE.quest_desc: ["Guarda items/mobs pequenos / cookies. Decor + utilidad."]
-	quest.D316D2E281FCD8C7.title: "Faucet"
-	quest.D316D2E281FCD8C7.quest_subtitle: "Grifo"
-	quest.D316D2E281FCD8C7.quest_desc: ["Extrae fluids de cauldrons/jars. Synergy cocina/tech early."]
-	quest.315CB4B8158320AA.title: "Urn"
-	quest.315CB4B8158320AA.quest_subtitle: "Urna"
-	quest.315CB4B8158320AA.quest_desc: ["Decoracion archeology-ish. Rellena con loot si quieres Easter eggs."]
-	quest.C2179D37B03CB11F.title: "Every Compat"
-	quest.C2179D37B03CB11F.quest_subtitle: "Maderas del pack"
-	quest.C2179D37B03CB11F.quest_desc: [
-		"Every Compat genera variantes Macaw/Furniture para maderas de addons (BWG, etc.)."
-		"No hay quest item unico: marca esto cuando hayas usado una variante compat en tu casa."
-	]
-	quest.A5F1DEC8049E2351.title: "Arquitecto Oasis"
-	quest.A5F1DEC8049E2351.quest_subtitle: "Base con alma"
-	quest.A5F1DEC8049E2351.quest_desc: [
-		"Tienes techos, puertas, muebles, copycats y un sitio donde dormir con estilo."
-		"Siguiente: llena la casa en Almacenamiento y ponle comida del capitulo Cocina."
-	]
 	quest.C7F4BEBC7BE62AAE.title: "Almacenamiento"
 	quest.C7F4BEBC7BE62AAE.quest_subtitle: "Mochilas y cofres smart"
 	quest.C7F4BEBC7BE62AAE.quest_desc: [
@@ -5153,133 +5027,6 @@
 		"Usa la mineshaft como ingreso de ores y los calling books como helpers de base."
 		"&6Oasis:&r Occultism es paralelo: vuelve a Ars/Iron's/Malum o a Create cuando quieras."
 	]
-	chapter.88851410E2E37DFF.title: "&e&lConstruccion Cozy"
-	quest.D36C53FCE2A6BD5C.title: "Construccion Cozy"
-	quest.D36C53FCE2A6BD5C.quest_subtitle: "Casas bonitas, sin prisa"
-	quest.D36C53FCE2A6BD5C.quest_desc: [
-		"Macaw, Chipped, Copycats, Handcrafted y amigos: construye bases con estilo Oasis."
-		"&6Oasis:&r No gatea la tech. Usa Corail Woodcutter para no gastar troncos como loco."
-	]
-	quest.10C4E2378E56ADB3.title: "Oak Woodcutter"
-	quest.10C4E2378E56ADB3.quest_subtitle: "Sierra de madera"
-	quest.10C4E2378E56ADB3.quest_desc: ["Corta troncos a planks/stairs/slabs con mejor yield. Haz uno por madera favorita."]
-	quest.97F5DBE6EA34802C.title: "Rechiseled Beams"
-	quest.97F5DBE6EA34802C.quest_subtitle: "Detalle de planks"
-	quest.97F5DBE6EA34802C.quest_desc: ["Cincela bloques con Rechiseled. Conecta patrones para fachadas limpias."]
-	quest.7A588B1C29E98C02.title: "Chipped Crate"
-	quest.7A588B1C29E98C02.quest_subtitle: "Variantes Chipped"
-	quest.7A588B1C29E98C02.quest_desc: ["Chipped multiplica variantes de bloques vanilla. El crate es un buen primer taste."]
-	quest.B045E4489BC50D55.title: "Copycat Block"
-	quest.B045E4489BC50D55.quest_subtitle: "Camuflaje Create"
-	quest.B045E4489BC50D55.quest_desc: ["Copia la textura de otro bloque. Esconde tuberias y cables con elegancia."]
-	quest.F73BC838E5065695.title: "Copycat Stairs"
-	quest.F73BC838E5065695.quest_subtitle: "Escaleras camufladas"
-	quest.F73BC838E5065695.quest_desc: ["Stairs copycat para techos y detalles sin romper el tema."]
-	quest.6CBCF6D898C227C2.title: "Copycat Slab"
-	quest.6CBCF6D898C227C2.quest_subtitle: "Losas camufladas"
-	quest.6CBCF6D898C227C2.quest_desc: ["Slabs copycat para capas finas."]
-	quest.5A23DD01400128E8.title: "Macaw's"
-	quest.5A23DD01400128E8.quest_subtitle: "Puentes, techos, puertas..."
-	quest.5A23DD01400128E8.quest_desc: ["La suite Macaw cubre casi todo el exterior. Elige oak primero; Every Compat cubre otras maderas."]
-	quest.E25BA0910207817E.title: "Oak Bridge"
-	quest.E25BA0910207817E.quest_subtitle: "Cruza el rio"
-	quest.E25BA0910207817E.quest_desc: ["Puentes Macaw. Combina middle + pier + stairs."]
-	quest.F70E7A2AF4803560.title: "Oak Roof"
-	quest.F70E7A2AF4803560.quest_subtitle: "Tejado de verdad"
-	quest.F70E7A2AF4803560.quest_desc: ["Techos inclinados Macaw. Hay steep/attic/lower para perfiles complejos."]
-	quest.3C3531F4A364D032.title: "Oak Barn Door"
-	quest.3C3531F4A364D032.quest_subtitle: "Puerta con estilo"
-	quest.3C3531F4A364D032.quest_desc: ["Puertas tematicas. Barn doors quedan genial en granjas cozy."]
-	quest.EC041E9E8C2E44E6.title: "Oak Window"
-	quest.EC041E9E8C2E44E6.quest_subtitle: "Ventanas"
-	quest.EC041E9E8C2E44E6.quest_desc: ["Ventanas y persianas Macaw. Luz transparente sin vanilla panes aburridos."]
-	quest.7206C06C18501089.title: "Oak Picket Fence"
-	quest.7206C06C18501089.quest_subtitle: "Cercado"
-	quest.7206C06C18501089.quest_desc: ["Vallas decorativas. Delimita huertos y caminos."]
-	quest.BAC8D3774806C0F5.title: "Oak Planks Path"
-	quest.BAC8D3774806C0F5.quest_subtitle: "Senderos"
-	quest.BAC8D3774806C0F5.quest_desc: ["Paths para no pisar farmland. Combina con stone pavings."]
-	quest.9375095442116B89.title: "Bell Lantern"
-	quest.9375095442116B89.quest_subtitle: "Luz cozy"
-	quest.9375095442116B89.quest_desc: ["Faroles Macaw. Ilumina sin antorchas feas en la fachada."]
-	quest.C0E51C0631279E66.title: "Macaw Chair"
-	quest.C0E51C0631279E66.quest_subtitle: "Mueble exterior/interior"
-	quest.C0E51C0631279E66.quest_desc: ["Sillas y counters Macaw Furniture."]
-	quest.7C35DB8F60FCD998.title: "Coffee Table"
-	quest.7C35DB8F60FCD998.quest_subtitle: "Mesita"
-	quest.7C35DB8F60FCD998.quest_desc: ["Mesa baja para salas cozy."]
-	quest.3536C3012EC93366.title: "Oak Counter"
-	quest.3536C3012EC93366.quest_subtitle: "Encimera"
-	quest.3536C3012EC93366.quest_desc: ["Counters para cocina (junto al capitulo Cocina)."]
-	quest.59343A30E23F88C2.title: "Mobiliario"
-	quest.59343A30E23F88C2.quest_subtitle: "Handcrafted / Another / Beautify"
-	quest.59343A30E23F88C2.quest_desc: ["Interiores: sillas, sofás, estantes y persianas."]
-	quest.774CFDD4A6457057.title: "Handcrafted Chair"
-	quest.774CFDD4A6457057.quest_subtitle: "Silla HC"
-	quest.774CFDD4A6457057.quest_desc: ["Handcrafted aporta muebles warm. Buen set starter."]
-	quest.B60FC48AB979939D.title: "Handcrafted Couch"
-	quest.B60FC48AB979939D.quest_subtitle: "Sofa"
-	quest.B60FC48AB979939D.quest_desc: ["Sofa para la sala de estar Oasis."]
-	quest.F55EF8253A643B31.title: "Handcrafted Desk"
-	quest.F55EF8253A643B31.quest_subtitle: "Escritorio"
-	quest.F55EF8253A643B31.quest_desc: ["Desk para tu cuarto de mapas / quest book."]
-	quest.574571C550B6FDEC.title: "Handcrafted Cupboard"
-	quest.574571C550B6FDEC.quest_subtitle: "Alacena"
-	quest.574571C550B6FDEC.quest_desc: ["Almacenaje decorativo. No sustituye Sophisticated Storage."]
-	quest.45089AF40CFF84C2.title: "Another Furniture Chair"
-	quest.45089AF40CFF84C2.quest_subtitle: "Silla AF"
-	quest.45089AF40CFF84C2.quest_desc: ["Another Furniture: linea limpia alternativa a Handcrafted."]
-	quest.4569086AD48806BB.title: "Oak Shelf"
-	quest.4569086AD48806BB.quest_subtitle: "Estanteria"
-	quest.4569086AD48806BB.quest_desc: ["Estantes para decorar con items."]
-	quest.EEEF9F05C977B57E.title: "Oak Drawer"
-	quest.EEEF9F05C977B57E.quest_subtitle: "Cajonera"
-	quest.EEEF9F05C977B57E.quest_desc: ["Drawer AF. Bonito y funcional early."]
-	quest.3F5B92E4E9DB4D00.title: "Beautify Blinds"
-	quest.3F5B92E4E9DB4D00.quest_subtitle: "Persianas"
-	quest.3F5B92E4E9DB4D00.quest_desc: ["Persianas Beautify. Control de luz con estilo."]
-	quest.3F4085C1E33542A0.title: "Oak Trellis"
-	quest.3F4085C1E33542A0.quest_subtitle: "Enredaderas"
-	quest.3F4085C1E33542A0.quest_desc: ["Trellis para jardin vertical."]
-	quest.98D2C1A3E9CA050D.title: "Picture Frame"
-	quest.98D2C1A3E9CA050D.quest_subtitle: "Cuadros"
-	quest.98D2C1A3E9CA050D.quest_desc: ["Marcos Beautify para personalizar paredes."]
-	quest.DC47E3ED6E5FE6A3.title: "Bookstack"
-	quest.DC47E3ED6E5FE6A3.quest_subtitle: "Libros decorativos"
-	quest.DC47E3ED6E5FE6A3.quest_desc: ["Stacks de libros. Biblioteca cozy garantizada."]
-	quest.2515A70A3915C8FF.title: "Descanso"
-	quest.2515A70A3915C8FF.quest_subtitle: "Hammocks y sleeping bags"
-	quest.2515A70A3915C8FF.quest_desc: ["Comforts: duerme sin cama vanilla si quieres. Hammocks = vibe campamento."]
-	quest.8492AFD4CE569C48.title: "Sleeping Bag"
-	quest.8492AFD4CE569C48.quest_subtitle: "Siesta portable"
-	quest.8492AFD4CE569C48.quest_desc: ["Bolsa de dormir. Ideal exploracion (no pone spawn si el pack lo configura asi: mira tooltip)."]
-	quest.8FCC704A36CC20C7.title: "Hammock"
-	quest.8FCC704A36CC20C7.quest_subtitle: "Hamaca"
-	quest.8FCC704A36CC20C7.quest_desc: ["Hamaca entre dos puntos. Pure cozy."]
-	quest.C5F357D816135F8C.title: "Supplementaries"
-	quest.C5F357D816135F8C.quest_subtitle: "Detalles utiles"
-	quest.C5F357D816135F8C.quest_desc: ["Supplementaries mezcla decor y utilidad: jars, faucets, signs..."]
-	quest.CAE6AF5C85AC69FE.title: "Jar"
-	quest.CAE6AF5C85AC69FE.quest_subtitle: "Tarro"
-	quest.CAE6AF5C85AC69FE.quest_desc: ["Guarda items/mobs pequenos / cookies. Decor + utilidad."]
-	quest.D316D2E281FCD8C7.title: "Faucet"
-	quest.D316D2E281FCD8C7.quest_subtitle: "Grifo"
-	quest.D316D2E281FCD8C7.quest_desc: ["Extrae fluids de cauldrons/jars. Synergy cocina/tech early."]
-	quest.315CB4B8158320AA.title: "Urn"
-	quest.315CB4B8158320AA.quest_subtitle: "Urna"
-	quest.315CB4B8158320AA.quest_desc: ["Decoracion archeology-ish. Rellena con loot si quieres Easter eggs."]
-	quest.C2179D37B03CB11F.title: "Every Compat"
-	quest.C2179D37B03CB11F.quest_subtitle: "Maderas del pack"
-	quest.C2179D37B03CB11F.quest_desc: [
-		"Every Compat genera variantes Macaw/Furniture para maderas de addons (BWG, etc.)."
-		"No hay quest item unico: marca esto cuando hayas usado una variante compat en tu casa."
-	]
-	quest.A5F1DEC8049E2351.title: "Arquitecto Oasis"
-	quest.A5F1DEC8049E2351.quest_subtitle: "Base con alma"
-	quest.A5F1DEC8049E2351.quest_desc: [
-		"Tienes techos, puertas, muebles, copycats y un sitio donde dormir con estilo."
-		"Siguiente: llena la casa en Almacenamiento y ponle comida del capitulo Cocina."
-	]
 	chapter.3BBA0CC96A0392C9.title: "&b&lCreate"
 	quest.4D3FEAC3F1E2779D.title: "Create"
 	quest.4D3FEAC3F1E2779D.quest_subtitle: "Tech I - la fabrica cozy"
@@ -6018,5 +5765,126 @@
 	quest.4280911F0B9F80BE.quest_desc: [
 		"Huevo de dragona y metal ignitium: el hard content no te asusta."
 		"&6Oasis:&r Vuelve a construir cozy. La tech y la magia siguen ahi cuando quieras."
+	]
+	chapter.88851410E2E37DFF.title: "&e&lConstruccion Cozy"
+	quest.D36C53FCE2A6BD5C.title: "Construccion Cozy"
+	quest.D36C53FCE2A6BD5C.quest_subtitle: "Casas bonitas, sin prisa"
+	quest.D36C53FCE2A6BD5C.quest_desc: [
+		"Macaw, Chipped, Copycats, Handcrafted y amigos: construye bases con estilo Oasis."
+		"&6Oasis:&r No gatea la tech. Usa Corail Woodcutter para no gastar troncos como loco."
+	]
+	quest.10C4E2378E56ADB3.title: "Oak Woodcutter"
+	quest.10C4E2378E56ADB3.quest_subtitle: "Sierra de madera"
+	quest.10C4E2378E56ADB3.quest_desc: ["Corta troncos a planks/stairs/slabs con mejor yield. Haz uno por madera favorita."]
+	quest.97F5DBE6EA34802C.title: "Rechiseled Beams"
+	quest.97F5DBE6EA34802C.quest_subtitle: "Detalle de planks"
+	quest.97F5DBE6EA34802C.quest_desc: ["Cincela bloques con Rechiseled. Conecta patrones para fachadas limpias."]
+	quest.7A588B1C29E98C02.title: "Chipped Crate"
+	quest.7A588B1C29E98C02.quest_subtitle: "Variantes Chipped"
+	quest.7A588B1C29E98C02.quest_desc: ["Chipped multiplica variantes de bloques vanilla. El crate es un buen primer taste."]
+	quest.B045E4489BC50D55.title: "Copycat Block"
+	quest.B045E4489BC50D55.quest_subtitle: "Camuflaje Create"
+	quest.B045E4489BC50D55.quest_desc: ["Copia la textura de otro bloque. Esconde tuberias y cables con elegancia."]
+	quest.F73BC838E5065695.title: "Copycat Stairs"
+	quest.F73BC838E5065695.quest_subtitle: "Escaleras camufladas"
+	quest.F73BC838E5065695.quest_desc: ["Stairs copycat para techos y detalles sin romper el tema."]
+	quest.6CBCF6D898C227C2.title: "Copycat Slab"
+	quest.6CBCF6D898C227C2.quest_subtitle: "Losas camufladas"
+	quest.6CBCF6D898C227C2.quest_desc: ["Slabs copycat para capas finas."]
+	quest.5A23DD01400128E8.title: "Macaw's"
+	quest.5A23DD01400128E8.quest_subtitle: "Puentes, techos, puertas..."
+	quest.5A23DD01400128E8.quest_desc: ["La suite Macaw cubre casi todo el exterior. Empieza con oak; otras maderas van por variante nativa del mod."]
+	quest.E25BA0910207817E.title: "Oak Bridge"
+	quest.E25BA0910207817E.quest_subtitle: "Cruza el rio"
+	quest.E25BA0910207817E.quest_desc: ["Puentes Macaw. Combina middle + pier + stairs."]
+	quest.F70E7A2AF4803560.title: "Oak Roof"
+	quest.F70E7A2AF4803560.quest_subtitle: "Tejado de verdad"
+	quest.F70E7A2AF4803560.quest_desc: ["Techos inclinados Macaw. Hay steep/attic/lower para perfiles complejos."]
+	quest.3C3531F4A364D032.title: "Oak Barn Door"
+	quest.3C3531F4A364D032.quest_subtitle: "Puerta con estilo"
+	quest.3C3531F4A364D032.quest_desc: ["Puertas tematicas. Barn doors quedan genial en granjas cozy."]
+	quest.EC041E9E8C2E44E6.title: "Oak Window"
+	quest.EC041E9E8C2E44E6.quest_subtitle: "Ventanas"
+	quest.EC041E9E8C2E44E6.quest_desc: ["Ventanas y persianas Macaw. Luz transparente sin vanilla panes aburridos."]
+	quest.7206C06C18501089.title: "Oak Picket Fence"
+	quest.7206C06C18501089.quest_subtitle: "Cercado"
+	quest.7206C06C18501089.quest_desc: ["Vallas decorativas. Delimita huertos y caminos."]
+	quest.BAC8D3774806C0F5.title: "Oak Planks Path"
+	quest.BAC8D3774806C0F5.quest_subtitle: "Senderos"
+	quest.BAC8D3774806C0F5.quest_desc: ["Paths para no pisar farmland. Combina con stone pavings."]
+	quest.9375095442116B89.title: "Bell Lantern"
+	quest.9375095442116B89.quest_subtitle: "Luz cozy"
+	quest.9375095442116B89.quest_desc: ["Faroles Macaw. Ilumina sin antorchas feas en la fachada."]
+	quest.C0E51C0631279E66.title: "Macaw Chair"
+	quest.C0E51C0631279E66.quest_subtitle: "Mueble exterior/interior"
+	quest.C0E51C0631279E66.quest_desc: ["Sillas y counters Macaw Furniture."]
+	quest.7C35DB8F60FCD998.title: "Coffee Table"
+	quest.7C35DB8F60FCD998.quest_subtitle: "Mesita"
+	quest.7C35DB8F60FCD998.quest_desc: ["Mesa baja para salas cozy."]
+	quest.3536C3012EC93366.title: "Oak Counter"
+	quest.3536C3012EC93366.quest_subtitle: "Encimera"
+	quest.3536C3012EC93366.quest_desc: ["Counters para cocina (junto al capitulo Cocina)."]
+	quest.59343A30E23F88C2.title: "Mobiliario"
+	quest.59343A30E23F88C2.quest_subtitle: "Handcrafted / Another / Beautify"
+	quest.59343A30E23F88C2.quest_desc: ["Interiores: sillas, sofás, estantes y persianas."]
+	quest.774CFDD4A6457057.title: "Handcrafted Chair"
+	quest.774CFDD4A6457057.quest_subtitle: "Silla HC"
+	quest.774CFDD4A6457057.quest_desc: ["Handcrafted aporta muebles warm. Buen set starter."]
+	quest.B60FC48AB979939D.title: "Handcrafted Couch"
+	quest.B60FC48AB979939D.quest_subtitle: "Sofa"
+	quest.B60FC48AB979939D.quest_desc: ["Sofa para la sala de estar Oasis."]
+	quest.F55EF8253A643B31.title: "Handcrafted Desk"
+	quest.F55EF8253A643B31.quest_subtitle: "Escritorio"
+	quest.F55EF8253A643B31.quest_desc: ["Desk para tu cuarto de mapas / quest book."]
+	quest.574571C550B6FDEC.title: "Handcrafted Cupboard"
+	quest.574571C550B6FDEC.quest_subtitle: "Alacena"
+	quest.574571C550B6FDEC.quest_desc: ["Almacenaje decorativo. No sustituye Sophisticated Storage."]
+	quest.45089AF40CFF84C2.title: "Another Furniture Chair"
+	quest.45089AF40CFF84C2.quest_subtitle: "Silla AF"
+	quest.45089AF40CFF84C2.quest_desc: ["Another Furniture: linea limpia alternativa a Handcrafted."]
+	quest.4569086AD48806BB.title: "Oak Shelf"
+	quest.4569086AD48806BB.quest_subtitle: "Estanteria"
+	quest.4569086AD48806BB.quest_desc: ["Estantes para decorar con items."]
+	quest.EEEF9F05C977B57E.title: "Oak Drawer"
+	quest.EEEF9F05C977B57E.quest_subtitle: "Cajonera"
+	quest.EEEF9F05C977B57E.quest_desc: ["Drawer AF. Bonito y funcional early."]
+	quest.3F5B92E4E9DB4D00.title: "Beautify Blinds"
+	quest.3F5B92E4E9DB4D00.quest_subtitle: "Persianas"
+	quest.3F5B92E4E9DB4D00.quest_desc: ["Persianas Beautify. Control de luz con estilo."]
+	quest.3F4085C1E33542A0.title: "Oak Trellis"
+	quest.3F4085C1E33542A0.quest_subtitle: "Enredaderas"
+	quest.3F4085C1E33542A0.quest_desc: ["Trellis para jardin vertical."]
+	quest.98D2C1A3E9CA050D.title: "Picture Frame"
+	quest.98D2C1A3E9CA050D.quest_subtitle: "Cuadros"
+	quest.98D2C1A3E9CA050D.quest_desc: ["Marcos Beautify para personalizar paredes."]
+	quest.DC47E3ED6E5FE6A3.title: "Bookstack"
+	quest.DC47E3ED6E5FE6A3.quest_subtitle: "Libros decorativos"
+	quest.DC47E3ED6E5FE6A3.quest_desc: ["Stacks de libros. Biblioteca cozy garantizada."]
+	quest.2515A70A3915C8FF.title: "Descanso"
+	quest.2515A70A3915C8FF.quest_subtitle: "Hammocks y sleeping bags"
+	quest.2515A70A3915C8FF.quest_desc: ["Comforts: duerme sin cama vanilla si quieres. Hammocks = vibe campamento."]
+	quest.8492AFD4CE569C48.title: "Sleeping Bag"
+	quest.8492AFD4CE569C48.quest_subtitle: "Siesta portable"
+	quest.8492AFD4CE569C48.quest_desc: ["Bolsa de dormir. Ideal exploracion (no pone spawn si el pack lo configura asi: mira tooltip)."]
+	quest.8FCC704A36CC20C7.title: "Hammock"
+	quest.8FCC704A36CC20C7.quest_subtitle: "Hamaca"
+	quest.8FCC704A36CC20C7.quest_desc: ["Hamaca entre dos puntos. Pure cozy."]
+	quest.C5F357D816135F8C.title: "Supplementaries"
+	quest.C5F357D816135F8C.quest_subtitle: "Detalles utiles"
+	quest.C5F357D816135F8C.quest_desc: ["Supplementaries mezcla decor y utilidad: jars, faucets, signs..."]
+	quest.CAE6AF5C85AC69FE.title: "Jar"
+	quest.CAE6AF5C85AC69FE.quest_subtitle: "Tarro"
+	quest.CAE6AF5C85AC69FE.quest_desc: ["Guarda items/mobs pequenos / cookies. Decor + utilidad."]
+	quest.D316D2E281FCD8C7.title: "Faucet"
+	quest.D316D2E281FCD8C7.quest_subtitle: "Grifo"
+	quest.D316D2E281FCD8C7.quest_desc: ["Extrae fluids de cauldrons/jars. Synergy cocina/tech early."]
+	quest.315CB4B8158320AA.title: "Urn"
+	quest.315CB4B8158320AA.quest_subtitle: "Urna"
+	quest.315CB4B8158320AA.quest_desc: ["Decoracion archeology-ish. Rellena con loot si quieres Easter eggs."]
+	quest.A5F1DEC8049E2351.title: "Arquitecto Oasis"
+	quest.A5F1DEC8049E2351.quest_subtitle: "Base con alma"
+	quest.A5F1DEC8049E2351.quest_desc: [
+		"Tienes techos, puertas, muebles, copycats y un sitio donde dormir con estilo."
+		"Siguiente: llena la casa en Almacenamiento y ponle comida del capitulo Cocina."
 	]
 }

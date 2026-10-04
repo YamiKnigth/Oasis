@@ -19,7 +19,9 @@ Log: `docs/phase-mods-wave2-download-log.csv`
 Smoke: **OK** — `Done (26.506s)` world nuevo; Voice Chat :24454; FTB Quests 11/405; Create Food + Woodcutter OK.  
 Warn menor: Moonlight color sets Quark (sin Quark; ignorable). ModernFix load ~112s total.
 
-Nuevos (32 jars): Nature/Explorer Compass, Naturalist, Exposure, Artifacts, Comforts, Supplementaries, Amendments, Every Compat, Macaw Fences/Lights/Paths, Corail Woodcutter, Polymorph, Slice & Dice, Create Food, Copycats+, Enchantment Industry + Dragons Plus, Ars Nouveau, Occultism + Modonomicon + SmartBrainLib, Simple Voice Chat, Mouse Tweaks, Inventory Essentials, TrashSlot, Clumps, Controlling, Searchables, spark, Chunky.
+Nuevos (ola cozy/QoL/magic): Nature/Explorer Compass, Naturalist, Exposure, Artifacts, Comforts, Supplementaries, Amendments, Macaw Fences/Lights/Paths, Corail Woodcutter, Polymorph, Slice & Dice, Create Food, Copycats+, Enchantment Industry + Dragons Plus, Ars Nouveau, Occultism + Modonomicon + SmartBrainLib, Simple Voice Chat, Mouse Tweaks, Inventory Essentials, TrashSlot, Clumps, Controlling, Searchables, spark, Chunky.
+
+Fuera: Every Compat (RAM; variantes Macaw × maderas addons).
 
 Fuera (decidido): Atlas API, Iron's Jewelry, Carry On, mapa Xaero/JM, Combat Roll, KubeJS Create, LootJS, FTB Essentials.
 
@@ -28,7 +30,7 @@ Fuera (decidido): Atlas API, Iron's Jewelry, Carry On, mapa Xaero/JM, Combat Rol
 - KubeJS tech gates + JEI (sin EMI)  
 - FTB Quests 11 capítulos  
 - Repo: https://github.com/YamiKnigth/Oasis · rama trabajo `feat/mods-and-quests`  
-- Perfil CF: `curseforge/Oasis-1.1.0.zip` (149 mods)
+- Perfil CF: `curseforge/Oasis-1.1.0.zip` (148 mods; sin Every Compat)
 
 ---
 

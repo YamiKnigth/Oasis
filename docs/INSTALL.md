@@ -5,7 +5,7 @@
 Archivo: `curseforge/Oasis-1.1.0.zip`
 
 Contiene:
-- `manifest.json` — MC **1.21.1** + NeoForge **21.1.253** + **149** mods (projectID/fileID)
+- `manifest.json` — MC **1.21.1** + NeoForge **21.1.253** + **148** mods (projectID/fileID)
 - `modlist.html` — lista legible
 - `overrides/` — kubejs, FTB Quests, configs del pack (**sin jars**)
 
@@ -13,7 +13,7 @@ Contiene:
 
 1. Instalar [CurseForge App](https://www.curseforge.com/download/app) y **Java 21**.
 2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.0.zip`.
-3. Esperar a que la App descargue los 149 mods.
+3. Esperar a que la App descargue los 148 mods.
 4. Asignar **6144 MB** RAM a la instancia.
 5. Jugar / conectar al servidor cuando exista.
 

@@ -81,7 +81,7 @@ Oasis/                 # carpeta del proyecto (antes Nuevo)
 - [x] Tech Create→IE→AE2→Mek + KubeJS gates + JEI
 - [x] Magia Iron’s + Malum + Ars + Occultism; End Remastered + Cataclysm
 - [x] FTB Quests + perfil CF
-- [x] Wave cozy/QoL (149 jars client) — smoke OK · `Oasis-1.1.0.zip`
+- [x] Wave cozy/QoL (148 jars client; sin Every Compat por RAM) — smoke OK · `Oasis-1.1.0.zip`
 - [ ] Ajuste misiones FTB a mods nuevos
 
 

@@ -913,22 +913,6 @@
 		}
 		{
 			dependencies: [
-				"E25BA0910207817E"
-				"F70E7A2AF4803560"
-			]
-			hide_dependency_lines: true
-			id: "C2179D37B03CB11F"
-			shape: "hexagon"
-			size: 1.25d
-			tasks: [{
-				id: "781217F1F7022859"
-				type: "checkmark"
-			}]
-			x: 8d
-			y: -4.5d
-		}
-		{
-			dependencies: [
 				"F70E7A2AF4803560"
 				"3C3531F4A364D032"
 				"B60FC48AB979939D"

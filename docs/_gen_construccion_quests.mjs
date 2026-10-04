@@ -41,7 +41,7 @@ q('copycat_slab', ['copycat'], 'copycats:copycat_slab', 8, 8, 1.5, 'Copycat Slab
 ], { hide: true });
 
 q('sec_macaw', ['woodcutter'], 'checkmark', 1, 2, -3, 'Macaw\'s', 'Puentes, techos, puertas...', [
-  'La suite Macaw cubre casi todo el exterior. Elige oak primero; Every Compat cubre otras maderas.',
+  'La suite Macaw cubre casi todo el exterior. Empieza con oak; otras maderas van por variante nativa del mod.',
 ], { shape: 'hexagon', size: 1.5 });
 q('bridge', ['sec_macaw'], 'mcwbridges:oak_log_bridge_middle', 8, 4, -3, 'Oak Bridge', 'Cruza el rio', [
   'Puentes Macaw. Combina middle + pier + stairs.',
@@ -134,11 +134,6 @@ q('urn', ['sec_supp'], 'supplementaries:urn', 4, 10, 3, 'Urn', 'Urna', [
   'Decoracion archeology-ish. Rellena con loot si quieres Easter eggs.',
 ], { hide: true });
 
-q('sec_every', ['bridge', 'roof'], 'checkmark', 1, 8, -4.5, 'Every Compat', 'Maderas del pack', [
-  'Every Compat genera variantes Macaw/Furniture para maderas de addons (BWG, etc.).',
-  'No hay quest item unico: marca esto cuando hayas usado una variante compat en tu casa.',
-], { shape: 'hexagon', size: 1.25, hide: true });
-
 q('finale', ['roof', 'door', 'hc_couch', 'copycat', 'hammock'], 'checkmark', 1, 10, 0, 'Arquitecto Oasis', 'Base con alma', [
   'Tienes techos, puertas, muebles, copycats y un sitio donde dormir con estilo.',
   'Siguiente: llena la casa en Almacenamiento y ponle comida del capitulo Cocina.',
@@ -187,12 +182,31 @@ if (!fs.existsSync(rewardTablePath)) {
   fs.writeFileSync(rewardTablePath, `{\n\tid: "${id('reward-table')}"\n\tloot_size: 1\n\torder_index: 14\n\trewards: [{ id: "${id('rt-apple')}", item: { count: 1, id: "minecraft:apple" } }]\n}\n`, 'utf8');
 }
 
-let langLines = fs.readFileSync(langPath, 'utf8').split(/\r?\n/).filter((line) => {
-  if (/^\s*[{}]\s*$/.test(line)) return false;
-  if (line.includes(`chapter.${chapterId}.title:`)) return false;
-  if (/quest\.[A-Fa-f0-9]{32}\./.test(line)) return false;
-  return true;
-});
+const stripIds = new Set([
+  ...defs.map((d) => id(d.key)),
+  id('sec_every'), // removed quest (Every Compat)
+  id('rew1-sec_every'),
+  id('rew2-sec_every'),
+  id('task-sec_every'),
+]);
+const rawLang = fs.readFileSync(langPath, 'utf8').split(/\r?\n/);
+const langLines = [];
+let skipDesc = false;
+for (const line of rawLang) {
+  if (/^\s*[{}]\s*$/.test(line)) continue;
+  if (line.includes(`chapter.${chapterId}.title:`)) continue;
+  if (/quest\.[A-Fa-f0-9]{32}\./.test(line)) continue;
+  const qm = line.match(/^\tquest\.([A-Fa-f0-9]{16})\.(title|quest_subtitle|quest_desc):/);
+  if (qm && stripIds.has(qm[1])) {
+    if (line.includes('quest_desc: [') && !line.includes(']')) skipDesc = true;
+    continue;
+  }
+  if (skipDesc) {
+    if (/^\t\]/.test(line)) skipDesc = false;
+    continue;
+  }
+  langLines.push(line);
+}
 let langAdd = `\tchapter.${chapterId}.title: "&e&lConstruccion Cozy"\n`;
 for (const d of defs) {
   const qid = id(d.key);
