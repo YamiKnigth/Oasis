@@ -1,0 +1,179 @@
+{
+	id: "79F58BE60E66ABB7"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ id: "0CC0641059A7F3AE", item: { components: { "ftbquests:missing_item": "more_immersive_wires:ae_coil" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "308B0F461277A7C4", item: { components: { "ftbquests:missing_item": "more_immersive_wires:ae_connector" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "56036EE159D9CD60", item: { components: { "ftbquests:missing_item": "more_immersive_wires:ae_dense_relay" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 3
+			id: "3E501DA387A82ECD"
+			item: {
+				count: 1
+				id: "sophisticatedstorage:limited_netherite_barrel_2"
+			}
+		}
+		{ id: "17E11BC8BB568488", item: { count: 1, id: "sophisticatedstorage:basic_to_netherite_tier_upgrade" } }
+		{ id: "29F543AB6DA9ED2E", item: { count: 1, id: "sophisticatedstorage:diamond_to_netherite_tier_upgrade" } }
+		{
+			count: 5
+			id: "3F3962DD891C3F3A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:minekey"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "39EEC2CE63808D45", item: { components: { "ftbquests:missing_item": "draconicevolution:chaos_shard" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "757FCBB06DECDF96", item: { components: { "ftbquests:missing_item": "draconicevolution:awakened_core" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "393830428D31D51E", item: { components: { "ftbquests:missing_item": "draconicevolution:draconic_wireless_crystal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4FFA8E2D80F81DD2", item: { components: { "ftbquests:missing_item": "draconicevolution:draconium_chest" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 64
+			id: "382E06047F44AA22"
+			item: {
+				count: 1
+				id: "tombstone:grave_dust"
+			}
+		}
+		{
+			count: 5
+			id: "6315DF4E540CDAC1"
+			item: {
+				components: {
+					"ftbquests:missing_item": "torchmaster:feral_flare_lantern"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "464A468BBFE4E388", item: { components: { "ftbquests:missing_item": "botania:mana_ring_greater" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5DF417EF206319DD", item: { components: { "ftbquests:missing_item": "botania:gaia_head" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0A2118E1BD4D500A", item: { components: { "ftbquests:missing_item": "plushies:dragon" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "245B9781EABAF61A", item: { components: { "ftbquests:missing_item": "tconstruct:longbow" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 32
+			id: "43BCA0D629DFE2DC"
+			item: {
+				count: 1
+				id: "immersiveengineering:ingot_steel"
+			}
+		}
+		{
+			count: 16
+			id: "5FB18C809D458829"
+			item: {
+				components: {
+					"ftbquests:missing_item": "lazierae2:parallel_processor"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 8
+			id: "51A7978A385F3BD9"
+			item: {
+				components: {
+					"ftbquests:missing_item": "lazierae2:parallel_printed"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 10
+			id: "039084F55ED25213"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:queens_slime_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 3
+			id: "781597CD75C40101"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagradditions:insanium_essence"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "5D9613944D37F2EB", item: { components: { "ftbquests:missing_item": "mysticalagradditions:insanium_gemstone" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0DC92ADF55E450E3", item: { components: { "ftbquests:missing_item": "tconstruct:plate_shield" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6353768655E8AEEA", item: { components: { "ftbquests:missing_item": "mysticalagradditions:insanium_apple" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5C459703831A0036", item: { components: { "ftbquests:missing_item": "mysticalagradditions:dragon_egg_chunk" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0E754BB79AE36B7E", item: { components: { "ftbquests:missing_item": "mysticalagriculture:imperium_furnace" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 5
+			id: "2FD0384F3700D299"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:supremium_farmland"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "5FD9DD2D292FA14E", item: { components: { "ftbquests:missing_item": "mysticalagriculture:supremium_growth_accelerator" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 6
+			id: "434EB7499932538A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:supremium_essence"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "590143047FE05765", item: { components: { "ftbquests:missing_item": "mysticalagriculture:passive_soulium_dagger" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7149583D4BDC173E", item: { components: { "ftbquests:missing_item": "matc:supremium_crystal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "2E1815E28F29B9AC", item: { components: { "ftbquests:missing_item": "draconicevolution:draconium_jump_module" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7DAB9C81A6081682", item: { count: 1, id: "mekanism:jetpack_armored" } }
+		{
+			count: 8
+			id: "5F42640B71822907"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_speed"
+			}
+			random_bonus: 32
+		}
+		{
+			count: 32
+			id: "794AF952E9F0AFBB"
+			item: {
+				count: 1
+				id: "mekanism:upgrade_energy"
+			}
+		}
+		{
+			count: 32
+			id: "3B641933AF161BF6"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+		}
+		{ id: "1E1AC14734C423A3", item: { count: 1, id: "mekanism:ultimate_energy_cube" } }
+		{
+			count: 64
+			id: "0BCA88254A69DE0F"
+			item: {
+				count: 1
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+		}
+		{ id: "1AF83EBD8491A981", item: { count: 1, id: "ae2:singularity" } }
+		{ id: "0F4F7216B7B05A1C", item: { count: 1, id: "ae2:item_storage_cell_64k" } }
+		{ id: "1A2DAF63B0B7ECCD", item: { components: { "ftbquests:missing_item": "mypanascoins:diamond_coin" }, count: 1, id: "ftbquests:missing_item" } }
+	]
+}

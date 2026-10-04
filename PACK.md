@@ -62,8 +62,9 @@ Oasis/                 # carpeta del proyecto (antes Nuevo)
 
 - Pruebas: carpeta `server/` en este PC
 - Host final: otro entorno; nombre Oasis (`server.properties`)
-- JVM sugerida: `-Xms10G -Xmx12G` (ajustar al host)
-- Arranque: `start-oasis.bat` / `run.bat`
+- JVM: flags Aikar en `server/user_jvm_args.txt` (`Xms=Xmx`, ~10–12G de host 16G)
+- Host Pterodactyl: `scripts/pterodactyl/install.sh` + Startup `bash start.sh`
+- Arranque local: `run.sh` / `run.bat` (leen `user_jvm_args.txt`)
 
 ## Reglas de cupo
 

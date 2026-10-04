@@ -36,7 +36,7 @@
 
 [team]
 	#if true, instead of providing individual loot per player, loot will be assigned based on teams. by default, the entity's scoreboard team will be used. if the player is not in a team, their own uuid will be used instead. [default: false]
-	team_loot = false
+	team_loot = true
 	#the team resolver to use. by default, this is the standard minecraft scoreboard system. anyone not assigned to a scoreboard team will instead be considered in a team of just themselves. this value only needs to be set when using multiple team-based add-ons that provide teams with the same priority and you wish to specify which one you want to use. if blank or empty or the team resolver cannot be found, it will default to 'lootr:default' [default: blank]
 	pinned_team_resolver = ""
 
@@ -70,7 +70,7 @@
 	#lootr chests cannot be destroyed by creeper or TNT explosions
 	blast_resistant = false
 	#lootr chests cannot be destroyed by any explosion
-	blast_immune = false
+	blast_immune = true
 	#lootr brushable blocks will not fall if the blocks under them are broken
 	brushables_self_support = false
 	#lootr item frames will not break if the blocks they are attached to are broken

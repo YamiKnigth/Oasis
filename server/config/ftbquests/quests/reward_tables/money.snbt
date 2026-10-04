@@ -1,0 +1,11 @@
+{
+	id: "1C178C483832BE44"
+	loot_size: 1
+	order_index: 2
+	rewards: [{
+		auto: "enabled"
+		command: "eco give @p 100"
+		id: "2F37A7C6B224DB13"
+		type: "command"
+	}]
+}

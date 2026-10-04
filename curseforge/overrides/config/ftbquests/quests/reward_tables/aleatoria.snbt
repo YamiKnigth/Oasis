@@ -1,0 +1,424 @@
+{
+	id: "7DCA8F3BD394104A"
+	order_index: 0
+	title: "Aleatoria"
+	loot_size: 1
+	rewards: [
+		{ item: "sophisticatedbackpacks:upgrade_base" }
+		{ item: "cookingforblockheads:oven" }
+		{ item: "mekanismgenerators:wind_generator" }
+		{
+			item: {
+				id: "mekanismtools:refined_obsidian_shield"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "mekanism:gauge_dropper" }
+		{ item: "mekanism:upgrade_energy" }
+		{ item: "mekanism:upgrade_speed" }
+		{ item: "mekanism:elite_control_circuit", count: 3 }
+		{ item: "ae2:charged_certus_quartz_crystal", count: 5 }
+		{ item: "ae2:printed_silicon", count: 10 }
+		{ item: "ae2:deepslate_quartz_ore", count: 32 }
+		{ item: "ae2:tiny_tnt", count: 3 }
+		{ item: "ae2:1k_crafting_storage" }
+		{ item: "ae2:64k_crafting_storage" }
+		{ item: "sophisticatedbackpacks:stonecutter_upgrade" }
+		{ item: "sophisticatedbackpacks:feeding_upgrade" }
+		{ item: "sophisticatedbackpacks:restock_upgrade" }
+		{ item: "sophisticatedbackpacks:crafting_upgrade" }
+		{ item: "mekanism:upgrade_filter" }
+		{ item: "mekanism:upgrade_muffling" }
+		{ item: "mekanism:module_locomotive_boosting_unit" }
+		{ item: "mekanism:enriched_refined_obsidian", count: 2 }
+		{ item: "mekanism:enriched_gold", count: 2 }
+		{ item: "mekanism:ingot_refined_obsidian", count: 5 }
+		{ item: "mekanism:basic_fluid_tank" }
+		{ item: "mekanism:basic_universal_cable", count: 5 }
+		{ item: "mekanism:upgrade_gas" }
+		{ item: "mekanism:upgrade_anchor" }
+		{ item: "mekanism:alloy_reinforced", count: 3 }
+		{ item: "mekanism:alloy_infused", count: 5 }
+		{ item: "mekanism:enriched_tin", count: 3 }
+		{ item: "mekanism:basic_energy_cube" }
+		{ item: "mysticalagriculture:prosperity_gemstone", count: 5 }
+		{ item: "mysticalagriculture:prudentium_furnace" }
+		{
+			item: {
+				id: "mysticalagriculture:soulium_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_watering_can"
+				Count: 1b
+				tag: {
+					Water: 0b
+					Active: 0b
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:inferium_bow"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "mysticalagriculture:tertium_watering_can"
+				Count: 1b
+				tag: {
+					Water: 0b
+					Active: 0b
+				}
+			}
+		}
+		{ item: "mysticalagradditions:nether_star_shard" }
+		{
+			item: {
+				id: "matc:tertium_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:limited_gold_barrel_2"
+				Count: 1b
+				tag: {
+					woodType: "jungle"
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:limited_netherite_barrel_2"
+				Count: 1b
+				tag: {
+					woodType: "dark_oak"
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:gold_chest"
+				Count: 1b
+				tag: {
+					mainColor: 16701501
+					accentColor: 16701501
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:gold_chest"
+				Count: 1b
+				tag: {
+					mainColor: 13061821
+					accentColor: 13061821
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:gold_shulker_box"
+				Count: 1b
+				tag: {
+					mainColor: 13061821
+					accentColor: 13061821
+				}
+			}
+		}
+		{
+			item: {
+				id: "sophisticatedstorage:netherite_shulker_box"
+				Count: 1b
+				tag: {
+					mainColor: 13061821
+					accentColor: 13061821
+				}
+			}
+		}
+		{ item: "sophisticatedstorage:feeding_upgrade" }
+		{ item: "sophisticatedstorage:basic_to_diamond_tier_upgrade" }
+		{ item: "sophisticatedstorage:iron_to_netherite_tier_upgrade" }
+		{ item: "sophisticatedstorage:auto_smelting_upgrade" }
+		{ item: "bloodmagic:apprenticebloodorb" }
+		{ item: "bloodmagic:magicianbloodorb" }
+		{ item: "bloodmagic:etherealslate" }
+		{ item: "bloodmagic:demonslate", count: 5 }
+		{ item: "bloodmagic:watersigil" }
+		{ item: "bloodmagic:infusedslate", count: 5 }
+		{ item: "bloodmagic:blankslate", count: 5 }
+		{ item: "bloodmagic:reinforcedslate", count: 5 }
+		{ item: "bloodmagic:minekey" }
+		{ item: "mysticalagriculture:inferium_essence", count: 64 }
+		{ item: "mysticalagriculture:prudentium_essence", count: 16 }
+		{ item: "mysticalagriculture:tertium_essence", count: 3 }
+		{ item: "mysticalagriculture:inferium_ingot", count: 5 }
+		{ item: "mysticalagriculture:soulium_dust", count: 64 }
+		{ item: "mysticalagriculture:prosperity_shard", count: 64 }
+		{
+			item: {
+				id: "mysticalagriculture:infusion_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "immersiveengineering:steel_post", count: 3 }
+		{ item: "immersiveengineering:alu_post", count: 3 }
+		{ item: "immersiveengineering:transformer" }
+		{ item: "immersiveengineering:breaker_switch" }
+		{ item: "immersiveengineering:redstone_breaker", count: 2 }
+		{ item: "immersiveengineering:current_transformer", count: 2 }
+		{ item: "immersiveengineering:connector_redstone", count: 2 }
+		{ item: "immersiveengineering:treated_post", count: 5 }
+		{ item: "immersiveengineering:connector_hv", count: 6 }
+		{ item: "mythicbotany:dream_cherry" }
+		{ item: "thermal:apatite", count: 5 }
+		{ item: "thermal:niter", count: 5 }
+		{ item: "thermal:cinnabar", count: 5 }
+		{ item: "thermal:slag", count: 6 }
+		{ item: "thermal:sulfur", count: 5 }
+		{ item: "thermal:rich_slag", count: 5 }
+		{ item: "thermal:redstone_servo" }
+		{ item: "thermal:rf_coil" }
+		{ item: "thermal:iron_gear", count: 4 }
+		{ item: "thermal:copper_gear", count: 4 }
+		{ item: "thermal:lapis_gear", count: 4 }
+		{ item: "thermal:lapis_gear", count: 4 }
+		{ item: "thermal:chiller_ingot_cast" }
+		{ item: "tconstruct:cobalt_ingot", count: 9 }
+		{
+			item: {
+				id: "tconstruct:crafting_station"
+				Count: 1b
+				tag: {
+					texture: "tconstruct:greenheart_log"
+				}
+			}
+		}
+		{ item: "thermal:diamond_gear", count: 4 }
+		{ item: "tconstruct:ender_slime_ball", count: 4 }
+		{ item: "tconstruct:blood_slime_ball", count: 5 }
+		{ item: "tconstruct:bloodbone" }
+		{ item: "tconstruct:necrotic_bone" }
+		{ item: "tconstruct:iron_reinforcement" }
+		{ item: "tconstruct:pattern", count: 64 }
+		{ item: "lazierae2:fluix_steel_ingot" }
+		{ item: "lazierae2:logic_unit" }
+		{ item: "immersiveengineering:connector_hv_relay", count: 3 }
+		{ item: "tconstruct:scorched_channel", count: 4 }
+		{ item: "fluxnetworks:flux_core" }
+		{ item: "botania:white_floating_flower", count: 5 }
+		{ item: "botania:glimmering_livingwood_log", count: 3 }
+		{ item: "botania:apothecary_mesa" }
+		{ item: "botania:glimmering_dreamwood", count: 3 }
+		{ item: "botania:mana_pool" }
+		{ item: "botania:mana_pylon" }
+		{ item: "botania:bellows" }
+		{ item: "immersiveengineering:hemp_fiber", count: 64 }
+		{ item: "immersiveengineering:windmill_blade" }
+		{ item: "immersiveengineering:hemp_fabric", count: 3 }
+		{ item: "immersiveengineering:hemp_fabric", count: 3 }
+		{ item: "immersiveengineering:wire_electrum", count: 16 }
+		{ item: "immersiveengineering:wire_copper", count: 32 }
+		{ item: "immersiveengineering:electron_tube" }
+		{ item: "immersiveengineering:light_bulb" }
+		{ item: "immersiveengineering:wirecoil_copper", count: 10 }
+		{ item: "immersiveengineering:wirecoil_electrum", count: 2 }
+		{ item: "immersiveengineering:wirecoil_steel", count: 5 }
+		{ item: "immersiveengineering:wirecoil_structure_rope", count: 5 }
+		{ item: "immersiveengineering:wirecoil_structure_steel", count: 5 }
+		{ item: "immersiveengineering:wirecoil_redstone", count: 5 }
+		{ item: "immersiveengineering:wirecoil_copper_ins", count: 5 }
+		{ item: "immersiveengineering:wirecoil_electrum_ins", count: 5 }
+		{ item: "immersiveengineering:conveyor_basic", count: 3 }
+		{ item: "immersiveengineering:conveyor_splitter" }
+		{ item: "immersiveengineering:conveyor_extract" }
+		{ item: "tconstruct:seared_faucet", count: 4 }
+		{
+			item: {
+				id: "tconstruct:tough_handle"
+				Count: 1b
+				tag: {
+					Material: "mysticalagradditions:supremium"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:tool_binding"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:amethyst_bronze"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:bow_grip"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:slimesteel"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:large_plate"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:nahuatl"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:broad_blade"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:blazing_bone"
+				}
+			}
+		}
+		{
+			item: {
+				id: "tconstruct:repair_kit"
+				Count: 1b
+				tag: {
+					Material: "tconstruct:queens_slime"
+				}
+			}
+		}
+		{ item: "rottencreatures:treasure_chest" }
+		{ item: "tconstruct:scorched_brick", count: 32 }
+		{
+			item: {
+				id: "tombstone:decorative_grave_simple"
+				Count: 1b
+				tag: {
+					model_texture: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "tombstone:lollipop"
+				Count: 1b
+				tag: {
+					model_color: 5s
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "tombstone:familiar_receptacle"
+				Count: 1b
+				tag: {
+					dead_pet: {
+						id: "occultism:foliot"
+					}
+				}
+			}
+		}
+		{ item: "draconicevolution:draconium_ingot", count: 16 }
+		{
+			item: {
+				id: "tombstone:familiar_receptacle"
+				Count: 1b
+				tag: {
+					dead_pet: {
+						id: "occultism:foliot"
+					}
+				}
+			}
+		}
+		{ item: "draconicevolution:awakened_draconium_ingot" }
+		{ item: "botania:spark_upgrade_recessive", count: 2 }
+		{
+			item: {
+				id: "botania:twig_wand"
+				Count: 1b
+				tag: {
+					color1: 15
+					color2: 15
+				}
+			}
+		}
+		{ item: "botania:spark_upgrade_isolated", count: 2 }
+		{ item: "botania:fertilizer", count: 3 }
+		{ item: "botania:ender_air_bottle", count: 2 }
+		{ item: "botania:elementium_ingot", count: 2 }
+		{ item: "botania:mana_powder", count: 2 }
+		{ item: "botania:terrasteel_ingot" }
+		{ item: "botania:gaia_ingot" }
+		{ item: "botania:exchange_rod" }
+		{ item: "botania:endoflame", count: 16 }
+		{ item: "botania:pinkinator" }
+		{ item: "torchmaster:megatorch" }
+		{ item: "torchmaster:feral_flare_lantern" }
+		{ item: "elevatorid:elevator_magenta" }
+		{ item: "tombstone:essence_of_undeath" }
+		{ item: "tombstone:grave_dust", count: 5 }
+		{
+			item: {
+				id: "tombstone:lollipop"
+				Count: 1b
+				tag: {
+					model_color: 0s
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "tombstone:lollipop"
+				Count: 1b
+				tag: {
+					model_color: 1s
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "tombstone:lollipop"
+				Count: 1b
+				tag: {
+					model_color: 2s
+				}
+			}
+			count: 10
+		}
+		{
+			item: {
+				id: "tombstone:lollipop"
+				Count: 1b
+				tag: {
+					model_color: 4s
+				}
+			}
+			count: 10
+		}
+		{ item: "mypanascoins:copper_coin", count: 5 }
+		{ item: "mypanascoins:iron_coin", count: 3 }
+		{ item: "mypanascoins:gold_coin", count: 2 }
+	]
+}

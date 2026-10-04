@@ -1180,11 +1180,11 @@
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 2
 	# Range: 0 ~ 1000
-	deepling_spawn_weight = 2
+	deepling_spawn_weight = 1
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 30
 	# Range: > 0
-	deepling_spawn_rolls = 30
+	deepling_spawn_rolls = 50
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
@@ -1192,15 +1192,15 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 50
 	# Range: > 0
-	deepling_brute_spawn_rolls = 50
+	deepling_brute_spawn_rolls = 80
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 2
 	# Range: 0 ~ 1000
-	deepling_angler_spawn_weight = 2
+	deepling_angler_spawn_weight = 1
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 30
 	# Range: > 0
-	deepling_angler_spawn_rolls = 30
+	deepling_angler_spawn_rolls = 50
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
@@ -1208,7 +1208,7 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 70
 	# Range: > 0
-	deepling_priest_spawn_rolls = 70
+	deepling_priest_spawn_rolls = 100
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000
@@ -1216,7 +1216,7 @@
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	# Default: 70
 	# Range: > 0
-	deepling_warlock_spawn_rolls = 70
+	deepling_warlock_spawn_rolls = 100
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	# Default: 1
 	# Range: 0 ~ 1000

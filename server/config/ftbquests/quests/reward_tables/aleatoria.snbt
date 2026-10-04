@@ -1,0 +1,888 @@
+{
+	id: "7DCA8F3BD394104A"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ id: "036FC7F18025AE52", item: { count: 1, id: "sophisticatedbackpacks:upgrade_base" } }
+		{ id: "62D872B813C8E797", item: { components: { "ftbquests:missing_item": "cookingforblockheads:oven" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4A767B911380EAA2", item: { count: 1, id: "mekanismgenerators:wind_generator" } }
+		{ id: "7E1E90D91834FB32", item: { count: 1, id: "mekanismtools:refined_obsidian_shield" } }
+		{ id: "68633C6141A8CE94", item: { count: 1, id: "mekanism:gauge_dropper" } }
+		{ id: "18F0E64561E64B4B", item: { count: 1, id: "mekanism:upgrade_energy" } }
+		{ id: "486285A2B50E9741", item: { count: 1, id: "mekanism:upgrade_speed" } }
+		{
+			count: 3
+			id: "34607611B7A833DF"
+			item: {
+				count: 1
+				id: "mekanism:elite_control_circuit"
+			}
+		}
+		{
+			count: 5
+			id: "130F5067B3E26BB6"
+			item: {
+				count: 1
+				id: "ae2:charged_certus_quartz_crystal"
+			}
+		}
+		{
+			count: 10
+			id: "26EAB5DE480EC239"
+			item: {
+				count: 1
+				id: "ae2:printed_silicon"
+			}
+		}
+		{
+			count: 32
+			id: "48491668EB293236"
+			item: {
+				components: {
+					"ftbquests:missing_item": "ae2:deepslate_quartz_ore"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 3
+			id: "659836E3C538CB8B"
+			item: {
+				count: 1
+				id: "ae2:tiny_tnt"
+			}
+		}
+		{ id: "30D839EFFD499CFA", item: { count: 1, id: "ae2:1k_crafting_storage" } }
+		{ id: "02C8E21196BD79E7", item: { count: 1, id: "ae2:64k_crafting_storage" } }
+		{ id: "13D11F847DCDA3A7", item: { count: 1, id: "sophisticatedbackpacks:stonecutter_upgrade" } }
+		{ id: "398D672F7481090F", item: { count: 1, id: "sophisticatedbackpacks:feeding_upgrade" } }
+		{ id: "721A3121243D4E54", item: { count: 1, id: "sophisticatedbackpacks:restock_upgrade" } }
+		{ id: "03795BFFD2CF42AB", item: { count: 1, id: "sophisticatedbackpacks:crafting_upgrade" } }
+		{ id: "7F182960A34932D2", item: { count: 1, id: "mekanism:upgrade_filter" } }
+		{ id: "1D4537C8B8FC2D7F", item: { count: 1, id: "mekanism:upgrade_muffling" } }
+		{ id: "3D66F7BADF5C2FB4", item: { count: 1, id: "mekanism:module_locomotive_boosting_unit" } }
+		{
+			count: 2
+			id: "08960312EC03FBDF"
+			item: {
+				count: 1
+				id: "mekanism:enriched_refined_obsidian"
+			}
+		}
+		{
+			count: 2
+			id: "2B783CB5F9EA0F22"
+			item: {
+				count: 1
+				id: "mekanism:enriched_gold"
+			}
+		}
+		{
+			count: 5
+			id: "69D64051FB69129F"
+			item: {
+				count: 1
+				id: "mekanism:ingot_refined_obsidian"
+			}
+		}
+		{ id: "1BE93CACDA86F3A2", item: { count: 1, id: "mekanism:basic_fluid_tank" } }
+		{
+			count: 5
+			id: "4A13CCF8C59517D4"
+			item: {
+				count: 1
+				id: "mekanism:basic_universal_cable"
+			}
+		}
+		{ id: "4A44B5B755A46032", item: { count: 1, id: "mekanism:upgrade_chemical" } }
+		{ id: "44A4CC5FBFC94B71", item: { count: 1, id: "mekanism:upgrade_anchor" } }
+		{
+			count: 3
+			id: "4548AAC04DED3153"
+			item: {
+				count: 1
+				id: "mekanism:alloy_reinforced"
+			}
+		}
+		{
+			count: 5
+			id: "6A4DCA24F0F18650"
+			item: {
+				count: 1
+				id: "mekanism:alloy_infused"
+			}
+		}
+		{
+			count: 3
+			id: "665CFCD7B6344589"
+			item: {
+				count: 1
+				id: "mekanism:enriched_tin"
+			}
+		}
+		{ id: "7386AE633A16AB1D", item: { count: 1, id: "mekanism:basic_energy_cube" } }
+		{
+			count: 5
+			id: "1A83081B68CCCE27"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:prosperity_gemstone"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "3843C5B024E390F5", item: { components: { "ftbquests:missing_item": "mysticalagriculture:prudentium_furnace" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0097DBAE4ACB9CF7", item: { components: { "ftbquests:missing_item": "mysticalagriculture:soulium_dagger" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7BCA15C2628DB307", item: { components: { "ftbquests:missing_item": "mysticalagriculture:inferium_watering_can" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1C063A4249DAE8D5", item: { components: { "ftbquests:missing_item": "mysticalagriculture:inferium_bow" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "31C9B0F3F038BC31", item: { components: { "ftbquests:missing_item": "mysticalagriculture:tertium_watering_can" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "61FDF2896FF03D27", item: { components: { "ftbquests:missing_item": "mysticalagradditions:nether_star_shard" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5AB90176C58E0079", item: { components: { "ftbquests:missing_item": "matc:tertium_crystal" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "052E00F77BDC7569", item: { count: 1, id: "sophisticatedstorage:limited_gold_barrel_2" } }
+		{ id: "607849D0600B74E3", item: { count: 1, id: "sophisticatedstorage:limited_netherite_barrel_2" } }
+		{ id: "65B66F13D2666862", item: { count: 1, id: "sophisticatedstorage:gold_chest" } }
+		{ id: "12D952B7B0865AD9", item: { count: 1, id: "sophisticatedstorage:gold_chest" } }
+		{ id: "2B84E93569D05150", item: { count: 1, id: "sophisticatedstorage:gold_shulker_box" } }
+		{ id: "12C8ED66FD7EE7B6", item: { count: 1, id: "sophisticatedstorage:netherite_shulker_box" } }
+		{ id: "47A0D446D0C61575", item: { count: 1, id: "sophisticatedstorage:feeding_upgrade" } }
+		{ id: "5CD54468F1B77CDB", item: { count: 1, id: "sophisticatedstorage:basic_to_diamond_tier_upgrade" } }
+		{ id: "42C14D294EBF979B", item: { count: 1, id: "sophisticatedstorage:iron_to_netherite_tier_upgrade" } }
+		{ id: "7BE95A7FD58F5ACE", item: { count: 1, id: "sophisticatedstorage:auto_smelting_upgrade" } }
+		{ id: "73D858375BCDA615", item: { components: { "ftbquests:missing_item": "bloodmagic:apprenticebloodorb" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1F19348C691365F4", item: { components: { "ftbquests:missing_item": "bloodmagic:magicianbloodorb" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1F69D361AF537A93", item: { components: { "ftbquests:missing_item": "bloodmagic:etherealslate" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 5
+			id: "0327FE591FABB5AC"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:demonslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "168B546CE04C279B", item: { components: { "ftbquests:missing_item": "bloodmagic:watersigil" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 5
+			id: "18203EB9DE6B0645"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:infusedslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "337B355D133C963E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:blankslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "60877455528AE4F4"
+			item: {
+				components: {
+					"ftbquests:missing_item": "bloodmagic:reinforcedslate"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "06CC312724366874", item: { components: { "ftbquests:missing_item": "bloodmagic:minekey" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 64
+			id: "79C01A99FF41732C"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:inferium_essence"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 16
+			id: "77205045770B8888"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:prudentium_essence"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 3
+			id: "363C4C1DEDE06CC0"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:tertium_essence"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "7C0A5AA5A3B49E46"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:inferium_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 64
+			id: "1AE9B46E96315DB1"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:soulium_dust"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 64
+			id: "13A3F34DBA6D83A3"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mysticalagriculture:prosperity_shard"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "4CA0A12861BD1F39", item: { components: { "ftbquests:missing_item": "mysticalagriculture:infusion_crystal" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 3
+			id: "05F8CA4F6AE4DF60"
+			item: {
+				count: 1
+				id: "immersiveengineering:steel_post"
+			}
+		}
+		{
+			count: 3
+			id: "6E70DE10FE48AB94"
+			item: {
+				count: 1
+				id: "immersiveengineering:alu_post"
+			}
+		}
+		{ id: "38C8D66216E6047E", item: { count: 1, id: "immersiveengineering:transformer" } }
+		{ id: "48E39774E6426EEF", item: { count: 1, id: "immersiveengineering:breaker_switch" } }
+		{
+			count: 2
+			id: "6751084C42A903F7"
+			item: {
+				count: 1
+				id: "immersiveengineering:redstone_breaker"
+			}
+		}
+		{
+			count: 2
+			id: "65D986AE96FE8725"
+			item: {
+				count: 1
+				id: "immersiveengineering:current_transformer"
+			}
+		}
+		{
+			count: 2
+			id: "31ECCF742E42CDBB"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_redstone"
+			}
+		}
+		{
+			count: 5
+			id: "79BE35D1DF1F3FF8"
+			item: {
+				count: 1
+				id: "immersiveengineering:treated_post"
+			}
+		}
+		{
+			count: 6
+			id: "556ECC9930AF3182"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_hv"
+			}
+		}
+		{ id: "292C04811181EAA2", item: { components: { "ftbquests:missing_item": "mythicbotany:dream_cherry" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 5
+			id: "0FF0E9164162F16D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:apatite"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "4A57AA942AA55817"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:niter"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "0F20DB27AE0147A2"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:cinnabar"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 6
+			id: "782C1F19F4C8CDC2"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:slag"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "73D61888BD674D84"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:sulfur"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "3D70945F5A46EE8C"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:rich_slag"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "7433866B1A37CF51", item: { components: { "ftbquests:missing_item": "thermal:redstone_servo" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "26F5104C15323F67", item: { components: { "ftbquests:missing_item": "thermal:rf_coil" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 4
+			id: "7131AD6A1953E790"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:iron_gear"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 4
+			id: "47B5D8A3E10866AC"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:copper_gear"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 4
+			id: "6906BAD2B3B4B10D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:lapis_gear"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 4
+			id: "36E8D18AE06A06EC"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:lapis_gear"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "461B668D71EFE0E7", item: { components: { "ftbquests:missing_item": "thermal:chiller_ingot_cast" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 9
+			id: "0ED1D072EE54F2B1"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:cobalt_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "3E19C94C0AFAF498", item: { components: { "ftbquests:missing_item": "tconstruct:crafting_station" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 4
+			id: "20521E6177CCDAB7"
+			item: {
+				components: {
+					"ftbquests:missing_item": "thermal:diamond_gear"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 4
+			id: "0044501C4CAEC70B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:ender_slime_ball"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 5
+			id: "21556EF125449F9D"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:blood_slime_ball"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "562B9D39D23D9E79", item: { components: { "ftbquests:missing_item": "tconstruct:bloodbone" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0CE6FAF9F8A87EA7", item: { components: { "ftbquests:missing_item": "tconstruct:necrotic_bone" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7239F6B5D3844C7A", item: { components: { "ftbquests:missing_item": "tconstruct:iron_reinforcement" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 64
+			id: "3CCBEADF57CDE521"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:pattern"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "56584559B404E65C", item: { components: { "ftbquests:missing_item": "lazierae2:fluix_steel_ingot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "617FCC5E8F00DF5F", item: { components: { "ftbquests:missing_item": "lazierae2:logic_unit" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 3
+			id: "7D68E04134B4C7A9"
+			item: {
+				count: 1
+				id: "immersiveengineering:connector_hv_relay"
+			}
+		}
+		{
+			count: 4
+			id: "4C70EF7E528EE231"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:scorched_channel"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "713CC55181BC4B8E", item: { components: { "ftbquests:missing_item": "fluxnetworks:flux_core" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 5
+			id: "4A6328A26CB98C39"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:white_floating_flower"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 3
+			id: "47EBEF66924E0D8B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:glimmering_livingwood_log"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "36255BDB95E85F47", item: { components: { "ftbquests:missing_item": "botania:apothecary_mesa" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 3
+			id: "3ABE9DB08B96DF24"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:glimmering_dreamwood"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "1756CACD8571AD3C", item: { components: { "ftbquests:missing_item": "botania:mana_pool" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "484FEAD22BDC4186", item: { components: { "ftbquests:missing_item": "botania:mana_pylon" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7BD64BD8D7B8B04B", item: { components: { "ftbquests:missing_item": "botania:bellows" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 64
+			id: "21B7F4F6A1C60522"
+			item: {
+				count: 1
+				id: "immersiveengineering:hemp_fiber"
+			}
+		}
+		{ id: "25ABA7FA0F1AE226", item: { count: 1, id: "immersiveengineering:windmill_blade" } }
+		{
+			count: 3
+			id: "3DB5D14062B48EA6"
+			item: {
+				count: 1
+				id: "immersiveengineering:hemp_fabric"
+			}
+		}
+		{
+			count: 3
+			id: "3EE0E8A178CFD4B1"
+			item: {
+				count: 1
+				id: "immersiveengineering:hemp_fabric"
+			}
+		}
+		{
+			count: 16
+			id: "725F2986EA7CC244"
+			item: {
+				count: 1
+				id: "immersiveengineering:wire_electrum"
+			}
+		}
+		{
+			count: 32
+			id: "7976F880AE8DE154"
+			item: {
+				count: 1
+				id: "immersiveengineering:wire_copper"
+			}
+		}
+		{ id: "28311D93F87E936D", item: { count: 1, id: "immersiveengineering:electron_tube" } }
+		{ id: "24BE35B70593F9D9", item: { count: 1, id: "immersiveengineering:light_bulb" } }
+		{
+			count: 10
+			id: "5BF25D44878E9B8C"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper"
+			}
+		}
+		{
+			count: 2
+			id: "7FEEE943EEA021CC"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_electrum"
+			}
+		}
+		{
+			count: 5
+			id: "1D31872309B2F799"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_steel"
+			}
+		}
+		{
+			count: 5
+			id: "1DF502E07FCC0BDD"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_structure_rope"
+			}
+		}
+		{
+			count: 5
+			id: "386889E72CA48560"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_structure_steel"
+			}
+		}
+		{
+			count: 5
+			id: "43D1DA71574A19A8"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_redstone"
+			}
+		}
+		{
+			count: 5
+			id: "25034DFB44874663"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_copper_ins"
+			}
+		}
+		{
+			count: 5
+			id: "03BFEB378F25E679"
+			item: {
+				count: 1
+				id: "immersiveengineering:wirecoil_electrum_ins"
+			}
+		}
+		{
+			count: 3
+			id: "0112517921A3B68E"
+			item: {
+				count: 1
+				id: "immersiveengineering:conveyor_basic"
+			}
+		}
+		{ id: "081AF2DF8DF2D967", item: { count: 1, id: "immersiveengineering:conveyor_splitter" } }
+		{ id: "183D76306A41FD71", item: { count: 1, id: "immersiveengineering:conveyor_extract" } }
+		{
+			count: 4
+			id: "545E4896A8FEF56E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:seared_faucet"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "35A0866932DD1EEA", item: { components: { "ftbquests:missing_item": "tconstruct:tough_handle" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "3AF80916F8F598E4", item: { components: { "ftbquests:missing_item": "tconstruct:tool_binding" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "4A8CE01D8398B596", item: { components: { "ftbquests:missing_item": "tconstruct:bow_grip" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "7A121B4E9DAD6B36", item: { components: { "ftbquests:missing_item": "tconstruct:large_plate" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "75B5BD6CAEA1D758", item: { components: { "ftbquests:missing_item": "tconstruct:broad_blade" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6DFFD55EBB3587FB", item: { components: { "ftbquests:missing_item": "tconstruct:repair_kit" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "37F07237FF2A4D86", item: { components: { "ftbquests:missing_item": "rottencreatures:treasure_chest" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 32
+			id: "2D4000F96C5EAB9B"
+			item: {
+				components: {
+					"ftbquests:missing_item": "tconstruct:scorched_brick"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "1932E78CE171403D", item: { count: 1, id: "tombstone:decorative_grave_simple" } }
+		{
+			count: 10
+			id: "512DCE6DC9FC3E35"
+			item: {
+				count: 1
+				id: "tombstone:lollipop"
+			}
+		}
+		{ id: "6011B3545F2AE919", item: { count: 1, id: "tombstone:receptacle_of_familiar" } }
+		{
+			count: 16
+			id: "12C2437650C81593"
+			item: {
+				components: {
+					"ftbquests:missing_item": "draconicevolution:draconium_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "0540E862FE713481", item: { count: 1, id: "tombstone:receptacle_of_familiar" } }
+		{ id: "409C5389CFED066E", item: { components: { "ftbquests:missing_item": "draconicevolution:awakened_draconium_ingot" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 2
+			id: "572C578D79EF5642"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:spark_upgrade_recessive"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "016C96C1FC0B7C2A", item: { components: { "ftbquests:missing_item": "botania:twig_wand" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 2
+			id: "6293CAA355FA5DFC"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:spark_upgrade_isolated"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 3
+			id: "5A95A5D15FD55E91"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:fertilizer"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "156784601CC0A518"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:ender_air_bottle"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "3DC5A728845DE1FA"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:elementium_ingot"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "78D9F864F96D5911"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:mana_powder"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "4F54F718D5CB88D4", item: { components: { "ftbquests:missing_item": "botania:terrasteel_ingot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5742075F50C32595", item: { components: { "ftbquests:missing_item": "botania:gaia_ingot" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "6E818FE313EC73F7", item: { components: { "ftbquests:missing_item": "botania:exchange_rod" }, count: 1, id: "ftbquests:missing_item" } }
+		{
+			count: 16
+			id: "3E453EB941345B8A"
+			item: {
+				components: {
+					"ftbquests:missing_item": "botania:endoflame"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{ id: "4FE116CE39915F07", item: { components: { "ftbquests:missing_item": "botania:pinkinator" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "5D3F3DBED385ECFE", item: { components: { "ftbquests:missing_item": "torchmaster:megatorch" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "1E20132676153BBE", item: { components: { "ftbquests:missing_item": "torchmaster:feral_flare_lantern" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "0251A2FD6438049A", item: { components: { "ftbquests:missing_item": "elevatorid:elevator_magenta" }, count: 1, id: "ftbquests:missing_item" } }
+		{ id: "506B567D84A87431", item: { count: 1, id: "tombstone:essence_of_undeath" } }
+		{
+			count: 5
+			id: "03E78B5FA2F22A81"
+			item: {
+				count: 1
+				id: "tombstone:grave_dust"
+			}
+		}
+		{
+			count: 10
+			id: "0F6C200DCA6A22DF"
+			item: {
+				count: 1
+				id: "tombstone:lollipop"
+			}
+		}
+		{
+			count: 10
+			id: "7037349E2376BB0B"
+			item: {
+				count: 1
+				id: "tombstone:lollipop"
+			}
+		}
+		{
+			count: 10
+			id: "25265F6F3B518189"
+			item: {
+				count: 1
+				id: "tombstone:lollipop"
+			}
+		}
+		{
+			count: 10
+			id: "5E3D9E38EC389183"
+			item: {
+				count: 1
+				id: "tombstone:lollipop"
+			}
+		}
+		{
+			count: 5
+			id: "3333BD27EFA49F3E"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mypanascoins:copper_coin"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 3
+			id: "104384492F3BB569"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mypanascoins:iron_coin"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+		{
+			count: 2
+			id: "57E2ED145FFC0C38"
+			item: {
+				components: {
+					"ftbquests:missing_item": "mypanascoins:gold_coin"
+				}
+				count: 1
+				id: "ftbquests:missing_item"
+			}
+		}
+	]
+}

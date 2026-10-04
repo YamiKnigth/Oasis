@@ -1,0 +1,14 @@
+{
+	id: "1C178C483832BE44"
+	order_index: 2
+	title: "&2&l$$$"
+	icon: "minecraft:gold_ingot"
+	loot_size: 1
+	rewards: [{
+		title: "&2&l$$$"
+		icon: "minecraft:gold_ingot"
+		auto: "enabled"
+		command: "eco give @p 100"
+		type: "command"
+	}]
+}

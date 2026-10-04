@@ -3,11 +3,11 @@
 	#The time in minutes before a grave is unlocked to anyone [-1..MAX|default:-1|disabled:-1]
 	# Default: -1
 	# Range: > -1
-	decay_time = -1
+	decay_time = 10080
 	#Experience lost on death [0..100|default:95]
 	# Default: 95
 	# Range: 0 ~ 100
-	xp_loss_on_death = 95
+	xp_loss_on_death = 40
 	#The duration of the Ghostly Shape effect in seconds [0..MAX|default:120]
 	# Default: 120
 	# Range: > 0

@@ -1,9 +1,9 @@
-# Oasis — lista de mods (v1.1)
+# Oasis — lista de mods (v1.1.1)
 
 **Tope duro: 160** | Plataforma: NeoForge 21.1.253 / MC 1.21.1  
 **Fuente unica:** CurseForge (1.21.1 + NeoForge).
 
-Conteo actual: **149 client** / **140 server** jars. Cupo restante client: **11**.
+Conteo actual: ver jars en `client/mods` y `server/mods`. Cupo restante client: bajo tope 160.
 
 Client-only (no en server): Mouse Tweaks, Controlling, Searchables (+ posibles futuros).
 
@@ -30,7 +30,25 @@ Fuera (decidido): Atlas API, Iron's Jewelry, Carry On, mapa Xaero/JM, Combat Rol
 - KubeJS tech gates + JEI (sin EMI)  
 - FTB Quests 11 capítulos  
 - Repo: https://github.com/YamiKnigth/Oasis · rama trabajo `feat/mods-and-quests`  
-- Perfil CF: `curseforge/Oasis-1.1.0.zip` (148 mods; sin Every Compat)
+- Perfil CF: `curseforge/Oasis-1.1.1.zip`
+
+## 12) Worldgen polish — INSTALADA
+
+Config: menos océano (Tectonic), biomas más chicos/variados (TerraBlender), más peso BWG + estructuras densas; hielo menos frecuente vía `temperature_offset` (biomas helados siguen activos).
+
+Mods nuevos/actualizados (`docs/phase-worldgen-download-log.csv`):
+- BWG **2.6.1**
+- Dense Vegetation
+- Repurposed Structures
+- Create: OTBWG Compat
+- Oh The Biomes We've Engineered (IE)
+
+**Requiere mundo nuevo** para notar terrain/biomes.
+
+## 13) C2ME — INSTALADO
+
+`c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122` en server/client/CF.
+Alpha: si hay crash/gen rara al explorar, quitar el jar. No combinar con Noisium Chunk Manager.
 
 ---
 
