@@ -48,7 +48,7 @@ MANIFEST=""
 CSV=""
 
 # Client-only projectIDs (no deben ir al server)
-CLIENT_ONLY_IDS="60089 250398 254284 257814 448233 686911 858542 908741 1390302"
+CLIENT_ONLY_IDS="60089 250398 254284 257814 448233 455508 686911 858542 908741 1007288 1390302"
 
 log()  { printf '[Oasis] %s\n' "$*"; }
 warn() { printf '[Oasis] WARN: %s\n' "$*" >&2; }
@@ -363,6 +363,8 @@ rm -f \
   mods/AmbientSounds*.jar \
   mods/CreativeCore*.jar \
   mods/PresenceFootsteps-*.jar \
+  mods/iris-*.jar \
+  mods/monocle-*.jar \
   mods/embeddium-*.jar \
   mods/entityculling-*.jar \
   mods/ImmediatelyFast-*.jar \

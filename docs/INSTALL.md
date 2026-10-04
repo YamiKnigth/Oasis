@@ -2,23 +2,25 @@
 
 ## Perfil generado (jugadores)
 
-Archivo: `curseforge/Oasis-1.1.3.zip`
+Archivo: `curseforge/Oasis-1.1.4.zip`
 
 Contiene:
 - `manifest.json` — MC **1.21.1** + NeoForge **21.1.253** + mods del pack (projectID/fileID)
 - `modlist.html` — lista legible
+- `minecraftinstance.json` — RAM recomendada **6144 MB**
 - `overrides/` — kubejs, FTB Quests, configs del pack (**sin jars**)
 
 ## Jugadores (CurseForge App)
 
 1. Instalar [CurseForge App](https://www.curseforge.com/download/app) y **Java 21**.
-2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.3.zip`.
+2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.4.zip`.
 3. Esperar a que la App descargue los mods.
 4. El perfil trae **6144 MB (6 GB)** en `minecraftinstance.json`. Si al importar queda en 4 GB: Profile Options → Custom RAM → 6144.
 5. Jugadores → cuenta Microsoft de Minecraft seleccionada (no basta con login de CurseForge).
-6. Jugar / conectar al servidor cuando exista.
+6. Shaders: Iris + Monocle (con Embeddium). Pon packs en `shaderpacks/` y actívalos en Opciones de video.
+7. Jugar / conectar al servidor cuando exista.
 
-Si ya tenías `1.1.1`/`1.1.2`, actualiza a **1.1.3** (sin Create OTBWG / Engineered; sonidos restaurados). Reinstala mods en el host si el server ya tenía esos jars.
+Si ya tenías `1.1.3`, actualiza a **1.1.4** (Iris + Monocle). Server no cambia por shaders.
 
 ## Servidor (Pterodactyl)
 
