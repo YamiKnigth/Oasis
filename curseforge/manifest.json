@@ -11,7 +11,7 @@
     "manifestType":  "minecraftModpack",
     "manifestVersion":  1,
     "name":  "Oasis",
-    "version":  "1.1.7",
+    "version":  "1.1.8",
     "author":  "Oasis",
     "overrides":  "overrides",
     "files":  [
@@ -133,6 +133,11 @@
                   {
                       "projectID":  324717,
                       "fileID":  8591319,
+                      "required":  true
+                  },
+                  {
+                      "projectID":  326652,
+                      "fileID":  8889050,
                       "required":  true
                   },
                   {
@@ -343,6 +348,11 @@
                   {
                       "projectID":  491794,
                       "fileID":  7892943,
+                      "required":  true
+                  },
+                  {
+                      "projectID":  495693,
+                      "fileID":  8874976,
                       "required":  true
                   },
                   {

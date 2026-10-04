@@ -2,7 +2,7 @@
 
 ## Perfil generado (jugadores)
 
-Archivo: `curseforge/Oasis-1.1.7.zip`
+Archivo: `curseforge/Oasis-1.1.8.zip`
 
 Contiene:
 - `manifest.json` — MC **1.21.1** + NeoForge **21.1.253** + mods del pack (projectID/fileID)
@@ -13,15 +13,15 @@ Contiene:
 ## Jugadores (CurseForge App)
 
 1. Instalar [CurseForge App](https://www.curseforge.com/download/app) y **Java 21**.
-2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.7.zip`.
+2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.8.zip`.
 3. Esperar a que la App descargue los mods.
 4. El perfil trae **6144 MB (6 GB)** en `minecraftinstance.json`. Si al importar queda en 4 GB: Profile Options → Custom RAM → 6144.
 5. Jugadores → cuenta Microsoft de Minecraft seleccionada (no basta con login de CurseForge).
-6. Shaders (mismo par que **ATM10 8.2**): **Iris 1.8.14-beta.1 + Sodium 0.8.13** (cliente).
-   - Sin Embeddium/Monocle. Packs en `shaderpacks/` → tecla **O** / menú Iris.
-7. Jugar / conectar al servidor cuando exista.
+6. Shaders (par **ATM10 8.2**): **Iris 1.8.14-beta.1 + Sodium 0.8.13**. Packs en `shaderpacks/` / tecla **O**.
+7. **Farsight** (cliente) + **Cupboard** (lib): chunks lejanos aunque el server tenga view-distance baja.
+8. Jugar / conectar al servidor cuando exista.
 
-Si ya tenías `1.1.6`, actualiza a **1.1.7**. **Server no cambia**.
+Si ya tenías `1.1.7`, actualiza a **1.1.8**. En el host: reinstala o copia `cupboard-1.21.1-4.2.jar` (Farsight no va al server).
 
 ## Servidor (Pterodactyl)
 

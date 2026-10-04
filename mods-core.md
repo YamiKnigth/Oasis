@@ -1,11 +1,11 @@
-# Oasis — lista de mods (v1.1.7)
+# Oasis — lista de mods (v1.1.8)
 
 **Tope duro: 160** | Plataforma: NeoForge 21.1.253 / MC 1.21.1  
 **Fuente unica:** CurseForge (1.21.1 + NeoForge).
 
 Conteo actual: ver jars en `client/mods` y `server/mods`. Cupo restante client: bajo tope 160.
 
-Client-only (no en server): Mouse Tweaks, Controlling, Searchables, **Sodium**, Entity Culling, ImmediatelyFast, AmbientSounds (+ CreativeCore), Presence Footsteps, **Iris** (shaders).
+Client-only (no en server): Mouse Tweaks, Controlling, Searchables, **Sodium**, Entity Culling, ImmediatelyFast, AmbientSounds (+ CreativeCore), Presence Footsteps, **Iris** (shaders), **Farsight** (+ lib **Cupboard** también en server).
 
 ---
 
@@ -30,7 +30,7 @@ Fuera (decidido): Atlas API, Iron's Jewelry, Carry On, mapa Xaero/JM, Combat Rol
 - KubeJS tech gates + JEI (sin EMI)  
 - FTB Quests 11 capítulos  
 - Repo: https://github.com/YamiKnigth/Oasis · rama `main`  
-- Perfil CF: `curseforge/Oasis-1.1.7.zip` (shaders = par ATM10: Iris 1.8.14-beta.1 + Sodium 0.8.13)
+- Perfil CF: `curseforge/Oasis-1.1.8.zip` (shaders ATM10 + Farsight)
 
 ## 12) Worldgen polish — INSTALADA
 
@@ -54,9 +54,9 @@ Alpha: si hay crash/gen rara al explorar, quitar el jar. No combinar con Noisium
 
 ## Conteo
 ```
-Total jars client: 152
-Total jars server: 142
-Cupo restante (client): 160 - 152 = 8
+Total jars client: 154
+Total jars server: 143
+Cupo restante (client): 160 - 154 = 6
 ```
 
 Fuera del pack (no deben estar en server): Every Compat, Create OTBWG Compat, Oh The Biomes We've Engineered.
