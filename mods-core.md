@@ -1,4 +1,4 @@
-# Oasis — lista de mods (v1.1.6)
+# Oasis — lista de mods (v1.1.7)
 
 **Tope duro: 160** | Plataforma: NeoForge 21.1.253 / MC 1.21.1  
 **Fuente unica:** CurseForge (1.21.1 + NeoForge).
@@ -30,7 +30,7 @@ Fuera (decidido): Atlas API, Iron's Jewelry, Carry On, mapa Xaero/JM, Combat Rol
 - KubeJS tech gates + JEI (sin EMI)  
 - FTB Quests 11 capítulos  
 - Repo: https://github.com/YamiKnigth/Oasis · rama `main`  
-- Perfil CF: `curseforge/Oasis-1.1.6.zip`
+- Perfil CF: `curseforge/Oasis-1.1.7.zip` (shaders = par ATM10: Iris 1.8.14-beta.1 + Sodium 0.8.13)
 
 ## 12) Worldgen polish — INSTALADA
 

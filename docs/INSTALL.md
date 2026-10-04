@@ -2,7 +2,7 @@
 
 ## Perfil generado (jugadores)
 
-Archivo: `curseforge/Oasis-1.1.6.zip`
+Archivo: `curseforge/Oasis-1.1.7.zip`
 
 Contiene:
 - `manifest.json` — MC **1.21.1** + NeoForge **21.1.253** + mods del pack (projectID/fileID)
@@ -13,15 +13,15 @@ Contiene:
 ## Jugadores (CurseForge App)
 
 1. Instalar [CurseForge App](https://www.curseforge.com/download/app) y **Java 21**.
-2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.6.zip`.
+2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.7.zip`.
 3. Esperar a que la App descargue los mods.
 4. El perfil trae **6144 MB (6 GB)** en `minecraftinstance.json`. Si al importar queda en 4 GB: Profile Options → Custom RAM → 6144.
 5. Jugadores → cuenta Microsoft de Minecraft seleccionada (no basta con login de CurseForge).
-6. Shaders: **Iris 1.8.12 + Sodium 0.6.13** (cliente). No uses Sodium 0.8.x con esta Iris (crash).
-   - Sin Embeddium/Monocle. Packs en `shaderpacks/` → Opciones → Shaders (tecla **O** también abre Iris).
+6. Shaders (mismo par que **ATM10 8.2**): **Iris 1.8.14-beta.1 + Sodium 0.8.13** (cliente).
+   - Sin Embeddium/Monocle. Packs en `shaderpacks/` → tecla **O** / menú Iris.
 7. Jugar / conectar al servidor cuando exista.
 
-Si ya tenías `1.1.5`, actualiza a **1.1.6** (Sodium pin 0.6.13). **Server no cambia**.
+Si ya tenías `1.1.6`, actualiza a **1.1.7**. **Server no cambia**.
 
 ## Servidor (Pterodactyl)
 
