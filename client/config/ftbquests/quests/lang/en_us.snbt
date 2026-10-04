@@ -2700,4 +2700,279 @@
 		"Automatiza farms cozy con starbuncles/whirlisprigs y usa turrets para defensa."
 		"&6Oasis:&r Sigue con Occultism o Iron's cuando quieras; Ars no bloquea Create/IE/AE2/Mek."
 	]
+	chapter.A84248B82104D208.title: "&8&lOccultism"
+	quest.961396BA83118FB0.title: "Occultism"
+	quest.961396BA83118FB0.quest_subtitle: "Espiritus, circulo y minas"
+	quest.961396BA83118FB0.quest_desc: [
+		"Occultism invoca espiritus (foliot/djinni/afrit/marid) con circulo de chalk + bowls."
+		"&6Oasis:&r Magia de automatizacion/mineria paralela. No bloquea Create ni Mek; combina con storage del pack."
+	]
+	quest.A3E25E6E95E48CC2.title: "Dictionary of Spirits"
+	quest.A3E25E6E95E48CC2.quest_subtitle: "Tu biblia oculta"
+	quest.A3E25E6E95E48CC2.quest_desc: ["Guia del mod: rituales, espiritus y progresion. Consultalo antes de dibujar circulo a ciegas."]
+	quest.2A5BE31E0A6E0C80.title: "Divination Rod"
+	quest.2A5BE31E0A6E0C80.quest_subtitle: "Busca otherstone"
+	quest.2A5BE31E0A6E0C80.quest_desc: ["Apunta a otherstone/otherworld ores. Primer paso para salir del overworld \"normal\"."]
+	quest.7F0DA92D6F1DB9A8.title: "Otherstone"
+	quest.7F0DA92D6F1DB9A8.quest_subtitle: "Piedra del otro lado"
+	quest.7F0DA92D6F1DB9A8.quest_desc: ["Bloque base de pedestals, bowls y decor occult. Mina con la rod como guia."]
+	quest.AF9A03D95CB14365.title: "Spirit Fire"
+	quest.AF9A03D95CB14365.quest_subtitle: "Fuego espiritual"
+	quest.AF9A03D95CB14365.quest_desc: [
+		"Fuego especial para purificar chalk impure y procesar materiales occult."
+		"Haz stock: vas a quemar mucha chalk impure."
+	]
+	quest.29BC7F90288905D0.title: "Brush"
+	quest.29BC7F90288905D0.quest_subtitle: "Borra el circulo"
+	quest.29BC7F90288905D0.quest_desc: ["Limpia chalk del suelo. Obligatorio cuando fallas un ritual o rediseñas."]
+	quest.025ED22CE5D9A488.title: "Materiales de ritual"
+	quest.025ED22CE5D9A488.quest_subtitle: "Datura, tallow, velas"
+	quest.025ED22CE5D9A488.quest_desc: ["Los rituales piden ofrendas. Siembra datura y prepara tallow/candles."]
+	quest.370DCA202AF964B7.title: "Datura Seeds"
+	quest.370DCA202AF964B7.quest_subtitle: "Siembra demonica"
+	quest.370DCA202AF964B7.quest_desc: ["Cultivo clave. Crece datura para comida/ofrendas de ritual."]
+	quest.69B5A6F18EDE82C1.title: "Datura"
+	quest.69B5A6F18EDE82C1.quest_subtitle: "Fruto ritual"
+	quest.69B5A6F18EDE82C1.quest_desc: ["Ingrediente frecuente. Stockea antes de spamear bindings."]
+	quest.96E2B23652F84F64.title: "Tallow"
+	quest.96E2B23652F84F64.quest_subtitle: "Sebo"
+	quest.96E2B23652F84F64.quest_desc: ["Base de velas grandes. Farms de animales ayudan."]
+	quest.46819987482A3708.title: "Large Candle"
+	quest.46819987482A3708.quest_subtitle: "Vela de circulo"
+	quest.46819987482A3708.quest_desc: ["Ilumina y completa patrones de ritual. Hay tintadas si te gusta el aesthetic."]
+	quest.9ED86833440950DF.title: "Otherworld Ashes"
+	quest.9ED86833440950DF.quest_subtitle: "Cenizas"
+	quest.9ED86833440950DF.quest_desc: ["Subproducto/purificacion. Entra en crafts de chalk y essentials."]
+	quest.8F0C1214D658C0BB.title: "Otherworld Essence"
+	quest.8F0C1214D658C0BB.quest_subtitle: "Esencia"
+	quest.8F0C1214D658C0BB.quest_desc: ["Essence procesada para crafts mid."]
+	quest.E4596DD201A3F05A.title: "Chalks"
+	quest.E4596DD201A3F05A.quest_subtitle: "Dibuja el circulo"
+	quest.E4596DD201A3F05A.quest_desc: ["White/Gold/Purple/Red definen el tier y tipo de ritual. Impure -> pure en Spirit Fire."]
+	quest.5444C17C56CCC196.title: "White Chalk Impure"
+	quest.5444C17C56CCC196.quest_subtitle: "Primer trazo"
+	quest.5444C17C56CCC196.quest_desc: ["Craft impure, quema en Spirit Fire para pure white chalk."]
+	quest.A903C97ED803E6C4.title: "White Chalk"
+	quest.A903C97ED803E6C4.quest_subtitle: "Circulos basicos"
+	quest.A903C97ED803E6C4.quest_desc: ["Tier de entrada. Foliots y rituales simples."]
+	quest.52974C876DC6A61D.title: "Golden Chalk"
+	quest.52974C876DC6A61D.quest_subtitle: "Circulos mid"
+	quest.52974C876DC6A61D.quest_desc: ["Siguiente escalon. Mas rituales / mejores espiritus."]
+	quest.D3A7420D6579460E.title: "Purple Chalk"
+	quest.D3A7420D6579460E.quest_subtitle: "Circulos altos"
+	quest.D3A7420D6579460E.quest_desc: ["Tier serio. Afrits y contenido peligroso."]
+	quest.C8687A987D5D90A7.title: "Red Chalk"
+	quest.C8687A987D5D90A7.quest_subtitle: "Circulos top"
+	quest.C8687A987D5D90A7.quest_desc: ["Tier maximo de chalk clasico. Marids y endgame occult."]
+	quest.F41CD38F6618329F.title: "Red Chalk Impure"
+	quest.F41CD38F6618329F.quest_subtitle: "Antes del fuego"
+	quest.F41CD38F6618329F.quest_desc: ["Purifica en Spirit Fire. No dibujes con impure si la receta pide pure."]
+	quest.E77E6A6B6A4E127E.title: "Purple Chalk Impure"
+	quest.E77E6A6B6A4E127E.quest_subtitle: "Purificar"
+	quest.E77E6A6B6A4E127E.quest_desc: ["Spirit Fire -> purple chalk."]
+	quest.FBB75D2C349943AC.title: "Circulo de invocacion"
+	quest.FBB75D2C349943AC.quest_subtitle: "Bowls y pedestal"
+	quest.FBB75D2C349943AC.quest_desc: ["Sacrificial Bowl + chalk + candles + ofrendas. El Dictionary muestra el patron exacto."]
+	quest.76E1F7D14F9A1918.title: "Sacrificial Bowl"
+	quest.76E1F7D14F9A1918.quest_subtitle: "Cuenco central"
+	quest.76E1F7D14F9A1918.quest_desc: ["Bowl basico del ritual. Coloca items de ofrenda segun la pagina del Dictionary."]
+	quest.1665615DD33C7ED1.title: "Golden Sacrificial Bowl"
+	quest.1665615DD33C7ED1.quest_subtitle: "Bowl mid"
+	quest.1665615DD33C7ED1.quest_desc: ["Requerido por rituales mejores. Upgrade natural del bowl basico."]
+	quest.73A9FBD4867BD501.title: "Silver Sacrificial Bowl"
+	quest.73A9FBD4867BD501.quest_subtitle: "Bowl plata"
+	quest.73A9FBD4867BD501.quest_desc: ["Variante de bowl para ciertos rituales mid/high."]
+	quest.41CA35651470C5F6.title: "Iesnium Sacrificial Bowl"
+	quest.41CA35651470C5F6.quest_subtitle: "Bowl late"
+	quest.41CA35651470C5F6.quest_desc: ["Bowl de iesnium para rituales endgame."]
+	quest.3B4E4E7646F80510.title: "Otherstone Pedestal"
+	quest.3B4E4E7646F80510.quest_subtitle: "Soportes"
+	quest.3B4E4E7646F80510.quest_desc: ["Pedestals alrededor del circulo / decor funcional."]
+	quest.7FBFAEC2A34F9C95.title: "Spirit Torch"
+	quest.7FBFAEC2A34F9C95.quest_subtitle: "Luz occult"
+	quest.7FBFAEC2A34F9C95.quest_desc: ["Iluminacion tematica. No sustituye candles de ritual."]
+	quest.74402C8C2E42D163.title: "Spirit Campfire"
+	quest.74402C8C2E42D163.quest_subtitle: "Fogata espiritual"
+	quest.74402C8C2E42D163.quest_desc: ["Utilidad/ambient. Buena en bases occult."]
+	quest.10E592F45805914D.title: "Spirit Grindstone"
+	quest.10E592F45805914D.quest_subtitle: "Muele con espiritus"
+	quest.10E592F45805914D.quest_desc: ["Procesado early/mid con ayuda espiritual."]
+	quest.E4D698002D34A6BA.title: "Espiritu y bindings"
+	quest.E4D698002D34A6BA.quest_subtitle: "Foliot -> Marid"
+	quest.E4D698002D34A6BA.quest_desc: ["Books of Binding + ritual = espiritu bound. Luego Books of Calling les dan trabajo."]
+	quest.F8CF8F4AE2DDA227.title: "Empty Binding Book"
+	quest.F8CF8F4AE2DDA227.quest_subtitle: "Libro vacio"
+	quest.F8CF8F4AE2DDA227.quest_desc: ["Base craftable. Especializalo en foliot/djinni/afrit/marid."]
+	quest.D8C9D3D7E0D98245.title: "Binding: Foliot"
+	quest.D8C9D3D7E0D98245.quest_subtitle: "Espiritu menor"
+	quest.D8C9D3D7E0D98245.quest_desc: ["Primer espiritu util: transporte, lumber, cleaner, farmer..."]
+	quest.172B4F0E280CA3A2.title: "Bound Foliot"
+	quest.172B4F0E280CA3A2.quest_subtitle: "Foliot capturado"
+	quest.172B4F0E280CA3A2.quest_desc: ["Resultado del ritual de binding. Ya puedes craftar calling books."]
+	quest.8F1F8878168A6162.title: "Calling: Transport"
+	quest.8F1F8878168A6162.quest_subtitle: "Mueve items"
+	quest.8F1F8878168A6162.quest_desc: ["Foliot que transporta items entre inventarios. Tu primer automator occult."]
+	quest.59BF0B1328CC3C4C.title: "Calling: Lumberjack"
+	quest.59BF0B1328CC3C4C.quest_subtitle: "Tala"
+	quest.59BF0B1328CC3C4C.quest_desc: ["Foliot lenador. Tree farms sin Create (o junto a Create)."]
+	quest.6C84F4ED98884AEB.title: "Calling: Cleaner"
+	quest.6C84F4ED98884AEB.quest_subtitle: "Limpia drops"
+	quest.6C84F4ED98884AEB.quest_desc: ["Recoge basura del suelo. QoL enorme en bases sucias."]
+	quest.5870B0FD12EDBB75.title: "Calling: Farmer"
+	quest.5870B0FD12EDBB75.quest_subtitle: "Cultivos"
+	quest.5870B0FD12EDBB75.quest_desc: ["Foliot granjero. Synergy con Cocina Oasis."]
+	quest.6DEF46C23E08D397.title: "Binding: Djinni"
+	quest.6DEF46C23E08D397.quest_subtitle: "Espiritu medio"
+	quest.6DEF46C23E08D397.quest_desc: ["Mas poder que foliot. Manage machine y miners mejores."]
+	quest.963D4817A5A87ADC.title: "Bound Djinni"
+	quest.963D4817A5A87ADC.quest_subtitle: "Djinni listo"
+	quest.963D4817A5A87ADC.quest_desc: ["Djinni bound tras el ritual correcto."]
+	quest.3D4E404B95C292C1.title: "Calling: Manage Machine"
+	quest.3D4E404B95C292C1.quest_subtitle: "Cuida maquinas"
+	quest.3D4E404B95C292C1.quest_desc: ["Djinni que gestiona maquinas. Puente cozy hacia tech."]
+	quest.10184988B594AF97.title: "Binding: Afrit"
+	quest.10184988B594AF97.quest_subtitle: "Espiritu alto"
+	quest.10184988B594AF97.quest_desc: ["Peligroso y potente. Preparate antes del ritual."]
+	quest.D74F677437C5D1D0.title: "Bound Afrit"
+	quest.D74F677437C5D1D0.quest_subtitle: "Afrit listo"
+	quest.D74F677437C5D1D0.quest_desc: ["Afrit bound. Deep miners y essence."]
+	quest.EA4D1CACE5F3FEE0.title: "Afrit Essence"
+	quest.EA4D1CACE5F3FEE0.quest_subtitle: "Esencia afrit"
+	quest.EA4D1CACE5F3FEE0.quest_desc: ["Material late de afrits."]
+	quest.4073123C8598116D.title: "Binding: Marid"
+	quest.4073123C8598116D.quest_subtitle: "Espiritu maximo"
+	quest.4073123C8598116D.quest_desc: ["Top tier. Master miner y crafts finales."]
+	quest.19E89C99E08BD691.title: "Bound Marid"
+	quest.19E89C99E08BD691.quest_subtitle: "Marid listo"
+	quest.19E89C99E08BD691.quest_desc: ["Marid bound. Enhorabuena, occultist."]
+	quest.B52150B6B3D92F0C.title: "Marid Essence"
+	quest.B52150B6B3D92F0C.quest_subtitle: "Esencia marid"
+	quest.B52150B6B3D92F0C.quest_desc: ["Essence endgame occult."]
+	quest.9B3EA849946E2BE1.title: "Metales occult"
+	quest.9B3EA849946E2BE1.quest_subtitle: "Silver e Iesnium"
+	quest.9B3EA849946E2BE1.quest_desc: ["Silver aparece en el camino; Iesnium es el metal late del mod."]
+	quest.7D0961E5B88589BB.title: "Silver Ore"
+	quest.7D0961E5B88589BB.quest_subtitle: "Plata"
+	quest.7D0961E5B88589BB.quest_desc: ["Mina silver. Tambien deepslate variant."]
+	quest.2995462EC78E5703.title: "Silver Ingot"
+	quest.2995462EC78E5703.quest_subtitle: "Lingote plata"
+	quest.2995462EC78E5703.quest_desc: ["Crafts de bowls y gear occult."]
+	quest.D6AB6EC3B5F96234.title: "Raw Iesnium"
+	quest.D6AB6EC3B5F96234.quest_subtitle: "Mineral raro"
+	quest.D6AB6EC3B5F96234.quest_desc: ["Iesnium se obtiene con progresion/miners/otherworld. JEI + Dictionary."]
+	quest.9BA977D7B1891D23.title: "Iesnium Ingot"
+	quest.9BA977D7B1891D23.quest_subtitle: "Metal late"
+	quest.9BA977D7B1891D23.quest_desc: ["Base de pickaxe, bowls y equipos top Occultism."]
+	quest.D937742661C629EE.title: "Iesnium Pickaxe"
+	quest.D937742661C629EE.quest_subtitle: "Pico occult"
+	quest.D937742661C629EE.quest_desc: ["Pico late del mod. Buen partner de miners dimensionales."]
+	quest.91DB98327DAC18E9.title: "Infused Pickaxe"
+	quest.91DB98327DAC18E9.quest_subtitle: "Pico imbuido"
+	quest.91DB98327DAC18E9.quest_desc: ["Upgrade espiritual del pico."]
+	quest.76BAE740028950F7.title: "Otherworld Goggles"
+	quest.76BAE740028950F7.quest_subtitle: "Ve lo oculto"
+	quest.76BAE740028950F7.quest_desc: ["Revela bloques/otherworld hidden. Equipalas al explorar."]
+	quest.ED11DBAFCB9CC88D.title: "Miners dimensionales"
+	quest.ED11DBAFCB9CC88D.quest_subtitle: "Mineshaft occult"
+	quest.ED11DBAFCB9CC88D.quest_desc: ["Los miner spirits trabajan en el Dimensional Mineshaft. Pack-friendly ore processing."]
+	quest.B18309B2982B461A.title: "Dimensional Mineshaft"
+	quest.B18309B2982B461A.quest_subtitle: "Pozo de miners"
+	quest.B18309B2982B461A.quest_desc: [
+		"Estructura/maquina donde insertas miner spirits + fuel/time."
+		"Lee el Dictionary: cada miner trae tablas de loot distintas."
+	]
+	quest.E55D534BBD0150CF.title: "Miner: Foliot"
+	quest.E55D534BBD0150CF.quest_subtitle: "Minero basico"
+	quest.E55D534BBD0150CF.quest_desc: ["Primer miner. Loot general, perfecto para empezar la shaft."]
+	quest.1F1DCE12CC8E5340.title: "Miner: Djinni Ores"
+	quest.1F1DCE12CC8E5340.quest_subtitle: "Minero de ores"
+	quest.1F1DCE12CC8E5340.quest_desc: ["Mejor enfoque en ores. Gran salto de throughput."]
+	quest.6257EDBC03BA5C87.title: "Miner: Afrit Deeps"
+	quest.6257EDBC03BA5C87.quest_subtitle: "Deep loot"
+	quest.6257EDBC03BA5C87.quest_desc: ["Minero deep/tier alto. Mas peligro, mejor paga."]
+	quest.3171394FC1DCE8C1.title: "Miner: Marid Master"
+	quest.3171394FC1DCE8C1.quest_subtitle: "Master miner"
+	quest.3171394FC1DCE8C1.quest_desc: ["Top miner craftable. Objetivo endgame Occultism."]
+	quest.A0BD5E8D88AA4911.title: "Miner: Ancient Eldritch"
+	quest.A0BD5E8D88AA4911.quest_subtitle: "Trofeo"
+	quest.A0BD5E8D88AA4911.quest_desc: ["Miner legendario/especial. No obligatorio para divertirse."]
+	quest.AD7EDF8054DE4DF8.title: "Dimensional Matrix"
+	quest.AD7EDF8054DE4DF8.quest_subtitle: "Componente dimensional"
+	quest.AD7EDF8054DE4DF8.quest_desc: ["Pieza de crafts dimensionales / wormholes."]
+	quest.EA0BC5537D4050F3.title: "Magic Lamp (Empty)"
+	quest.EA0BC5537D4050F3.quest_subtitle: "Lampara"
+	quest.EA0BC5537D4050F3.quest_desc: ["Contenedor/utility de espiritus. Revisa usos en JEI."]
+	quest.7D17AF1279C7D7D4.title: "Storage occult"
+	quest.7D17AF1279C7D7D4.quest_subtitle: "Controller y wormholes"
+	quest.7D17AF1279C7D7D4.quest_desc: ["Sistema de almacenamiento dimensional. Complementa Sophisticated/AE2."]
+	quest.6E937B1B019F66F1.title: "Storage Controller Base"
+	quest.6E937B1B019F66F1.quest_subtitle: "Base del controller"
+	quest.6E937B1B019F66F1.quest_desc: ["Parte inferior/estructura del storage controller."]
+	quest.AC2CBF64B4C5B604.title: "Storage Controller"
+	quest.AC2CBF64B4C5B604.quest_subtitle: "Red occult"
+	quest.AC2CBF64B4C5B604.quest_desc: ["Corazon del storage Occultism. Enlaza estabilizadores y accesos."]
+	quest.F24ED00CFEAF65B8.title: "Stabilizer T0"
+	quest.F24ED00CFEAF65B8.quest_subtitle: "Primer boost"
+	quest.F24ED00CFEAF65B8.quest_desc: ["Aumenta capacidad/canales segun tier. Sube de T0 a T5 con el tiempo."]
+	quest.96F94DF68AC7D0BF.title: "Stabilizer T1"
+	quest.96F94DF68AC7D0BF.quest_subtitle: "Mas espacio"
+	quest.96F94DF68AC7D0BF.quest_desc: ["Siguiente tier de estabilizador."]
+	quest.201EC62203053D08.title: "Stabilizer T3"
+	quest.201EC62203053D08.quest_subtitle: "Mid storage"
+	quest.201EC62203053D08.quest_desc: ["Buen objetivo mid. T4/T5 cuando ya vivas en occult storage."]
+	quest.D390678BF9BC184B.title: "Stabilizer T5"
+	quest.D390678BF9BC184B.quest_subtitle: "Top stabilizer"
+	quest.D390678BF9BC184B.quest_desc: ["Tier maximo de stabilizer."]
+	quest.5B1171040F3986EA.title: "Storage Remote"
+	quest.5B1171040F3986EA.quest_subtitle: "Acceso remoto"
+	quest.5B1171040F3986EA.quest_desc: ["Mando del storage. Linkea al controller."]
+	quest.2117E0A02AC9D69A.title: "Wormhole Frame"
+	quest.2117E0A02AC9D69A.quest_subtitle: "Marco de portal"
+	quest.2117E0A02AC9D69A.quest_desc: ["Base para wormholes estables."]
+	quest.B1109E610D807821.title: "Stable Wormhole"
+	quest.B1109E610D807821.quest_subtitle: "Portal de items"
+	quest.B1109E610D807821.quest_desc: ["Conecta inventarios/areas a distancia dentro del ecosistema occult."]
+	quest.B49AA046891D4641.title: "Cristales y almas"
+	quest.B49AA046891D4641.quest_subtitle: "Attunement"
+	quest.B49AA046891D4641.quest_desc: ["Gems/cristales attuned y soul gems para captura/utility."]
+	quest.FAD3F13670CEDC9A.title: "Spirit Attuned Gem"
+	quest.FAD3F13670CEDC9A.quest_subtitle: "Gema sintonizada"
+	quest.FAD3F13670CEDC9A.quest_desc: ["Componente mid de crafts espirituales."]
+	quest.AA42A5EEAF11B441.title: "Spirit Attuned Crystal"
+	quest.AA42A5EEAF11B441.quest_subtitle: "Cristal"
+	quest.AA42A5EEAF11B441.quest_desc: ["Crystal attuned para maquinas/rituales."]
+	quest.27E9CFC8291D719B.title: "Soul Gem"
+	quest.27E9CFC8291D719B.quest_subtitle: "Captura almas"
+	quest.27E9CFC8291D719B.quest_desc: ["Captura entidades. Hay fragile variants para early."]
+	quest.1B49558DAE28655F.title: "Fragile Soul Gem"
+	quest.1B49558DAE28655F.quest_subtitle: "Captura frágil"
+	quest.1B49558DAE28655F.quest_desc: ["Version temprana/fragil del soul gem."]
+	quest.F31ED47006A55CB6.title: "Lenses"
+	quest.F31ED47006A55CB6.quest_subtitle: "Lentes"
+	quest.F31ED47006A55CB6.quest_desc: ["Craft component; infused lenses despues."]
+	quest.63E21793BAABEB6F.title: "Infused Lenses"
+	quest.63E21793BAABEB6F.quest_subtitle: "Lentes imbuidas"
+	quest.63E21793BAABEB6F.quest_desc: ["Usadas en goggles y equipo de vision."]
+	quest.9C629A48792310BA.title: "Familiar Ring"
+	quest.9C629A48792310BA.quest_subtitle: "Familiar curio"
+	quest.9C629A48792310BA.quest_desc: ["Anillo para familiars. Curios slot friendly."]
+	quest.6EA5690B76476DF2.title: "Satchel"
+	quest.6EA5690B76476DF2.quest_subtitle: "Bolsa occult"
+	quest.6EA5690B76476DF2.quest_desc: ["Inventario extra tematico."]
+	quest.E029997498BB946F.title: "Ritual Satchel T1"
+	quest.E029997498BB946F.quest_subtitle: "Kit de ritual"
+	quest.E029997498BB946F.quest_desc: ["Satchel de ritual. Hay T2 luego."]
+	quest.836748CB5425E3C6.title: "Otherworld Sapling"
+	quest.836748CB5425E3C6.quest_subtitle: "Arbol occult"
+	quest.836748CB5425E3C6.quest_desc: ["Arbol del otherworld. Log/leaves para crafts y ambient."]
+	quest.00E1017EF694A0E3.title: "Otherworld Log"
+	quest.00E1017EF694A0E3.quest_subtitle: "Madera occult"
+	quest.00E1017EF694A0E3.quest_desc: ["Madera del otro lado."]
+	quest.C3DC7787691B8A37.title: "Occultist Oasis"
+	quest.C3DC7787691B8A37.quest_subtitle: "Occultism completo"
+	quest.C3DC7787691B8A37.quest_desc: [
+		"Tienes circulo top, marid miner, iesnium y automatizacion con foliots."
+		"Usa la mineshaft como ingreso de ores y los calling books como helpers de base."
+		"&6Oasis:&r Occultism es paralelo: vuelve a Ars/Iron's/Malum o a Create cuando quieras."
+	]
 }
