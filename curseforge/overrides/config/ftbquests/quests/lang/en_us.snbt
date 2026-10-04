@@ -2,7 +2,6 @@
 	chapter.12530838DE82B144.title: "&b&lImmersive Engineering"
 	chapter.33BC804FAE31EEBC.title: "&d&lMalum"
 	chapter.3A95899B1ED34CBF.title: "&b&lMekanism"
-	chapter.49D036EA72296C7E.title: "&a&lGuia Oasis"
 	chapter.6451876239C201DF.title: "&b&lApplied Energistics 2"
 	chapter_group.085A4E0C215237D7.title: "&b&lTecnologia"
 	chapter_group.0D0421250714AD11.title: "&a&lGeneral"
@@ -337,8 +336,6 @@
 	quest.027084AE2DF5EBA6.quest_desc: [""]
 	quest.027084AE2DF5EBA6.quest_subtitle: "Salmuera caliente aquÃƒÂ­. Obtenga su salmuera caliente aquÃƒÂ­."
 	quest.027084AE2DF5EBA6.title: "Calentando nuestra producciÃƒÂ³n de salmuera"
-	quest.0289A799509AF964.quest_desc: ["Early storage: &eSophisticated Backpacks / Storage&r. AE2 llega mas tarde en la linea tech."]
-	quest.0289A799509AF964.title: "Mochila cozy"
 	quest.02D4C51B66A6DD20.quest_desc: ["El Steel Drill Head es un cabezal mejorado para Mining Drill. Proporciona una mayor cantidad de durabilidad y puede minar un ÃƒÂ¡rea de 3x3."]
 	quest.037488EF1F3581CE.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
@@ -457,8 +454,6 @@
 	]
 	quest.1FC7E9DBF92BE6AA.quest_desc: [""]
 	quest.1FC7E9DBF92BE6AA.quest_subtitle: "Paquete de baterÃƒÂ­a portÃƒÂ¡til"
-	quest.1FEB1860CB1AAA43.quest_desc: ["Iron's Spells y Malum son poder/utilidad &eparalelos&r: no bloquean la tech ni la cocina."]
-	quest.1FEB1860CB1AAA43.title: "Magia en paralelo"
 	quest.2077D64428E9C067.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Un concepto importante dentro de AE2 es una tÃƒÂ©cnica conocida como \"&esubnetting&f\", en la que una red ME separada adicional (una &esubnetwork&f) actÃƒÂºa en conjunciÃƒÂ³n con la red principal para realizar alguna funciÃƒÂ³n o proceso especializado."
@@ -614,12 +609,10 @@
 		"Aplicando velas a su molino de viento aumentarÃƒÂ¡ su eficiencia. Con esta mayor eficiencia, obtendrÃƒÂ¡ una generaciÃƒÂ³n de energÃƒÂ­a adicional."
 		"A sail can be applied by right clicking the center of the windmill you want the sail added to."
 	]
-	quest.410879D6220D0573.quest_desc: [
 		"Usa &bFTB Teams&r para tu grupo y &bFTB Chunks&r para reclamar terreno."
 		""
 		"Asi vuestra casa queda protegida entre amigas."
 	]
-	quest.410879D6220D0573.title: "Equipo y claims"
 	quest.415134D9266AB3AA.quest_desc: ["El Rockcutter es el cabezal mejorado de Buzzsaw. Es capaz de tocar con seda los bloques de piedra y el mineral, pero ya no funcionarÃƒÂ¡ en los ÃƒÂ¡rboles."]
 	quest.41A6688F3AAD00E9.quest_desc: ["Se obtienen al matar mobs hostiles"]
 	quest.41EB0C570FC54F43.quest_desc: [""]
@@ -799,8 +792,6 @@
 	]
 	quest.6144202A97C6CD1C.quest_subtitle: "Bajo el cuchillo"
 	quest.6144202A97C6CD1C.title: "Cable Anchor"
-	quest.61C1C9D29FA6D11B.quest_desc: ["Consigue comida estable. Luego echa un ojo al capitulo &6Cocina y BBQ&r."]
-	quest.61C1C9D29FA6D11B.title: "Supervivencia comoda"
 	quest.6252388806C32865.quest_desc: [
 		"Mekanism es el endgame tech. El Infuser y varias maquinas piden AE2/IE/Create."
 		""
@@ -846,15 +837,12 @@
 	quest.6E15447FC3D678E0.quest_desc: ["La &bTarjeta Difusa&f permite hacer coincidir un elemento filtrado independientemente de cualquier metadato (NBT) como daÃƒÂ±os o encantamientos, mientras que la &bTarjeta Inversora&f cambia el filtro en dichos buses de una lista blanca a una lista negra."]
 	quest.6E15447FC3D678E0.quest_subtitle: "Las dos tarjetas IO restantes"
 	quest.6E15447FC3D678E0.title: "Loosely Speaking"
-	quest.6E6CD259A84BB875.quest_desc: [
 		"Bienvenido a &aOasis&r: un servidor cozy para explorar, construir, cocinar y progresar sin prisas."
 		""
 		"Abre este libro cuando quieras. Los capitulos de tech, magia y exploracion estan &esiempre visibles&r."
 		""
 		"Recomendacion: casa y comida primero; la fabrica cuando te apetezca."
 	]
-	quest.6E6CD259A84BB875.quest_subtitle: "Empieza aqui"
-	quest.6E6CD259A84BB875.title: "Bienvenida a Oasis"
 	quest.6F3D0A248B5A9CA2.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Las celdas de almacenamiento espacial se utilizan para contener un volumen definido cada una y vienen en tres capacidades diferentes que permiten un mÃƒÂ¡ximo de 2x2x2, 16x16x16 y 128x128x128 bloques de espacio."
@@ -922,8 +910,6 @@
 		"Cuando se inserta una celda en una ranura de entrada a la izquierda, el puerto IO se puede alternar para vaciar la celda en otros almacenamientos ME o llenar la celda (idealmente, dividida) con ciertos elementos repartidos en otros almacenamientos."
 	]
 	quest.7B7D1F0CB326B28F.quest_subtitle: "DesfragmentaciÃƒÂ³n"
-	quest.7BC9DB8AF8981ADA.quest_desc: ["Las &eWaystones&r os permiten viajar entre bases. Coloca una cerca de casa cuando puedas."]
-	quest.7BC9DB8AF8981ADA.title: "Un home lejos de casa"
 	quest.7CC49360D07086B8.quest_desc: [""]
 	quest.7CC49360D07086B8.quest_subtitle: "EnergÃƒÂ­a InalÃƒÂ¡mbrica, Gases, Fluidos, Todo."
 	quest.7EA6B942D1294ED6.quest_desc: [""]
@@ -3399,5 +3385,202 @@
 	quest.4280911F0B9F80BE.quest_desc: [
 		"Huevo de dragona y metal ignitium: el hard content no te asusta."
 		"&6Oasis:&r Vuelve a construir cozy. La tech y la magia siguen ahi cuando quieras."
+	]
+	quest.70D1B137CAA2D31A.title: "Bienvenido a Oasis"
+	quest.70D1B137CAA2D31A.quest_subtitle: "Cozy coop ≤5 jugadores"
+	quest.70D1B137CAA2D31A.quest_desc: [
+		"Oasis es un pack NeoForge 1.21.1 cozy: cocina, builds, magia paralela y tech Create→IE→AE2→Mek."
+		"Este capitulo es el mapa. Marca los checkmarks cuando entiendas cada ruta; no son gates duros."
+		"&6Oasis:&r JEI muestra recetas del pack (KubeJS). Polymorph ayuda con conflictos de comida."
+	]
+	quest.E177E9F76B53C262.title: "Casa primero"
+	quest.E177E9F76B53C262.quest_subtitle: "Spawn comodo"
+	quest.E177E9F76B53C262.quest_desc: ["Haz una base pequena, cama/hammock y un chest. Luego waystone."]
+	quest.FC127227C25AD571.title: "Waystone"
+	quest.FC127227C25AD571.quest_subtitle: "Hub de teletransporte"
+	quest.FC127227C25AD571.quest_desc: ["Coloca tu primer waystone en casa. Es QoL del servidor."]
+	quest.69E5EAFC323D3748.title: "Comida starter"
+	quest.69E5EAFC323D3748.quest_subtitle: "No pases hambre"
+	quest.69E5EAFC323D3748.quest_desc: ["Bread vale early. En cuanto puedas, abre &6Cocina y BBQ&r (FD + grill + addons)."]
+	quest.51EDA0D7BCF95A32.title: "Backpack"
+	quest.51EDA0D7BCF95A32.quest_subtitle: "Inventario portable"
+	quest.51EDA0D7BCF95A32.quest_desc: ["Mochila Sophisticated. Guia completa en &6Almacenamiento&r."]
+	quest.930ADCEB9D728DEE.title: "Ruta Cozy"
+	quest.930ADCEB9D728DEE.quest_subtitle: "Cocina, builds, storage"
+	quest.930ADCEB9D728DEE.quest_desc: [
+		"Capitulos: Cocina y BBQ · Construccion Cozy · Almacenamiento."
+		"No bloquean la tech. Son el alma del pack."
+	]
+	quest.9F3C8B9F6189BE93.title: "Cocina y BBQ"
+	quest.9F3C8B9F6189BE93.quest_subtitle: "Abre el capitulo"
+	quest.9F3C8B9F6189BE93.quest_desc: ["Cutting board, stove, grill, Brewin, MND, Create Food bridge."]
+	quest.1052EBE637BA8087.title: "Construccion Cozy"
+	quest.1052EBE637BA8087.quest_subtitle: "Macaw y amigos"
+	quest.1052EBE637BA8087.quest_desc: ["Techos, puertas, copycats, Handcrafted. Haz la base bonita."]
+	quest.C07E88D03BA17721.title: "Almacenamiento"
+	quest.C07E88D03BA17721.quest_subtitle: "Chests smart"
+	quest.C07E88D03BA17721.quest_desc: ["Backpacks + Sophisticated Storage antes de AE2."]
+	quest.C4FA99BFC9D9CDCC.title: "Ruta Tech"
+	quest.C4FA99BFC9D9CDCC.quest_subtitle: "Create → IE → AE2 → Mek"
+	quest.C4FA99BFC9D9CDCC.quest_desc: [
+		"Cadena obligatoria del pack para late tech. Ver docs/TECH_PROGRESSION.md"
+		"Create pide precision mechanism / electron tube para varios crafts IE."
+	]
+	quest.ACF0917929D448B7.title: "Create (Tech I)"
+	quest.ACF0917929D448B7.quest_subtitle: "Fabrica mecanica"
+	quest.ACF0917929D448B7.quest_desc: ["Andesita → brass → precision. Guia profunda en el capitulo Create."]
+	quest.9489D38F500BB33D.title: "Immersive (Tech II)"
+	quest.9489D38F500BB33D.quest_subtitle: "Acero y cables"
+	quest.9489D38F500BB33D.quest_desc: ["Tras Create. Multiblocks y RF clasico."]
+	quest.45D70F4333E4ECD1.title: "AE2 (Tech III)"
+	quest.45D70F4333E4ECD1.quest_subtitle: "Red ME"
+	quest.45D70F4333E4ECD1.quest_desc: ["Storage denso y autocraft. JEI para presses/processors del pack."]
+	quest.490CB8C3AC62F170.title: "Mekanism (Tech IV)"
+	quest.490CB8C3AC62F170.quest_subtitle: "Late tech"
+	quest.490CB8C3AC62F170.quest_desc: ["Quimica, digital miner, generadores. El techo tech de Oasis."]
+	quest.243563C02BD39384.title: "Ruta Magia"
+	quest.243563C02BD39384.quest_subtitle: "Paralela, no bloquea"
+	quest.243563C02BD39384.quest_desc: [
+		"Iron's Spells · Ars Nouveau · Occultism · Malum."
+		"Elige 1-2 lineas. Ninguna es requisito de Mek/AE2."
+	]
+	quest.572CA9225CFCE95F.title: "Iron's Spells"
+	quest.572CA9225CFCE95F.quest_subtitle: "Combate magico"
+	quest.572CA9225CFCE95F.quest_desc: ["Libros, tintas, escuelas. Guia completa en Magia."]
+	quest.C3BBCBF879F1C186.title: "Ars Nouveau"
+	quest.C3BBCBF879F1C186.quest_subtitle: "Source y familiars"
+	quest.C3BBCBF879F1C186.quest_desc: ["Hechizos modular + starbuncles. Automatizacion cozy."]
+	quest.3CEAE643716206AD.title: "Occultism"
+	quest.3CEAE643716206AD.quest_subtitle: "Espiritu y miners"
+	quest.3CEAE643716206AD.quest_desc: ["Circulos, foliots y dimensional mineshaft."]
+	quest.62EF9DD396C27CAA.title: "Malum"
+	quest.62EF9DD396C27CAA.quest_subtitle: "Espiritus y scythe"
+	quest.62EF9DD396C27CAA.quest_desc: ["Soulstone, altar y gear. IDs Malum 1.8 ya pulidos."]
+	quest.FB3D177628A95510.title: "Ruta Exploracion"
+	quest.FB3D177628A95510.quest_subtitle: "Mundo y bosses"
+	quest.FB3D177628A95510.quest_desc: ["Exploracion Oasis (brujulas) · Aether · Dragona (ojos + Cataclysm)."]
+	quest.C578D5B481F28F37.title: "Brujulas"
+	quest.C578D5B481F28F37.quest_subtitle: "Biomas y estructuras"
+	quest.C578D5B481F28F37.quest_desc: ["Nature's + Explorer's Compass. Terralith/BWG/YUNG te esperan."]
+	quest.6B1EFA6F59F805CB.title: "Aether"
+	quest.6B1EFA6F59F805CB.quest_subtitle: "Islas del cielo"
+	quest.6B1EFA6F59F805CB.quest_desc: ["Portal glowstone+agua. Dungeons bronze→gold."]
+	quest.41312642B2ECFFE5.title: "Dragona"
+	quest.41312642B2ECFFE5.quest_subtitle: "Hard content"
+	quest.41312642B2ECFFE5.quest_desc: ["End Remastered eyes + Ender Dragon + Cataclysm opcional."]
+	quest.8020539A1BF033B0.title: "Reglas cozy"
+	quest.8020539A1BF033B0.quest_subtitle: "Server etiquette"
+	quest.8020539A1BF033B0.quest_desc: [
+		"≤5 jugadores. No grief. Claims FTB Chunks. Pregunta antes de builds enormes junto a bases ajenas."
+		"Lag: evita farms idiotas; Create/Mek a escala razonable."
+	]
+	quest.B7ABB8CFB38CB940.title: "JEI y docs"
+	quest.B7ABB8CFB38CB940.quest_subtitle: "Donde mirar"
+	quest.B7ABB8CFB38CB940.quest_desc: ["JEI = recetas reales del pack. Docs: TECH_PROGRESSION.md, QUESTS.md, INSTALL.md."]
+	quest.20AF13BAD9B1D7E1.title: "Listo para Oasis"
+	quest.20AF13BAD9B1D7E1.quest_subtitle: "Elige tu arco"
+	quest.20AF13BAD9B1D7E1.quest_desc: [
+		"Tienes comida, tech, magia y exploracion senaladas."
+		"No hay orden unico: cozy first esta permitido. Cuando quieras poder industrial, sigue Create."
+		"&6Oasis:&r Buena suerte y que la parrilla te acompane."
+	]
+	chapter.49D036EA72296C7E.title: "&a&lGuia Oasis"
+	quest.70D1B137CAA2D31A.title: "Bienvenido a Oasis"
+	quest.70D1B137CAA2D31A.quest_subtitle: "Cozy coop ≤5 jugadores"
+	quest.70D1B137CAA2D31A.quest_desc: [
+		"Oasis es un pack NeoForge 1.21.1 cozy: cocina, builds, magia paralela y tech Create→IE→AE2→Mek."
+		"Este capitulo es el mapa. Marca los checkmarks cuando entiendas cada ruta; no son gates duros."
+		"&6Oasis:&r JEI muestra recetas del pack (KubeJS). Polymorph ayuda con conflictos de comida."
+	]
+	quest.E177E9F76B53C262.title: "Casa primero"
+	quest.E177E9F76B53C262.quest_subtitle: "Spawn comodo"
+	quest.E177E9F76B53C262.quest_desc: ["Haz una base pequena, cama/hammock y un chest. Luego waystone."]
+	quest.FC127227C25AD571.title: "Waystone"
+	quest.FC127227C25AD571.quest_subtitle: "Hub de teletransporte"
+	quest.FC127227C25AD571.quest_desc: ["Coloca tu primer waystone en casa. Es QoL del servidor."]
+	quest.69E5EAFC323D3748.title: "Comida starter"
+	quest.69E5EAFC323D3748.quest_subtitle: "No pases hambre"
+	quest.69E5EAFC323D3748.quest_desc: ["Bread vale early. En cuanto puedas, abre &6Cocina y BBQ&r (FD + grill + addons)."]
+	quest.51EDA0D7BCF95A32.title: "Backpack"
+	quest.51EDA0D7BCF95A32.quest_subtitle: "Inventario portable"
+	quest.51EDA0D7BCF95A32.quest_desc: ["Mochila Sophisticated. Guia completa en &6Almacenamiento&r."]
+	quest.930ADCEB9D728DEE.title: "Ruta Cozy"
+	quest.930ADCEB9D728DEE.quest_subtitle: "Cocina, builds, storage"
+	quest.930ADCEB9D728DEE.quest_desc: [
+		"Capitulos: Cocina y BBQ · Construccion Cozy · Almacenamiento."
+		"No bloquean la tech. Son el alma del pack."
+	]
+	quest.9F3C8B9F6189BE93.title: "Cocina y BBQ"
+	quest.9F3C8B9F6189BE93.quest_subtitle: "Abre el capitulo"
+	quest.9F3C8B9F6189BE93.quest_desc: ["Cutting board, stove, grill, Brewin, MND, Create Food bridge."]
+	quest.1052EBE637BA8087.title: "Construccion Cozy"
+	quest.1052EBE637BA8087.quest_subtitle: "Macaw y amigos"
+	quest.1052EBE637BA8087.quest_desc: ["Techos, puertas, copycats, Handcrafted. Haz la base bonita."]
+	quest.C07E88D03BA17721.title: "Almacenamiento"
+	quest.C07E88D03BA17721.quest_subtitle: "Chests smart"
+	quest.C07E88D03BA17721.quest_desc: ["Backpacks + Sophisticated Storage antes de AE2."]
+	quest.C4FA99BFC9D9CDCC.title: "Ruta Tech"
+	quest.C4FA99BFC9D9CDCC.quest_subtitle: "Create → IE → AE2 → Mek"
+	quest.C4FA99BFC9D9CDCC.quest_desc: [
+		"Cadena obligatoria del pack para late tech. Ver docs/TECH_PROGRESSION.md"
+		"Create pide precision mechanism / electron tube para varios crafts IE."
+	]
+	quest.ACF0917929D448B7.title: "Create (Tech I)"
+	quest.ACF0917929D448B7.quest_subtitle: "Fabrica mecanica"
+	quest.ACF0917929D448B7.quest_desc: ["Andesita → brass → precision. Guia profunda en el capitulo Create."]
+	quest.9489D38F500BB33D.title: "Immersive (Tech II)"
+	quest.9489D38F500BB33D.quest_subtitle: "Acero y cables"
+	quest.9489D38F500BB33D.quest_desc: ["Tras Create. Multiblocks y RF clasico."]
+	quest.45D70F4333E4ECD1.title: "AE2 (Tech III)"
+	quest.45D70F4333E4ECD1.quest_subtitle: "Red ME"
+	quest.45D70F4333E4ECD1.quest_desc: ["Storage denso y autocraft. JEI para presses/processors del pack."]
+	quest.490CB8C3AC62F170.title: "Mekanism (Tech IV)"
+	quest.490CB8C3AC62F170.quest_subtitle: "Late tech"
+	quest.490CB8C3AC62F170.quest_desc: ["Quimica, digital miner, generadores. El techo tech de Oasis."]
+	quest.243563C02BD39384.title: "Ruta Magia"
+	quest.243563C02BD39384.quest_subtitle: "Paralela, no bloquea"
+	quest.243563C02BD39384.quest_desc: [
+		"Iron's Spells · Ars Nouveau · Occultism · Malum."
+		"Elige 1-2 lineas. Ninguna es requisito de Mek/AE2."
+	]
+	quest.572CA9225CFCE95F.title: "Iron's Spells"
+	quest.572CA9225CFCE95F.quest_subtitle: "Combate magico"
+	quest.572CA9225CFCE95F.quest_desc: ["Libros, tintas, escuelas. Guia completa en Magia."]
+	quest.C3BBCBF879F1C186.title: "Ars Nouveau"
+	quest.C3BBCBF879F1C186.quest_subtitle: "Source y familiars"
+	quest.C3BBCBF879F1C186.quest_desc: ["Hechizos modular + starbuncles. Automatizacion cozy."]
+	quest.3CEAE643716206AD.title: "Occultism"
+	quest.3CEAE643716206AD.quest_subtitle: "Espiritu y miners"
+	quest.3CEAE643716206AD.quest_desc: ["Circulos, foliots y dimensional mineshaft."]
+	quest.62EF9DD396C27CAA.title: "Malum"
+	quest.62EF9DD396C27CAA.quest_subtitle: "Espiritus y scythe"
+	quest.62EF9DD396C27CAA.quest_desc: ["Soulstone, altar y gear. IDs Malum 1.8 ya pulidos."]
+	quest.FB3D177628A95510.title: "Ruta Exploracion"
+	quest.FB3D177628A95510.quest_subtitle: "Mundo y bosses"
+	quest.FB3D177628A95510.quest_desc: ["Exploracion Oasis (brujulas) · Aether · Dragona (ojos + Cataclysm)."]
+	quest.C578D5B481F28F37.title: "Brujulas"
+	quest.C578D5B481F28F37.quest_subtitle: "Biomas y estructuras"
+	quest.C578D5B481F28F37.quest_desc: ["Nature's + Explorer's Compass. Terralith/BWG/YUNG te esperan."]
+	quest.6B1EFA6F59F805CB.title: "Aether"
+	quest.6B1EFA6F59F805CB.quest_subtitle: "Islas del cielo"
+	quest.6B1EFA6F59F805CB.quest_desc: ["Portal glowstone+agua. Dungeons bronze→gold."]
+	quest.41312642B2ECFFE5.title: "Dragona"
+	quest.41312642B2ECFFE5.quest_subtitle: "Hard content"
+	quest.41312642B2ECFFE5.quest_desc: ["End Remastered eyes + Ender Dragon + Cataclysm opcional."]
+	quest.8020539A1BF033B0.title: "Reglas cozy"
+	quest.8020539A1BF033B0.quest_subtitle: "Server etiquette"
+	quest.8020539A1BF033B0.quest_desc: [
+		"≤5 jugadores. No grief. Claims FTB Chunks. Pregunta antes de builds enormes junto a bases ajenas."
+		"Lag: evita farms idiotas; Create/Mek a escala razonable."
+	]
+	quest.B7ABB8CFB38CB940.title: "JEI y docs"
+	quest.B7ABB8CFB38CB940.quest_subtitle: "Donde mirar"
+	quest.B7ABB8CFB38CB940.quest_desc: ["JEI = recetas reales del pack. Docs: TECH_PROGRESSION.md, QUESTS.md, INSTALL.md."]
+	quest.20AF13BAD9B1D7E1.title: "Listo para Oasis"
+	quest.20AF13BAD9B1D7E1.quest_subtitle: "Elige tu arco"
+	quest.20AF13BAD9B1D7E1.quest_desc: [
+		"Tienes comida, tech, magia y exploracion senaladas."
+		"No hay orden unico: cozy first esta permitido. Cuando quieras poder industrial, sigue Create."
+		"&6Oasis:&r Buena suerte y que la parrilla te acompane."
 	]
 }

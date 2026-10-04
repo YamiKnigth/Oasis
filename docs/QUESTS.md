@@ -1,46 +1,49 @@
 # Oasis — FTB Quests
 
-**Ruta:** `config/ftbquests/quests/` (espejo en `client/` y `server/`)
-
-Smoke base: **6 groups**, **11 chapters**.  
-**Create (Tech I) reescrito:** ~**124** quests estilo ATM/Mekanism (addons + gates Oasis). Pendiente smoke tras reload.
+**Ruta:** `config/ftbquests/quests/` (espejo en `client/`, `server/` y `curseforge/overrides/`)  
+**Rama:** `feat/mods-and-quests`  
+**Modo:** `progression_mode: flexible` (capítulos visibles; el orden es guía, no candado duro)
 
 ## Grupos
 
 | Grupo | Capítulos |
 |---|---|
 | General | Guía Oasis |
-| Cozy | Cocina y BBQ, Almacenamiento |
-| Exploracion | Aether, Dragona |
-| Tecnologia | Create, Immersive Engineering, AE2, Mekanism |
-| Magia | Malum, Iron's Spells |
+| Cozy | Cocina y BBQ, Almacenamiento, Construcción Cozy |
+| Exploración | Exploración Oasis, Aether, Dragona |
+| Tecnología | Create, Immersive Engineering, AE2, Mekanism |
+| Magia | Malum, Iron's Spells, Ars Nouveau, Occultism |
 
-Todos los capítulos están **siempre visibles** (`progression_mode: flexible` en el libro).
+## Capítulos y escala
+
+| Capítulo | Quests (aprox.) | Notas |
+|---|---:|---|
+| `guia_oasis` | 26 | Roadmap del pack |
+| `create` | 124 | Tech I completa + addons |
+| `cocina_bbq` | 140 | FD / BBQ / Brewin / MND / FAC / Create Food |
+| `construccion_cozy` | 39 | Macaw, Chipped, Copycats, furniture |
+| `storage_oasis` | 40 | Sophisticated backpacks + storage |
+| `immersive_engineering` | (ATM base) | Hub con nota Oasis Create→IE |
+| `applied_energistics_2` | (ATM base) | Hub con nota Oasis |
+| `mekanism` | (ATM base) | Hub Tech IV |
+| `irons_spells` | 112 | Combate, tintas, escuelas |
+| `ars_nouveau` | 114 | Source, glyphs, familiars |
+| `occultism` | 87 | Chalk, spirits, miners |
+| `malum` | 75 | Pulido IDs 1.8 + nota Oasis |
+| `exploracion_oasis` | 14 | Brújulas, waystones, tips |
+| `aether` | 20 | Portal, ores, dungeons |
+| `dragona` | 33 | End Remastered + Cataclysm |
+
+## Generadores
+
+Scripts en `docs/_gen_*.mjs` (Node). Regeneran capítulo + `lang/en_us.snbt` (ES) y sincronizan a client/CF overrides.
 
 ## Reward tables
 
-Una tabla random por capítulo en `reward_tables/<capitulo>.snbt`.  
-Placeholder actual: `minecraft:apple`. **Rellena tú los items** en el editor FTB / editando el snbt.
+`reward_tables/<capitulo>.snbt` — placeholder `minecraft:apple`. Rellena loot real en el editor FTB cuando quieras.
 
-## Capítulos nuevos (Oasis)
+## Cadena tech
 
-- `guia_oasis` — roadmap del servidor
-- `create` — Tech I + Create Deco + Craft & Additions
-- `cocina_bbq` — FD + Barbeque's Delight + Brewin
-- `storage_oasis` — Sophisticated + Lootr
-- `irons_spells` — ruta corta
-- `aether` — portal + Bronze obligatorio
-- `dragona` — ojos End Remastered + egg
+**Create → Immersive Engineering → AE2 → Mekanism** — detalle en `docs/TECH_PROGRESSION.md`.
 
-## Capítulos reutilizados (tus ejemplos)
-
-Adaptados (grupo, ids, `table_id` → reward del capítulo) + nota Oasis al inicio:
-
-- `immersive_engineering`
-- `applied_energistics_2`
-- `mekanism`
-- `malum` (mayoría intacta)
-
-## Cadena tech (recordatorio)
-
-Create → IE → AE2 → Mekanism — ver `TECH_PROGRESSION.md`.
+Magia y cozy son **paralelos** (no gatean la tech).

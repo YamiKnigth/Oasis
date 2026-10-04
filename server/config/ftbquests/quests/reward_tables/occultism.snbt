@@ -1,6 +1,6 @@
 {
-	id: "E990A1606F22DA92"
+	id: "7374AB4152BD0550"
 	loot_size: 1
-	order_index: 13
+	order_index: 12
 	rewards: [{ id: "4743C6F29C416B3F", item: { count: 1, id: "minecraft:apple" } }]
 }
