@@ -31,7 +31,7 @@ Smoke: **OK** — `Done` ~22.6s. Warn menor Cataclysm tags tool + Create Deco pl
 
 ## 7) KubeJS tech — INSTALADA (pendiente autorizacion)
 
-Cadena: **Create → IE → AE2 → Mekanism**. Solo recetas existentes (crafting + infuser). Sin items nuevos. Recipe ids originales (EMI/JEI).  
+Cadena: **Create → IE → AE2 → Mekanism**. Solo recetas existentes (crafting + infuser). Sin items nuevos. Recipe ids originales (JEI). Viewer: **JEI** (sin EMI).  
 Docs: `docs/TECH_PROGRESSION.md`. Smoke: **OK** — Added 12 / removed 12 / modified 22 / 0 failed. Alloy=certus (no fluix). `Done` ~7s.
 
 ## 8) FTB Quests — INSTALADA (pendiente autorizacion)
@@ -46,8 +46,12 @@ Docs: `docs/QUESTS.md`. Smoke: Loaded 6 groups / 11 chapters / 405 quests.
 - `overrides/`: kubejs + ftbquests + configs (sin jars)  
 - Docs: `docs/INSTALL.md` · CSV: `docs/cf-manifest-files.csv`
 
-## 10) Siguiente
-**GitHub** — repo configs/scripts/perfiles (sin mods)
+## 10) GitHub — HECHO
+
+- Repo: https://github.com/YamiKnigth/Oasis  
+- Branch: `main` @ `02b2ef6`  
+- Sin GitHub CLI: create via API + `git push` (Git Bash).  
+- Contiene configs, KubeJS, FTB Quests, perfil CurseForge y docs; jars/mods fuera por `.gitignore`.
 
 Sin pregen aqui (no es el servidor final).
 

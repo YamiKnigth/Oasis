@@ -1,90 +1,151 @@
 // Oasis — tech progression (existing items/recipes only)
 // Chain: Create (I) -> Immersive Engineering (II) -> AE2 (III) -> Mekanism (IV)
-// No new items. Original recipe IDs kept for EMI/JEI.
+// No new items. Original recipe IDs kept for EMI.
+// Prefer remove+readd over replaceInput so EMI always sees the shaped/custom form.
 
 ServerEvents.recipes(event => {
   // =========================================================================
-  // Tech I leftovers — late Create pulls a bit of IE (optional bridge)
+  // Tech I leftovers — late Create pulls a bit of IE
   // =========================================================================
 
   // Mechanical Crafter: crafting table -> IE engineer's crafting table
-  event.replaceInput(
-    { id: 'create:crafting/kinetics/mechanical_crafter' },
-    'minecraft:crafting_table',
-    'immersiveengineering:craftingtable'
-  )
+  event.remove({ id: 'create:crafting/kinetics/mechanical_crafter' })
+  event.shaped('3x create:mechanical_crafter', [
+    'B',
+    'C',
+    'R'
+  ], {
+    B: 'create:electron_tube',
+    C: 'create:brass_casing',
+    R: 'immersiveengineering:craftingtable'
+  }).id('create:crafting/kinetics/mechanical_crafter')
 
   // Mechanical Arm: andesite alloy -> IE iron component
-  event.replaceInput(
-    { id: 'create:crafting/kinetics/mechanical_arm' },
-    'create:andesite_alloy',
-    'immersiveengineering:component_iron'
-  )
+  event.remove({ id: 'create:crafting/kinetics/mechanical_arm' })
+  event.shaped('create:mechanical_arm', [
+    'LLA',
+    'L  ',
+    'IC '
+  ], {
+    L: '#c:plates/brass',
+    A: 'immersiveengineering:component_iron',
+    I: 'create:precision_mechanism',
+    C: 'create:brass_casing'
+  }).id('create:crafting/kinetics/mechanical_arm')
 
   // =========================================================================
   // Tech II — Immersive Engineering needs Create
   // =========================================================================
 
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/craftingtable' },
-    'minecraft:crafting_table',
-    'create:precision_mechanism'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/craftingtable' })
+  event.shaped('immersiveengineering:craftingtable', [
+    'sss',
+    'rcr',
+    'r r'
+  ], {
+    s: '#immersiveengineering:treated_wood_slab',
+    r: '#c:rods/treated_wood',
+    c: 'create:precision_mechanism'
+  }).id('immersiveengineering:crafting/craftingtable')
 
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/basic_engineering' },
-    '#c:ingots/iron',
-    'create:andesite_alloy'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/basic_engineering' })
+  event.shaped('4x immersiveengineering:basic_engineering', [
+    'iwi',
+    'w w',
+    'iwi'
+  ], {
+    i: 'create:andesite_alloy',
+    w: '#immersiveengineering:treated_wood'
+  }).id('immersiveengineering:crafting/basic_engineering')
 
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/light_engineering' },
-    '#c:ingots/copper',
-    'create:electron_tube'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/light_engineering' })
+  event.shaped('4x immersiveengineering:light_engineering', [
+    'igi',
+    'gcg',
+    'igi'
+  ], {
+    i: '#c:sheetmetals/iron',
+    g: 'immersiveengineering:component_iron',
+    c: 'create:electron_tube'
+  }).id('immersiveengineering:crafting/light_engineering')
 
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/heavy_engineering' },
-    '#c:ingots/electrum',
-    'create:precision_mechanism'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/heavy_engineering' })
+  event.shaped('4x immersiveengineering:heavy_engineering', [
+    'igi',
+    'geg',
+    'igi'
+  ], {
+    i: '#c:sheetmetals/steel',
+    g: 'immersiveengineering:component_steel',
+    e: 'create:precision_mechanism'
+  }).id('immersiveengineering:crafting/heavy_engineering')
 
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/rs_engineering' },
-    '#c:ingots/copper',
-    'create:electron_tube'
-  )
+  // Custom IE recipe type — keep turn_and_copy so EMI/IE still recognize it
+  event.remove({ id: 'immersiveengineering:crafting/rs_engineering' })
+  event.custom({
+    type: 'immersiveengineering:turn_and_copy',
+    category: 'misc',
+    eight_turn: true,
+    key: {
+      c: { item: 'create:electron_tube' },
+      i: { tag: 'c:sheetmetals/iron' },
+      r: { tag: 'c:dusts/redstone' }
+    },
+    pattern: [
+      'iri',
+      'rcr',
+      'iri'
+    ],
+    result: { count: 4, id: 'immersiveengineering:rs_engineering' }
+  }).id('immersiveengineering:crafting/rs_engineering')
 
-  // Dynamo: iron component -> electron tube
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/dynamo' },
-    'immersiveengineering:component_iron',
-    'create:electron_tube'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/dynamo' })
+  event.shaped('immersiveengineering:dynamo', [
+    'rcr',
+    'ili'
+  ], {
+    r: '#c:dusts/redstone',
+    c: 'create:electron_tube',
+    i: '#c:ingots/iron',
+    l: 'immersiveengineering:coil_lv'
+  }).id('immersiveengineering:crafting/dynamo')
 
-  // Furnace heater: redstone -> electron tube
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/furnace_heater' },
-    '#c:dusts/redstone',
-    'create:electron_tube'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/furnace_heater' })
+  event.shaped('immersiveengineering:furnace_heater', [
+    'pwp',
+    'wsw',
+    'ptp'
+  ], {
+    p: '#c:plates/copper',
+    w: 'immersiveengineering:wirecoil_copper',
+    s: '#c:sheetmetals/iron',
+    t: 'create:electron_tube'
+  }).id('immersiveengineering:crafting/furnace_heater')
 
-  // MV coil: iron core -> precision mechanism
-  event.replaceInput(
-    { id: 'immersiveengineering:crafting/coil_mv' },
-    '#c:ingots/iron',
-    'create:precision_mechanism'
-  )
+  event.remove({ id: 'immersiveengineering:crafting/coil_mv' })
+  event.shaped('immersiveengineering:coil_mv', [
+    'www',
+    'wiw',
+    'www'
+  ], {
+    w: 'immersiveengineering:wirecoil_electrum',
+    i: 'create:precision_mechanism'
+  }).id('immersiveengineering:crafting/coil_mv')
 
   // =========================================================================
-  // Tech III — AE2 needs Create + IE (storage before Mek)
+  // Tech III — AE2 needs Create + IE
   // =========================================================================
 
-  event.replaceInput(
-    { id: 'ae2:network/blocks/inscribers' },
-    '#c:ingots/copper',
-    'immersiveengineering:component_electronic'
-  )
+  event.remove({ id: 'ae2:network/blocks/inscribers' })
+  event.shaped('ae2:inscriber', [
+    'aba',
+    'c a',
+    'aba'
+  ], {
+    a: '#c:ingots/iron',
+    b: 'minecraft:piston',
+    c: 'immersiveengineering:component_electronic'
+  }).id('ae2:network/blocks/inscribers')
 
   event.remove({ id: 'ae2:network/blocks/controller' })
   event.shaped('ae2:controller', [
@@ -99,16 +160,17 @@ ServerEvents.recipes(event => {
     E: 'immersiveengineering:component_electronic'
   }).id('ae2:network/blocks/controller')
 
-  event.replaceInput(
-    { id: 'ae2:network/blocks/energy_energy_acceptor' },
-    '#c:ingots/copper',
-    'immersiveengineering:coil_lv'
-  )
-  event.replaceInput(
-    { id: 'ae2:network/blocks/energy_energy_acceptor_alt' },
-    '#c:ingots/copper',
-    'immersiveengineering:coil_lv'
-  )
+  // Only the real acceptor craft (alt is cable <-> block conversion — leave alone)
+  event.remove({ id: 'ae2:network/blocks/energy_energy_acceptor' })
+  event.shaped('ae2:energy_acceptor', [
+    'aba',
+    'bcb',
+    'aba'
+  ], {
+    a: '#c:ingots/iron',
+    b: 'ae2:quartz_glass',
+    c: 'immersiveengineering:coil_lv'
+  }).id('ae2:network/blocks/energy_energy_acceptor')
 
   event.remove({ id: 'ae2:network/blocks/storage_drive' })
   event.shaped('ae2:drive', [
@@ -122,53 +184,64 @@ ServerEvents.recipes(event => {
     M: 'create:precision_mechanism'
   }).id('ae2:network/blocks/storage_drive')
 
-  event.replaceInput(
-    { id: 'ae2:network/blocks/crystal_processing_charger' },
-    '#c:ingots/copper',
-    'immersiveengineering:wirecoil_copper'
-  )
+  event.remove({ id: 'ae2:network/blocks/crystal_processing_charger' })
+  event.shaped('ae2:charger', [
+    'aba',
+    'a  ',
+    'aba'
+  ], {
+    a: '#c:ingots/iron',
+    b: 'immersiveengineering:wirecoil_copper'
+  }).id('ae2:network/blocks/crystal_processing_charger')
 
-  // Cell housing: copper -> IE iron component
-  event.replaceInput(
-    { id: 'ae2:network/cells/item_cell_housing' },
-    '#c:ingots/copper',
-    'immersiveengineering:component_iron'
-  )
+  event.remove({ id: 'ae2:network/cells/item_cell_housing' })
+  event.shaped('ae2:item_cell_housing', [
+    'aba',
+    'b b',
+    'cdc'
+  ], {
+    a: 'ae2:quartz_glass',
+    b: '#c:dusts/redstone',
+    c: '#c:ingots/iron',
+    d: 'immersiveengineering:component_iron'
+  }).id('ae2:network/cells/item_cell_housing')
 
-  // Interface: glass -> Create electron tube (both glass slots)
-  event.replaceInput(
-    { id: 'ae2:network/blocks/interfaces_interface' },
-    '#c:glass_blocks/cheap',
-    'create:electron_tube'
-  )
-  event.replaceInput(
-    { id: 'ae2:network/blocks/interfaces_interface_alt' },
-    '#c:glass_blocks/cheap',
-    'create:electron_tube'
-  )
+  // Only the real interface craft (alt is cable conversion)
+  event.remove({ id: 'ae2:network/blocks/interfaces_interface' })
+  event.shaped('ae2:interface', [
+    'aba',
+    'c d',
+    'aba'
+  ], {
+    a: '#c:ingots/iron',
+    b: 'create:electron_tube',
+    c: 'ae2:annihilation_core',
+    d: 'ae2:formation_core'
+  }).id('ae2:network/blocks/interfaces_interface')
 
-  // Pattern provider: crafting table -> IE engineer's table
-  event.replaceInput(
-    { id: 'ae2:network/blocks/pattern_providers_interface' },
-    'minecraft:crafting_table',
-    'immersiveengineering:craftingtable'
-  )
-  event.replaceInput(
-    { id: 'ae2:network/blocks/pattern_providers_interface_alt' },
-    'minecraft:crafting_table',
-    'immersiveengineering:craftingtable'
-  )
+  event.remove({ id: 'ae2:network/blocks/pattern_providers_interface' })
+  event.shaped('ae2:pattern_provider', [
+    'aba',
+    'c d',
+    'aba'
+  ], {
+    a: '#c:ingots/iron',
+    b: 'immersiveengineering:craftingtable',
+    c: 'ae2:annihilation_core',
+    d: 'ae2:formation_core'
+  }).id('ae2:network/blocks/pattern_providers_interface')
 
-  // Growth accelerator: iron -> IE steel component
-  event.replaceInput(
-    { id: 'ae2:network/blocks/crystal_processing_growth_accelerator' },
-    '#c:ingots/iron',
-    'immersiveengineering:component_steel'
-  )
-
-  // Formation / annihilation cores: logic processor stays; fluix dust -> Create powdered? 
-  // Soft IE touch: nether/certus side unchanged; add Create brass via reshape would change counts.
-  // Instead: cores keep vanilla; gated by processor + earlier Inscriber gate.
+  event.remove({ id: 'ae2:network/blocks/crystal_processing_growth_accelerator' })
+  event.shaped('ae2:growth_accelerator', [
+    'aba',
+    'cdc',
+    'aba'
+  ], {
+    a: 'immersiveengineering:component_steel',
+    b: 'ae2:fluix_glass_cable',
+    c: 'ae2:quartz_glass',
+    d: 'ae2:fluix_block'
+  }).id('ae2:network/blocks/crystal_processing_growth_accelerator')
 
   // =========================================================================
   // Tech IV — Mekanism needs IE + AE2 (+ Create)
@@ -186,11 +259,16 @@ ServerEvents.recipes(event => {
     P: 'ae2:logic_processor'
   }).id('mekanism:metallurgic_infuser')
 
-  event.replaceInput(
-    { id: 'mekanism:steel_casing' },
-    '#c:ingots/osmium',
-    'create:precision_mechanism'
-  )
+  event.remove({ id: 'mekanism:steel_casing' })
+  event.shaped('mekanism:steel_casing', [
+    'SGS',
+    'GMG',
+    'SGS'
+  ], {
+    S: '#c:ingots/steel',
+    G: '#c:glass_blocks/cheap',
+    M: 'create:precision_mechanism'
+  }).id('mekanism:steel_casing')
 
   event.remove({ id: 'mekanism:enrichment_chamber' })
   event.shaped('mekanism:enrichment_chamber', [
@@ -218,7 +296,6 @@ ServerEvents.recipes(event => {
     P: 'ae2:calculation_processor'
   }).id('mekanism:crusher')
 
-  // Energized smelter: glass -> IE coke brick
   event.remove({ id: 'mekanism:energized_smelter' })
   event.shaped('mekanism:energized_smelter', [
     'ACA',
@@ -231,7 +308,6 @@ ServerEvents.recipes(event => {
     K: 'immersiveengineering:cokebrick'
   }).id('mekanism:energized_smelter')
 
-  // Precision sawmill: one infused alloy -> IE sawblade
   event.remove({ id: 'mekanism:precision_sawmill' })
   event.shaped('mekanism:precision_sawmill', [
     'ICI',
@@ -245,7 +321,6 @@ ServerEvents.recipes(event => {
     X: 'mekanism:steel_casing'
   }).id('mekanism:precision_sawmill')
 
-  // Osmium compressor: center bucket stays; one alloy -> AE2 formation core
   event.remove({ id: 'mekanism:osmium_compressor' })
   event.shaped('mekanism:osmium_compressor', [
     'ACA',
@@ -259,7 +334,6 @@ ServerEvents.recipes(event => {
     F: 'ae2:formation_core'
   }).id('mekanism:osmium_compressor')
 
-  // Electric pump: bottom osmium row center -> IE fluid pipe
   event.remove({ id: 'mekanism:electric_pump' })
   event.shaped('mekanism:electric_pump', [
     ' B ',
@@ -273,51 +347,74 @@ ServerEvents.recipes(event => {
     P: 'immersiveengineering:fluid_pipe'
   }).id('mekanism:electric_pump')
 
-  // Universal cable: redstone -> certus (not fluix — cheaper mid-game)
-  event.replaceInput(
-    { id: 'mekanism:transmitter/universal_cable/basic' },
-    '#c:dusts/redstone',
-    'ae2:certus_quartz_crystal'
-  )
+  event.remove({ id: 'mekanism:transmitter/universal_cable/basic' })
+  event.shaped('8x mekanism:basic_universal_cable', [
+    'SCS'
+  ], {
+    S: '#c:ingots/steel',
+    C: 'ae2:certus_quartz_crystal'
+  }).id('mekanism:transmitter/universal_cable/basic')
 
-  // Logistical transporter: basic circuit -> quartz fiber
-  event.replaceInput(
-    { id: 'mekanism:transmitter/logistical_transporter/basic' },
-    '#c:circuits/basic',
-    'ae2:quartz_fiber'
-  )
+  event.remove({ id: 'mekanism:transmitter/logistical_transporter/basic' })
+  event.shaped('8x mekanism:basic_logistical_transporter', [
+    'SQS'
+  ], {
+    S: '#c:ingots/steel',
+    Q: 'ae2:quartz_fiber'
+  }).id('mekanism:transmitter/logistical_transporter/basic')
 
-  // Energy cube: basic alloys -> certus (not fluix)
-  event.replaceInput(
-    { id: 'mekanism:energy_cube/basic' },
-    '#mekanism:alloys/basic',
-    'ae2:certus_quartz_crystal'
-  )
+  // mek_data type preserved for NBT-safe energy cube crafts
+  event.remove({ id: 'mekanism:energy_cube/basic' })
+  event.custom({
+    type: 'mekanism:mek_data',
+    category: 'misc',
+    key: {
+      A: { item: 'ae2:certus_quartz_crystal' },
+      E: { item: 'mekanism:energy_tablet' },
+      I: { tag: 'c:ingots/iron' },
+      P: { item: 'mekanism:steel_casing' }
+    },
+    pattern: [
+      'AEA',
+      'IPI',
+      'AEA'
+    ],
+    result: { count: 1, id: 'mekanism:basic_energy_cube' }
+  }).id('mekanism:energy_cube/basic')
 
-  // Energy tablet: gold -> charged certus (encourages AE2 charger)
-  event.replaceInput(
-    { id: 'mekanism:energy_tablet' },
-    '#c:ingots/gold',
-    'ae2:charged_certus_quartz_crystal'
-  )
+  event.remove({ id: 'mekanism:energy_tablet' })
+  event.shaped('mekanism:energy_tablet', [
+    'RIR',
+    'AIA',
+    'RIR'
+  ], {
+    R: '#c:dusts/redstone',
+    I: 'ae2:charged_certus_quartz_crystal',
+    A: '#mekanism:alloys/infused'
+  }).id('mekanism:energy_tablet')
 
-  // Advanced control circuit (shaped): infused alloy -> formation core
-  event.replaceInput(
-    { id: 'mekanism:control_circuit/advanced' },
-    '#mekanism:alloys/infused',
-    'ae2:formation_core'
-  )
+  event.remove({ id: 'mekanism:control_circuit/advanced' })
+  event.shaped('mekanism:advanced_control_circuit', [
+    'ACA'
+  ], {
+    A: 'ae2:formation_core',
+    C: '#c:circuits/basic'
+  }).id('mekanism:control_circuit/advanced')
 
-  // Electrolytic core: osmium dust -> certus dust
-  event.replaceInput(
-    { id: 'mekanism:electrolytic_core' },
-    '#c:dusts/osmium',
-    'ae2:certus_quartz_dust'
-  )
+  event.remove({ id: 'mekanism:electrolytic_core' })
+  event.shaped('mekanism:electrolytic_core', [
+    'AOA',
+    'IAG',
+    'AOA'
+  ], {
+    A: '#mekanism:alloys/infused',
+    O: 'ae2:certus_quartz_dust',
+    I: '#c:dusts/iron',
+    G: '#c:dusts/gold'
+  }).id('mekanism:electrolytic_core')
 
   // ----- Metallurgic Infuser machine recipes -----
 
-  // Basic control circuit: osmium -> AE2 silicon (smelt certus dust — accessible)
   event.remove({ id: 'mekanism:control_circuit/basic' })
   event.custom({
     type: 'mekanism:metallurgic_infusing',
@@ -327,7 +424,6 @@ ServerEvents.recipes(event => {
     per_tick_usage: false
   }).id('mekanism:control_circuit/basic')
 
-  // Infused alloy: copper -> certus crystal (NOT fluix — early Mek friendly)
   event.remove({ id: 'mekanism:metallurgic_infusing/alloy/infused' })
   event.custom({
     type: 'mekanism:metallurgic_infusing',
@@ -337,7 +433,6 @@ ServerEvents.recipes(event => {
     per_tick_usage: false
   }).id('mekanism:metallurgic_infusing/alloy/infused')
 
-  // Advanced circuit (infuser alt path): basic circuit -> logic processor
   event.remove({ id: 'mekanism:control_circuit/infused_advanced' })
   event.custom({
     type: 'mekanism:metallurgic_infusing',

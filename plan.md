@@ -21,7 +21,7 @@ todos:
   status: completed
 - id: "kubejs-craft-mods"
   content: "Modificaciones de crafteos KubeJS (balance, BBQ, loot, gates refinados)"
-  status: pending
+  status: completed
 - id: "ftb-quests-missions"
   content: "Crear misiones FTB Quests (capítulos cozy/tech/dimensiones/dragona)"
   status: completed
@@ -30,7 +30,7 @@ todos:
   status: completed
 - id: "github-repo"
   content: "Repo GitHub (configs, scripts, perfiles CF); .gitignore sin mods/jars/worlds"
-  status: pending
+  status: completed
   isProject: false
 ---
 # Plan: Oasis (NeoForge 1.21.1)
@@ -158,7 +158,7 @@ Cadena fija v1 (actualizada):
 4. **Mekanism** (+ Generators) — endgame tech
 
 Implementacion de gates:
-- KubeJS modifica recetas **existentes** (crafting + máquinas); mismos recipe id → EMI/JEI
+- KubeJS modifica recetas **existentes** (crafting + máquinas); mismos recipe id → JEI
 - Sin items nuevos del pack; integración cruzada Create/IE/AE2/Mek
 - Documentado en `docs/TECH_PROGRESSION.md` (brief FTB Quests)
 - FTB Quests capitulo Tech con dependencias por tier
@@ -183,7 +183,7 @@ Regla de diseno: farming/deco/magia **no** requieren Mekanism; solo la linea ind
 
 **FTB:** Library, Teams, Chunks, Quests (+ Quests compatibility si hace falta)
 
-**QoL:** Waystones, **Sophisticated Backpacks** + **Sophisticated Storage** (+ Core), **Lootr**, JourneyMap o FTB Chunks map, AppleSkin, Jade, EMI
+**QoL:** Waystones, **Sophisticated Backpacks** + **Sophisticated Storage** (+ Core), **Lootr**, JourneyMap o FTB Chunks map, AppleSkin, Jade, JEI
 
 **Fuente:** todas las jars desde CurseForge (mismo game version 1.21.1 + loader NeoForge).
 

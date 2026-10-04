@@ -4,7 +4,10 @@
 
 - Solo items/máquinas **existentes** (sin items nuevos).
 - Crafting **y** recetas de máquina (metallurgic infuser).
-- **Recipe ids originales** → EMI/JEI muestran la receta del mod con ingredientes Oasis.
+- **Recipe ids originales** → JEI muestra la receta del mod con ingredientes Oasis.
+- Las puertas se reescriben con `remove` + receta explícita (no `replaceInput`) para que JEI las vea bien.
+- Viewer del pack: **JEI** (EMI retirado).
+- `create:precision_mechanism` **no se modifica**: sigue siendo ensamblaje secuencial Create (`create:sequenced_assembly/precision_mechanism`). Se usa como **ingrediente** en IE/AE2/Mek.
 - Script: `kubejs/server_scripts/oasis_tech_gates.js`
 - Cozy / magia / deco: sin cambios.
 

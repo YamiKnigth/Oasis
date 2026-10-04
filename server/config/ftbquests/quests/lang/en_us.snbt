@@ -462,7 +462,7 @@
 	quest.15564C11744D6AA0.quest_desc: ["Una vez que haya obtenido un conjunto completo de las &eInscriber Press&r requeridas, es hora de comenzar a fabricar algunos &eProcessors&f. Estos son un ingrediente de fabricación importante que se utiliza para fabricar la gran mayoría de los dispositivos conectados a ME."]
 	quest.15564C11744D6AA0.title: "Processors"
 	quest.15A0C81F5263815E.quest_desc: ["Los mobs que se mueven por el suelo te lo soltaran al matarlos &6(Excepto los antrópodos)"]
-	quest.16285BA4AE30324B.quest_desc: ["Ink para hechizos. Mira EMI si usas otra variante."]
+	quest.16285BA4AE30324B.quest_desc: ["Ink para hechizos. Mira JEI si usas otra variante."]
 	quest.16285BA4AE30324B.title: "Tinta comun"
 	quest.16299B9AE87257DC.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
