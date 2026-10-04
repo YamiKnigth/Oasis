@@ -4,6 +4,7 @@
   "ae2:grid_node": null,
   "ae2:pattern_provider": null,
   "ae2:power_storage": null,
+  "exposure:lightroom": null,
   "immersiveengineering:multiblock_inventory": null,
   "immersiveengineering:multiblock_tank": null,
   "jade:object_name": null,
@@ -32,5 +33,7 @@
   "minecraft:potion_effects": null,
   "minecraft:progress": null,
   "minecraft:redstone": null,
-  "minecraft:zombie_villager": null
+  "minecraft:zombie_villager": null,
+  "supplementaries:present": null,
+  "supplementaries:safe": null
 }

@@ -1,0 +1,161 @@
+{
+	id: "79F58BE60E66ABB7"
+	order_index: 1
+	title: "Aleatorias+"
+	loot_size: 1
+	rewards: [
+		{ item: "more_immersive_wires:ae_coil" }
+		{ item: "more_immersive_wires:ae_connector" }
+		{ item: "more_immersive_wires:ae_dense_relay" }
+		{
+			item: {
+				id: "sophisticatedstorage:limited_netherite_barrel_2"
+				Count: 1b
+				tag: {
+					woodType: "acacia"
+				}
+			}
+			count: 3
+		}
+		{ item: "sophisticatedstorage:basic_to_netherite_tier_upgrade" }
+		{ item: "sophisticatedstorage:diamond_to_netherite_tier_upgrade" }
+		{ item: "bloodmagic:minekey", count: 5 }
+		{ item: "draconicevolution:chaos_shard" }
+		{ item: "draconicevolution:awakened_core" }
+		{ item: "draconicevolution:draconic_wireless_crystal" }
+		{ item: "draconicevolution:draconium_chest" }
+		{ item: "tombstone:grave_dust", count: 64 }
+		{ item: "torchmaster:feral_flare_lantern", count: 5 }
+		{
+			item: {
+				id: "botania:mana_ring_greater"
+				Count: 1b
+				tag: {
+					mana: 2000000
+				}
+			}
+		}
+		{ item: "botania:gaia_head" }
+		{ item: "plushies:dragon" }
+		{
+			item: {
+				id: "tconstruct:longbow"
+				Count: 1b
+				tag: {
+					tic_multipliers: {
+						"tconstruct:durability": 1.5f
+					}
+					tic_stats: {
+						"tconstruct:attack_speed": 1.0f
+						"tconstruct:attack_damage": 2.5f
+						"tconstruct:durability": 3960.0f
+						"tconstruct:accuracy": 0.95f
+						"tconstruct:velocity": 0.9f
+						"tconstruct:draw_speed": 0.8f
+					}
+					tic_broken: 0b
+					tic_modifiers: [
+						{
+							name: "tconstruct:overslime"
+							level: 3s
+						}
+						{
+							name: "tconstruct:stringy"
+							level: 1s
+						}
+						{
+							name: "tconstruct:overcast"
+							level: 3s
+						}
+					]
+					Damage: 0
+					tic_materials: [
+						"tconstruct:slimesteel"
+						"tconstruct:slimesteel"
+						"tconstruct:slimesteel"
+						"tconstruct:string"
+					]
+					tic_volatile_data: {
+						"tconstruct:overslime_cap": 375
+						"tconstruct:overslime_friend": 1b
+					}
+					tic_persistent_data: {
+						abilities: 1
+						upgrades: 2
+					}
+				}
+			}
+		}
+		{ item: "immersiveengineering:ingot_steel", count: 32 }
+		{ item: "lazierae2:parallel_processor", count: 16 }
+		{ item: "lazierae2:parallel_printed", count: 8 }
+		{ item: "tconstruct:queens_slime_ingot", count: 10 }
+		{ item: "mysticalagradditions:insanium_essence", count: 3 }
+		{ item: "mysticalagradditions:insanium_gemstone" }
+		{
+			item: {
+				id: "tconstruct:plate_shield"
+				Count: 1b
+				tag: {
+					tic_stats: {
+						"tconstruct:armor_toughness": 2.0f
+						"tconstruct:block_amount": 100.0f
+						"tconstruct:block_angle": 180.0f
+						"tconstruct:durability": 500.0f
+					}
+					tic_broken: 0b
+					Damage: 0
+					tic_modifiers: [{
+						name: "tconstruct:blocking"
+						level: 1s
+					}]
+					tic_persistent_data: {
+						abilities: 1
+						defense: 4
+						upgrades: 1
+					}
+				}
+			}
+		}
+		{ item: "mysticalagradditions:insanium_apple" }
+		{ item: "mysticalagradditions:dragon_egg_chunk" }
+		{ item: "mysticalagriculture:imperium_furnace" }
+		{ item: "mysticalagriculture:supremium_farmland", count: 5 }
+		{ item: "mysticalagriculture:supremium_growth_accelerator" }
+		{ item: "mysticalagriculture:supremium_essence", count: 6 }
+		{
+			item: {
+				id: "mysticalagriculture:passive_soulium_dagger"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				id: "matc:supremium_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "draconicevolution:draconium_jump_module" }
+		{ item: "mekanism:jetpack_armored" }
+		{ item: "mekanism:upgrade_speed", count: 8, random_bonus: 32 }
+		{ item: "mekanism:upgrade_energy", count: 32 }
+		{ item: "mekanism:alloy_reinforced", count: 32 }
+		{ item: "mekanism:ultimate_energy_cube" }
+		{ item: "ae2:charged_certus_quartz_crystal", count: 64 }
+		{ item: "ae2:singularity" }
+		{
+			item: {
+				id: "ae2:item_storage_cell_64k"
+				Count: 1b
+				tag: { }
+			}
+		}
+		{ item: "mypanascoins:diamond_coin" }
+	]
+}

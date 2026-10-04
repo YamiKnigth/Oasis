@@ -6,7 +6,7 @@
 	icon: {
 		id: "malum:soul_stained_steel_scythe"
 	}
-	id: "33BC804FAE31EEBC"
+	id: "31EA9676774C1C0C"
 	images: [ ]
 	order_index: 0
 	quest_links: [ ]
@@ -31,13 +31,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "6A6A8F9764CCEF7D"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "541826A4FD97C9EE"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -68,13 +68,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "4A56C6E6574551F6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "38084C546E9697DE"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -93,13 +93,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "6555FAA889D5B235"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "023F20E9B35FFC49"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -118,13 +118,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "627620098A3E08CB"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "5DF0977732967501"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -143,13 +143,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "769AC060DEB1534B"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "080B3436FB486757"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -168,13 +168,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0A497AB3579652EC"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "59DA5B422E45FF75"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -193,13 +193,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "683CA8B97C48FDD9"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "1E732D5C34B63AE9"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -221,13 +221,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "5D497B61350DF89C"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6504BF0EE73CD22C"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -260,13 +260,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7C790FD24748332A"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "26EAA89A55348CED"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -286,13 +286,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "085CC9D299E3CEF0"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0972D688578812C8"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -312,13 +312,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "64B5A13556F4A2BE"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7E0132C3335C3CA3"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -338,13 +338,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7027E7BD2E1C5543"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "476FCC867A7DA63E"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -364,13 +364,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "359CB2C05D28F41F"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "32FD57A7EBC27F68"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -390,13 +390,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "554F586BC9A4835C"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3B4C9A5D7E8D83D4"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -416,13 +416,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2CD9E61E5D67249D"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "53721935264AC5BB"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -442,13 +442,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "5E58B02227C94FE6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "08029F8247A7BD4E"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -468,13 +468,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7A6F8A8ADA4A140D"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7E21C19EE97E1D3B"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -493,13 +493,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "40CC4376EB477B32"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "5671391FA88AB353"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -521,13 +521,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2F094AAEFF9EF468"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6C5DD218A67BB195"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -570,13 +570,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2FD35CD6DFB27B18"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7DC7B776AE5D9C84"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -595,13 +595,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "07185CE9F198440B"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3EAEC4D74803E5D0"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -638,13 +638,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "10043F5C8C61D51B"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "26C242B35B1CAFDC"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -681,13 +681,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0F0A3603C4F88A83"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "08A0E620A331FC5E"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -713,13 +713,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "6A5ECBF67EADF4B6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "084CE596D76A875B"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -738,13 +738,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7C249E3155FF49A1"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3E3346B12470FEB7"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -763,13 +763,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7FC51E5004C64923"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "279D8F8D540E6DDA"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -790,13 +790,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2C34616169C7F4A1"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6422011A0E780421"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -815,13 +815,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2444BB47DFDF10EC"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0E3DE977418A8E13"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -840,13 +840,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0D4B31DA1C9087DE"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "145283576E4518D0"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -864,13 +864,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7348C8E74B53DE86"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7FDE48A90A4D87B2"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -888,13 +888,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "77A95C00FDB0CD0E"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "1BB9447FC8A3435F"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -912,13 +912,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "23B9AFA51B9D72A6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6A7E8C2C2C3010CC"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -936,13 +936,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3D71F366FF61A4A5"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3521796DAE17A100"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -960,13 +960,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "59529E813FE47D13"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0D4B84859D633053"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -984,13 +984,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "652B80746A5B2580"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "78094FEB79B3F3CB"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1008,13 +1008,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "19EF99FBB0D7A9DE"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "393DB0AD962530E0"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1032,13 +1032,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "23256B0ECDE4452E"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "707C5EA55B81C43E"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1056,13 +1056,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2C3D112E4D92B8FB"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "197D05D8D10188D2"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1080,13 +1080,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "5C9121F33BD9474E"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "47AEDE1F3D4D9B00"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1104,13 +1104,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "4409650BAB4AA9FE"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3F20D8E485DB6EAB"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1128,13 +1128,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "32E3664879A95851"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "6E98226D0C8C81F5"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1154,13 +1154,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3D979146E63D9367"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "65761AE15632CDE1"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1180,13 +1180,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0CEE08C76DEE691E"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2676DD73F6AAF84A"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1206,13 +1206,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "76ADF63CFC15B775"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4F3A5C6FBC132981"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1231,13 +1231,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "460105CCAE99A358"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "03F2C692320F3831"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1256,13 +1256,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "1843E325F538EE61"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "60C983B6748C9E92"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1281,13 +1281,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3C9A93BEB4B9D0BB"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "69A9D3EC1EEFFEA8"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1306,13 +1306,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3208D5C1A7D107A0"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7C77F355B95AA1FA"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1331,13 +1331,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "5BA85606F8E0619D"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0A228CFE3C2E6EBE"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1356,13 +1356,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2633DBE4CDD71B17"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7CBBC276A609A136"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1381,13 +1381,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2879B91CF9A310C7"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "77BC30806CC06C0B"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1406,13 +1406,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "072A52183900E67F"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "33B3598F85A148DE"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1431,13 +1431,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "591710D067EB2433"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "05310AF732E470B7"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1456,13 +1456,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "258E6847E7F44B65"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4951539C6AA20B54"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1482,13 +1482,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "48C4E5660133B162"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "0DBE7563224258FE"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1507,13 +1507,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "399AD5714F4DD93F"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2415BA0F9C85CB4E"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1532,13 +1532,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "602BC75CBDF489D6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "5094F6F16289F92E"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1557,13 +1557,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7746CE88FA3820D5"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2E9488590BABF1A5"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1582,13 +1582,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "05FCB647FBE24758"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "5F0FBA228A657602"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1607,13 +1607,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "28A4B27D4A04BBF6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "798EE7AEF044CD4B"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1633,13 +1633,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3830B48F26F5E97F"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "43F6D7A416C15CC3"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1659,13 +1659,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "6F58322BE49CE523"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "29FDD396FE7304B1"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1684,13 +1684,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3BA9BAB1A2B8A300"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3423063493DF8C2A"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1709,13 +1709,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "72886EE6DDF1BFEB"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2A549BC545F6D768"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1734,13 +1734,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7FE969379E49C07C"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7A88BF9C88C99A84"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1759,13 +1759,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "1CE8D38C0C15FD25"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "687F70D57282587B"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1784,13 +1784,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "27381BB311F94F3F"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "2670FC037B6B3BA2"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1809,13 +1809,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "3802F38B0B243DFE"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "3CFB83BBF94DE5A6"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1834,13 +1834,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "0EE110855DCEF50D"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4AB1941124FA47AE"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1859,13 +1859,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "6368041CAD087AD6"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "31750E8E4A996963"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1884,13 +1884,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "2D42A250C79AF2D7"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "03995688FEF39F08"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1909,13 +1909,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "1A86B77DBBC4003A"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "26F718A42751439B"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1934,13 +1934,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "39C517E462038153"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "4E51F62738E52A19"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]
@@ -1971,13 +1971,13 @@
 				{
 					exclude_from_claim_all: true
 					id: "7BDB1A16ED442AF5"
-					table_id: 8632856462035352572L
+					table_id: 9064214687152083018L
 					type: "random"
 				}
 				{
 					exclude_from_claim_all: true
 					id: "7F036CA90AE37FB8"
-					table_id: 8632856462035352572L
+					table_id: 2024240799334710852L
 					type: "random"
 				}
 			]

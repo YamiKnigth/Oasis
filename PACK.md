@@ -62,8 +62,9 @@ Oasis/                 # carpeta del proyecto (antes Nuevo)
 
 - Pruebas: carpeta `server/` en este PC
 - Host final: otro entorno; nombre Oasis (`server.properties`)
-- JVM sugerida: `-Xms10G -Xmx12G` (ajustar al host)
-- Arranque: `start-oasis.bat` / `run.bat`
+- JVM: flags Aikar en `server/user_jvm_args.txt` (`Xms=Xmx`, ~10–12G de host 16G)
+- Host Pterodactyl: `scripts/pterodactyl/install.sh` + Startup `bash start.sh`
+- Arranque local: `run.sh` / `run.bat` (leen `user_jvm_args.txt`)
 
 ## Reglas de cupo
 
@@ -74,14 +75,15 @@ Oasis/                 # carpeta del proyecto (antes Nuevo)
 
 ## Estado
 
-- [x] Scaffold NeoForge 21.1.253 + carpetas (server arrancó OK, Done ~6.7s)
+- [x] Scaffold NeoForge 21.1.253 + carpetas
 - [x] Performance + FTB + QoL
 - [x] Overworld + combate + cocina/deco
-- [x] Reemplazos Bakery Compat + Vinery + Corail Tombstone
 - [x] Dimensiones Aether + BetterNether/End New Dawn
-- [x] Tech Create→IE→Mekanism→AE2 + KubeJS gates (108/103 jars; smoke OK ~76s) — **esperando autorizacion**
-- [ ] Magia + dragona + quests
-- [ ] Export pack
+- [x] Tech Create→IE→AE2→Mek + KubeJS gates + JEI
+- [x] Magia Iron’s + Malum + Ars + Occultism; End Remastered + Cataclysm
+- [x] FTB Quests + perfil CF
+- [x] Wave cozy/QoL (148 jars client; sin Every Compat por RAM) — smoke OK · `Oasis-1.1.0.zip`
+- [ ] Ajuste misiones FTB a mods nuevos
 
 
 

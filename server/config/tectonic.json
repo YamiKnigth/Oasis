@@ -1,7 +1,7 @@
 {
   "biomes": {
     "temperature_multiplier": 1.0,
-    "temperature_offset": 0.0,
+    "temperature_offset": 0.08,
     "temperature_scale": 0.25,
     "vegetation_multiplier": 1.0,
     "vegetation_offset": 0.0,
@@ -29,7 +29,7 @@
   },
   "continents": {
     // Horizontally scales continents. Lower values = larger continents and oceans between them.
-    "continents_scale": 0.13,
+    "continents_scale": 0.2,
     // Horizontally scales erosion, primarily impacting mountains. Lower values = thicker mountain ranges and terrain between them.
     "erosion_scale": 0.25,
     // The threshold where plateau terrain becomes flatter terrain. Positive numbers favor flat terrain and negative numbers favor plateau terrain.
@@ -37,7 +37,7 @@
     // Some jungles generate massive pillars that can extend upwards of a hundred blocks tall.
     "jungle_pillars": true,
     // Skews terrain towards or away from oceans. Lower values = more oceans. Above -0.45, deep oceans will not spawn! Above -0.2, oceans will not spawn!
-    "ocean_offset": -0.8,
+    "ocean_offset": -0.5,
     // Horizontally scales the ridge noise, primarily impacting rivers and terrain around them like plateaus. Lower values = wider rivers and terrain between them.
     "ridge_scale": 0.25,
     // Underground rivers under snowy biomes will generate with ice.

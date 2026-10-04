@@ -56,9 +56,9 @@
     "biomeswevegone:windswept_desert": true,
     "biomeswevegone:zelkova_forest": true
   },
-  "region_1_weight": 8,
-  "region_2_weight": 8,
-  "region_3_weight": 8,
+  "region_1_weight": 12,
+  "region_2_weight": 12,
+  "region_3_weight": 12,
   "vanilla_additions": {
     "comment": "Setting this to False will disable all vanilla additions, making the enabled_vanilla_additions section ignored.  (Only Available on Fabric and NeoForge)",
     "value": true

@@ -1,0 +1,53 @@
+#Whether small vegetation (grass, tall grass, flowers, ferns, mushrooms,
+#bushes, seagrass, kelp, sugar cane, bamboo, vines, etc.) should be made denser.
+#This is the 'default' category: anything placed during world generation's
+#vegetal_decoration step that isn't matched as a tree or a cactus falls here.
+enableGrassAndPlants = true
+#How much denser grass/plants should be compared to vanilla.
+#1.0 = vanilla density, 3.0 = roughly 3x as many patches, etc.
+#Non-whole numbers are supported (e.g. 2.5) and are averaged over many chunks.
+# Default: 3.0
+# Range: 1.0 ~ 25.0
+grassAndPlantsMultiplier = 2.5
+#Whether trees (and tree-like features such as huge mushrooms/fungi) should
+#be made denser. Off by default since denser forests can noticeably impact
+#world-gen performance and can look overgrown/unnatural at high multipliers.
+enableTrees = true
+#How much denser trees should be compared to vanilla, if enabled above.
+# Default: 2.0
+# Range: 1.0 ~ 10.0
+treesMultiplier = 1.5
+#Whether cacti should be made denser. Off by default.
+enableCacti = false
+#How much denser cacti should be compared to vanilla, if enabled above.
+# Default: 2.0
+# Range: 1.0 ~ 10.0
+cactiMultiplier = 2.0
+#If this list is NOT empty, densification ONLY happens in these biomes
+#(and any biome not listed here is left at vanilla density).
+#Entries are biome IDs, e.g. 'minecraft:plains', 'byg:origin_valley'.
+#A trailing '*' wildcard is supported, e.g. 'minecraft:forest*' or 'byg:*'.
+#Leave empty to allow every biome (subject to the blacklist below).
+biomeWhitelist = []
+#Biomes that should NEVER be densified, regardless of the whitelist above.
+#Same ID/wildcard format as biomeWhitelist.
+#Example default below leaves deserts and vanilla oceans untouched.
+biomeBlacklist = ["minecraft:desert", "minecraft:*ocean*"]
+#If this list is NOT empty, ONLY placed-feature IDs matching one of these
+#patterns will be densified - the enable/disable toggles above are ignored
+#for matching entries (though they still decide which multiplier is used).
+#Use this for precise control, e.g. to densify only one specific mod's flowers.
+#Same ID/wildcard format as biomeWhitelist, but for placed_feature IDs,
+#e.g. 'minecraft:patch_grass_plain', 'quark:*', 'byg:*flower*'.
+#Leave empty to fall back to the category toggles/keywords above.
+featureWhitelist = []
+#Placed-feature IDs that should NEVER be densified, regardless of anything else.
+#Same ID/wildcard format as biomeWhitelist, but for placed_feature IDs.
+featureBlacklist = []
+#A placed-feature ID whose path contains any of these keywords is treated
+#as a 'tree' for the purposes of enableTrees/treesMultiplier.
+#Matching is case-insensitive and works on the path only (after the ':').
+treeKeywords = ["tree", "trunk", "fungus", "mushroom_stem", "mushroom_tall"]
+#A placed-feature ID whose path contains any of these keywords is treated
+#as a 'cactus' for the purposes of enableCacti/cactiMultiplier.
+cactusKeywords = ["cactus"]
