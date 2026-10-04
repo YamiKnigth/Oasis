@@ -827,7 +827,7 @@
 			]
 			tasks: [{
 				id: "5BF9035D618BA2B7"
-				item: { components: { "ftbquests:missing_item": "malum:soulwood_plinth" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:soulwood_plinth" }
 				type: "item"
 			}]
 			x: -47.5d
