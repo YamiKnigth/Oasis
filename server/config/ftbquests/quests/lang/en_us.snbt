@@ -5,7 +5,6 @@
 	chapter.33BC804FAE31EEBC.title: "&d&lMalum"
 	chapter.3A95899B1ED34CBF.title: "&b&lMekanism"
 	chapter.49D036EA72296C7E.title: "&a&lGuia Oasis"
-	chapter.5FF2F8E6FDE52902.title: "&d&lIron's Spells"
 	chapter.6451876239C201DF.title: "&b&lApplied Energistics 2"
 	chapter.7BE74CAA17E3329E.title: "&e&lAlmacenamiento"
 	chapter_group.085A4E0C215237D7.title: "&b&lTecnologia"
@@ -347,8 +346,6 @@
 		"Si una mafia o un jugador se paran dentro del SCS mientras se captura el espacio, tambiÃ©n serÃ¡n transportados a donde va el resto del espacio, es decir, en una dimensiÃ³n dedicada. Solo asegÃºrate de tener una forma de volver a salir y entrar si eres el que estÃ¡ siendo capturado."
 	]
 	quest.01F3F0C25BA72BDA.title: "Spatial IO"
-	quest.01FA04AE6B770D3A.quest_desc: ["Tu primer spell book."]
-	quest.01FA04AE6B770D3A.title: "Libro de cobre"
 	quest.027084AE2DF5EBA6.quest_desc: [""]
 	quest.027084AE2DF5EBA6.quest_subtitle: "Salmuera caliente aquÃ­. Obtenga su salmuera caliente aquÃ­."
 	quest.027084AE2DF5EBA6.title: "Calentando nuestra producciÃ³n de salmuera"
@@ -368,15 +365,10 @@
 		"Aplicar color a un cable utiliza 100 AE de energÃ­a de su baterÃ­a interna, para un total de 3400 segmentos de cable en una sola carga."
 	]
 	quest.03E6FA4DCB71162E.title: "Color Applicator"
-	quest.0482C3161B03B586.quest_desc: ["Un casting implement basico."]
-	quest.0482C3161B03B586.title: "Staff"
 	quest.0498A578D0EC3254.quest_desc: [""]
 	quest.0498A578D0EC3254.quest_subtitle: "El circuito de control bÃ¡sico"
 	quest.04E2D539E33B7B0F.quest_desc: [""]
 	quest.04E2D539E33B7B0F.quest_subtitle: "El combinador quÃ­mico"
-	quest.056CAC7A1908A3FB.quest_desc: ["Hechizos y grimorios. Paralelo a la tech: no obligatorio para Mek/AE2."]
-	quest.056CAC7A1908A3FB.quest_subtitle: "Magia suave"
-	quest.056CAC7A1908A3FB.title: "Irons Spells"
 	quest.06470C09B6DDD072.quest_desc: ["El alma es la conciencia, lo que anima el cuerpo, y el punto de encuentro entre la materia y la magia. En esta enciclopedia tendras todo lo necesario para aprender estas artes."]
 	quest.06470C09B6DDD072.quest_subtitle: "Enciclopedia Arcana"
 	quest.065D844BF693A662.quest_desc: ["Consigue ojos de End Remastered explorando."]
@@ -400,8 +392,6 @@
 		"Cuando dos de estos anillos individuales se han vinculado utilizando las Singularidades Entrelazadas CuÃ¡nticas y se han puesto en marcha con algo de potencia AE (por ejemplo, una celda de energÃ­a), una red ME se puede expandir de forma inalÃ¡mbrica en el otro lado del puente, a travÃ©s de largas distancias o incluso dimensiones."
 	]
 	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
-	quest.0CF2CA72D3553F24.quest_desc: ["Sube a iron spell book o superior."]
-	quest.0CF2CA72D3553F24.title: "Libro de hierro"
 	quest.0F326EEEC2EBE4E5.quest_desc: [""]
 	quest.0F326EEEC2EBE4E5.quest_subtitle: "Â¡Enriquece tus artÃ­culos primero!"
 	quest.0F326EEEC2EBE4E5.title: "ArtÃ­culos enriquecidos"
@@ -442,8 +432,6 @@
 	quest.15564C11744D6AA0.quest_desc: ["Una vez que haya obtenido un conjunto completo de las &eInscriber Press&r requeridas, es hora de comenzar a fabricar algunos &eProcessors&f. Estos son un ingrediente de fabricaciÃ³n importante que se utiliza para fabricar la gran mayorÃ­a de los dispositivos conectados a ME."]
 	quest.15564C11744D6AA0.title: "Processors"
 	quest.15A0C81F5263815E.quest_desc: ["Los mobs que se mueven por el suelo te lo soltaran al matarlos &6(Excepto los antrÃ³podos)"]
-	quest.16285BA4AE30324B.quest_desc: ["Ink para hechizos. Mira JEI si usas otra variante."]
-	quest.16285BA4AE30324B.title: "Tinta comun"
 	quest.16299B9AE87257DC.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"el &bTerminal InalÃ¡mbrico&f funciona de manera idÃ©ntica a un terminal normal, pero de forma inalÃ¡mbrica. ImagÃ­nate."
@@ -504,8 +492,6 @@
 	quest.1B69BC1F5169F856.quest_desc: ["IE pide piezas de Create (mechanism / electron tube) en crafts clave. Acero, cables y componentes electronicos."]
 	quest.1B69BC1F5169F856.title: "Tech II â€” Immersive"
 	quest.1B6DDF50D00CBB31.quest_desc: [""]
-	quest.1B96B3D57D7455D0.quest_desc: ["Muchos items magicos usan slots Curios."]
-	quest.1B96B3D57D7455D0.title: "Curios"
 	quest.1D649DD59E87EB95.quest_desc: ["Sun Spirit - opcional."]
 	quest.1D649DD59E87EB95.title: "Gold opcional"
 	quest.1E126DF9E632A280.quest_desc: ["Sigue cazando ojos raros."]
@@ -531,8 +517,6 @@
 	]
 	quest.2077D64428E9C067.quest_subtitle: "Esto tiene un uso fuera de la fabricaciÃ³n de cables."
 	quest.2077D64428E9C067.title: "Forgot to Mention"
-	quest.20C42841343DD706.quest_desc: ["Consigue un scroll de hechizo."]
-	quest.20C42841343DD706.title: "Pergamino"
 	quest.219932CB19258C16.quest_desc: ["El tercer nivel del componente de almacenamiento, que proporciona &e16384&f bytes de almacenamiento."]
 	quest.219932CB19258C16.quest_subtitle: "x4^2"
 	quest.219932CB19258C16.title: "16k Storage Component"
@@ -1973,5 +1957,382 @@
 		"Tienes parrilla, olla, fermentos y puente Create."
 		"Invita al equipo: festines FD, kebab wraps y una ronda del keg."
 		"&6Oasis:&r Sigue explorando addons (Bakery/Vinery/MND) a tu ritmo; no gatean la tech."
+	]
+	chapter.5FF2F8E6FDE52902.title: "&d&lIron's Spells"
+	quest.0E6783D6CF56D457.title: "Iron's Spells"
+	quest.0E6783D6CF56D457.quest_subtitle: "Magia de combate y grimorios"
+	quest.0E6783D6CF56D457.quest_desc: [
+		"Hechizos, tintas, runas y staffs. Esta guia te lleva del primer libro de cobre al late-game magico."
+		"&6Oasis:&r Iron's es &eparalelo&r a la tech y a la cocina: no bloquea Create/IE/AE2/Mek. Combina bien con Malum y Curios."
+	]
+	quest.92A8CD9EF9984BEB.title: "Inscription Table"
+	quest.92A8CD9EF9984BEB.quest_subtitle: "Graba hechizos"
+	quest.92A8CD9EF9984BEB.quest_desc: [
+		"Mesa principal: convierte scrolls + ink en hechizos dentro de tu spell book."
+		"Colocala cerca de un chest con tinta y scrolls; vas a usarla mucho."
+	]
+	quest.CA5F0BFE34FB043B.title: "Copper Spell Book"
+	quest.CA5F0BFE34FB043B.quest_subtitle: "Tu primer grimorio"
+	quest.CA5F0BFE34FB043B.quest_desc: [
+		"Equipalo (hotbar / Curios segun config) y abre la rueda de hechizos."
+		"Pocos slots: prioriza 1-2 hechizos utiles (mobility / damage / heal)."
+	]
+	quest.A992EA67AE86D218.title: "Graybeard Staff"
+	quest.A992EA67AE86D218.quest_subtitle: "Implemento de casteado"
+	quest.A992EA67AE86D218.quest_desc: [
+		"Staff basico para lanzar hechizos con mejor feeling que a mano."
+		"Mas adelante hay staffs de escuela (hielo, sangre, pyrium...)."
+	]
+	quest.AC03D32CDD7139ED.title: "Common Ink"
+	quest.AC03D32CDD7139ED.quest_subtitle: "Tinta basica"
+	quest.AC03D32CDD7139ED.quest_desc: [
+		"Combustible de la inscription table. Sin tinta no grabas hechizos."
+		"Haz stock: cada upgrade de scroll consume tinta del tier adecuado."
+	]
+	quest.567355A53B259E65.title: "Scroll"
+	quest.567355A53B259E65.quest_subtitle: "Hechizo en pergamino"
+	quest.567355A53B259E65.quest_desc: [
+		"Loot, trades y crafting. Lleva el scroll a la Inscription Table con tinta."
+		"Los scrolls de escuela (fire/ice/...) aparecen en secciones siguientes."
+	]
+	quest.06071DDF4F54BD0D.title: "Arcane Essence"
+	quest.06071DDF4F54BD0D.quest_subtitle: "Polvo magico"
+	quest.06071DDF4F54BD0D.quest_desc: ["Material base de muchas recetas Iron's. Farmea o crafta segun JEI."]
+	quest.61F1F3E93D00488E.title: "Cloth"
+	quest.61F1F3E93D00488E.quest_subtitle: "Tela magica"
+	quest.61F1F3E93D00488E.quest_desc: ["Componente de armaduras y libros. Barato de spamear mid-game."]
+	quest.EAD0792372FA5D19.title: "Magic Cloth"
+	quest.EAD0792372FA5D19.quest_subtitle: "Tela superior"
+	quest.EAD0792372FA5D19.quest_desc: ["Upgrade de cloth. Usado en armaduras de mago y piezas mid/late."]
+	quest.7280F30BB804CEF6.title: "Tintas"
+	quest.7280F30BB804CEF6.quest_subtitle: "Common -> Legendary"
+	quest.7280F30BB804CEF6.quest_desc: [
+		"Cada rareza de hechizo pide tinta del mismo tier (o superior segun receta)."
+		"Planifica farms de ink antes de spamear scrolls epicos."
+	]
+	quest.B080118CB4911B69.title: "Uncommon Ink"
+	quest.B080118CB4911B69.quest_subtitle: "Tier verde"
+	quest.B080118CB4911B69.quest_desc: ["Siguiente escalon. Empieza a aparecer en loot de magos y estructuras."]
+	quest.2BD0A5B01AB14DA3.title: "Rare Ink"
+	quest.2BD0A5B01AB14DA3.quest_subtitle: "Tier azul"
+	quest.2BD0A5B01AB14DA3.quest_desc: ["Para hechizos serios. Guarda rare ink; no la gastes en scrolls basura."]
+	quest.572798BE742C8398.title: "Epic Ink"
+	quest.572798BE742C8398.quest_subtitle: "Tier morada"
+	quest.572798BE742C8398.quest_desc: ["Cara. Usala en hechizos que definan tu build."]
+	quest.47A674A05D602839.title: "Legendary Ink"
+	quest.47A674A05D602839.quest_subtitle: "Tier naranja"
+	quest.47A674A05D602839.quest_desc: ["Top tier. Reserva para tu spell book final y hechizos clave."]
+	quest.125F0D75F7E6D65A.title: "Spell Books"
+	quest.125F0D75F7E6D65A.quest_subtitle: "Mas slots, mejor mana"
+	quest.125F0D75F7E6D65A.quest_desc: ["Sube de libro cuando te quedes sin slots o mana. No hace falta el netherite para divertirte."]
+	quest.56C37D859DE2C09B.title: "Iron Spell Book"
+	quest.56C37D859DE2C09B.quest_subtitle: "Mas espacio"
+	quest.56C37D859DE2C09B.quest_desc: ["Buen upgrade early. Mas hechizos equipados = mas versatilidad en exploracion."]
+	quest.E31F6D634445C70F.title: "Gold Spell Book"
+	quest.E31F6D634445C70F.quest_subtitle: "Mid grimorio"
+	quest.E31F6D634445C70F.quest_desc: ["Salto comodo antes de diamante. Combina con armadura wizard."]
+	quest.8BFC32FA4B2ADCAD.title: "Diamond Spell Book"
+	quest.8BFC32FA4B2ADCAD.quest_subtitle: "Alto rendimiento"
+	quest.8BFC32FA4B2ADCAD.quest_desc: ["Libro fuerte para bosses mid. Empieza a pensar en escuelas favoritas."]
+	quest.7FF92C59D4A0DDE9.title: "Netherite Spell Book"
+	quest.7FF92C59D4A0DDE9.quest_subtitle: "Late vanilla-ish"
+	quest.7FF92C59D4A0DDE9.quest_desc: ["Uno de los mejores libros \"craftables\". Alternativas tematicas abajo."]
+	quest.2955A5C270331211.title: "Blaze Spell Book"
+	quest.2955A5C270331211.quest_subtitle: "Fuego"
+	quest.2955A5C270331211.quest_desc: ["Libro tematico fire. Ideal si tu build es pyromancer."]
+	quest.39DD0CBF66090B30.title: "Ice Spell Book"
+	quest.39DD0CBF66090B30.quest_subtitle: "Hielo"
+	quest.39DD0CBF66090B30.quest_desc: ["Libro tematico ice. Combina con cryomancer gear."]
+	quest.A08DEC1264C6DB01.title: "Druidic Spell Book"
+	quest.A08DEC1264C6DB01.quest_subtitle: "Naturaleza"
+	quest.A08DEC1264C6DB01.quest_desc: ["Enfoque nature. Buen fit exploracion / support."]
+	quest.7ADD576A9112CFE8.title: "Dragonskin Spell Book"
+	quest.7ADD576A9112CFE8.quest_subtitle: "Endgame book"
+	quest.7ADD576A9112CFE8.quest_desc: ["Libro top con dragonskin. Objetivo late de Iron's."]
+	quest.3D14D76D4A0C91E8.title: "Legendary Spell Book"
+	quest.3D14D76D4A0C91E8.quest_subtitle: "Trofeo"
+	quest.3D14D76D4A0C91E8.quest_desc: ["El grimorio legendario. No es obligatorio para disfrutar el mod."]
+	quest.F30A6E14B75BF32B.title: "Estaciones magicas"
+	quest.F30A6E14B75BF32B.quest_subtitle: "Cauldron, yunque, forge"
+	quest.F30A6E14B75BF32B.quest_desc: ["Ademas de la Inscription Table hay crafting/upgrade stations clave."]
+	quest.8CC46EA4973ED2DC.title: "Alchemist Cauldron"
+	quest.8CC46EA4973ED2DC.quest_subtitle: "Tintas y brew"
+	quest.8CC46EA4973ED2DC.quest_desc: ["Procesa materiales en tintas y productos alchemicos. Mira JEI por fluidos/items."]
+	quest.6B27892E8C94AEAA.title: "Arcane Anvil"
+	quest.6B27892E8C94AEAA.quest_subtitle: "Upgrades magicos"
+	quest.6B27892E8C94AEAA.quest_desc: [
+		"Aplica upgrade orbs, imprints y mejoras a equipo/hechizos."
+		"Pieza central del mid/late Iron's."
+	]
+	quest.E5E6A6475997186B.title: "Scroll Forge"
+	quest.E5E6A6475997186B.quest_subtitle: "Fabrica scrolls"
+	quest.E5E6A6475997186B.quest_desc: ["Craft de scrolls cuando ya no dependes solo de loot."]
+	quest.084C5CE272DBBB64.title: "Pedestal"
+	quest.084C5CE272DBBB64.quest_subtitle: "Display / ritual props"
+	quest.084C5CE272DBBB64.quest_desc: ["Soportes para items. Util en bases magicas y algunas mecánicas de display."]
+	quest.ED9F5D5322E324EF.title: "Brazier"
+	quest.ED9F5D5322E324EF.quest_subtitle: "Fuego ritual"
+	quest.ED9F5D5322E324EF.quest_desc: ["Decoracion utilitaria del kit magico. Hay variante soul."]
+	quest.0B75C67D14CC7002.title: "Wisewood Bookshelf"
+	quest.0B75C67D14CC7002.quest_subtitle: "Estanteria magica"
+	quest.0B75C67D14CC7002.quest_desc: ["Bookshelf tematico. Bonito y coherente con una biblioteca de hechicero."]
+	quest.B04C35D585279C3E.title: "Materiales"
+	quest.B04C35D585279C3E.quest_subtitle: "Mithril, arcano, dragon"
+	quest.B04C35D585279C3E.quest_desc: ["Cadena de materiales hacia armaduras y libros altos."]
+	quest.3DB2605575ED4490.title: "Mithril Ore"
+	quest.3DB2605575ED4490.quest_subtitle: "Mineral magico"
+	quest.3DB2605575ED4490.quest_desc: ["Busca mithril underground. Tambien hay deepslate variant."]
+	quest.B04699E221E5EA07.title: "Mithril Ingot"
+	quest.B04699E221E5EA07.quest_subtitle: "Metal de magos"
+	quest.B04699E221E5EA07.quest_desc: ["Funde raw/ore. Base de piezas mid Iron's."]
+	quest.F9D0741BD6B5D13B.title: "Mithril Weave"
+	quest.F9D0741BD6B5D13B.quest_subtitle: "Tela metalica"
+	quest.F9D0741BD6B5D13B.quest_desc: ["Componente avanzado de armaduras/accesorios."]
+	quest.86CE3C8B78774F53.title: "Arcane Ingot"
+	quest.86CE3C8B78774F53.quest_subtitle: "Aleacion arcana"
+	quest.86CE3C8B78774F53.quest_desc: ["Metal procesado con essence. Aparece en muchas recetas mid."]
+	quest.356B198294AB83BB.title: "Dragonskin"
+	quest.356B198294AB83BB.quest_subtitle: "Cuero de dragon"
+	quest.356B198294AB83BB.quest_desc: ["Material late para el Dragonskin Spell Book y piezas top."]
+	quest.01A45F779B04A11B.title: "Arcane Debris"
+	quest.01A45F779B04A11B.quest_subtitle: "Escombro arcano"
+	quest.01A45F779B04A11B.quest_desc: ["Material raro de progresion. JEI indica fuentes/usos."]
+	quest.0B1C7222C313F6E0.title: "Arcane Salvage"
+	quest.0B1C7222C313F6E0.quest_subtitle: "Reciclaje magico"
+	quest.0B1C7222C313F6E0.quest_desc: ["Recupera valor de equipo/scrolls rotos o sobrantes."]
+	quest.7FDBFE3AD73E2781.title: "Escuelas y runas"
+	quest.7FDBFE3AD73E2781.quest_subtitle: "Elige tu afinidad"
+	quest.7FDBFE3AD73E2781.quest_desc: [
+		"Cada escuela tiene runas, scrolls y a veces armadura dedicada."
+		"No necesitas todas: especializate en 1-2 y guarda tinta."
+	]
+	quest.61DBD50AEA3A0ACD.title: "Blank Rune"
+	quest.61DBD50AEA3A0ACD.quest_subtitle: "Base de runas"
+	quest.61DBD50AEA3A0ACD.quest_desc: ["Craft base antes de especializar en una escuela."]
+	quest.77E6068C907F225C.title: "Fire Rune"
+	quest.77E6068C907F225C.quest_subtitle: "Escuela fuego"
+	quest.77E6068C907F225C.quest_desc: ["Afinidad pyromancer. Combina con fire scrolls y blaze book."]
+	quest.552E3BB307B6F271.title: "Ice Rune"
+	quest.552E3BB307B6F271.quest_subtitle: "Escuela hielo"
+	quest.552E3BB307B6F271.quest_desc: ["Crowd control y damage frio. Cryomancer vibes."]
+	quest.3DDB73F74BC739E8.title: "Lightning Rune"
+	quest.3DDB73F74BC739E8.quest_subtitle: "Escuela rayo"
+	quest.3DDB73F74BC739E8.quest_desc: ["Burst y movilidad electrica. Electromancer set mas abajo."]
+	quest.0CAC9E3A1DCFAD99.title: "Holy Rune"
+	quest.0CAC9E3A1DCFAD99.quest_subtitle: "Escuela sagrada"
+	quest.0CAC9E3A1DCFAD99.quest_desc: ["Heal/support y anti-undead. Priest gear combina bien."]
+	quest.743D228052309218.title: "Blood Rune"
+	quest.743D228052309218.quest_subtitle: "Escuela sangre"
+	quest.743D228052309218.quest_desc: ["Alto riesgo/reward. Blood staff y cultist aesthetics."]
+	quest.711BDE1940E9F3F1.title: "Ender Rune"
+	quest.711BDE1940E9F3F1.quest_subtitle: "Escuela ender"
+	quest.711BDE1940E9F3F1.quest_desc: ["Teleports y utilidad dimensional."]
+	quest.08126CC402A8A504.title: "Evocation Rune"
+	quest.08126CC402A8A504.quest_subtitle: "Escuela evocacion"
+	quest.08126CC402A8A504.quest_desc: ["Estilo evoker: fangs, summons y control."]
+	quest.1D8A96F31D36D85B.title: "Nature Rune"
+	quest.1D8A96F31D36D85B.quest_subtitle: "Escuela naturaleza"
+	quest.1D8A96F31D36D85B.quest_desc: ["Support/DoT natural. Casa con druidic book."]
+	quest.74FADF204BE85684.title: "Cooldown Rune"
+	quest.74FADF204BE85684.quest_subtitle: "Menos CD"
+	quest.74FADF204BE85684.quest_desc: ["Runa utilitaria: baja cooldowns. Casi siempre vale la pena."]
+	quest.358B4A444D199F32.title: "Protection Rune"
+	quest.358B4A444D199F32.quest_subtitle: "Más defensa"
+	quest.358B4A444D199F32.quest_desc: ["Runa defensiva para builds que castean de cerca."]
+	quest.7BAAC11903ACD59E.title: "Fire Scroll"
+	quest.7BAAC11903ACD59E.quest_subtitle: "Pergamino de fuego"
+	quest.7BAAC11903ACD59E.quest_desc: ["Inscribe hechizos fire en tu libro con tinta adecuada."]
+	quest.C4E5DEE40B7F3FF4.title: "Ice Scroll"
+	quest.C4E5DEE40B7F3FF4.quest_subtitle: "Pergamino de hielo"
+	quest.C4E5DEE40B7F3FF4.quest_desc: ["Hechizos ice listos para inscription."]
+	quest.675BCD04B880709A.title: "Lightning Scroll"
+	quest.675BCD04B880709A.quest_subtitle: "Pergamino de rayo"
+	quest.675BCD04B880709A.quest_desc: ["Burst electrico para tu loadout."]
+	quest.A93966EC1410FB62.title: "Upgrade Orbs"
+	quest.A93966EC1410FB62.quest_subtitle: "Poder en el yunque"
+	quest.A93966EC1410FB62.quest_desc: ["Los orbs mejoran stats magicos en el Arcane Anvil."]
+	quest.78BB2C496BC116E7.title: "Upgrade Orb"
+	quest.78BB2C496BC116E7.quest_subtitle: "Orb generico"
+	quest.78BB2C496BC116E7.quest_desc: ["Base de mejoras. Especializalo o aplicalo segun JEI."]
+	quest.DF0546F1BF084A11.title: "Mana Upgrade Orb"
+	quest.DF0546F1BF084A11.quest_subtitle: "+ mana"
+	quest.DF0546F1BF084A11.quest_desc: ["Mas reserva de mana para spam controlado."]
+	quest.35848FBE8757F8D3.title: "Cooldown Upgrade Orb"
+	quest.35848FBE8757F8D3.quest_subtitle: "- CD"
+	quest.35848FBE8757F8D3.quest_desc: ["Reduce cooldowns. Excelente en casi cualquier build."]
+	quest.5F1C9DB250D4F86A.title: "Fire Upgrade Orb"
+	quest.5F1C9DB250D4F86A.quest_subtitle: "Power fire"
+	quest.5F1C9DB250D4F86A.quest_desc: ["Empuja tu escuela fuego."]
+	quest.B0E1BA465EAD548A.title: "Ice Upgrade Orb"
+	quest.B0E1BA465EAD548A.quest_subtitle: "Power ice"
+	quest.B0E1BA465EAD548A.quest_desc: ["Empuja tu escuela hielo."]
+	quest.9D4D8BB097C867E6.title: "Armaduras de mago"
+	quest.9D4D8BB097C867E6.quest_subtitle: "Cloth a netherite mage"
+	quest.9D4D8BB097C867E6.quest_desc: [
+		"Armadura magica da spell power / mana a costa de defensa fisica."
+		"Hay sets por escuela (pyromancer, cryomancer, priest...)."
+	]
+	quest.C2032CF00A26DAE9.title: "Wizard Hat"
+	quest.C2032CF00A26DAE9.quest_subtitle: "Look de mago"
+	quest.C2032CF00A26DAE9.quest_desc: ["Pieza iconica. Empieza el set wizard."]
+	quest.0041B75B37A16EC8.title: "Wizard Chestplate"
+	quest.0041B75B37A16EC8.quest_subtitle: "Core del set"
+	quest.0041B75B37A16EC8.quest_desc: ["Pechera del set basico de mago."]
+	quest.CBCC84CABF7C9CF8.title: "Wizard Leggings"
+	quest.CBCC84CABF7C9CF8.quest_subtitle: "Piernas magicas"
+	quest.CBCC84CABF7C9CF8.quest_desc: ["Completa el set para bonos coherentes."]
+	quest.33A628283541D5E0.title: "Wizard Boots"
+	quest.33A628283541D5E0.quest_subtitle: "Set wizard"
+	quest.33A628283541D5E0.quest_desc: ["Cierra el set wizard early/mid."]
+	quest.52669F4E633B9ADC.title: "Pyromancer Helmet"
+	quest.52669F4E633B9ADC.quest_subtitle: "Set fuego"
+	quest.52669F4E633B9ADC.quest_desc: ["Casco del set pyromancer. Sube poder fire."]
+	quest.70DA02CE61983F67.title: "Cryomancer Helmet"
+	quest.70DA02CE61983F67.quest_subtitle: "Set hielo"
+	quest.70DA02CE61983F67.quest_desc: ["Casco cryomancer para builds ice."]
+	quest.E092D96291AB9505.title: "Electromancer Helmet"
+	quest.E092D96291AB9505.quest_subtitle: "Set rayo"
+	quest.E092D96291AB9505.quest_desc: ["Casco electromancer."]
+	quest.E3AB51E20115B248.title: "Priest Helmet"
+	quest.E3AB51E20115B248.quest_subtitle: "Set sagrado"
+	quest.E3AB51E20115B248.quest_desc: ["Support/holy aesthetics y stats."]
+	quest.2AB2D49E1D594835.title: "Netherite Mage Helmet"
+	quest.2AB2D49E1D594835.quest_subtitle: "Mage late"
+	quest.2AB2D49E1D594835.quest_desc: ["Casco mage netherite: defensa + magia."]
+	quest.733F5758C0BEF685.title: "Netherite Mage Chest"
+	quest.733F5758C0BEF685.quest_subtitle: "Tank-caster"
+	quest.733F5758C0BEF685.quest_desc: ["Pechera top craftable del line mage."]
+	quest.FFEEB976C5AFFA8A.title: "Curios y anillos"
+	quest.FFEEB976C5AFFA8A.quest_subtitle: "Slots magicos"
+	quest.FFEEB976C5AFFA8A.quest_desc: [
+		"Anillos, amuletos y charms usan Curios/Accessories."
+		"Mana Ring + Cooldown Ring suelen ser el primer setup decente."
+	]
+	quest.627DA96976A6F37F.title: "Mana Ring"
+	quest.627DA96976A6F37F.quest_subtitle: "+ mana pool"
+	quest.627DA96976A6F37F.quest_desc: ["Uno de los mejores primeros curios. Equipalo siempre que casteés."]
+	quest.0A1A3EA30DE547FA.title: "Cooldown Ring"
+	quest.0A1A3EA30DE547FA.quest_subtitle: "Menos espera"
+	quest.0A1A3EA30DE547FA.quest_desc: ["Reduce cooldowns globales. Stacka con runas/orbs con cuidado (lee tooltips)."]
+	quest.4E8F5E6CCDCEE11D.title: "Cast Time Ring"
+	quest.4E8F5E6CCDCEE11D.quest_subtitle: "Cast mas rapido"
+	quest.4E8F5E6CCDCEE11D.quest_desc: ["Acorta cast time. Clave en hechizos cargados."]
+	quest.747C49B0EA3DA8F6.title: "Affinity Ring"
+	quest.747C49B0EA3DA8F6.quest_subtitle: "Afinidad generica"
+	quest.747C49B0EA3DA8F6.quest_desc: ["Hay variantes por escuela (fire/ice/...). Elige la de tu main school."]
+	quest.B6E46566B5011D1B.title: "Fire Affinity Ring"
+	quest.B6E46566B5011D1B.quest_subtitle: "Anillo fuego"
+	quest.B6E46566B5011D1B.quest_desc: ["Empuja spell power fire."]
+	quest.19A12324D9DE5E7B.title: "Ice Affinity Ring"
+	quest.19A12324D9DE5E7B.quest_subtitle: "Anillo hielo"
+	quest.19A12324D9DE5E7B.quest_desc: ["Empuja spell power ice."]
+	quest.59B7FBDD3706A741.title: "Concentration Amulet"
+	quest.59B7FBDD3706A741.quest_subtitle: "Foco"
+	quest.59B7FBDD3706A741.quest_desc: ["Amuleto de concentracion para casters serios."]
+	quest.66AC27C570928BF1.title: "Heavy Chain Necklace"
+	quest.66AC27C570928BF1.quest_subtitle: "Cuello tanky"
+	quest.66AC27C570928BF1.quest_desc: ["Curio defensivo. Util si te pegan mientras casteás."]
+	quest.4B61BA67F17B5D11.title: "Amethyst Resonance Charm"
+	quest.4B61BA67F17B5D11.quest_subtitle: "Resonancia"
+	quest.4B61BA67F17B5D11.quest_desc: ["Charm mid. Revisa tooltip para el bonus exacto de tu version."]
+	quest.BD28C1101B7C0B64.title: "Armas y focuses"
+	quest.BD28C1101B7C0B64.quest_subtitle: "Staffs y blades"
+	quest.BD28C1101B7C0B64.quest_desc: ["Los implements cambian feeling y a veces bonifican escuelas."]
+	quest.0489035D90B7A495.title: "Ice Staff"
+	quest.0489035D90B7A495.quest_subtitle: "Focus hielo"
+	quest.0489035D90B7A495.quest_desc: ["Staff de escuela ice. Mejor sinergia con cryomancer."]
+	quest.4E9D3F174C08971B.title: "Blood Staff"
+	quest.4E9D3F174C08971B.quest_subtitle: "Focus sangre"
+	quest.4E9D3F174C08971B.quest_desc: ["Implemento blood. Alto flavor, alto riesgo."]
+	quest.A59A09B3B5F1AEAA.title: "Pyrium Staff"
+	quest.A59A09B3B5F1AEAA.quest_subtitle: "Focus fuego late"
+	quest.A59A09B3B5F1AEAA.quest_desc: ["Staff de fuego avanzado. Objetivo de pyromancers."]
+	quest.92563BD601AEEFE7.title: "Artificer Cane"
+	quest.92563BD601AEEFE7.quest_subtitle: "Bastón artificer"
+	quest.92563BD601AEEFE7.quest_desc: ["Alternativa elegante al graybeard."]
+	quest.6EE698BCDAA66306.title: "Magehunter"
+	quest.6EE698BCDAA66306.quest_subtitle: "Anti-caster steel"
+	quest.6EE698BCDAA66306.quest_desc: ["Arma para cazar magos / contenido magico. Buena en PvE tough."]
+	quest.62FE0D99C13D6F7D.title: "Spellbreaker"
+	quest.62FE0D99C13D6F7D.quest_subtitle: "Rompe hechizos"
+	quest.62FE0D99C13D6F7D.quest_desc: ["Arma late anti-magic. No sustituye un buen spell book."]
+	quest.D023C0E664248C0E.title: "Amethyst Rapier"
+	quest.D023C0E664248C0E.quest_subtitle: "Melee magica"
+	quest.D023C0E664248C0E.quest_desc: ["Hibrido melee/magic stylish."]
+	quest.33AD1349CC30AD73.title: "Consumibles"
+	quest.33AD1349CC30AD73.quest_subtitle: "Te, elixires, vials"
+	quest.33AD1349CC30AD73.quest_desc: ["Buffs temporales para raids, dragona y exploracion dura."]
+	quest.A1E50313C3AFE8E6.title: "Caster's Tea"
+	quest.A1E50313C3AFE8E6.quest_subtitle: "Te de mago"
+	quest.A1E50313C3AFE8E6.quest_desc: ["Consumible comodo para sesiones de casteado."]
+	quest.0D072EC05CBC7A8A.title: "Oakskin Elixir"
+	quest.0D072EC05CBC7A8A.quest_subtitle: "Piel de roble"
+	quest.0D072EC05CBC7A8A.quest_desc: ["Mas aguante mientras casteás."]
+	quest.A3909F948C70B7AB.title: "Invisibility Elixir"
+	quest.A3909F948C70B7AB.quest_subtitle: "Escapatoria"
+	quest.A3909F948C70B7AB.quest_desc: ["Util en exploracion y retreats."]
+	quest.09762E75262E7CE6.title: "Greater Healing Potion"
+	quest.09762E75262E7CE6.quest_subtitle: "Heal fuerte"
+	quest.09762E75262E7CE6.quest_desc: ["Curacion seria para bosses."]
+	quest.8E8EEF95767DD2FC.title: "Blood Vial"
+	quest.8E8EEF95767DD2FC.quest_subtitle: "Reactivo sangre"
+	quest.8E8EEF95767DD2FC.quest_desc: ["Componente/consumible de la linea blood."]
+	quest.7034984B9F49D9E1.title: "Fire Ale"
+	quest.7034984B9F49D9E1.quest_subtitle: "Trago igneo"
+	quest.7034984B9F49D9E1.quest_desc: ["Buff tematico fire. Brindis de pyromancer."]
+	quest.5BA9069FCAE26AA5.title: "Exploracion magica"
+	quest.5BA9069FCAE26AA5.quest_subtitle: "Mapas y vaults"
+	quest.5BA9069FCAE26AA5.quest_desc: [
+		"Iron's añade estructuras, mapas y bosses. Lleva tinta y un libro de backup."
+		"&6Oasis:&r Combina con Nature/Explorer Compass del pack cuando explores biomas."
+	]
+	quest.1599AFD6EB38D5A6.title: "Wayward Compass"
+	quest.1599AFD6EB38D5A6.quest_subtitle: "Brujula magica"
+	quest.1599AFD6EB38D5A6.quest_desc: ["Ayuda a orientarte hacia contenido Iron's. Mantén una en el inventario de exploracion."]
+	quest.B0DD80E871070F1E.title: "Furled Map"
+	quest.B0DD80E871070F1E.quest_subtitle: "Mapa de estructura"
+	quest.B0DD80E871070F1E.quest_desc: ["Apunta a estructuras del mod. Usa, viaja, lootéa scrolls e ink."]
+	quest.E3C0F3D6C7FA5B24.title: "Ancient Furled Map"
+	quest.E3C0F3D6C7FA5B24.quest_subtitle: "Mapa antiguo"
+	quest.E3C0F3D6C7FA5B24.quest_desc: ["Variante de mayor riesgo/recompensa."]
+	quest.0037B85518E0415E.title: "Citadel Map"
+	quest.0037B85518E0415E.quest_subtitle: "Ciudadela"
+	quest.0037B85518E0415E.quest_desc: ["Contenido de citadel. Ve preparado (comida Oasis + hechizos de escape)."]
+	quest.E2337788312EAE13.title: "Bone Key"
+	quest.E2337788312EAE13.quest_subtitle: "Llave de vault"
+	quest.E2337788312EAE13.quest_desc: ["Abre bone vaults. Loot de mid magic."]
+	quest.81DDD8C58697F501.title: "Decrepit Key"
+	quest.81DDD8C58697F501.quest_subtitle: "Llave ruinosa"
+	quest.81DDD8C58697F501.quest_desc: ["Otra llave de contenido estructurado."]
+	quest.A51F8FCC421DFA30.title: "Cinderous Soulcaller"
+	quest.A51F8FCC421DFA30.quest_subtitle: "Llama al vault"
+	quest.A51F8FCC421DFA30.quest_desc: ["Acceso a contenido cinderous. Late-ish danger."]
+	quest.1E7E1A5003E77E7A.title: "Eldritch Manuscript"
+	quest.1E7E1A5003E77E7A.quest_subtitle: "Saber prohibido"
+	quest.1E7E1A5003E77E7A.quest_desc: ["Documento late. Lee con cuidado (y con buen gear)."]
+	quest.BC2B6F19CD900824.title: "Ancient Knowledge"
+	quest.BC2B6F19CD900824.quest_subtitle: "Fragmento"
+	quest.BC2B6F19CD900824.quest_desc: ["Progresion de conocimiento antiguo / crafts especiales."]
+	quest.9A1A6AD71187EF18.title: "Shriving Stone"
+	quest.9A1A6AD71187EF18.quest_subtitle: "Limpia hechizos"
+	quest.9A1A6AD71187EF18.quest_desc: ["Quita hechizos de un libro para reespecificar. Muy util al cambiar de build."]
+	quest.0BFFBEB4DE6F77B7.title: "Spell Slot Upgrade"
+	quest.0BFFBEB4DE6F77B7.quest_subtitle: "+1 slot"
+	quest.0BFFBEB4DE6F77B7.quest_desc: ["Amplia slots del libro. Prioriza si te ahogas en opciones."]
+	quest.F5902379D85A6E64.title: "Tincture of Forgetfulness"
+	quest.F5902379D85A6E64.quest_subtitle: "Respec help"
+	quest.F5902379D85A6E64.quest_desc: ["Ayuda a olvidar/resetear progresion magica segun tooltip."]
+	quest.65F0F2FA228612EB.title: "Hogskin"
+	quest.65F0F2FA228612EB.quest_subtitle: "Cuero especial"
+	quest.65F0F2FA228612EB.quest_desc: ["Material de crafting mid. Aparece en varias recetas de gear."]
+	quest.6543D72E75B66FC0.title: "Fire Cloth"
+	quest.6543D72E75B66FC0.quest_subtitle: "Tela ignea"
+	quest.6543D72E75B66FC0.quest_desc: ["Componente de sets fire."]
+	quest.95312DE6624363F4.title: "Archimago Oasis"
+	quest.95312DE6624363F4.quest_subtitle: "Iron's completo"
+	quest.95312DE6624363F4.quest_desc: [
+		"Tienes libro alto, yunque, tinta legendaria y curios decentes."
+		"Especializate en 1-2 escuelas, monta un loadout para dragona/cataclysm y sigue explorando."
+		"&6Oasis:&r Magia paralela: vuelve a Malum, Ars o Occultism cuando quieras; la tech no te espera ni te bloquea."
 	]
 }
