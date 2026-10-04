@@ -44,7 +44,7 @@
 			tasks: [
 				{
 					id: "6561D47864A15229"
-					item: { components: { "ftbquests:missing_item": "malum:holy_sap" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "malum:runic_sap" }
 					type: "item"
 				}
 				{
@@ -80,7 +80,7 @@
 			]
 			tasks: [{
 				id: "5D8CDDA7E63CC5B8"
-				item: { components: { "ftbquests:missing_item": "malum:holy_sapball" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:runic_sapball" }
 				type: "item"
 			}]
 			x: -55.5d
@@ -105,7 +105,7 @@
 			]
 			tasks: [{
 				id: "2739D53544630508"
-				item: { components: { "ftbquests:missing_item": "malum:holy_syrup" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:runic_workbench" }
 				type: "item"
 			}]
 			x: -57.5d
@@ -180,7 +180,7 @@
 			]
 			tasks: [{
 				id: "4BD5F66FE20AAEEE"
-				item: { components: { "ftbquests:missing_item": "malum:processed_soulstone" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:refined_soulstone" }
 				type: "item"
 			}]
 			x: -52.5d
@@ -582,7 +582,7 @@
 			]
 			tasks: [{
 				id: "51F9514B2987735E"
-				item: { components: { "ftbquests:missing_item": "malum:spirit_fabric" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:soulwoven_silk" }
 				type: "item"
 			}]
 			x: -49.0d
@@ -725,7 +725,7 @@
 			]
 			tasks: [{
 				id: "53684386FC221322"
-				item: { components: { "ftbquests:missing_item": "malum:unholy_sapball" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:cursed_sapball" }
 				type: "item"
 			}]
 			x: -51.0d
@@ -750,7 +750,7 @@
 			]
 			tasks: [{
 				id: "4DACBE2D247A8584"
-				item: { components: { "ftbquests:missing_item": "malum:unholy_syrup" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:soulwood_sapling" }
 				type: "item"
 			}]
 			x: -52.0d
@@ -827,7 +827,7 @@
 			]
 			tasks: [{
 				id: "5BF9035D618BA2B7"
-				item: { components: { "ftbquests:missing_item": "malum:twisted_tablet" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:soulwood_plinth" }
 				type: "item"
 			}]
 			x: -47.5d
@@ -1569,7 +1569,7 @@
 			]
 			tasks: [{
 				id: "1C8DD639242F5023"
-				item: { components: { "ftbquests:missing_item": "malum:necklace_of_tidal_affinity" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:necklace_of_blissful_harmony" }
 				type: "item"
 			}]
 			x: -51.0d
@@ -1671,7 +1671,7 @@
 			]
 			tasks: [{
 				id: "03ED6F554ACD5CDD"
-				item: { components: { "ftbquests:missing_item": "malum:corrupted_resonance" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:resonance_tuner" }
 				type: "item"
 			}]
 			x: -40.5d
@@ -1721,7 +1721,7 @@
 			]
 			tasks: [{
 				id: "33E25F4AFDD5D090"
-				item: { components: { "ftbquests:missing_item": "malum:cluster_of_brilliance" }, count: 1, id: "ftbquests:missing_item" }
+				item: { count: 1, id: "malum:raw_brilliance" }
 				type: "item"
 			}]
 			x: -42.5d
@@ -1947,7 +1947,7 @@
 			tasks: [
 				{
 					id: "632C07AF8A543A16"
-					item: { components: { "ftbquests:missing_item": "malum:unholy_sap" }, count: 1, id: "ftbquests:missing_item" }
+					item: { count: 1, id: "malum:cursed_sap" }
 					type: "item"
 				}
 				{
