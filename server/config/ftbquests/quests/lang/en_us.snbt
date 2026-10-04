@@ -2335,4 +2335,369 @@
 		"Especializate en 1-2 escuelas, monta un loadout para dragona/cataclysm y sigue explorando."
 		"&6Oasis:&r Magia paralela: vuelve a Malum, Ars o Occultism cuando quieras; la tech no te espera ni te bloquea."
 	]
+	chapter.B16FD6B089F2B240.title: "&5&lArs Nouveau"
+	quest.9194046054777DCF.title: "Ars Nouveau"
+	quest.9194046054777DCF.quest_subtitle: "Source, glyphs y automatizacion magica"
+	quest.9194046054777DCF.quest_desc: [
+		"Ars Nouveau es magia de construccion de hechizos + automatizacion cozy (starbuncles, relays, jars)."
+		"&6Oasis:&r Paralelo a Iron's y Malum. No gatea la tech. Empieza por el Worn Notebook y el Novice Spell Book."
+	]
+	quest.96B76917890EE4DC.title: "Worn Notebook"
+	quest.96B76917890EE4DC.quest_subtitle: "Tu manual Ars"
+	quest.96B76917890EE4DC.quest_desc: ["El libro guia del mod. Consultalo cuando una maquina no haga lo que esperas."]
+	quest.6922359BCA7696F7.title: "Novice Spell Book"
+	quest.6922359BCA7696F7.quest_subtitle: "Primer grimorio Ars"
+	quest.6922359BCA7696F7.quest_desc: [
+		"Equipalo y abre la GUI de hechizos. Aqui ensamblas glyphs en formas + effects."
+		"Empieza simple: Projectile + Harm, o Touch + Break."
+	]
+	quest.B7E787AF04890789.title: "Scribes Table"
+	quest.B7E787AF04890789.quest_subtitle: "Aprende glyphs"
+	quest.B7E787AF04890789.quest_desc: [
+		"Gasta experience + items para desbloquear glyphs en tu libro."
+		"Sin esta mesa, tu libro se queda corto."
+	]
+	quest.125E9D5FAC71821A.title: "Blank Parchment"
+	quest.125E9D5FAC71821A.quest_subtitle: "Papel de hechizos"
+	quest.125E9D5FAC71821A.quest_desc: ["Base para spell parchments y algunos crafts de glyphs."]
+	quest.7817AF3C03ACD1F5.title: "Spell Parchment"
+	quest.7817AF3C03ACD1F5.quest_subtitle: "Hechizo guardado"
+	quest.7817AF3C03ACD1F5.quest_desc: ["Guarda un hechizo del libro en un parchment para turrets / sharing."]
+	quest.2BFC6B5EBC608C0B.title: "Dominion Wand"
+	quest.2BFC6B5EBC608C0B.quest_subtitle: "Configura TODO"
+	quest.2BFC6B5EBC608C0B.quest_desc: [
+		"La llave inglesa de Ars: enlaza jars, relays, turrets, containers y familiars."
+		"Click derecho / sneak-click para conectar origen -> destino."
+	]
+	quest.054DB1E7BEFC8DB4.title: "Dowsing Rod"
+	quest.054DB1E7BEFC8DB4.quest_subtitle: "Busca source"
+	quest.054DB1E7BEFC8DB4.quest_desc: ["Detecta source nearby. Util al montar tu primera red."]
+	quest.A392CB3801DD08A1.title: "Source"
+	quest.A392CB3801DD08A1.quest_subtitle: "La mana de Ars"
+	quest.A392CB3801DD08A1.quest_desc: [
+		"Source alimenta apparatus, turrets, rituals y automatizacion."
+		"Genera con sourcelinks, almacena en jars, mueve con relays."
+	]
+	quest.9D0E2241FEFF49D2.title: "Source Gem"
+	quest.9D0E2241FEFF49D2.quest_subtitle: "Gema de source"
+	quest.9D0E2241FEFF49D2.quest_desc: ["Material base. Imbuement Chamber convierte lapis/amethyst en source gems."]
+	quest.E9DEBF03597096BB.title: "Imbuement Chamber"
+	quest.E9DEBF03597096BB.quest_subtitle: "Crea source gems"
+	quest.E9DEBF03597096BB.quest_desc: ["Coloca items + pedestals adyacentes segun receta. Primer multiblock mental de Ars."]
+	quest.964B1C1C38410761.title: "Source Jar"
+	quest.964B1C1C38410761.quest_subtitle: "Almacen de source"
+	quest.964B1C1C38410761.quest_desc: ["Tanque de source. Enlazalo con Dominion Wand a maquinas y relays."]
+	quest.46D1F8518F58DF67.title: "Bucket of Source"
+	quest.46D1F8518F58DF67.quest_subtitle: "Source portatil"
+	quest.46D1F8518F58DF67.quest_desc: ["Mueve source a mano cuando aun no tienes relays."]
+	quest.F4683558F2989B68.title: "Agronomic Sourcelink"
+	quest.F4683558F2989B68.quest_subtitle: "Source de crops"
+	quest.F4683558F2989B68.quest_desc: ["Genera source cerca de cultivos. Perfecto para bases cozy Oasis."]
+	quest.2F1F73AEBAFDDE2F.title: "Volcanic Sourcelink"
+	quest.2F1F73AEBAFDDE2F.quest_subtitle: "Source de calor"
+	quest.2F1F73AEBAFDDE2F.quest_desc: ["Quema fuel/lava adjacency para source. Buen ratio mid-game."]
+	quest.1608E5FFE92C794D.title: "Mycelial Sourcelink"
+	quest.1608E5FFE92C794D.quest_subtitle: "Source de hongos"
+	quest.1608E5FFE92C794D.quest_desc: ["Source desde mycelium/fungus setups."]
+	quest.A67C948440ED664E.title: "Vitalic Sourcelink"
+	quest.A67C948440ED664E.quest_subtitle: "Source de mobs"
+	quest.A67C948440ED664E.quest_desc: ["Source a partir de actividad de criaturas. Cuidado con farms eticas/lag."]
+	quest.698705ED2CFE249D.title: "Alchemical Sourcelink"
+	quest.698705ED2CFE249D.quest_subtitle: "Source de potiones"
+	quest.698705ED2CFE249D.quest_desc: ["Convierte brewing en source. Sinergia con Wixie luego."]
+	quest.B4813AE6EF426292.title: "Relays"
+	quest.B4813AE6EF426292.quest_subtitle: "Red de source"
+	quest.B4813AE6EF426292.quest_desc: ["Los relays mueven source entre jars y maquinas. Enlaza con Dominion Wand."]
+	quest.A0D88F9869A7E9CA.title: "Relay"
+	quest.A0D88F9869A7E9CA.quest_subtitle: "Transporte basico"
+	quest.A0D88F9869A7E9CA.quest_desc: ["Nodo de source. Conecta jar <-> jar o jar <-> apparatus."]
+	quest.B23A80C262227212.title: "Relay Splitter"
+	quest.B23A80C262227212.quest_subtitle: "Reparte source"
+	quest.B23A80C262227212.quest_desc: ["Divide source a multiples destinos."]
+	quest.A2E81F99B9305BA8.title: "Relay Deposit"
+	quest.A2E81F99B9305BA8.quest_subtitle: "Empuja a maquinas"
+	quest.A2E81F99B9305BA8.quest_desc: ["Deposita source en inventarios/maquinas enlazadas."]
+	quest.E20952597DEFF45C.title: "Relay Collector"
+	quest.E20952597DEFF45C.quest_subtitle: "Recolecta source"
+	quest.E20952597DEFF45C.quest_desc: ["Recoge source de jars cercanos hacia la red."]
+	quest.C33DA1BED0A6673A.title: "Warp Relay"
+	quest.C33DA1BED0A6673A.quest_subtitle: "Source a distancia"
+	quest.C33DA1BED0A6673A.quest_desc: ["Pareja de relays para mover source lejos. Ideal bases grandes."]
+	quest.9B8E24EDE112531E.title: "Crafting magico"
+	quest.9B8E24EDE112531E.quest_subtitle: "Apparatus y pedestals"
+	quest.9B8E24EDE112531E.quest_desc: ["El Enchanting Apparatus es la mesa de crafts avanzados de Ars."]
+	quest.ACEA98308D112BAA.title: "Enchanting Apparatus"
+	quest.ACEA98308D112BAA.quest_subtitle: "Craft central"
+	quest.ACEA98308D112BAA.quest_desc: ["Bloque central. Rodealo con Arcane Pedestals + items de receta + source."]
+	quest.05C8B6931E9C9F85.title: "Arcane Pedestal"
+	quest.05C8B6931E9C9F85.quest_subtitle: "Soportes de craft"
+	quest.05C8B6931E9C9F85.quest_desc: ["Coloca los ingredientes alrededor del apparatus. Mas pedestals = crafts mas grandes."]
+	quest.6C4C043CD70B5B99.title: "Arcane Core"
+	quest.6C4C043CD70B5B99.quest_subtitle: "Nucleo arcano"
+	quest.6C4C043CD70B5B99.quest_desc: ["Componente/estructura para setups avanzados. Revisa el notebook."]
+	quest.198E32070A06B4E3.title: "Alteration Table"
+	quest.198E32070A06B4E3.quest_subtitle: "Threads de armadura"
+	quest.198E32070A06B4E3.quest_desc: ["Aplica threads a armaduras Ars (sorcerer/battlemage/arcanist)."]
+	quest.2E32EEE38606867C.title: "Blank Thread"
+	quest.2E32EEE38606867C.quest_subtitle: "Hilo vacio"
+	quest.2E32EEE38606867C.quest_desc: ["Base para craft de threads (spellpower, warding, mana...)."]
+	quest.BE1A23E026580FAB.title: "Magebloom"
+	quest.BE1A23E026580FAB.quest_subtitle: "Flor magica"
+	quest.BE1A23E026580FAB.quest_desc: ["Cultivo clave. Fiber -> muchos crafts de tela/armadura."]
+	quest.B38BF4050365A0DD.title: "Magebloom Fiber"
+	quest.B38BF4050365A0DD.quest_subtitle: "Fibra"
+	quest.B38BF4050365A0DD.quest_desc: ["Procesa magebloom. Stockea para robes y threads."]
+	quest.2D25522C807E31AC.title: "Sourceberry"
+	quest.2D25522C807E31AC.quest_subtitle: "Baya de source"
+	quest.2D25522C807E31AC.quest_desc: ["Planta y come / craft food. Ambient cozy + utilidad."]
+	quest.21493B5AD6D9D983.title: "Spell Books"
+	quest.21493B5AD6D9D983.quest_subtitle: "Novice -> Archmage"
+	quest.21493B5AD6D9D983.quest_desc: ["Sube de libro para mas glyphs slots y mejores hechizos."]
+	quest.51AD941E94CBF88F.title: "Apprentice Spell Book"
+	quest.51AD941E94CBF88F.quest_subtitle: "Libro medio"
+	quest.51AD941E94CBF88F.quest_desc: ["Mas espacio de glyphs. Objetivo natural tras los primeros crafts."]
+	quest.06BFC4F569489055.title: "Archmage Spell Book"
+	quest.06BFC4F569489055.quest_subtitle: "Libro alto"
+	quest.06BFC4F569489055.quest_desc: ["El grimorio top craftable. Monta combos AOE / utility serios."]
+	quest.0359030C15A3A4A2.title: "Caster Tome"
+	quest.0359030C15A3A4A2.quest_subtitle: "Hechizo en tomo"
+	quest.0359030C15A3A4A2.quest_desc: ["Tomo con hechizo embebido. Bueno para hotbars o regalos al equipo."]
+	quest.58F4ECA2A9DCB840.title: "Glyphs esenciales"
+	quest.58F4ECA2A9DCB840.quest_subtitle: "Formas y efectos"
+	quest.58F4ECA2A9DCB840.quest_desc: ["Los glyphs son piezas de Lego magicas. Forma (Projectile/Touch/...) + Effect + Augments."]
+	quest.F2B7EA86AE6786CB.title: "Blank Glyph"
+	quest.F2B7EA86AE6786CB.quest_subtitle: "Glyph vacio"
+	quest.F2B7EA86AE6786CB.quest_desc: ["Crafting component para muchos glyphs."]
+	quest.BDFA11B326921C2B.title: "Glyph: Projectile"
+	quest.BDFA11B326921C2B.quest_subtitle: "Forma a distancia"
+	quest.BDFA11B326921C2B.quest_desc: ["Lanza el hechizo como proyectil. Tu primer forma de combate."]
+	quest.07BEBBD2FB199423.title: "Glyph: Touch"
+	quest.07BEBBD2FB199423.quest_subtitle: "Forma melee"
+	quest.07BEBBD2FB199423.quest_desc: ["Aplica el efecto al bloquear/entidad que tocas. Ideal Break/Interact."]
+	quest.3DE4E17670F60ADD.title: "Glyph: Self"
+	quest.3DE4E17670F60ADD.quest_subtitle: "Forma personal"
+	quest.3DE4E17670F60ADD.quest_desc: ["Castea sobre ti. Heal, Leap, Glide, Shield-ish utilities."]
+	quest.4AA71EE057658145.title: "Glyph: Harm"
+	quest.4AA71EE057658145.quest_subtitle: "Damage basico"
+	quest.4AA71EE057658145.quest_desc: ["Tu primer damage spell. Combina con Amplify / AOE luego."]
+	quest.CCE7F48A73A95D2A.title: "Glyph: Break"
+	quest.CCE7F48A73A95D2A.quest_subtitle: "Pica bloques"
+	quest.CCE7F48A73A95D2A.quest_desc: ["Mineria magica. Fortune/AOE cambian el juego en caves."]
+	quest.5725B0D98A2553BB.title: "Glyph: Heal"
+	quest.5725B0D98A2553BB.quest_subtitle: "Curacion"
+	quest.5725B0D98A2553BB.quest_desc: ["Soporte esencial para exploracion Oasis."]
+	quest.7D064C8E9A5B75EC.title: "Glyph: Leap"
+	quest.7D064C8E9A5B75EC.quest_subtitle: "Movilidad"
+	quest.7D064C8E9A5B75EC.quest_desc: ["Salto magico. Combina con Slowfall/Glide."]
+	quest.72BFC239088B0A74.title: "Glyph: Amplify"
+	quest.72BFC239088B0A74.quest_subtitle: "Mas poder"
+	quest.72BFC239088B0A74.quest_desc: ["Augment de potencia. Sube coste de source: no spamees a ciegas."]
+	quest.C93FD0F6DB7A58BB.title: "Glyph: AOE"
+	quest.C93FD0F6DB7A58BB.quest_subtitle: "Area"
+	quest.C93FD0F6DB7A58BB.quest_desc: ["Amplia el area del efecto. Mineria y combate agradecen."]
+	quest.5FA2711D49A9D371.title: "Glyph: Accelerate"
+	quest.5FA2711D49A9D371.quest_subtitle: "Mas velocidad"
+	quest.5FA2711D49A9D371.quest_desc: ["Proyectiles mas rapidos / casts mas agiles."]
+	quest.D6015B953557A760.title: "Glyph: Blink"
+	quest.D6015B953557A760.quest_subtitle: "Teleport corto"
+	quest.D6015B953557A760.quest_desc: ["Movilidad mid. Cuidado con techos y lava."]
+	quest.3F1EE6CECDC22715.title: "Glyph: Dispel"
+	quest.3F1EE6CECDC22715.quest_subtitle: "Limpia efectos"
+	quest.3F1EE6CECDC22715.quest_desc: ["Quita buffs/debuffs. Util vs brujos y status feos."]
+	quest.F1FE88C42AD41620.title: "Glyph: Pickup"
+	quest.F1FE88C42AD41620.quest_subtitle: "Loot magnet"
+	quest.F1FE88C42AD41620.quest_desc: ["Recoge items. Combo minero clasico con Break+AOE."]
+	quest.DBB41012EFC5E0AB.title: "Glyph: Fortune"
+	quest.DBB41012EFC5E0AB.quest_subtitle: "Mas drops"
+	quest.DBB41012EFC5E0AB.quest_desc: ["Fortune magico en Break. Excelente para ores."]
+	quest.2D9A285993ADA19C.title: "Glyph: Craft"
+	quest.2D9A285993ADA19C.quest_subtitle: "Crafteo magico"
+	quest.2D9A285993ADA19C.quest_desc: ["Efecto de craft. Abre puertas a automatizacion creativa."]
+	quest.46719A99834BFCA4.title: "Essences"
+	quest.46719A99834BFCA4.quest_subtitle: "Elementos Ars"
+	quest.46719A99834BFCA4.quest_desc: ["Essences potencian glyphs y crafts. Se hacen en Imbuement Chamber."]
+	quest.2F1CC89340C9DBF1.title: "Fire Essence"
+	quest.2F1CC89340C9DBF1.quest_subtitle: "Fuego"
+	quest.2F1CC89340C9DBF1.quest_desc: ["Essence ignea para glyphs/crafts fire."]
+	quest.48E885CFA8DA7E3E.title: "Water Essence"
+	quest.48E885CFA8DA7E3E.quest_subtitle: "Agua"
+	quest.48E885CFA8DA7E3E.quest_desc: ["Essence acuatica."]
+	quest.26F1FC65CDC11460.title: "Earth Essence"
+	quest.26F1FC65CDC11460.quest_subtitle: "Tierra"
+	quest.26F1FC65CDC11460.quest_desc: ["Essence terrea."]
+	quest.1AF492D9574F93E7.title: "Air Essence"
+	quest.1AF492D9574F93E7.quest_subtitle: "Aire"
+	quest.1AF492D9574F93E7.quest_desc: ["Essence aerea. Movilidad y wind spells."]
+	quest.B1D4BDDD99B158CD.title: "Abjuration Essence"
+	quest.B1D4BDDD99B158CD.quest_subtitle: "Proteccion"
+	quest.B1D4BDDD99B158CD.quest_desc: ["Essence de abjuracion / defensa."]
+	quest.0ACA7E84E39FF30E.title: "Conjuration Essence"
+	quest.0ACA7E84E39FF30E.quest_subtitle: "Invocacion"
+	quest.0ACA7E84E39FF30E.quest_desc: ["Essence de conjuration."]
+	quest.0A79E79EBC6DAD0A.title: "Manipulation Essence"
+	quest.0A79E79EBC6DAD0A.quest_subtitle: "Control"
+	quest.0A79E79EBC6DAD0A.quest_desc: ["Essence de manipulacion de bloques/entidades."]
+	quest.8400ECB2FA5A7140.title: "Armaduras Ars"
+	quest.8400ECB2FA5A7140.quest_subtitle: "Sorcerer / Battlemage / Arcanist"
+	quest.8400ECB2FA5A7140.quest_desc: ["Tres lineas de tunica. Los threads en Alteration Table definen tu build."]
+	quest.44FA58218B993A1B.title: "Sorcerer Hood"
+	quest.44FA58218B993A1B.quest_subtitle: "Caster cloth"
+	quest.44FA58218B993A1B.quest_desc: ["Set sorcerer: magia primero. Empieza por la hood."]
+	quest.E160DA82FB99FE4A.title: "Sorcerer Robes"
+	quest.E160DA82FB99FE4A.quest_subtitle: "Pechera sorcerer"
+	quest.E160DA82FB99FE4A.quest_desc: ["Nucleo del set sorcerer."]
+	quest.F42550E239ACCD14.title: "Battlemage Hood"
+	quest.F42550E239ACCD14.quest_subtitle: "Hibrido"
+	quest.F42550E239ACCD14.quest_desc: ["Mas defensa que sorcerer, sigue casteando."]
+	quest.DFF93A27B898A033.title: "Arcanist Hood"
+	quest.DFF93A27B898A033.quest_subtitle: "Tier alto"
+	quest.DFF93A27B898A033.quest_desc: ["Linea arcanist late. Mejor base para threads top."]
+	quest.19A0325FDBC5DF5C.title: "Thread: Spellpower"
+	quest.19A0325FDBC5DF5C.quest_subtitle: "Mas dano magico"
+	quest.19A0325FDBC5DF5C.quest_desc: ["Thread ofensivo clasico. Metelo en pechera/hood."]
+	quest.AF43BFD27735E0FF.title: "Thread: Magic Capacity"
+	quest.AF43BFD27735E0FF.quest_subtitle: "Mas mana"
+	quest.AF43BFD27735E0FF.quest_desc: ["Mas reserva. Combina con amuletos de mana."]
+	quest.5936E12A96A3D0DA.title: "Thread: Warding"
+	quest.5936E12A96A3D0DA.quest_subtitle: "Defensa"
+	quest.5936E12A96A3D0DA.quest_desc: ["Supervivencia para casters de primera linea."]
+	quest.848D95AB8A8A1C91.title: "Thread: Repairing"
+	quest.848D95AB8A8A1C91.quest_subtitle: "Auto-repair"
+	quest.848D95AB8A8A1C91.quest_desc: ["Repara equipo con el tiempo / condiciones del thread."]
+	quest.13A8CAA2F94EE606.title: "Familiars"
+	quest.13A8CAA2F94EE606.quest_subtitle: "Starbuncle y amigos"
+	quest.13A8CAA2F94EE606.quest_desc: ["Charms invocan helpers. Enlaza con Dominion Wand a chests y beds."]
+	quest.7D810E43D0E27374.title: "Starbuncle Charm"
+	quest.7D810E43D0E27374.quest_subtitle: "Item logistics"
+	quest.7D810E43D0E27374.quest_desc: [
+		"El hopper adorable. Lleva items entre inventarios segun preferencias."
+		"Base de la automatizacion cozy de Ars."
+	]
+	quest.AAF0ECB4C8A77A4A.title: "Whirlisprig Charm"
+	quest.AAF0ECB4C8A77A4A.quest_subtitle: "Farm helper"
+	quest.AAF0ECB4C8A77A4A.quest_desc: ["Ayuda con crops/nature. Perfecto junto a Agronomic Sourcelink."]
+	quest.EE7DAA7BCADC2015.title: "Drygmy Charm"
+	quest.EE7DAA7BCADC2015.quest_subtitle: "Mob drops"
+	quest.EE7DAA7BCADC2015.quest_desc: ["Genera drops cerca de mobs en containment. Gran farm pasiva."]
+	quest.B09F0D6C247C1537.title: "Wixie Charm"
+	quest.B09F0D6C247C1537.quest_subtitle: "Crafting / potions"
+	quest.B09F0D6C247C1537.quest_desc: ["Automatiza crafts y brewing con Wixie Cauldron."]
+	quest.F2A37CB2F697C398.title: "Wixie Cauldron"
+	quest.F2A37CB2F697C398.quest_subtitle: "Estacion Wixie"
+	quest.F2A37CB2F697C398.quest_desc: ["Pon recetas / potions para que la Wixie trabaje."]
+	quest.7CB496A09322C9C6.title: "Bookwyrm Charm"
+	quest.7CB496A09322C9C6.quest_subtitle: "Storage lectern"
+	quest.7CB496A09322C9C6.quest_desc: ["Ayuda con el Storage Lectern / archivado de items."]
+	quest.CBEEEB9C56F3568C.title: "Amethyst Golem"
+	quest.CBEEEB9C56F3568C.quest_subtitle: "Budding helper"
+	quest.CBEEEB9C56F3568C.quest_desc: ["Cuida amethyst buds. Source gems forever."]
+	quest.628C05545A94B54A.title: "Drygmy Stone"
+	quest.628C05545A94B54A.quest_subtitle: "Altar drygmy"
+	quest.628C05545A94B54A.quest_desc: ["Estructura/spot para drygmys. Lee el notebook."]
+	quest.D3314EBE6E227F59.title: "Torretas"
+	quest.D3314EBE6E227F59.quest_subtitle: "Hechizos automaticos"
+	quest.D3314EBE6E227F59.quest_desc: ["Carga un Spell Parchment en la turret y alimenta source."]
+	quest.3B3F9E735DE076B0.title: "Basic Spell Turret"
+	quest.3B3F9E735DE076B0.quest_subtitle: "Torreta simple"
+	quest.3B3F9E735DE076B0.quest_desc: ["Dispara el hechizo del parchment. Defensa de base / farms."]
+	quest.1CBBC8E14F809085.title: "Timer Spell Turret"
+	quest.1CBBC8E14F809085.quest_subtitle: "Con temporizador"
+	quest.1CBBC8E14F809085.quest_desc: ["Dispara en intervalos. Ideal riego magico / clock spells."]
+	quest.3FB7AFB6A6CD6DAD.title: "Rotating Turret"
+	quest.3FB7AFB6A6CD6DAD.quest_subtitle: "Gira y dispara"
+	quest.3FB7AFB6A6CD6DAD.quest_desc: ["Cubre angulos. Buena para patios de base."]
+	quest.E1BD772816907073.title: "Spell Prism"
+	quest.E1BD772816907073.quest_subtitle: "Redirige hechizos"
+	quest.E1BD772816907073.quest_desc: ["Desvia proyectiles magicos. Trucos de redireccion fun."]
+	quest.1B4BB0D168949F80.title: "Rituales"
+	quest.1B4BB0D168949F80.quest_subtitle: "Brazier + tablets"
+	quest.1B4BB0D168949F80.quest_desc: ["El Ritual Brazier ejecuta ritual tablets con source."]
+	quest.30E6B876B4A297D3.title: "Ritual Brazier"
+	quest.30E6B876B4A297D3.quest_subtitle: "Mesa de rituales"
+	quest.30E6B876B4A297D3.quest_desc: ["Coloca la tablet, alimenta source, enciende el ritual."]
+	quest.77AD960B18EA8ADB.title: "Ritual: Flight"
+	quest.77AD960B18EA8ADB.quest_subtitle: "Vuelo de zona"
+	quest.77AD960B18EA8ADB.quest_desc: ["Vuelo en area. Muy cozy para builds grandes."]
+	quest.B3D1FA85B1C38B84.title: "Ritual: Scrying"
+	quest.B3D1FA85B1C38B84.quest_subtitle: "Busca recursos"
+	quest.B3D1FA85B1C38B84.quest_desc: ["Revela bloques/recursos segun setup. Exploracion smart."]
+	quest.7C72E9441AAF251B.title: "Ritual: Overgrowth"
+	quest.7C72E9441AAF251B.quest_subtitle: "Crece todo"
+	quest.7C72E9441AAF251B.quest_desc: ["Acelera crecimiento. Synergy con farms FD/Oasis."]
+	quest.236FDF8501678BDE.title: "Ritual: Warping"
+	quest.236FDF8501678BDE.quest_subtitle: "Warp ritual"
+	quest.236FDF8501678BDE.quest_desc: ["Utilidad de teletransporte/ritual warp. Lee condiciones en notebook."]
+	quest.12D42D541F0794C9.title: "Ritual: Sunrise"
+	quest.12D42D541F0794C9.quest_subtitle: "Omite la noche"
+	quest.12D42D541F0794C9.quest_desc: ["Fuerza amanecer. Comodo en bases sin sleep spam."]
+	quest.5C57CA69353E4DCE.title: "Warp Scroll"
+	quest.5C57CA69353E4DCE.quest_subtitle: "TP a punto"
+	quest.5C57CA69353E4DCE.quest_desc: ["Graba una ubicacion y teletransportate. Stable Warp Scroll es la version segura."]
+	quest.D9B6AD7FB1D1209F.title: "Stable Warp Scroll"
+	quest.D9B6AD7FB1D1209F.quest_subtitle: "TP fiable"
+	quest.D9B6AD7FB1D1209F.quest_desc: ["Warp scroll estable para rutas frecuentes (base <-> farm)."]
+	quest.802D62B591821CF8.title: "Gear y curios"
+	quest.802D62B591821CF8.quest_subtitle: "Espadas, amuletos, cinturones"
+	quest.802D62B591821CF8.quest_desc: ["Equipo Ars para combate hibrido y QoL."]
+	quest.872705E006B10B56.title: "Enchanter's Sword"
+	quest.872705E006B10B56.quest_subtitle: "Melee magica"
+	quest.872705E006B10B56.quest_desc: ["Espada que casteá hechizos. Hibrido melee/caster."]
+	quest.50B94374607EA368.title: "Enchanter's Shield"
+	quest.50B94374607EA368.quest_subtitle: "Bloqueo magico"
+	quest.50B94374607EA368.quest_desc: ["Escudo del kit enchanter."]
+	quest.A7CDD7FF83C59112.title: "Enchanter's Gauntlet"
+	quest.A7CDD7FF83C59112.quest_subtitle: "Cast en mano"
+	quest.A7CDD7FF83C59112.quest_desc: ["Focus de casteado estilo gauntlet."]
+	quest.D967416A5A21808E.title: "Spell Bow"
+	quest.D967416A5A21808E.quest_subtitle: "Arco magico"
+	quest.D967416A5A21808E.quest_desc: ["Dispara hechizos como flechas. Muy divertido en open biomes."]
+	quest.C8EEB5DCFCFE7BC3.title: "Amulet of Mana Regen"
+	quest.C8EEB5DCFCFE7BC3.quest_subtitle: "Regen"
+	quest.C8EEB5DCFCFE7BC3.quest_desc: ["Curio de regeneracion de mana/source feel."]
+	quest.D98571C1A6D76DEF.title: "Amulet of Mana Boost"
+	quest.D98571C1A6D76DEF.quest_subtitle: "Mas mana"
+	quest.D98571C1A6D76DEF.quest_desc: ["Sube capacidad. Stacka con threads de capacity."]
+	quest.67AD3952164D815B.title: "Belt of Levitation"
+	quest.67AD3952164D815B.quest_subtitle: "Flota"
+	quest.67AD3952164D815B.quest_desc: ["Cinturon de levitacion. Exploracion vertical easy."]
+	quest.3550AA93209F5DF2.title: "Jar of Light"
+	quest.3550AA93209F5DF2.quest_subtitle: "Luz portable"
+	quest.3550AA93209F5DF2.quest_desc: ["Luz sin antorchas. Caves cozy."]
+	quest.4CB097D1DBCA14AB.title: "Void Jar"
+	quest.4CB097D1DBCA14AB.quest_subtitle: "Trash magico"
+	quest.4CB097D1DBCA14AB.quest_desc: ["Void items. Limpia junk de farms."]
+	quest.778D14B7B50B0DD8.title: "Wand"
+	quest.778D14B7B50B0DD8.quest_subtitle: "Cast implement"
+	quest.778D14B7B50B0DD8.quest_desc: ["Alternativa ligera al libro para hechizos guardados."]
+	quest.48A05B4B7F417AD6.title: "Storage Ars"
+	quest.48A05B4B7F417AD6.quest_subtitle: "Lecterns y repository"
+	quest.48A05B4B7F417AD6.quest_desc: ["Sistema de almacenamiento magico. Complementa Sophisticated/AE2, no los reemplaza."]
+	quest.91FDC8718C540B99.title: "Storage Lectern"
+	quest.91FDC8718C540B99.quest_subtitle: "Indice magico"
+	quest.91FDC8718C540B99.quest_desc: ["Lectern que indexa chests enlazados. Bookwyrms ayudan."]
+	quest.2D2727A8F5702015.title: "Repository"
+	quest.2D2727A8F5702015.quest_subtitle: "Contenedor Ars"
+	quest.2D2727A8F5702015.quest_desc: ["Almacen del ecosistema Ars."]
+	quest.F8CE22867076B32D.title: "Mob Jar"
+	quest.F8CE22867076B32D.quest_subtitle: "Captura mobs"
+	quest.F8CE22867076B32D.quest_desc: ["Encierra mobs para drygmy farms o decor."]
+	quest.CE4E09629BFBD5F1.title: "Wilden"
+	quest.CE4E09629BFBD5F1.quest_subtitle: "Contenido hostil"
+	quest.CE4E09629BFBD5F1.quest_desc: ["Facetas mas agresivas de Ars: tribute, summons y loot."]
+	quest.140F3B70DF54E6DC.title: "Wilden Horn"
+	quest.140F3B70DF54E6DC.quest_subtitle: "Trofeo wilden"
+	quest.140F3B70DF54E6DC.quest_desc: ["Drop/craft component de wilden content."]
+	quest.2380A08EE8589183.title: "Wilden Tribute"
+	quest.2380A08EE8589183.quest_subtitle: "Ofrenda"
+	quest.2380A08EE8589183.quest_desc: ["Item de progresion/ritual wilden. Preparate antes de invocar."]
+	quest.03F749E193C63C1C.title: "Ritual: Wilden Summon"
+	quest.03F749E193C63C1C.quest_subtitle: "Invocacion"
+	quest.03F749E193C63C1C.quest_desc: ["Contenido de invocar wilden. No es cozy: ve con comida y hechizos de escape."]
+	quest.AA0369F1BE768A41.title: "Archmage Oasis"
+	quest.AA0369F1BE768A41.quest_subtitle: "Ars Nouveau completo"
+	quest.AA0369F1BE768A41.quest_desc: [
+		"Tienes libro alto, red de source, familiars y armadura con threads."
+		"Automatiza farms cozy con starbuncles/whirlisprigs y usa turrets para defensa."
+		"&6Oasis:&r Sigue con Occultism o Iron's cuando quieras; Ars no bloquea Create/IE/AE2/Mek."
+	]
 }
