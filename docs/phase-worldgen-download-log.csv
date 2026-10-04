@@ -2,6 +2,6 @@
 "oh-the-biomes-weve-gone","Oh The Biomes We've Gone","OK","Oh-The-Biomes-Weve-Gone-NeoForge-2.6.1.jar","1070751","9062457","update"
 "dense-vegetation","Dense Vegetation","OK","densevegetation-1.0.0.jar","1645689","8609348","add"
 "repurposed-structures","Repurposed Structures (Neoforge/Forge)","OK","repurposed_structures-7.5.22+1.21.1-neoforge.jar","368293","8688394","add"
-"create-oh-the-biomes-weve-gone-compat","Create: Oh The Biomes We've Gone Compat","OK","create-otbwg-compat-1.0.jar","1285600","6645097","add"
-"oh-the-biomes-weve-engineered","Oh The Biomes We've Engineered","OK","tmt_otbwe-NF-1.21.1-1.0.0.jar","1650306","8639550","add"
+"create-oh-the-biomes-weve-gone-compat","Create: Oh The Biomes We've Gone Compat","REMOVED-1.1.3","create-otbwg-compat-1.0.jar","1285600","6645097","remove"
+"oh-the-biomes-weve-engineered","Oh The Biomes We've Engineered","REMOVED-1.1.3","tmt_otbwe-NF-1.21.1-1.0.0.jar","1650306","8639550","remove"
 "c2me","Concurrent Chunk Management Engine","533097","8896937","c2me-neoforge-mc1.21.1-0.4.0-alpha.0.122.jar","add","OK"

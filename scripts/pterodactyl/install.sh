@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Oasis — Pterodactyl install script
+# Oasis â€” Pterodactyl install script
 # Descarga NeoForge + configs/kubejs del repo + mods CurseForge (sin client-only)
 # y escribe JVM args estilo Aikar (Xms=Xmx) aptos para packs moddeados.
 #
@@ -9,7 +9,7 @@
 #   MC_VERSION          default: 1.21.1
 #   NEOFORGE_VERSION    default: 21.1.253
 #   SERVER_MEMORY       MB del panel (si existe); si no, OASIS_MEMORY / 12288
-#   OASIS_MEMORY        heap MB explícito (sobrescribe el cálculo)
+#   OASIS_MEMORY        heap MB explÃ­cito (sobrescribe el cÃ¡lculo)
 #   OASIS_MEMORY_HEADROOM  MB a restar del panel (default 2048)
 #   DOWNLOAD_WORKERS    descargas paralelas de mods (default 6)
 #   FORCE_CONFIGS       1 = sobrescribir configs aunque existan (default 1 en install fresco)
@@ -104,7 +104,7 @@ write_aikar_args() {
   local heap="$1"
   local out="${ROOT}/user_jvm_args.txt"
   cat >"$out" <<EOF
-# Oasis NeoForge ${NEOFORGE_VERSION} — Aikar G1 (mod-friendly)
+# Oasis NeoForge ${NEOFORGE_VERSION} â€” Aikar G1 (mod-friendly)
 # Xms=Xmx obligatorio con estos flags. No dupliques -Xmx en el Startup del panel.
 # Generado por scripts/pterodactyl/install.sh (${heap}M)
 -Xms${heap}M
@@ -131,7 +131,7 @@ write_aikar_args() {
 -Daikars.new.flags=true
 -Dfile.encoding=UTF-8
 EOF
-  log "JVM args Aikar → user_jvm_args.txt (${heap}M)"
+  log "JVM args Aikar â†’ user_jvm_args.txt (${heap}M)"
 }
 
 write_start_sh() {
@@ -168,7 +168,7 @@ ARCHIVE_URL="${OASIS_REPO}/archive/refs/heads/${OASIS_BRANCH}.tar.gz"
 rm -rf "$STAGING"
 mkdir -p "$STAGING"
 if ! curl -fsSL --retry 3 -A "Oasis-Pterodactyl-Install/1.0" "$ARCHIVE_URL" | tar -xz -C "$STAGING" --strip-components=1; then
-  die "No se pudo descargar ${ARCHIVE_URL}. Revisa OASIS_REPO / OASIS_BRANCH (¿pusheaste el branch?)."
+  die "No se pudo descargar ${ARCHIVE_URL}. Revisa OASIS_REPO / OASIS_BRANCH (Â¿pusheaste el branch?)."
 fi
 
 if [[ -f "${STAGING}/curseforge/manifest.json" ]]; then
@@ -218,7 +218,7 @@ if [[ "$FORCE_CONFIGS" == "1" ]]; then
     cp -f "${STAGING}/server/server.properties" "${ROOT}/server.properties"
   fi
 else
-  log "FORCE_CONFIGS=0 — se conservan configs existentes"
+  log "FORCE_CONFIGS=0 â€” se conservan configs existentes"
 fi
 
 # ---------------------------------------------------------------------------
@@ -233,7 +233,7 @@ if [[ ! -f "$UNIX_ARGS" ]]; then
   download "$INSTALLER_URL" "$INSTALLER"
   java -jar "$INSTALLER" --installServer
   rm -f "$INSTALLER" "${INSTALLER}.log" installer.log 2>/dev/null || true
-  [[ -f "$UNIX_ARGS" ]] || die "NeoForge no generó ${UNIX_ARGS}"
+  [[ -f "$UNIX_ARGS" ]] || die "NeoForge no generÃ³ ${UNIX_ARGS}"
 else
   log "NeoForge ya instalado (${UNIX_ARGS})"
 fi
@@ -343,7 +343,7 @@ else
 fi
 FAILS="$(grep -c '^FAIL' "$RESULTS" 2>/dev/null || true)"
 if [[ "${FAILS:-0}" -gt 0 ]]; then
-  warn "${FAILS} descargas fallaron — revisa la salida arriba"
+  warn "${FAILS} descargas fallaron â€” revisa la salida arriba"
 fi
 
 # Contar jars
@@ -352,20 +352,20 @@ log "Mods en disco: ${MOD_COUNT}"
 
 # Limpieza client-only por si quedaron de un install anterior
 for pid in $CLIENT_ONLY_IDS; do
-  # borrar por patrón del CSV si existe
+  # borrar por patrÃ³n del CSV si existe
   true
 done
-# Borrado explícito por nombres conocidos
+# Borrado explÃ­cito por nombres conocidos
 rm -f \
   mods/MouseTweaks*.jar \
   mods/Controlling-*.jar \
   mods/Searchables-*.jar \
   mods/AmbientSounds*.jar \
   mods/CreativeCore*.jar \
+  mods/PresenceFootsteps-*.jar \
   mods/embeddium-*.jar \
   mods/entityculling-*.jar \
   mods/ImmediatelyFast-*.jar \
-  mods/PresenceFootsteps-*.jar \
   2>/dev/null || true
 
 MOD_COUNT="$(find mods -maxdepth 1 -type f -name '*.jar' | wc -l | tr -d ' ')"

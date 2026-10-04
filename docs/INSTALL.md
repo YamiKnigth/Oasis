@@ -2,7 +2,7 @@
 
 ## Perfil generado (jugadores)
 
-Archivo: `curseforge/Oasis-1.1.1.zip`
+Archivo: `curseforge/Oasis-1.1.3.zip`
 
 Contiene:
 - `manifest.json` — MC **1.21.1** + NeoForge **21.1.253** + mods del pack (projectID/fileID)
@@ -12,12 +12,13 @@ Contiene:
 ## Jugadores (CurseForge App)
 
 1. Instalar [CurseForge App](https://www.curseforge.com/download/app) y **Java 21**.
-2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.1.zip`.
+2. Minecraft → **Create Custom Profile** / **Import** → seleccionar `Oasis-1.1.3.zip`.
 3. Esperar a que la App descargue los mods.
-4. Asignar **6144 MB** RAM a la instancia.
-5. Jugar / conectar al servidor cuando exista.
+4. El perfil trae **6144 MB (6 GB)** en `minecraftinstance.json`. Si al importar queda en 4 GB: Profile Options → Custom RAM → 6144.
+5. Jugadores → cuenta Microsoft de Minecraft seleccionada (no basta con login de CurseForge).
+6. Jugar / conectar al servidor cuando exista.
 
-Si ya tenías `Oasis-1.1.0`, importa **1.1.1** (worldgen polish + BWG compat). Para terrain/biomes nuevos: **mundo nuevo**.
+Si ya tenías `1.1.1`/`1.1.2`, actualiza a **1.1.3** (sin Create OTBWG / Engineered; sonidos restaurados). Reinstala mods en el host si el server ya tenía esos jars.
 
 ## Servidor (Pterodactyl)
 

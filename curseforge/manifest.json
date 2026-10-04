@@ -1,4 +1,4 @@
-{
+﻿{
     "minecraft":  {
                       "version":  "1.21.1",
                       "modLoaders":  [
@@ -11,7 +11,7 @@
     "manifestType":  "minecraftModpack",
     "manifestVersion":  1,
     "name":  "Oasis",
-    "version":  "1.1.1",
+    "version":  "1.1.3",
     "author":  "Oasis",
     "overrides":  "overrides",
     "files":  [
@@ -71,9 +71,9 @@
                       "required":  true
                   },
                   {
-                      "projectID":  254284,
                       "fileID":  9037168,
-                      "required":  true
+                      "required":  true,
+                      "projectID":  254284
                   },
                   {
                       "projectID":  255308,
@@ -86,9 +86,9 @@
                       "required":  true
                   },
                   {
-                      "projectID":  257814,
                       "fileID":  9009568,
-                      "required":  true
+                      "required":  true,
+                      "projectID":  257814
                   },
                   {
                       "projectID":  268560,
@@ -446,11 +446,6 @@
                       "required":  true
                   },
                   {
-                      "projectID":  628539,
-                      "fileID":  8906311,
-                      "required":  true
-                  },
-                  {
                       "projectID":  629153,
                       "fileID":  7029451,
                       "required":  true
@@ -716,14 +711,9 @@
                       "required":  true
                   },
                   {
-                      "projectID":  1285600,
-                      "fileID":  6645097,
-                      "required":  true
-                  },
-                  {
-                      "projectID":  1390302,
                       "fileID":  7252696,
-                      "required":  true
+                      "required":  true,
+                      "projectID":  1390302
                   },
                   {
                       "projectID":  1422273,
@@ -778,11 +768,6 @@
                   {
                       "projectID":  1645689,
                       "fileID":  8609348,
-                      "required":  true
-                  },
-                  {
-                      "projectID":  1650306,
-                      "fileID":  8639550,
                       "required":  true
                   }
               ]

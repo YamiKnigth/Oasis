@@ -1,0 +1,11 @@
+{
+  "name": "Oasis",
+  "gameVersion": "1.21.1",
+  "allocatedMemory": 6144,
+  "isMemoryOverride": true,
+  "memoryAllocatedType": 1,
+  "javaArgsOverride": null,
+  "isVanilla": false,
+  "preferenceAutoInstallUpdates": false,
+  "preferenceDeleteOrphanedDependencies": false
+}
