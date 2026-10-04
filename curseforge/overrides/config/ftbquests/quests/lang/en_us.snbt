@@ -1,7 +1,6 @@
 {
 	chapter.12530838DE82B144.title: "&b&lImmersive Engineering"
 	chapter.1B38902EF405942D.title: "&2&lThe Aether"
-	chapter.1BA0E6793148BB97.title: "&6&lCocina y BBQ"
 	chapter.2B4D0BB6F0033714.title: "&c&lDragona"
 	chapter.33BC804FAE31EEBC.title: "&d&lMalum"
 	chapter.3A95899B1ED34CBF.title: "&b&lMekanism"
@@ -401,8 +400,6 @@
 		"Cuando dos de estos anillos individuales se han vinculado utilizando las Singularidades Entrelazadas CuÃ¡nticas y se han puesto en marcha con algo de potencia AE (por ejemplo, una celda de energÃ­a), una red ME se puede expandir de forma inalÃ¡mbrica en el otro lado del puente, a travÃ©s de largas distancias o incluso dimensiones."
 	]
 	quest.0B218DD73FE8D985.title: "Quantum Network Bridge"
-	quest.0C0CE58B4CD32FE3.quest_desc: ["El cuchillo de cocina acelera la prep."]
-	quest.0C0CE58B4CD32FE3.title: "Cuchillo"
 	quest.0CF2CA72D3553F24.quest_desc: ["Sube a iron spell book o superior."]
 	quest.0CF2CA72D3553F24.title: "Libro de hierro"
 	quest.0F326EEEC2EBE4E5.quest_desc: [""]
@@ -442,8 +439,6 @@
 		"Cualquier encantamiento agregado aumenta significativamente la cantidad de energÃ­a utilizada por el aviÃ³n cada vez que se rompe un bloque. Encantar el aviÃ³n con &eEfficiency&f disminuirÃ¡ el uso general de energÃ­a incurrido por todos los demÃ¡s encantamientos, mientras que el encantamiento &eUnbreaking&f le da al aviÃ³n la oportunidad de usar energÃ­a solo a veces, de manera similar a Unbreaking en herramientas normales."
 	]
 	quest.140DE53DC0FCD9F4.quest_subtitle: "ENTRA"
-	quest.1529D727F773D347.quest_desc: ["Stove para cocinar al estilo FD."]
-	quest.1529D727F773D347.title: "Estufa"
 	quest.15564C11744D6AA0.quest_desc: ["Una vez que haya obtenido un conjunto completo de las &eInscriber Press&r requeridas, es hora de comenzar a fabricar algunos &eProcessors&f. Estos son un ingrediente de fabricaciÃ³n importante que se utiliza para fabricar la gran mayorÃ­a de los dispositivos conectados a ME."]
 	quest.15564C11744D6AA0.title: "Processors"
 	quest.15A0C81F5263815E.quest_desc: ["Los mobs que se mueven por el suelo te lo soltaran al matarlos &6(Excepto los antrÃ³podos)"]
@@ -638,9 +633,6 @@
 		"&6Para utilizarla necesitaras espiritus"
 	]
 	quest.33ADE41526C39AFD.quest_desc: ["La &bTarjeta de destrucciÃ³n de desbordamiento&f es una actualizaciÃ³n de celda que permite que las celdas de almacenamiento eliminen (anulen) cualquier elemento de un tipo que ya se encuentre dentro de ellas, cuando se intenta ingresar a la celda y esta ya estÃ¡ llena."]
-	quest.34E3EA17DFDD1357.quest_desc: ["La cocina es tan valida como la fabrica. Empieza con Farmers Delight y termina en la parrilla."]
-	quest.34E3EA17DFDD1357.quest_subtitle: "Farmers Delight + BBQ"
-	quest.34E3EA17DFDD1357.title: "Cocina Oasis"
 	quest.361CCBD353D6FF34.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Con el componente de almacenamiento de 1k, ahora puede crear una celda de almacenamiento de elementos ME de 1k para iniciar su sistema de almacenamiento de elementos digitales. Lo mÃ¡s probable es que desee que la mayor parte de su almacenamiento sea para elementos, por lo que probablemente desee crear algunas &bME celdas de almacenamiento de elementos&f."
@@ -765,8 +757,6 @@
 	quest.4F436770D30D8520.title: "El comienzo de una fÃ¡brica de mineral de nivel 4"
 	quest.5047792C6EF6D2AD.quest_desc: [""]
 	quest.5047792C6EF6D2AD.title: "Substrates"
-	quest.508311F700BECEDF.quest_desc: ["Asa en la grill. Momento reunion."]
-	quest.508311F700BECEDF.title: "Brocheta a la parrilla"
 	quest.51236544BFEF487B.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Ahora que tiene su primer cristal de cuarzo Certus cargado, es hora de usarlo en el paso final importante para comenzar a usar AE2."
@@ -811,12 +801,7 @@
 		"La segunda funciÃ³n de una tarjeta de memoria es vincular &eP2P tunnels&f entre sÃ­. Al hacerlo, al tÃºnel P2P que se estÃ¡ vinculando se le asignarÃ¡ una identificaciÃ³n Ãºnica, que se almacena en la tarjeta de memoria para su posterior vinculaciÃ³n."
 	]
 	quest.56749328894F5791.quest_desc: ["Sawblade es el cabezal bÃ¡sico de Buzzsaw. Se puede utilizar para cortar rÃ¡pidamente artÃ­culos de madera."]
-	quest.576128B100C864ED.quest_desc: ["Corta ingredientes en la cutting board."]
-	quest.576128B100C864ED.title: "Tabla de cortar"
 	quest.587A19FC348387C5.quest_desc: [""]
-	quest.597575A3BE790404.quest_desc: ["El alma de las reuniones Oasis: la grill."]
-	quest.597575A3BE790404.quest_subtitle: "Barbeques Delight"
-	quest.597575A3BE790404.title: "La parrilla"
 	quest.5AA3E5DFECB4AC4D.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Naturalmente, AE2 proporciona su propia forma de acelerar drÃ¡sticamente el crecimiento de cristales, suponiendo que no tenga a mano la cÃ¡mara de enriquecimiento de Mekanism."
@@ -881,8 +866,6 @@
 	quest.5F56892CD904C40F.quest_desc: ["El quinto y Ãºltimo nivel de componente de almacenamiento estÃ¡ndar AE2, que proporciona &e262144&f bytes de almacenamiento."]
 	quest.5F56892CD904C40F.quest_subtitle: "x4^4"
 	quest.5F56892CD904C40F.title: "256k Storage Component"
-	quest.5FD4E99E244B9D57.quest_desc: ["Pan + skewer + col."]
-	quest.5FD4E99E244B9D57.title: "Kebab wrap"
 	quest.603877AB96321F1A.quest_desc: [""]
 	quest.603877AB96321F1A.quest_subtitle: "Â¡El agua se convierte en salmuera!"
 	quest.603877AB96321F1A.title: "Planta de EvaporaciÃ³n TÃ©rmica"
@@ -913,12 +896,6 @@
 		""
 		"Como beneficio adicional, tambiÃ©n proporciona su propio pequeÃ±o inventario que se usa para almacenar &eupgrade cards&f, al que se puede acceder mirando la pantalla de cualquier dispositivo actualizable para reemplazarlo fÃ¡cilmente. Sin embargo, no puede rotar bloques conectados a la red ME como una llave inglesa normal, solo los desmantela cuando se escabulle."
 	]
-	quest.650FD0D68E0C8767.quest_desc: ["Fermentados y bebidas para la sobremesa."]
-	quest.650FD0D68E0C8767.title: "Brewin and Chewin"
-	quest.6715DE1FD576BFA6.quest_desc: ["Sarten para salteados."]
-	quest.6715DE1FD576BFA6.title: "Skillet"
-	quest.6848E24AE957A10A.quest_desc: ["Cooking pot: guisos y recetas multi-ingrediente."]
-	quest.6848E24AE957A10A.title: "Olla"
 	quest.68B0B3DAF1145191.quest_desc: [
 		"&6Oasis:&r AE2 es Tech III (storage antes de Mek). Inscriber/Controller piden IE+Create."
 		"Dos de las primeras cosas que necesitarÃ¡ para comenzar con AE2 son el &bCharger&f y el &bInscriber&f."
@@ -938,8 +915,6 @@
 	quest.69B7DE2283B4EE6C.quest_subtitle: "Descargar mÃ¡s nÃºcleos de CPU"
 	quest.6C25D42C36175BF4.quest_desc: [""]
 	quest.6C25D42C36175BF4.quest_subtitle: "Hace grumos."
-	quest.6CBD6C4B2C239A6E.quest_desc: ["Ensambla un skewer crudo."]
-	quest.6CBD6C4B2C239A6E.title: "Brocheta cruda"
 	quest.6CD1720B76F47806.quest_desc: [""]
 	quest.6D4C3DA5F2BDF4CE.quest_desc: [
 		"La fabrica empieza en &bCreate&r. Sigue el capitulo Create: aleacion de andesita, energia mecanica, tubos y precision mechanism."
@@ -1561,5 +1536,442 @@
 		"Tienes Precision Mechanism, Electron Tubes y Mechanical Crafters."
 		"&6Oasis:&r Siguiente: Immersive Engineering. Varias piezas IE pediran Create."
 		"No hace falta 100% Create para avanzar, pero este arco te deja preparado para IE -> AE2 -> Mek."
+	]
+	chapter.1BA0E6793148BB97.title: "&6&lCocina y BBQ"
+	quest.F5B56C370F94D4B8.title: "Cocina y BBQ"
+	quest.F5B56C370F94D4B8.quest_subtitle: "El corazon cozy de Oasis"
+	quest.F5B56C370F94D4B8.quest_desc: [
+		"Comer bien es tan valido como fabricar. Esta guia cubre Farmer Delight, la parrilla, fermentos, addons y el puente a Create."
+		"&6Oasis:&r Polymorph ayuda si ves recetas de comida conflictivas en JEI. Slice and Dice / Create Food conectan con el capitulo Create."
+	]
+	quest.DDD1B15323F098C7.title: "Cutting Board"
+	quest.DDD1B15323F098C7.quest_subtitle: "Picar con cuchillo"
+	quest.DDD1B15323F098C7.quest_desc: [
+		"Coloca la tabla y usa un cuchillo (click derecho). Corta carnes, vegetales y pan."
+		"Es la estacion #1 del early cozy."
+	]
+	quest.8399C0C258E13D5F.title: "Cuchillo de pedernal"
+	quest.8399C0C258E13D5F.quest_subtitle: "Primer filo"
+	quest.8399C0C258E13D5F.quest_desc: ["Barato y suficiente para empezar. Mejora luego a hierro/diamante."]
+	quest.BB1093B79A2F8BE0.title: "Cuchillo de hierro"
+	quest.BB1093B79A2F8BE0.quest_subtitle: "Picar en serio"
+	quest.BB1093B79A2F8BE0.quest_desc: ["Durabilidad decente para farms diarias. Necesario junto a la cutting board."]
+	quest.C7465CA969E74455.title: "Cuchillo de diamante"
+	quest.C7465CA969E74455.quest_subtitle: "Filo durable"
+	quest.C7465CA969E74455.quest_desc: ["Para cuando ya cocinas a diario. Opcional early, comodo midgame."]
+	quest.E3587C4C72E6A863.title: "Stove"
+	quest.E3587C4C72E6A863.quest_subtitle: "Fuego de cocina"
+	quest.E3587C4C72E6A863.quest_desc: ["Sustituto cozy del campfire/furnace para sartenes y ollas. Calienta el Cooking Pot y Skillet."]
+	quest.179E6BDBEDCD77C7.title: "Cooking Pot"
+	quest.179E6BDBEDCD77C7.quest_subtitle: "Guisos y salsas"
+	quest.179E6BDBEDCD77C7.quest_desc: [
+		"Colocala sobre el stove (o heat source). Combina bowls + ingredientes para stews y sauces."
+		"Guarda el heat: sin fuego debajo no cocina."
+	]
+	quest.D4D13A03BAEC9133.title: "Skillet"
+	quest.D4D13A03BAEC9133.quest_subtitle: "Sarten a mano o en stove"
+	quest.D4D13A03BAEC9133.quest_desc: ["Puedes usarla como arma improvisada o cocinar sobre el stove. Ideal para bacon y salteados."]
+	quest.069FDFB5B3685D44.title: "Cabinet"
+	quest.069FDFB5B3685D44.quest_subtitle: "Despensa decorativa"
+	quest.069FDFB5B3685D44.quest_desc: ["Almacenamiento tematico de cocina. Hay variantes por madera."]
+	quest.60ED4F0187A07123.title: "Basket"
+	quest.60ED4F0187A07123.quest_subtitle: "Cosecha comoda"
+	quest.60ED4F0187A07123.quest_desc: ["Recoge cultivos con estilo. Hay version bamboo tambien."]
+	quest.0DDBB15962400974.title: "Huerta FD"
+	quest.0DDBB15962400974.quest_subtitle: "Tomate, cebolla, col, arroz"
+	quest.0DDBB15962400974.quest_desc: ["Siembra los cultivos de Farmer Delight. Organic Compost -> Rich Soil acelera farms."]
+	quest.B0C7B18FF9B23218.title: "Tomate"
+	quest.B0C7B18FF9B23218.quest_subtitle: "Base de salsas"
+	quest.B0C7B18FF9B23218.quest_desc: ["Crece en vines. Corta en la board para slices / sauce."]
+	quest.971C3C6F6CD74031.title: "Cebolla"
+	quest.971C3C6F6CD74031.quest_subtitle: "Aromatico esencial"
+	quest.971C3C6F6CD74031.quest_desc: ["Ingrediente de stews, wraps y BBQ marinades."]
+	quest.3DA4C06B1FC6685B.title: "Col"
+	quest.3DA4C06B1FC6685B.quest_subtitle: "Rolls y ensaladas"
+	quest.3DA4C06B1FC6685B.quest_desc: ["Corta hojas en la board. Clave para cabbage rolls y dumplings."]
+	quest.4B77A2379DB02F59.title: "Arroz"
+	quest.4B77A2379DB02F59.quest_subtitle: "Farms de agua"
+	quest.4B77A2379DB02F59.quest_desc: ["Se planta en farmland inundado. Base de fried rice y sushi-style meals."]
+	quest.94724886E5229C12.title: "Organic Compost"
+	quest.94724886E5229C12.quest_subtitle: "Abono FD"
+	quest.94724886E5229C12.quest_desc: ["Hecho con leftovers. Con tiempo/condiciones se vuelve Rich Soil."]
+	quest.D80E78B86066C617.title: "Rich Soil"
+	quest.D80E78B86066C617.quest_subtitle: "Mejor farmland"
+	quest.D80E78B86066C617.quest_desc: ["Suelo rico para cultivos FD. Vale la pena para granjas permanentes."]
+	quest.1E79D024881C1BF4.title: "Carnes y cortes"
+	quest.1E79D024881C1BF4.quest_subtitle: "Board + cuchillo"
+	quest.1E79D024881C1BF4.quest_desc: ["Pica carnes en la cutting board para bacon, minced beef, cuts de pollo y pescado."]
+	quest.6A48BC6B2F994159.title: "Bacon"
+	quest.6A48BC6B2F994159.quest_subtitle: "Cerdo en tiras"
+	quest.6A48BC6B2F994159.quest_desc: ["Corta porkchop. Ideal en skillet y sandwiches."]
+	quest.4C20B2542AB676FF.title: "Minced Beef"
+	quest.4C20B2542AB676FF.quest_subtitle: "Carne molida"
+	quest.4C20B2542AB676FF.quest_desc: ["Base de beef patty / hamburguesas. Cocina en pot o skillet segun receta."]
+	quest.798E1D8C5F52BA0A.title: "Beef Patty"
+	quest.798E1D8C5F52BA0A.quest_subtitle: "Hamburguesa lista"
+	quest.798E1D8C5F52BA0A.quest_desc: ["Cocina el minced beef. Combinalo en hamburger."]
+	quest.5B5CC2FA651E82AE.title: "Chicken Cuts"
+	quest.5B5CC2FA651E82AE.quest_subtitle: "Pollo porcionado"
+	quest.5B5CC2FA651E82AE.quest_desc: ["Mejor uso del pollo para soups y sandwiches."]
+	quest.9FDDA5AF34F98AB2.title: "Ham"
+	quest.9FDDA5AF34F98AB2.quest_subtitle: "Pieza grande"
+	quest.9FDDA5AF34F98AB2.quest_desc: ["Para Honey Glazed Ham feast. Reserva uno para la mesa de reunion."]
+	quest.DF3F25CDF3FFEC09.title: "Olla y guisos"
+	quest.DF3F25CDF3FFEC09.quest_subtitle: "Comfort food"
+	quest.DF3F25CDF3FFEC09.quest_desc: ["El Cooking Pot brilla con stews y broths. Lleva bowls."]
+	quest.F49D70998E100A96.title: "Tomato Sauce"
+	quest.F49D70998E100A96.quest_subtitle: "Salsa base"
+	quest.F49D70998E100A96.quest_desc: ["Tomates procesados. Sirve para pastas y platos compuestos."]
+	quest.387A5AB87F3E7678.title: "Beef Stew"
+	quest.387A5AB87F3E7678.quest_subtitle: "Guiso clasico"
+	quest.387A5AB87F3E7678.quest_desc: ["Alto saturacion. Perfecto post-exploracion."]
+	quest.1987A72FAE7F735D.title: "Chicken Soup"
+	quest.1987A72FAE7F735D.quest_subtitle: "Sopa reconfortante"
+	quest.1987A72FAE7F735D.quest_desc: ["Buena comida early/mid. Facil de spamear con chicken cuts."]
+	quest.74EC789F489ED802.title: "Vegetable Soup"
+	quest.74EC789F489ED802.quest_subtitle: "Sin carne"
+	quest.74EC789F489ED802.quest_desc: ["Usa la huerta. Ideal si priorizas farms vegetales."]
+	quest.C1FF02D7D5E2B1F6.title: "Noodle Soup"
+	quest.C1FF02D7D5E2B1F6.quest_subtitle: "Caldo con fideos"
+	quest.C1FF02D7D5E2B1F6.quest_desc: ["Plato mid de olla. Buen target de automatizacion luego."]
+	quest.72B7C0EE7E9E98F4.title: "Fried Rice"
+	quest.72B7C0EE7E9E98F4.quest_subtitle: "Arroz salteado"
+	quest.72B7C0EE7E9E98F4.quest_desc: ["Aprovecha rice farms. Muy eficiente en hambre/saturacion."]
+	quest.6DE2E583FC957A54.title: "Dumplings"
+	quest.6DE2E583FC957A54.quest_subtitle: "Bocados de olla"
+	quest.6DE2E583FC957A54.quest_desc: ["Stackables comodos para explorar."]
+	quest.E7DD9B18D280292D.title: "Sandwiches y wraps"
+	quest.E7DD9B18D280292D.quest_subtitle: "Comida de viaje"
+	quest.E7DD9B18D280292D.quest_desc: ["Monta panes y wraps para salir del base sin ollas."]
+	quest.AD9782A1377C9D05.title: "Hamburger"
+	quest.AD9782A1377C9D05.quest_subtitle: "Icono FD"
+	quest.AD9782A1377C9D05.quest_desc: ["Patty + pan + vegetales. El snack Oasis por excelencia."]
+	quest.092453FE4A18B4FF.title: "Bacon Sandwich"
+	quest.092453FE4A18B4FF.quest_subtitle: "Desayuno/explorar"
+	quest.092453FE4A18B4FF.quest_desc: ["Rapido y saturante."]
+	quest.72496FA6144FA538.title: "Mutton Wrap"
+	quest.72496FA6144FA538.quest_subtitle: "Wrap de cordero"
+	quest.72496FA6144FA538.quest_desc: ["Usa cabbage leaves como wrap."]
+	quest.8D2EB58607F37910.title: "Cabbage Rolls"
+	quest.8D2EB58607F37910.quest_subtitle: "Rollitos"
+	quest.8D2EB58607F37910.quest_desc: ["Buen uso de col + carne picada."]
+	quest.FE90048CE0DC51C1.title: "Festines FD"
+	quest.FE90048CE0DC51C1.quest_subtitle: "Comida de reunion"
+	quest.FE90048CE0DC51C1.quest_desc: ["Bloques de festin para el grupo: coloca, corta porciones, comparte."]
+	quest.1136DBE17912D429.title: "Roast Chicken"
+	quest.1136DBE17912D429.quest_subtitle: "Pollo de mesa"
+	quest.1136DBE17912D429.quest_desc: ["Festin clasico. Sirve porciones a todos."]
+	quest.4B960ACDE4190385.title: "Honey Glazed Ham"
+	quest.4B960ACDE4190385.quest_subtitle: "Festín dulce-salado"
+	quest.4B960ACDE4190385.quest_desc: ["El plato de celebracion. Ideal post-aventura en multi."]
+	quest.D5DC12D5CB597EC1.title: "Shepherd Pie"
+	quest.D5DC12D5CB597EC1.quest_subtitle: "Pastel salado"
+	quest.D5DC12D5CB597EC1.quest_desc: ["Otro festin para variar el menu de base."]
+	quest.615C0750C863BA24.title: "Stuffed Pumpkin"
+	quest.615C0750C863BA24.quest_subtitle: "Otono cozy"
+	quest.615C0750C863BA24.quest_desc: ["Festin vegetal/otonal."]
+	quest.1AEA6A9BA25A3361.title: "Pie Crust"
+	quest.1AEA6A9BA25A3361.quest_subtitle: "Base de postres"
+	quest.1AEA6A9BA25A3361.quest_desc: ["Masa para tartas FD. Combina con frutas/chocolate."]
+	quest.7604D48D3E9AC876.title: "Apple Pie"
+	quest.7604D48D3E9AC876.quest_subtitle: "Postre vanilla-plus"
+	quest.7604D48D3E9AC876.quest_desc: ["Buena saturacion y vibes cozy."]
+	quest.AA353B354FE0C260.title: "Sweet Berry Cheesecake"
+	quest.AA353B354FE0C260.quest_subtitle: "Tarta de bayas"
+	quest.AA353B354FE0C260.quest_desc: ["Postre con sweet berries."]
+	quest.6AE9F0657EA198EC.title: "Chocolate Pie"
+	quest.6AE9F0657EA198EC.quest_subtitle: "Chocolate FD"
+	quest.6AE9F0657EA198EC.quest_desc: ["Para cerrar una cena de reunion."]
+	quest.8227E7BA720C812F.title: "Barbeque Delight"
+	quest.8227E7BA720C812F.quest_subtitle: "Carnita asada"
+	quest.8227E7BA720C812F.quest_desc: ["El pilar BBQ de Oasis: parrilla, skewers y salsas."]
+	quest.2A68209CD6C5D66A.title: "Grill"
+	quest.2A68209CD6C5D66A.quest_subtitle: "La parrilla"
+	quest.2A68209CD6C5D66A.quest_desc: ["Estacion central del addon. Cocina skewers y da el vibe de asado."]
+	quest.ED9BEF87AF82346A.title: "BBQ Basin"
+	quest.ED9BEF87AF82346A.quest_subtitle: "Apoyo de parrilla"
+	quest.ED9BEF87AF82346A.quest_desc: ["Complemento del grill para preparar/servir."]
+	quest.C805A38BD3A133F2.title: "Tray"
+	quest.C805A38BD3A133F2.quest_subtitle: "Bandeja"
+	quest.C805A38BD3A133F2.quest_desc: ["Util para manejar comida de la parrilla."]
+	quest.218421E31BB0ECD0.title: "Raw Beef Skewer"
+	quest.218421E31BB0ECD0.quest_subtitle: "Brocheta cruda"
+	quest.218421E31BB0ECD0.quest_desc: ["Arma skewers con carne + extras. Luego a la parrilla."]
+	quest.CE3D79FC10CB2392.title: "Grilled Beef Skewer"
+	quest.CE3D79FC10CB2392.quest_subtitle: "Brocheta lista"
+	quest.CE3D79FC10CB2392.quest_desc: ["El snack de asado. Haz varias para el grupo."]
+	quest.9618392A7590A178.title: "Raw Chicken Skewer"
+	quest.9618392A7590A178.quest_subtitle: "Pollo al palo"
+	quest.9618392A7590A178.quest_desc: ["Variedad de brocheta. Misma idea: raw -> grill."]
+	quest.C87C0567D84FF478.title: "Grilled Chicken Skewer"
+	quest.C87C0567D84FF478.quest_subtitle: "Pollo asado"
+	quest.C87C0567D84FF478.quest_desc: ["Alterna carnes para no aburrir el menu."]
+	quest.81A8F54E1B9816BA.title: "Raw Veggie Skewer"
+	quest.81A8F54E1B9816BA.quest_subtitle: "Opcion vegetal"
+	quest.81A8F54E1B9816BA.quest_desc: ["Brochetas de vegetales para variedad cozy."]
+	quest.330B88D6E8D3008D.title: "Grilled Veggie Skewer"
+	quest.330B88D6E8D3008D.quest_subtitle: "Verduras a la parrilla"
+	quest.330B88D6E8D3008D.quest_desc: ["Ligera y tematica de reunion."]
+	quest.30175E90A9679FBF.title: "Chili Powder"
+	quest.30175E90A9679FBF.quest_subtitle: "Picante"
+	quest.30175E90A9679FBF.quest_desc: ["Condimento BBQ. Usa en salsas y marinados (JEI)."]
+	quest.502282735D624BA0.title: "Cumin Powder"
+	quest.502282735D624BA0.quest_subtitle: "Comino"
+	quest.502282735D624BA0.quest_desc: ["Otro seasoning clave del addon."]
+	quest.3B785045830F35EA.title: "Pepper Powder"
+	quest.3B785045830F35EA.quest_subtitle: "Pimienta"
+	quest.3B785045830F35EA.quest_desc: ["Tercer polvo basico de condimento."]
+	quest.14FC1B0404E3BE4D.title: "Barbeque Sauce"
+	quest.14FC1B0404E3BE4D.quest_subtitle: "Salsa BBQ"
+	quest.14FC1B0404E3BE4D.quest_desc: ["Salsa firma del mod. Mejora platos y wraps."]
+	quest.A9BE9DC828F8493B.title: "Kebab Wrap"
+	quest.A9BE9DC828F8493B.quest_subtitle: "Asado para llevar"
+	quest.A9BE9DC828F8493B.quest_desc: ["Envuelve la brocheta. Comida de excursion post-asado."]
+	quest.015440BE52928413.title: "Kebab Sandwich"
+	quest.015440BE52928413.quest_subtitle: "Version sandwich"
+	quest.015440BE52928413.quest_desc: ["Otra forma de servir el asado. Mira JEI por variantes."]
+	quest.088D5EDE66228E86.title: "Bibimbap"
+	quest.088D5EDE66228E86.quest_subtitle: "Bowl del addon"
+	quest.088D5EDE66228E86.quest_desc: ["Plato compuesto BBQ/FD-style. Buen hito mid del capitulo."]
+	quest.2A0A26D953D58D60.title: "Brewin and Chewin"
+	quest.2A0A26D953D58D60.quest_subtitle: "Keg, quesos y tragos"
+	quest.2A0A26D953D58D60.quest_desc: ["Fermentacion cozy: bebidas, encurtidos y ruedas de queso."]
+	quest.274521C7DB20C202.title: "Keg"
+	quest.274521C7DB20C202.quest_subtitle: "Corazon del fermento"
+	quest.274521C7DB20C202.quest_desc: ["Controla temperatura (fuego/hielo/biome). Fermenta drinks y foods."]
+	quest.1E8BB0C1E05369ED.title: "Tankard"
+	quest.1E8BB0C1E05369ED.quest_subtitle: "Vaso de taberna"
+	quest.1E8BB0C1E05369ED.quest_desc: ["Para servir bebidas del keg."]
+	quest.AF954B0EE517B0EB.title: "Ice Crate"
+	quest.AF954B0EE517B0EB.quest_subtitle: "Enfria el keg"
+	quest.AF954B0EE517B0EB.quest_desc: ["Ayuda a recetas que piden frio."]
+	quest.72207EA4F87DBEA4.title: "Beer"
+	quest.72207EA4F87DBEA4.quest_subtitle: "Trago basico"
+	quest.72207EA4F87DBEA4.quest_desc: ["Primera bebida tipica del keg."]
+	quest.DAA7185746EEE38A.title: "Mead"
+	quest.DAA7185746EEE38A.quest_subtitle: "Hidromiel"
+	quest.DAA7185746EEE38A.quest_desc: ["Bebida con miel. Muy cozy."]
+	quest.E06355A08FB7D6DE.title: "Vodka"
+	quest.E06355A08FB7D6DE.quest_subtitle: "Destilado"
+	quest.E06355A08FB7D6DE.quest_desc: ["Otra rama de fermentacion. Lee temperatura en JEI."]
+	quest.C363E6718273E31B.title: "Kombucha"
+	quest.C363E6718273E31B.quest_subtitle: "Fermento trendy"
+	quest.C363E6718273E31B.quest_desc: ["Bebida mid del addon."]
+	quest.CB6D6845C616F3B9.title: "Jerky"
+	quest.CB6D6845C616F3B9.quest_subtitle: "Carne curada"
+	quest.CB6D6845C616F3B9.quest_desc: ["Snack de exploracion fermentado/secado via keg recipes."]
+	quest.635A40FCE9AD5E68.title: "Kimchi"
+	quest.635A40FCE9AD5E68.quest_subtitle: "Fermento picante"
+	quest.635A40FCE9AD5E68.quest_desc: ["Vegetales fermentados. Buen acompanante."]
+	quest.C6EA3465EDA5FD7A.title: "Unripe Flaxen Cheese"
+	quest.C6EA3465EDA5FD7A.quest_subtitle: "Queso joven"
+	quest.C6EA3465EDA5FD7A.quest_desc: ["Deja madurar segun mecanicas del mod."]
+	quest.87B5F5D9202D794F.title: "Flaxen Cheese Wheel"
+	quest.87B5F5D9202D794F.quest_subtitle: "Queso maduro"
+	quest.87B5F5D9202D794F.quest_desc: ["Corta porciones para sandwiches y pizza."]
+	quest.45602B5EA13710B9.title: "Pizza"
+	quest.45602B5EA13710B9.quest_subtitle: "Cena de multi"
+	quest.45602B5EA13710B9.quest_desc: ["Hito social del addon. Comparte con el equipo."]
+	quest.3DB6FF53E6481472.title: "Ham and Cheese"
+	quest.3DB6FF53E6481472.quest_subtitle: "Sandwich de taberna"
+	quest.3DB6FF53E6481472.quest_desc: ["Snack excelente post-fermentacion."]
+	quest.8571BFDDD499F3DD.title: "My Nether Delight"
+	quest.8571BFDDD499F3DD.quest_subtitle: "Cocina del Nether"
+	quest.8571BFDDD499F3DD.quest_desc: ["Hotdogs, hoglin y stove del Nether. Lleva fuego amigo."]
+	quest.A53FD4E123F8CE93.title: "Nether Bricks Stove"
+	quest.A53FD4E123F8CE93.quest_subtitle: "Cocina infernal"
+	quest.A53FD4E123F8CE93.quest_desc: ["Stove tematico del Nether para recetas MND."]
+	quest.8DE153C5DE6FEE60.title: "Hotdog"
+	quest.8DE153C5DE6FEE60.quest_subtitle: "Clasico MND"
+	quest.8DE153C5DE6FEE60.quest_desc: ["Comida rapida del addon. Perfecta post-expedicion al Nether."]
+	quest.DB7090538FD0058A.title: "Hot Wings"
+	quest.DB7090538FD0058A.quest_subtitle: "Alitas picantes"
+	quest.DB7090538FD0058A.quest_desc: ["Snack picante del Nether."]
+	quest.36933EAFC9316945.title: "Roasted Sausage"
+	quest.36933EAFC9316945.quest_subtitle: "Salchicha asada"
+	quest.36933EAFC9316945.quest_desc: ["Otro staple MND para variar proteinas."]
+	quest.8FCDB8371EFC8188.title: "Strider Slice"
+	quest.8FCDB8371EFC8188.quest_subtitle: "Carne de strider"
+	quest.8FCDB8371EFC8188.quest_desc: ["Procesa striders con cuchillo/board segun JEI."]
+	quest.FF7CA9220519FF29.title: "Roast Stuffed Hoglin"
+	quest.FF7CA9220519FF29.quest_subtitle: "Festin del Nether"
+	quest.FF7CA9220519FF29.quest_desc: ["Gran festin MND. Ideal como recompensa de exploracion Nether."]
+	quest.E3C5CAE0488B6D97.title: "Breakfast Sampler"
+	quest.E3C5CAE0488B6D97.quest_subtitle: "Desayuno infernal"
+	quest.E3C5CAE0488B6D97.quest_desc: ["Plato compuesto MND."]
+	quest.AAF960681B113084.title: "Cultural Delights"
+	quest.AAF960681B113084.quest_subtitle: "Sabores del mundo"
+	quest.AAF960681B113084.quest_desc: ["Aguacate, maiz, berenjena, pepino, tacos y mas."]
+	quest.83E68F60495822FD.title: "Corn Cob"
+	quest.83E68F60495822FD.quest_subtitle: "Maiz CD"
+	quest.83E68F60495822FD.quest_desc: ["Cultivo Cultural Delights. Base de tortilla, elote y popcorn."]
+	quest.251631DE8614DF8C.title: "Avocado"
+	quest.251631DE8614DF8C.quest_subtitle: "Aguacate"
+	quest.251631DE8614DF8C.quest_desc: ["Cosecha de arboles CD. Corta en la board."]
+	quest.49658FCB6D350C9B.title: "Tortilla"
+	quest.49658FCB6D350C9B.quest_subtitle: "Base mexicana CD"
+	quest.49658FCB6D350C9B.quest_desc: ["Hecha con corn dough. Puerta a tacos/burritos."]
+	quest.EC141FD52E078101.title: "Chicken Taco"
+	quest.EC141FD52E078101.quest_subtitle: "Taco"
+	quest.EC141FD52E078101.quest_desc: ["Hito sabroso del addon."]
+	quest.80A5D56ECB8ED0A6.title: "Beef Burrito"
+	quest.80A5D56ECB8ED0A6.quest_subtitle: "Burrito"
+	quest.80A5D56ECB8ED0A6.quest_desc: ["Comida de viaje con mucha saturacion."]
+	quest.55F38C364EE54117.title: "Eggplant"
+	quest.55F38C364EE54117.quest_subtitle: "Berenjena"
+	quest.55F38C364EE54117.quest_desc: ["Se puede ahumar (smoked eggplant) y usar en pastas/burgers CD."]
+	quest.29BA26AD764D20D7.title: "Pickle"
+	quest.29BA26AD764D20D7.quest_subtitle: "Pepinillo"
+	quest.29BA26AD764D20D7.quest_desc: ["Procesa cucumber. Snack y crafting CD."]
+	quest.861C9547396125F2.title: "Elote"
+	quest.861C9547396125F2.quest_subtitle: "Maiz callejero"
+	quest.861C9547396125F2.quest_desc: ["Snack iconic del mod."]
+	quest.B56FDD48A33FAC77.title: "Empanada"
+	quest.B56FDD48A33FAC77.quest_subtitle: "Horno callejero"
+	quest.B56FDD48A33FAC77.quest_desc: ["Otra comida portatil CD."]
+	quest.0C6D943C07F7F1CF.title: "Ocean Delight"
+	quest.0C6D943C07F7F1CF.quest_subtitle: "Cocina marina"
+	quest.0C6D943C07F7F1CF.quest_desc: ["Guardian, calamar y rolls del oceano."]
+	quest.002F9A0349AEE49F.title: "Tentacles"
+	quest.002F9A0349AEE49F.quest_subtitle: "Calamar"
+	quest.002F9A0349AEE49F.quest_desc: ["Corta en cut_tentacles / sticks segun JEI."]
+	quest.16092F8D01001F43.title: "Guardian Soup"
+	quest.16092F8D01001F43.quest_subtitle: "Sopa de guardian"
+	quest.16092F8D01001F43.quest_desc: ["Plato fuerte post-templo oceano."]
+	quest.B76C59745BA87FB4.title: "Fugu Roll"
+	quest.B76C59745BA87FB4.quest_subtitle: "Roll oceano"
+	quest.B76C59745BA87FB4.quest_desc: ["Comida elaborada del addon."]
+	quest.5188C8FFAFF383E2.title: "Elder Guardian Roll"
+	quest.5188C8FFAFF383E2.quest_subtitle: "Trophy food"
+	quest.5188C8FFAFF383E2.quest_desc: ["Hito tras derrotar elder guardian."]
+	quest.1FD7604C3D82D5B0.title: "Cooks Collection"
+	quest.1FD7604C3D82D5B0.quest_subtitle: "Horno y limones"
+	quest.1FD7604C3D82D5B0.quest_desc: ["Addon pequeno: oven, limones, fish and chips, muffins."]
+	quest.A4CFC9527EA9DCD7.title: "Oven"
+	quest.A4CFC9527EA9DCD7.quest_subtitle: "Horno Cooks"
+	quest.A4CFC9527EA9DCD7.quest_desc: ["Estacion de horneado del addon."]
+	quest.E62732D0DBA8841B.title: "Lemon"
+	quest.E62732D0DBA8841B.quest_subtitle: "Citricos"
+	quest.E62732D0DBA8841B.quest_desc: ["Cultivo/arbol de limones. Base de lemonade y muffins."]
+	quest.8FCFE5DC9C3852B2.title: "Lemonade"
+	quest.8FCFE5DC9C3852B2.quest_subtitle: "Bebida fresca"
+	quest.8FCFE5DC9C3852B2.quest_desc: ["Cozy drink para el patio."]
+	quest.1E6E7BB68CD4196C.title: "Fish and Chips"
+	quest.1E6E7BB68CD4196C.quest_subtitle: "Frito britanico"
+	quest.1E6E7BB68CD4196C.quest_desc: ["Plato firma del addon."]
+	quest.B2EBC71C4F79AC04.title: "Lemon Muffin"
+	quest.B2EBC71C4F79AC04.quest_subtitle: "Postre citrico"
+	quest.B2EBC71C4F79AC04.quest_desc: ["Snack horneado."]
+	quest.3DC29E4D1F08C4B5.title: "Rustic Loaf"
+	quest.3DC29E4D1F08C4B5.quest_subtitle: "Pan rustico"
+	quest.3DC29E4D1F08C4B5.quest_desc: ["Pan extra para sandwiches y taberna."]
+	quest.AC18C978AECA43BF.title: "Lets Do Bakery"
+	quest.AC18C978AECA43BF.quest_subtitle: "Panaderia"
+	quest.AC18C978AECA43BF.quest_desc: ["Baker station, panes, jams y pasteles del addon Bakery."]
+	quest.3FBF7FCB99D8C41D.title: "Baker Station"
+	quest.3FBF7FCB99D8C41D.quest_subtitle: "Mesa de panadero"
+	quest.3FBF7FCB99D8C41D.quest_desc: ["Estacion principal Lets Do Bakery."]
+	quest.697F331F05775F88.title: "Bakery Dough"
+	quest.697F331F05775F88.quest_subtitle: "Masa Bakery"
+	quest.697F331F05775F88.quest_desc: ["Distinta a FD dough a veces; mira JEI/Polymorph si hay conflicto."]
+	quest.DF1B265FBE7C68F8.title: "Bakery Bread"
+	quest.DF1B265FBE7C68F8.quest_subtitle: "Pan del addon"
+	quest.DF1B265FBE7C68F8.quest_desc: ["Pan tematico Bakery."]
+	quest.EDBD9F5EC10D0A64.title: "Croissant"
+	quest.EDBD9F5EC10D0A64.quest_subtitle: "Bolleria"
+	quest.EDBD9F5EC10D0A64.quest_desc: ["Hito cozy de panaderia."]
+	quest.0C7A836AAFD79C53.title: "Strawberry Jam"
+	quest.0C7A836AAFD79C53.quest_subtitle: "Mermelada"
+	quest.0C7A836AAFD79C53.quest_desc: ["Para bread with jam y pasteles."]
+	quest.C86FC7818988636A.title: "Bread with Jam"
+	quest.C86FC7818988636A.quest_subtitle: "Desayuno"
+	quest.C86FC7818988636A.quest_desc: ["Simple y muy cozy."]
+	quest.666F5F75E124B6A4.title: "Strawberry Cake"
+	quest.666F5F75E124B6A4.quest_subtitle: "Pastel"
+	quest.666F5F75E124B6A4.quest_desc: ["Postre de reunion Lets Do."]
+	quest.2FE972D2987E2747.title: "Vinery"
+	quest.2FE972D2987E2747.quest_subtitle: "Vinedos"
+	quest.2FE972D2987E2747.quest_desc: ["Uvas, mostos y barricas. Complementa Brewin con vinos Lets Do."]
+	quest.3AC1AF2D2BB8D855.title: "Grapevine Pot"
+	quest.3AC1AF2D2BB8D855.quest_subtitle: "Procesa uvas"
+	quest.3AC1AF2D2BB8D855.quest_desc: ["Estacion early de Vinery."]
+	quest.3004CD5F03EBEF6B.title: "Red Grape"
+	quest.3004CD5F03EBEF6B.quest_subtitle: "Uva tinta"
+	quest.3004CD5F03EBEF6B.quest_desc: ["Cultiva en grape vines / seeds segun bioma."]
+	quest.A44C7D4499467F04.title: "White Grape"
+	quest.A44C7D4499467F04.quest_subtitle: "Uva blanca"
+	quest.A44C7D4499467F04.quest_desc: ["Segunda cepa basica."]
+	quest.849536EEFF561DFC.title: "Apple Press"
+	quest.849536EEFF561DFC.quest_subtitle: "Prensa"
+	quest.849536EEFF561DFC.quest_desc: ["Prensa frutas/jugos del addon."]
+	quest.CABFEC8D7D636CC2.title: "Fermentation Barrel"
+	quest.CABFEC8D7D636CC2.quest_subtitle: "Barrica de vino"
+	quest.CABFEC8D7D636CC2.quest_desc: ["Fermenta vinos. Dale tiempo."]
+	quest.71CCFC1590D9B976.title: "Red Wine"
+	quest.71CCFC1590D9B976.quest_subtitle: "Vino tinto"
+	quest.71CCFC1590D9B976.quest_desc: ["Hito basico de Vinery."]
+	quest.DF743C4817FE5E0F.title: "Chenet Wine"
+	quest.DF743C4817FE5E0F.quest_subtitle: "Varietal"
+	quest.DF743C4817FE5E0F.quest_desc: ["Uno de muchos vinos; explora JEI para la coleccion."]
+	quest.2E8D07D84FE09F19.title: "Meadow y Farm Charm"
+	quest.2E8D07D84FE09F19.quest_subtitle: "Granja europea"
+	quest.2E8D07D84FE09F19.quest_desc: ["Quesos Meadow + procesado Farm and Charm (mincer, roaster, granos)."]
+	quest.9D55B5AF0E227F05.title: "Cheese Form"
+	quest.9D55B5AF0E227F05.quest_subtitle: "Molde de queso"
+	quest.9D55B5AF0E227F05.quest_desc: ["Fabrica ruedas de queso Meadow."]
+	quest.A58F86AFAE84D485.title: "Cheese Wheel"
+	quest.A58F86AFAE84D485.quest_subtitle: "Queso Meadow"
+	quest.A58F86AFAE84D485.quest_desc: ["Corta slices para sandwiches y tartas."]
+	quest.9EA334313B54D02F.title: "Farm Charm Stove"
+	quest.9EA334313B54D02F.quest_subtitle: "Estufa FAC"
+	quest.9EA334313B54D02F.quest_desc: ["Stove del addon Farm and Charm (distinto al de FD)."]
+	quest.D8A03564FBD93BF3.title: "Mincer"
+	quest.D8A03564FBD93BF3.quest_subtitle: "Pica FAC"
+	quest.D8A03564FBD93BF3.quest_desc: ["Procesado mecanico de cocina del addon."]
+	quest.A3CC19948280A74A.title: "Roaster"
+	quest.A3CC19948280A74A.quest_subtitle: "Asado FAC"
+	quest.A3CC19948280A74A.quest_desc: ["Otra estacion de calor Farm and Charm."]
+	quest.418EC0266EAF6CC0.title: "Barley"
+	quest.418EC0266EAF6CC0.quest_subtitle: "Cebada"
+	quest.418EC0266EAF6CC0.quest_desc: ["Grano FAC para soups y fermentos."]
+	quest.061B83AA789AE1E9.title: "Oat"
+	quest.061B83AA789AE1E9.quest_subtitle: "Avena"
+	quest.061B83AA789AE1E9.quest_desc: ["Base de oatmeal y pancakes FAC."]
+	quest.2BD468FAFFE0A342.title: "Strawberry"
+	quest.2BD468FAFFE0A342.quest_subtitle: "Fresas FAC"
+	quest.2BD468FAFFE0A342.quest_desc: ["Fruta para postres y oatmeal."]
+	quest.FDC0556281DE1FF0.title: "Oatmeal with Strawberries"
+	quest.FDC0556281DE1FF0.quest_subtitle: "Desayuno FAC"
+	quest.FDC0556281DE1FF0.quest_desc: ["Hito cozy de granja."]
+	quest.EA7DA28E9992F3A3.title: "Raw Pasta"
+	quest.EA7DA28E9992F3A3.quest_subtitle: "Pasta cruda"
+	quest.EA7DA28E9992F3A3.quest_desc: ["Procesa a platos de pasta FAC (JEI)."]
+	quest.D3743BBB43896213.title: "Cocina + Create"
+	quest.D3743BBB43896213.quest_subtitle: "Automatiza el buffet"
+	quest.D3743BBB43896213.quest_desc: [
+		"Cuando tengas Create, vuelve aqui: Slicer, Sprinkler y Create Food industrializan la cocina."
+		"&6Oasis:&r Las maquinas estan tambien en el capitulo Create (seccion Cocina mecanizada)."
+	]
+	quest.F7BBE4E1D89A1177.title: "Slicer"
+	quest.F7BBE4E1D89A1177.quest_subtitle: "Picado automatico"
+	quest.F7BBE4E1D89A1177.quest_desc: ["Slice and Dice corta comida FD con rotacion Create. Adios grinding manual."]
+	quest.015EDB3F56BACA01.title: "Sprinkler"
+	quest.015EDB3F56BACA01.quest_subtitle: "Riego Create"
+	quest.015EDB3F56BACA01.quest_desc: ["Automatiza el watering de cultivos cozy."]
+	quest.920B22D7747C6E3D.title: "Create Food Butter"
+	quest.920B22D7747C6E3D.quest_subtitle: "Mantequilla industrial"
+	quest.920B22D7747C6E3D.quest_desc: ["Ingrediente llave de Create Food. Se hace en linea Create."]
+	quest.908925527E2923AA.title: "Create Food Cheese"
+	quest.908925527E2923AA.quest_subtitle: "Queso industrial"
+	quest.908925527E2923AA.quest_desc: ["Staple del addon. No intentes craftar las 2000 variantes: usa JEI con filtro."]
+	quest.3EF532681FB568D8.title: "Create Food Toast"
+	quest.3EF532681FB568D8.quest_subtitle: "Tostada mecanizada"
+	quest.3EF532681FB568D8.quest_desc: ["Cierre cozy del puente Create Food."]
+	quest.46468B5C69495790.title: "Maestro del asado"
+	quest.46468B5C69495790.quest_subtitle: "Cocina Oasis completa"
+	quest.46468B5C69495790.quest_desc: [
+		"Tienes parrilla, olla, fermentos y puente Create."
+		"Invita al equipo: festines FD, kebab wraps y una ronda del keg."
+		"&6Oasis:&r Sigue explorando addons (Bakery/Vinery/MND) a tu ritmo; no gatean la tech."
 	]
 }
